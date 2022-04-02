@@ -158,11 +158,6 @@ public class C1
     {
         return ref Program.s_73.F3;
     }
-
-    public ref short M99(uint arg0)
-    {
-        return ref this.F0;
-    }
 }
 
 public class Program
