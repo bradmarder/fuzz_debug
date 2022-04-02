@@ -930,8 +930,7 @@ public class Program
 
     public static S0 M111(sbyte arg0, ulong[] arg1, bool arg2, C1 arg3, ref byte[] arg4, bool[] arg5, S1 arg6)
     {
-        arg3 = arg3;
-        return new S0(18446744073709551614UL, 1, 1, -10, -9223372036854775808L, 163, -1205101632137260351L, 10UL, 1L);
+        return default(S0);
     }
 
     public static ref ulong M113(ref ushort arg0, C0 arg1)
