@@ -199,62 +199,7 @@ public struct S0 : I0
 
     public ushort M38(ulong[] arg0, ushort arg1)
     {
-        uint[] var3 = default(uint[]);
-        try
-        {
-            ref long var0 = ref this.F8;
-        }
-        finally
-        {
-            if (Program.s_22)
-            {
-                ref sbyte var1 = ref Program.s_7;
-            }
-            else
-            {
-                Program.s_23 = Program.s_16;
-            }
-        }
-
-        this.F2 = Program.s_16.F1;
-        this.F0 = this.F0;
-        for (int var2 = 0; var2 < 2; var2++)
-        {
-            if (Program.s_22)
-            {
-                this.F2 = this.F5;
-                Program.s_5[0][0, 0, 0] = new C1(32766, 54282, 52473);
-                Program.M39();
-            }
-            else
-            {
-                if (!Program.s_23.F2)
-                {
-                    this.F4 = Program.s_6.F6++;
-                    try
-                    {
-                        var3 = new uint[]{1U, 449983641U, 1609267378U, 0U, 1686721275U, 990726639U, 4018483876U, 0U, 4294967295U};
-                    }
-                    finally
-                    {
-                        this.F2 = this.F5;
-                        this.F3 = Program.s_16.F0;
-                    }
-
-                    return arg1;
-                }
-
-                this.F8 = this.F6;
-                ref S0 var4 = ref this;
-            }
-        }
-
-        this.F8 = this.F4;
-        this.F3 = this.F1;
-        this.F3 = (sbyte)(Program.s_6.F6 >> (byte)(18000170519460592326UL & arg0[0]));
-        this.F7 = ~Program.s_6.F0;
-        this = new S0(1UL, -120, 0, 10, -9223372036854775808L, 108, 1L, 1UL, 2538939456161972969L);
-        return 11936;
+        return default(ushort);
     }
 
     public I0 M44(ref short arg0)
