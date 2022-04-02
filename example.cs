@@ -15,11 +15,6 @@ public class C0
         return default(sbyte);
     }
 
-    public bool[][] M15()
-    {
-        return default(bool[][]);
-    }
-
     public C0 M16(short arg0, long arg1)
     {
         return default(C0);
