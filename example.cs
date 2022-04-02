@@ -7,11 +7,6 @@ public class C0
     public C0(sbyte f0, byte f1, bool f2)
     {
     }
-
-    public S0 M108(uint arg0, uint arg1)
-    {
-        return default(S0);
-    }
 }
 
 public struct S0 : I0
@@ -167,5 +162,10 @@ public class Program
     public static I0 M94(C0 argThis)
     {
         return default(I0);
+    }
+
+    public static S0 M108(C0 argThis, uint arg0, uint arg1)
+    {
+        return default(S0);
     }
 }
