@@ -681,7 +681,6 @@ public class Program
     {
         C1 var3 = default(C1);
         I0[] var6 = default(I0[]);
-        ushort var7 = default(ushort);
         ulong[] var8 = default(ulong[]);
         return ref M75();
     }
