@@ -384,7 +384,6 @@ public class C1
 
     public ref short M99(uint arg0)
     {
-        short var0 = default(short);
         return ref this.F0;
     }
 
