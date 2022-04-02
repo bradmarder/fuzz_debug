@@ -1018,9 +1018,6 @@ public class Program
 
     public static ref ulong M113(ref ushort arg0, C0 arg1)
     {
-        M114(ref arg1.F2, s_67, arg1.F0, new uint[, ]{{0U, 1U, 2233031977U, 2069211246U}}, (short)(~s_88[0].F0--));
-        arg1.F0 = (sbyte)(-s_42[0].F1--);
-        s_18.F2 = 30958;
         return ref s_42[0].F0;
     }
 
