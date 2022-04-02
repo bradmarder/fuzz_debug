@@ -228,11 +228,6 @@ public class Program
         return default(int);
     }
 
-    public static byte M70(short arg0)
-    {
-        return default(byte);
-    }
-
     public static ref C0 M75()
     {
         return ref s_21[0][0, 0];
