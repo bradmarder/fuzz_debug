@@ -161,7 +161,6 @@ public class Program
     public static I0 s_56 = new S0(18446744073709551614UL, 1, 132, 33, -10L, 245, -10L, 1UL, -9223372036854775807L);
     public static int s_58 = 0;
     public static byte s_61 = 213;
-    public static I0 s_63 = new S0(12741365010049380137UL, 126, 6, -26, -9223372036854775808L, 255, -9223372036854775808L, 2UL, 0L);
     public static I0 s_65 = new S0(0UL, 105, 45, 0, -334850926330292064L, 1, -10L, 1UL, -9223372036854775807L);
     public static long[] s_68 = new long[]{345238644128058833L};
     public static bool s_70 = true;
