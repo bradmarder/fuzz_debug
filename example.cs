@@ -759,7 +759,6 @@ public class Program
     {
         long var0 = default(long);
         short var1 = default(short);
-        ulong var14 = default(ulong);
         uint var15 = default(uint);
         byte var18 = default(byte);
         C1 var20 = default(C1);
