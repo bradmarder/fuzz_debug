@@ -424,9 +424,7 @@ public class C1
 
     public C0 M21()
     {
-        C0[] var0 = default(C0[]);
-        var0 = new C0[]{new C0(126, 142, true), new C0(0, 194, false), new C0(-74, 10, false), new C0(127, 1, true), new C0(91, 0, true), new C0(70, 1, true)};
-        return var0[0];
+        return default(C0);
     }
 
     public bool M22(I0 arg0)
