@@ -244,11 +244,6 @@ public struct S1
         return ref Program.s_74;
     }
 
-    public uint M102()
-    {
-        return default(uint);
-    }
-
     public S0 M103()
     {
         return default(S0);
