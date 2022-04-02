@@ -580,9 +580,7 @@ public class Program
 
     public static C1 M20(C1 arg0)
     {
-        arg0.F0 = arg0.F0;
-        arg0.F2 -= arg0.F1;
-        return arg0;
+        return default(C1);
     }
 
     public static bool M23(ref S1[] arg0)
