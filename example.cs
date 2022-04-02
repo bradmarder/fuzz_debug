@@ -335,9 +335,4 @@ public class Program
     {
         return ref s_42[0].F0;
     }
-
-    public static short M118()
-    {
-        return default(short);
-    }
 }
