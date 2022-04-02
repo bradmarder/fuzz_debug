@@ -640,8 +640,7 @@ public class Program
 
     public static ushort M30(ref C0[][, ] arg0)
     {
-        arg0[0][0, 0].F2 = arg0[0][0, 0].F2;
-        return (ushort)(~s_20);
+        return default(ushort);
     }
 
     public static ushort M32()
