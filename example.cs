@@ -702,7 +702,6 @@ public class Program
         byte var8 = default(byte);
         ushort var12 = default(ushort);
         long[][] var15 = default(long[][]);
-        ushort var16 = default(ushort);
         bool var17 = default(bool);
         short[] var21 = default(short[]);
         return ref s_46[0];
