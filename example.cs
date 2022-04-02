@@ -283,11 +283,6 @@ public class Program
         return default(int);
     }
 
-    public static short M62(uint arg0, I0 arg1, sbyte arg2, ref int arg3, I0 arg4, I0[] arg5)
-    {
-        return default(short);
-    }
-
     public static byte M70(short arg0)
     {
         return default(byte);
