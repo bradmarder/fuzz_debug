@@ -693,7 +693,6 @@ public class Program
 
     public static ref ulong M73()
     {
-        C1 var0 = default(C1);
         return ref s_4;
     }
 
