@@ -76,9 +76,4 @@ public class Program
     {
         return default(S1);
     }
-
-    public static bool M81(S1 argThis)
-    {
-        return default(bool);
-    }
 }
