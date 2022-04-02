@@ -321,7 +321,6 @@ public class Program
     public static sbyte s_110 = 10;
     public static ulong[,, ] s_111 = new ulong[,, ]{{{1UL}}};
     public static int s_112 = 10;
-    public static bool[][] s_113 = new bool[][]{new bool[]{true}};
     public static I0 s_115 = new S0(1UL, -128, 0, 126, -9223372036854775807L, 76, -1L, 1UL, 8978782410355997383L);
     public static long s_116 = 0L;
     public static C0 s_117 = new C0(0, 250, false);
