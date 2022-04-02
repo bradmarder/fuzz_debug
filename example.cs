@@ -116,7 +116,6 @@ public class C1
 
 public class Program
 {
-    public static bool[] s_2 = new bool[]{false};
     public static short[] s_8 = new short[]{27419};
     public static byte s_10 = 169;
     public static uint s_12 = 10U;
