@@ -268,15 +268,7 @@ public struct S1
 
     public uint M12()
     {
-        this.F1--;
-        if (Program.s_2[0])
-        {
-            this.F0 = this.F2;
-        }
-
-        this.F2 = (short)((byte)(0 >> (ushort)(139 << (byte)(4294967294U / (long)(this.F1 | 1)))) >> (sbyte)(~Program.s_3--));
-        this.M13((int)(2237942011U | (ushort)(+Program.s_5[0][0, 0, 0].F1)));
-        return 4235785921U;
+        return default(uint);
     }
 
     public short[] M13(int arg0)
