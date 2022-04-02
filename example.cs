@@ -349,7 +349,6 @@ public class Program
     public static ushort s_105 = 0;
     public static uint s_107 = 10U;
     public static ulong s_108 = 9429829039228540382UL;
-    public static long[] s_109 = new long[]{-1315386625713342941L};
     public static sbyte s_110 = 10;
     public static ulong[,, ] s_111 = new ulong[,, ]{{{1UL}}};
     public static int s_112 = 10;
