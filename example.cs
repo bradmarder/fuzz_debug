@@ -60,9 +60,4 @@ public class Program
     {
         return default(S1);
     }
-
-    public static short M28(C1 argThis)
-    {
-        return default(short);
-    }
 }
