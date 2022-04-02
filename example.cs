@@ -435,7 +435,6 @@ public class Program
     public static C0 s_84 = new C0(0, 0, false);
     public static ushort s_85 = 32017;
     public static long s_87 = 9112962096752835741L;
-    public static C1[] s_88 = new C1[]{new C1(-32767, 0, 12688)};
     public static S0 s_89 = new S0(18040337835588713289UL, -127, 254, -127, 2L, 97, -9223372036854775808L, 5885023230872522507UL, -9223372036854775808L);
     public static ulong s_90 = 11451526383626783489UL;
     public static long s_91 = -9223372036854775808L;
