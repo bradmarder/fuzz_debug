@@ -141,7 +141,6 @@ public class Program
     public static int s_74 = 0;
     public static byte s_82 = 48;
     public static C0 s_84 = new C0(0, 0, false);
-    public static ulong s_90 = 11451526383626783489UL;
     public static long s_91 = -9223372036854775808L;
     public static byte[] s_95 = new byte[]{0};
     public static byte s_96 = 0;
