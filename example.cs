@@ -258,11 +258,6 @@ public class Program
         return default(ulong);
     }
 
-    public static long M48(ref C0 arg0, S1 arg1, int[] arg2, ref I0 arg3)
-    {
-        return default(long);
-    }
-
     public static int M56()
     {
         return default(int);
