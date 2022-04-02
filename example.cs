@@ -43,19 +43,6 @@ public class C0
         ulong var1 = default(ulong);
         uint var2 = default(uint);
         ushort var3 = default(ushort);
-        for (int var0 = 0; var0 < 2; var0++)
-        {
-            {
-                {
-                    Program.s_9 &= this.F2;
-                }
-            }
-
-            var1 = 18446744073709551614UL;
-            var2 = 349304091U;
-        }
-
-        var3 = Program.s_5[0][0, 0, 0].F1;
         return ref Program.s_18;
     }
 
