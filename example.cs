@@ -695,7 +695,6 @@ public class Program
         I0 var1 = default(I0);
         int var2 = default(int);
         C1 var3 = default(C1);
-        C1[][] var4 = default(C1[][]);
         sbyte var5 = default(sbyte);
         I0[] var6 = default(I0[]);
         ushort var7 = default(ushort);
