@@ -368,7 +368,6 @@ public class Program
     public static sbyte s_3 = 0;
     public static ulong s_4 = 18446744073709551615UL;
     public static C1[][,, ] s_5 = new C1[][,, ]{new C1[,, ]{{{new C1(-32768, 50821, 1)}}}};
-    public static S0 s_6 = new S0(18446744073709551614UL, -2, 154, -10, 1L, 1, -9223372036854775807L, 18446744073709551614UL, -9223372036854775808L);
     public static sbyte s_7 = 21;
     public static short[] s_8 = new short[]{27419};
     public static bool s_9 = true;
