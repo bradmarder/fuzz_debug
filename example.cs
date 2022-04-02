@@ -102,7 +102,6 @@ public class Program
     public static uint s_107 = 10U;
     public static int s_112 = 10;
     public static C1 s_121 = new C1(32766, 1, 0);
-    public static short[] s_125 = new short[]{19447};
     public static void Main()
     {
     }
