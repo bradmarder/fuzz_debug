@@ -58,11 +58,6 @@ public struct S0 : I0
         F8 = f8;
     }
 
-    public long[] M27(ushort arg0, bool arg1, S1 arg2, C1[] arg3, uint arg4, ref long[] arg5, byte arg6)
-    {
-        return default(long[]);
-    }
-
     public S1 M55()
     {
         return default(S1);
