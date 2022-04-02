@@ -90,7 +90,6 @@ public class Program
     public static byte s_10 = 169;
     public static uint s_12 = 10U;
     public static C0[][, ] s_21;
-    public static C1[] s_32;
     public static S0 s_36 = new S0(2293070236441507447UL, -57, 71, -128, -4193091118156916983L, 254, 7529471248942075496L, 0UL, 1L);
     public static S0[] s_42 = new S0[]{new S0(1297223133967724776UL, 1, 133, 28, 2L, 244, 3411396978420026657L, 1UL, 3632752365305052619L)};
     public static I0 s_65 = new S0(0UL, 105, 45, 0, -334850926330292064L, 1, -10L, 1UL, -9223372036854775807L);
