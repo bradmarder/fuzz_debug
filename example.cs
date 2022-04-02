@@ -25,11 +25,6 @@ public class C0
         return default(C0);
     }
 
-    public ref S1 M34()
-    {
-        return ref Program.s_18;
-    }
-
     public C0 M43(int arg0)
     {
         return default(C0);
