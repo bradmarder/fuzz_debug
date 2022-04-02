@@ -420,7 +420,6 @@ public class Program
     public static I0 s_66 = new S0(10396391937080161607UL, -51, 0, 120, 1L, 0, -9223372036854775807L, 7157634449643856490UL, -8763045057417948900L);
     public static I0[] s_67 = new I0[]{new S0(1100113200654027875UL, 10, 197, -27, 8562718340090732541L, 72, -9223372036854775807L, 1022115569242823497UL, -5685060495408861034L)};
     public static long[] s_68 = new long[]{345238644128058833L};
-    public static byte s_69 = 0;
     public static bool s_70 = true;
     public static byte s_71 = 255;
     public static byte s_72 = 193;
