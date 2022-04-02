@@ -311,41 +311,7 @@ public struct S1
 
     public short[] M13(int arg0)
     {
-        C1 var2 = default(C1);
-        C0 var3 = default(C0);
-        try
-        {
-            if (!new C1(-12690, 20772, 1).M14())
-            {
-                ref ulong var0 = ref Program.s_4;
-                new C1(2, 0, 4592).M14();
-            }
-        }
-        finally
-        {
-            this.F1 = this.F1;
-            try
-            {
-                Program.s_1[0] = new S1(18064, -8470170597013217231L, 2);
-                if (1 > Program.s_3)
-                {
-                    Program.s_1[0].F2 = this.F2;
-                    ref C1[][,, ] var1 = ref Program.s_5;
-                    this = this;
-                    var1[0][0, 0, 0] = var1[0][0, 0, 0];
-                }
-            }
-            finally
-            {
-                var2 = new C1(-26393, 45865, 1);
-            }
-
-            var3 = new C0(-128, 22, false);
-        }
-
-        this.F1 = this.F1++;
-        new C1(-32768, 0, 2).M14();
-        return new short[]{32767, -16361, 17825, 25768, -32767, -3666, 13887};
+        return default(short[]);
     }
 
     public sbyte M29(short arg0, sbyte arg1)
