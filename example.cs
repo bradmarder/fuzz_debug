@@ -545,7 +545,6 @@ public class Program
     public static byte s_131 = 37;
     public static void Main()
     {
-        M0();
     }
 
     public static void M0()
