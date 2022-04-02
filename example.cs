@@ -103,11 +103,6 @@ public struct S0 : I0
     {
         return default(int);
     }
-
-    public C1 M85(C1 arg0, ulong arg1)
-    {
-        return default(C1);
-    }
 }
 
 public struct S1
