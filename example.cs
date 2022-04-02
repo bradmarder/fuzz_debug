@@ -181,37 +181,7 @@ public struct S0 : I0
 
     public short M53()
     {
-        ushort[] var0 = default(ushort[]);
-        sbyte var2 = default(sbyte);
-        C1 var3 = default(C1);
-        {
-            var0 = new ushort[]{1, 0, 34207, 30317, 53115, 1, 1};
-            this.F4 = ~this.F6;
-            Program.M54(ref this.F2, Program.s_18, Program.s_46[0].F2, ref this);
-            {
-                this.F8 = (long)Program.M56();
-                Program.M54(ref this.F5, new S1(-31243, 1L, -7951), Program.M59(), ref this);
-            }
-
-            if (Program.s_22)
-            {
-                for (int var1 = 0; var1 < 2; var1++)
-                {
-                    this.F4 = this.F4;
-                }
-
-                var0[0] = Program.M59();
-            }
-        }
-
-        {
-            this.F8 = -7042109289306699078L;
-            var2 = (sbyte)Program.M59();
-            var3 = Program.s_5[0][0, 0, 0];
-        }
-
-        this.F8 >>= -1;
-        return 1;
+        return default(short);
     }
 
     public S1 M55()
