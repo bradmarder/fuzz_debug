@@ -650,8 +650,6 @@ public class Program
 
     public static ref int M47(ushort arg0, short arg1)
     {
-        arg1 = 32767;
-        arg1 -= 5733;
         return ref s_38;
     }
 
