@@ -170,7 +170,6 @@ public class Program
     public static long s_91 = -9223372036854775808L;
     public static byte[] s_95 = new byte[]{0};
     public static byte s_96 = 0;
-    public static uint s_97 = 1637596950U;
     public static sbyte s_104 = 119;
     public static uint s_107 = 10U;
     public static int s_112 = 10;
