@@ -271,11 +271,6 @@ public class C1
     {
         return ref this.F0;
     }
-
-    public I0 M106()
-    {
-        return default(I0);
-    }
 }
 
 public class Program
