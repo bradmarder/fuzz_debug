@@ -120,11 +120,6 @@ public class Program
         return default(long);
     }
 
-    public static ref ulong M113(ref ushort arg0, C0 arg1)
-    {
-        return ref s_42[0].F0;
-    }
-
     public static S1 M61(C0 argThis, ref long arg0, I0[, ] arg1)
     {
         return default(S1);
