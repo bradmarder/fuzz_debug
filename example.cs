@@ -142,11 +142,6 @@ public class Program
     {
     }
 
-    public static int M2(bool arg0, C1[] arg1, ref long arg2)
-    {
-        return default(int);
-    }
-
     public static S0 M4(S0 arg0)
     {
         return default(S0);
