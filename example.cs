@@ -443,24 +443,6 @@ public class C1
         uint var0 = default(uint);
         I0[] var1 = default(I0[]);
         short[] var2 = default(short[]);
-        if (Program.s_2[0])
-        {
-            var0 = 1U;
-        }
-        else
-        {
-            if (Program.s_2[0])
-            {
-                var1 = new I0[]{new S0(6134716082547842957UL, 127, 145, -102, 3782464668090688438L, 19, 3154751169797485466L, 0UL, 9223372036854775807L), new S0(18446744073709551615UL, -2, 254, 36, -9223372036854775807L, 0, -6335897990959546307L, 17469816857894812883UL, -8475453496173408334L)};
-                Program.M20(Program.M20(this));
-            }
-            else
-            {
-                var2 = new short[]{2, -13580, 3112, 32767, -24104, 21734};
-                this.F0 = var2[0];
-            }
-        }
-
         return ref Program.s_5[0][0, 0, 0];
     }
 
