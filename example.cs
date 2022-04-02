@@ -732,7 +732,6 @@ public class Program
         long[][] var15 = default(long[][]);
         ushort var16 = default(ushort);
         bool var17 = default(bool);
-        byte var18 = default(byte);
         ushort var19 = default(ushort);
         short[] var21 = default(short[]);
         S1 var22 = default(S1);
