@@ -715,7 +715,6 @@ public class Program
         long var3 = default(long);
         ulong var4 = default(ulong);
         short[] var5 = default(short[]);
-        sbyte var6 = default(sbyte);
         byte var8 = default(byte);
         int var9 = default(int);
         I0 var11 = default(I0);
