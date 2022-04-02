@@ -56,11 +56,6 @@ public class Program
     {
     }
 
-    public static long M92()
-    {
-        return default(long);
-    }
-
     public static S1 M55(S0 argThis)
     {
         return default(S1);
