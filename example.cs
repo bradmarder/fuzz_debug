@@ -821,7 +821,6 @@ public class Program
     public static ref long M101()
     {
         I0[] var0 = default(I0[]);
-        sbyte var2 = default(sbyte);
         return ref s_73.F6;
     }
 
