@@ -228,7 +228,6 @@ public class Program
     public static uint s_12 = 10U;
     public static long s_15 = 1L;
     public static C0 s_16 = new C0(1, 0, false);
-    public static S1 s_18 = new S1(32767, -9223372036854775808L, -2655);
     public static ushort s_19 = 34174;
     public static C0[][, ] s_21 = new C0[][, ]{new C0[, ]{{new C0(-127, 2, false)}}};
     public static bool s_22 = true;
