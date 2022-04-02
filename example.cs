@@ -444,11 +444,6 @@ public class Program
         return default(int);
     }
 
-    public static ref bool[] M58(S0 arg0)
-    {
-        return ref s_2;
-    }
-
     public static ref ushort M59()
     {
         return ref s_32[0].F2;
