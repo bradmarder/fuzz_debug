@@ -616,49 +616,7 @@ public struct S1
 
     public bool M81()
     {
-        short var0 = default(short);
-        long var1 = default(long);
-        short var3 = default(short);
-        long[] var4 = default(long[]);
-        byte var5 = default(byte);
-        S0 var6 = default(S0);
-        this.F2 = Program.s_5[0][0, 0, 0].F0++;
-        if (Program.s_70)
-        {
-            var0 = this.F2++;
-            var1 = this.F1;
-        }
-
-        for (int var2 = 0; var2 < 2; var2++)
-        {
-            var3 = (short)(~(short)(-Program.s_79.F0++));
-        }
-
-        this = this;
-        this.F1 = -4226080582381613214L;
-        this = this;
-        {
-            this.F2 = this.F0;
-            var4 = new long[]{4213667947905514265L, 1L, 1L, 1L, 5039513101181534091L, 1L, -7670280859064141677L, 652613047218037460L};
-            {
-                new S0(0UL, -69, 0, -127, 2637663292773152396L, 254, -623482689134514590L, 7399509591241038032UL, -9223372036854775807L).M82(Program.s_76, new sbyte[]{126, 103, 1, -128, -59, 1, 41, 10, -98, -62}, ref Program.s_83[0]);
-                Program.s_68[0] = -3419545018266510512L;
-                Program.s_25[0] = Program.s_83;
-                var4 = new long[]{-9223372036854775807L, 2106770454011132271L, -9223372036854775808L, -1L};
-                new S0(18446744073709551614UL, 127, 45, -54, 7122539586913310025L, 206, -4265048553885117005L, 0UL, 1L).M85(Program.s_46[0], (ulong)Program.M84((byte)Program.M84((byte)Program.M84(Program.s_64, (uint)(var4[0] & 699741512), new S0(0UL, 1, 1, -128, 0L, 170, 1L, 0UL, -1990687056433173049L), true), Program.s_75[0, 0, 0]++, Program.s_56, false), 3332634161U, new S0(10583340966854742747UL, 127, 1, 123, -7438882555865087765L, 1, -9223372036854775807L, 7546075989298633956UL, 9223372036854775806L), true));
-            }
-
-            var4[0] = var4[0];
-            var5 = (byte)(-2L - this.F2);
-        }
-
-        {
-            Program.s_70 |= false;
-            var6 = new S0(11352905392693089600UL, -127, 49, -96, -10L, 0, 806355153002011669L, 7571860003821174952UL, 9223372036854775807L);
-            var6.F2 = var6.F5;
-        }
-
-        return new S0(12098276009336188650UL, -127, 0, -127, 1807990074341582259L, 1, -9223372036854775807L, 16122335656427765293UL, 0L).M82(Program.s_38--, new sbyte[]{-10, 126, 26}, ref Program.s_75[0, 0, 0]);
+        return default(bool);
     }
 
     public ref C0 M87(ref byte arg0)
