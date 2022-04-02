@@ -206,11 +206,6 @@ public class C1
         return default(short);
     }
 
-    public ulong M49(byte arg0)
-    {
-        return default(ulong);
-    }
-
     public sbyte M64()
     {
         return default(sbyte);
