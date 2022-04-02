@@ -315,11 +315,6 @@ public class Program
         return default(bool);
     }
 
-    public static ushort M32()
-    {
-        return default(ushort);
-    }
-
     public static long M33()
     {
         return default(long);
