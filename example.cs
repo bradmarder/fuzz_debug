@@ -628,11 +628,6 @@ public class Program
         return default(byte);
     }
 
-    public static ref C1 M71(S0 arg0, uint arg1, C1 arg2, sbyte arg3, long[][] arg4, uint arg5, ref uint[,, ] arg6)
-    {
-        return ref s_46[0];
-    }
-
     public static ref ulong M73()
     {
         return ref s_4;
