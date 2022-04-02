@@ -179,7 +179,6 @@ public class Program
     public static long s_43 = 0L;
     public static bool s_44;
     public static C1[] s_46 = new C1[]{new C1(2, 299, 26803)};
-    public static short s_47 = -30911;
     public static C0 s_50 = new C0(-127, 223, false);
     public static I0 s_56 = new S0(18446744073709551614UL, 1, 132, 33, -10L, 245, -10L, 1UL, -9223372036854775807L);
     public static int s_58 = 0;
