@@ -188,11 +188,6 @@ public class Program
         return ref s_21[0][0, 0];
     }
 
-    public static ushort M77(ref sbyte arg0, ref S1 arg1, S1 arg2, ulong arg3, ref byte[] arg4)
-    {
-        return default(ushort);
-    }
-
     public static S1 M79(ushort arg0)
     {
         return default(S1);
