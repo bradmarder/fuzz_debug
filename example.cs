@@ -32,11 +32,6 @@ public struct S0 : I0
         F7 = f7;
         F8 = f8;
     }
-
-    public short M74(ref C0[] arg0, long arg1)
-    {
-        return default(short);
-    }
 }
 
 public struct S1
