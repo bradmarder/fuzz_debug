@@ -23,15 +23,20 @@ public class C0
 
     public ushort M6(I0 arg0)
     {
+        sbyte var0 = default(sbyte);
+        bool var1 = default(bool);
+        S1 var2 = default(S1);
+        S1[] var4 = default(S1[]);
+        sbyte[][] var6 = default(sbyte[][]);
         if (this.F2)
         {
-            sbyte var0 = this.F0;
+            var0 = this.F0;
             new S0(0UL, 1, 214, 0, 1L, 184, -5304549519392818931L, 1554747766138870441UL, -10L).M7(Program.s_79);
         }
         else
         {
             Program.M67(new S1(2819, -7746388934121783930L, 1), (ushort)(1UL + this.F1), new C0[][]{new C0[]{new C0(-16, 1, false), new C0(-127, 193, true)}, new C0[]{new C0(-70, 8, true), new C0(115, 90, false), new C0(1, 0, true), new C0(1, 0, true)}, new C0[]{new C0(64, 36, true)}, new C0[]{new C0(110, 58, true), new C0(-62, 164, false), new C0(10, 1, true), new C0(-101, 32, false)}});
-            bool var1 = Program.M24();
+            var1 = Program.M24();
         }
 
         this.F1 = 203;
@@ -42,12 +47,12 @@ public class C0
         else
         {
             Program.s_122 = new ushort[]{27295, 57669, 1, 5382, 1, 1};
-            S1 var2 = Program.s_17;
+            var2 = Program.s_17;
             var2 = new S1(-8614, -2610099466976630994L, 32766);
             var2.M98(Program.M79(Program.s_20), var2.F0++, new C1(2, 49142, 430).M21().M34().M116(Program.s_118.F0++, 0, ref this.F0), Program.s_73.F0++, new C1(32767, 18046, 22926).M66(new ushort[]{0}, -6716, new C1(10, 65535, 30982))++ | Program.s_106.F2--);
             ref short var3 = ref var2.F0;
             Program.M77(ref Program.s_31.F0, ref Program.s_17, var2, 0UL, ref Program.s_45);
-            S1[] var4 = new S1[]{new S1(2730, -4390916357043712599L, 11359), new S1(-32767, 1L, 0), new S1(-11603, 9223372036854775806L, 14823), new S1(9133, 2014505875889067640L, -24550), new S1(1, 9223372036854775806L, 0), new S1(1, 1L, 3129), new S1(-25122, 1954266108918473036L, -30581)};
+            var4 = new S1[]{new S1(2730, -4390916357043712599L, 11359), new S1(-32767, 1L, 0), new S1(-11603, 9223372036854775806L, 14823), new S1(9133, 2014505875889067640L, -24550), new S1(1, 9223372036854775806L, 0), new S1(1, 1L, 3129), new S1(-25122, 1954266108918473036L, -30581)};
             Program.s_128 = new C0(-1, 0, false);
             new C1(1, 39239, 0).M99(Program.s_25[0][0]) = (short)(~Program.s_28.F0);
         }
@@ -58,7 +63,7 @@ public class C0
                 if (this.F2)
                 {
                     Program.s_73.F5 = 254;
-                    sbyte[][] var6 = new sbyte[][]{new sbyte[]{32, 1, -2, 0, -10}, new sbyte[]{68, 1, -10, -1}, new sbyte[]{32, 123, 0}, new sbyte[]{-128, 1, 126, 123}};
+                    var6 = new sbyte[][]{new sbyte[]{32, 1, -2, 0, -10}, new sbyte[]{68, 1, -10, -1}, new sbyte[]{32, 123, 0}, new sbyte[]{-128, 1, 126, 123}};
                 }
             }
         }
@@ -76,10 +81,14 @@ public class C0
 
     public bool[][] M15()
     {
-        uint var0 = 10U;
-        uint[][][][] var1 = new uint[][][][]{new uint[][][]{new uint[][]{new uint[]{2U}, new uint[]{2386412049U}, new uint[]{2834626716U}, new uint[]{3446882066U}}, new uint[][]{new uint[]{0U}, new uint[]{10U}, new uint[]{1219824273U}, new uint[]{1U}}, new uint[][]{new uint[]{2777703589U}, new uint[]{1278534571U}, new uint[]{1U}}, new uint[][]{new uint[]{364968233U}, new uint[]{58354704U}}, new uint[][]{new uint[]{1U}, new uint[]{0U}, new uint[]{0U}}}, new uint[][][]{new uint[][]{new uint[]{0U}}, new uint[][]{new uint[]{1334764361U}, new uint[]{147581349U}, new uint[]{1309832873U}, new uint[]{1U}, new uint[]{0U}, new uint[]{3810004571U}}, new uint[][]{new uint[]{2749373250U}, new uint[]{3001786620U}, new uint[]{961873753U}, new uint[]{2U}}, new uint[][]{new uint[]{1U}, new uint[]{459572296U}, new uint[]{2867926185U}, new uint[]{2449188802U}}}, new uint[][][]{new uint[][]{new uint[]{1U}, new uint[]{1U}, new uint[]{1771120624U}, new uint[]{0U}}, new uint[][]{new uint[]{3916585185U}, new uint[]{10U}, new uint[]{519298241U}, new uint[]{1829674828U}, new uint[]{1U}}, new uint[][]{new uint[]{3646577990U}, new uint[]{779453584U}, new uint[]{2U}, new uint[]{3573787341U}}}, new uint[][][]{new uint[][]{new uint[]{1076718222U}, new uint[]{3064506424U}, new uint[]{2U}, new uint[]{0U}, new uint[]{0U}, new uint[]{3772846711U}, new uint[]{0U}}, new uint[][]{new uint[]{4294967294U}, new uint[]{3155306331U}, new uint[]{2269769028U}, new uint[]{10U}}, new uint[][]{new uint[]{1718837456U}}, new uint[][]{new uint[]{10987590U}, new uint[]{4233197909U}, new uint[]{2286766719U}, new uint[]{4294967294U}, new uint[]{2219324063U}, new uint[]{1U}, new uint[]{3234766425U}}, new uint[][]{new uint[]{2200863409U}, new uint[]{1509748194U}, new uint[]{2U}}, new uint[][]{new uint[]{4294967295U}, new uint[]{3629287711U}}}};
-        ushort var2 = 65535;
-        bool var3 = Program.s_2[0];
+        uint var0 = default(uint);
+        uint[][][][] var1 = default(uint[][][][]);
+        ushort var2 = default(ushort);
+        bool var3 = default(bool);
+        var0 = 10U;
+        var1 = new uint[][][][]{new uint[][][]{new uint[][]{new uint[]{2U}, new uint[]{2386412049U}, new uint[]{2834626716U}, new uint[]{3446882066U}}, new uint[][]{new uint[]{0U}, new uint[]{10U}, new uint[]{1219824273U}, new uint[]{1U}}, new uint[][]{new uint[]{2777703589U}, new uint[]{1278534571U}, new uint[]{1U}}, new uint[][]{new uint[]{364968233U}, new uint[]{58354704U}}, new uint[][]{new uint[]{1U}, new uint[]{0U}, new uint[]{0U}}}, new uint[][][]{new uint[][]{new uint[]{0U}}, new uint[][]{new uint[]{1334764361U}, new uint[]{147581349U}, new uint[]{1309832873U}, new uint[]{1U}, new uint[]{0U}, new uint[]{3810004571U}}, new uint[][]{new uint[]{2749373250U}, new uint[]{3001786620U}, new uint[]{961873753U}, new uint[]{2U}}, new uint[][]{new uint[]{1U}, new uint[]{459572296U}, new uint[]{2867926185U}, new uint[]{2449188802U}}}, new uint[][][]{new uint[][]{new uint[]{1U}, new uint[]{1U}, new uint[]{1771120624U}, new uint[]{0U}}, new uint[][]{new uint[]{3916585185U}, new uint[]{10U}, new uint[]{519298241U}, new uint[]{1829674828U}, new uint[]{1U}}, new uint[][]{new uint[]{3646577990U}, new uint[]{779453584U}, new uint[]{2U}, new uint[]{3573787341U}}}, new uint[][][]{new uint[][]{new uint[]{1076718222U}, new uint[]{3064506424U}, new uint[]{2U}, new uint[]{0U}, new uint[]{0U}, new uint[]{3772846711U}, new uint[]{0U}}, new uint[][]{new uint[]{4294967294U}, new uint[]{3155306331U}, new uint[]{2269769028U}, new uint[]{10U}}, new uint[][]{new uint[]{1718837456U}}, new uint[][]{new uint[]{10987590U}, new uint[]{4233197909U}, new uint[]{2286766719U}, new uint[]{4294967294U}, new uint[]{2219324063U}, new uint[]{1U}, new uint[]{3234766425U}}, new uint[][]{new uint[]{2200863409U}, new uint[]{1509748194U}, new uint[]{2U}}, new uint[][]{new uint[]{4294967295U}, new uint[]{3629287711U}}}};
+        var2 = 65535;
+        var3 = Program.s_2[0];
         if (var3)
         {
             this.F2 = this.F2;
@@ -95,12 +104,16 @@ public class C0
 
     public C0 M16(short arg0, long arg1)
     {
-        S1[] var0 = new S1[]{new S1(-14561, 5889688523210053171L, -3072), new S1(-9783, -4899826503515042342L, 0), new S1(-32768, -3324412429448948601L, -32767)};
+        S1[] var0 = default(S1[]);
+        var0 = new S1[]{new S1(-14561, 5889688523210053171L, -3072), new S1(-9783, -4899826503515042342L, 0), new S1(-32768, -3324412429448948601L, -32767)};
         return this;
     }
 
     public ref S1 M34()
     {
+        ulong var1 = default(ulong);
+        uint var2 = default(uint);
+        ushort var3 = default(ushort);
         for (int var0 = 0; var0 < 2; var0++)
         {
             {
@@ -109,25 +122,30 @@ public class C0
                 }
             }
 
-            ulong var1 = 18446744073709551614UL;
-            uint var2 = 349304091U;
+            var1 = 18446744073709551614UL;
+            var2 = 349304091U;
         }
 
-        ushort var3 = Program.s_5[0][0, 0, 0].F1;
+        var3 = Program.s_5[0][0, 0, 0].F1;
         return ref Program.s_18;
     }
 
     public C0 M43(int arg0)
     {
+        uint var0 = default(uint);
         new S0(0UL, 1, 39, -107, 3342914360151086373L, 112, -9223372036854775808L, 2577107182113856273UL, 1L).M44(ref Program.s_35[0]);
-        uint var0 = Program.s_12;
+        var0 = Program.s_12;
         return new C0(-15, 218, true);
     }
 
     public int M52(sbyte arg0, uint arg1, sbyte[] arg2, ref uint arg3, ref C1[] arg4)
     {
-        uint var0 = 4294967295U;
-        ulong[] var1 = new ulong[]{17576536420138109601UL, 10489629195504734386UL, 42468460218580163UL, 15100719149699457725UL, 5712504227263182199UL, 12053170746624711883UL, 0UL};
+        uint var0 = default(uint);
+        ulong[] var1 = default(ulong[]);
+        short var2 = default(short);
+        S1 var3 = default(S1);
+        var0 = 4294967295U;
+        var1 = new ulong[]{17576536420138109601UL, 10489629195504734386UL, 42468460218580163UL, 15100719149699457725UL, 5712504227263182199UL, 12053170746624711883UL, 0UL};
         try
         {
             {
@@ -151,7 +169,7 @@ public class C0
             arg4 = arg4;
             {
                 this.F2 = this.F2;
-                short var2 = arg4[0].F0;
+                var2 = arg4[0].F0;
                 {
                     new S0(18446744073709551614UL, 1, 14, 2, -1L, 222, -5452536353291259235L, 14593216024145337575UL, 1L).M53();
                     Program.M56();
@@ -165,19 +183,21 @@ public class C0
 
         Program.s_42 = new S0[]{new S0(15214185446548972204UL, -128, 10, -127, 3857390832174469580L, 254, -1689464654467055939L, 12715605715772476981UL, 1015623120700034704L), new S0(18446744073709551614UL, -103, 255, -59, -9223372036854775807L, 222, 1L, 0UL, -3584790969427555714L), new S0(12720867903401252430UL, 4, 132, 126, -9223372036854775808L, 83, -9223372036854775807L, 4455441907066615957UL, 1L), new S0(0UL, -102, 240, -98, 7408707486941982339L, 131, 1L, 1UL, 5837436750117524471L), new S0(721510468648073903UL, 126, 214, -92, 0L, 1, -1L, 7591767173606511551UL, 6791907607492481495L), new S0(18446744073709551615UL, -127, 9, 0, 0L, 106, 0L, 8766858427287236774UL, 4114606343792172623L)};
         Program.M56();
-        S1 var3 = Program.s_42[0].M55();
+        var3 = Program.s_42[0].M55();
         return -1984154809;
     }
 
     public S1 M61(ref long arg0, I0[, ] arg1)
     {
+        bool var0 = default(bool);
+        S1 var2 = default(S1);
         if (this.F2)
         {
             Program.s_54 = new uint[]{2899608444U, 4294967294U, 4294967294U, 10U, 3415434709U, 10U, 3748880625U, 3054616304U, 4294967295U};
         }
         else
         {
-            bool var0 = this.F2;
+            var0 = this.F2;
         }
 
         ref C1 var1 = ref Program.s_32[0];
@@ -192,7 +212,7 @@ public class C0
         Program.M62(3343545398U, arg1[0, 0], this.F0, ref Program.s_38, arg1[0, 0], new I0[]{new S0(5330586095925213823UL, 1, 1, 54, 0L, 1, 5014285392908318455L, 1UL, 1L), new S0(1UL, 108, 255, 0, 9025425982237681805L, 113, -9223372036854775807L, 15829537249636084101UL, 1105754772120105822L), new S0(18446744073709551615UL, 10, 67, -128, -4454945284464983969L, 4, 9223372036854775806L, 0UL, 35062524679648032L), new S0(6710460801903910513UL, 1, 125, 0, 1502588428120438198L, 1, 6342763500111052263L, 18446744073709551614UL, 9223372036854775807L), new S0(1UL, -69, 215, -118, 2L, 0, -1L, 18446744073709551614UL, 9223372036854775806L), new S0(7918591515438807517UL, 126, 254, -127, -486701940718427692L, 169, -8897017896364248342L, 5347965679947699085UL, 0L), new S0(3541358380578549495UL, 72, 201, 2, -8428857832140651980L, 54, -5173402498760326898L, 1UL, 1L), new S0(1UL, -53, 1, 1, 5485463244890540529L, 154, 7768368079898386759L, 1UL, 2406778118519900663L)});
         if (1 == arg0)
         {
-            S1 var2 = Program.s_1[0];
+            var2 = Program.s_1[0];
             var2.F1 = arg0;
             arg1 = arg1;
             ref I0 var3 = ref Program.s_39;
@@ -203,6 +223,17 @@ public class C0
 
     public S0[] M72(short arg0)
     {
+        sbyte var1 = default(sbyte);
+        byte var2 = default(byte);
+        ulong var3 = default(ulong);
+        byte[] var4 = default(byte[]);
+        short var5 = default(short);
+        uint var6 = default(uint);
+        short var7 = default(short);
+        C1[][] var8 = default(C1[][]);
+        uint var9 = default(uint);
+        int[] var10 = default(int[]);
+        C0 var12 = default(C0);
         for (int var0 = 0; var0 < 2; var0++)
         {
             arg0 = arg0;
@@ -214,42 +245,42 @@ public class C0
                         arg0 = Program.s_8[0];
                     }
 
-                    sbyte var1 = Program.s_16.F0;
+                    var1 = Program.s_16.F0;
                     Program.M73();
-                    byte var2 = this.F1;
+                    var2 = this.F1;
                     Program.M73();
                     Program.s_50.F2 = this.F2;
                     var2 *= 94;
                     Program.M73();
                     {
                         var1 = var1;
-                        ulong var3 = Program.s_36.F7;
+                        var3 = Program.s_36.F7;
                     }
                 }
             }
 
-            byte[] var4 = Program.s_45;
+            var4 = Program.s_45;
             this.F1 = 148;
             this.F1 ^= this.F1;
         }
 
-        short var5 = arg0;
-        uint var6 = 2U;
+        var5 = arg0;
+        var6 = 2U;
         Program.M73();
         if (this.F2)
         {
-            short var7 = 10;
+            var7 = 10;
             {
                 if (this.F2)
                 {
                     var6 = (uint)Program.M73();
                     var5 = Program.s_18.F0;
-                    C1[][] var8 = new C1[][]{new C1[]{new C1(-11416, 0, 40930), new C1(-32767, 65535, 65534)}, new C1[]{new C1(-32767, 65535, 5990)}, new C1[]{new C1(-32767, 11823, 65534)}, new C1[]{new C1(0, 65534, 64254)}, new C1[]{new C1(-10, 55842, 0)}, new C1[]{new C1(4161, 0, 65534), new C1(-2, 1, 24567)}};
+                    var8 = new C1[][]{new C1[]{new C1(-11416, 0, 40930), new C1(-32767, 65535, 65534)}, new C1[]{new C1(-32767, 65535, 5990)}, new C1[]{new C1(-32767, 11823, 65534)}, new C1[]{new C1(0, 65534, 64254)}, new C1[]{new C1(-10, 55842, 0)}, new C1[]{new C1(4161, 0, 65534), new C1(-2, 1, 24567)}};
                     var8[0][0] = Program.s_53;
                 }
                 else
                 {
-                    uint var9 = 1U;
+                    var9 = 1U;
                 }
 
                 Program.M73();
@@ -258,7 +289,7 @@ public class C0
 
             new S0(0UL, -127, 10, 72, 0L, 0, 7607382457509562155L, 1697402099653869702UL, 1L).M74(ref Program.s_27, Program.s_42[0].F8++);
             Program.s_1[0].F1 = Program.s_37;
-            int[] var10 = new int[]{900310696, -1, 2147483646, 0, -2147483647, -1452276627};
+            var10 = new int[]{900310696, -1, 2147483646, 0, -2147483647, -1452276627};
             if (this.F2)
             {
                 for (int var11 = 0; var11 < 2; var11++)
@@ -277,13 +308,20 @@ public class C0
             var6 = ~Program.s_30;
         }
 
-        C0 var12 = this;
+        var12 = this;
         --this.F0;
         return Program.s_42;
     }
 
     public S0 M76(ref ushort arg0)
     {
+        S1 var1 = default(S1);
+        S1[] var2 = default(S1[]);
+        uint var3 = default(uint);
+        I0[][, ][][][] var5 = default(I0[][, ][][][]);
+        S1 var8 = default(S1);
+        C0 var9 = default(C0);
+        S1 var10 = default(S1);
         Program.s_65 = new S0(0UL, 0, 115, 126, -73124550023651037L, 1, -5400872821391943477L, 9910365790301058992UL, 0L);
         if (this.F2)
         {
@@ -293,8 +331,8 @@ public class C0
                 var0 = var0++;
             }
 
-            S1 var1 = Program.s_1[0];
-            S1[] var2 = new S1[]{new S1(18694, 9223372036854775807L, -32768), new S1(1, -409630069484643884L, 32766), new S1(10, -9148606473152283699L, -32768), new S1(-1, 9223372036854775807L, 10), new S1(-5723, -8789788563360311827L, -32767), new S1(1, 7941774916915643303L, 18594), new S1(9533, -6878578759770487352L, 32766), new S1(1, -2303229903367260821L, 32767), new S1(32767, 2717248416241572680L, 18426)};
+            var1 = Program.s_1[0];
+            var2 = new S1[]{new S1(18694, 9223372036854775807L, -32768), new S1(1, -409630069484643884L, 32766), new S1(10, -9148606473152283699L, -32768), new S1(-1, 9223372036854775807L, 10), new S1(-5723, -8789788563360311827L, -32767), new S1(1, 7941774916915643303L, 18594), new S1(9533, -6878578759770487352L, 32766), new S1(1, -2303229903367260821L, 32767), new S1(32767, 2717248416241572680L, 18426)};
             var2[0].F1 = var2[0].F1;
             arg0 = ref Program.s_5[0][0, 0, 0].F2;
         }
@@ -303,7 +341,7 @@ public class C0
             arg0 = arg0;
             if (this.F2)
             {
-                uint var3 = 941254588U;
+                var3 = 941254588U;
                 Program.s_66 = new S0(9243023474311480944UL, -128, 0, 7, -8683659655550871464L, 0, -10L, 18446744073709551614UL, 0L);
                 if (this.F2)
                 {
@@ -319,7 +357,7 @@ public class C0
             {
                 for (int var4 = 0; var4 < 2; var4++)
                 {
-                    I0[][, ][][][] var5 = new I0[][, ][][][]{new I0[, ][][][]{{new I0[][][]{new I0[][]{new I0[]{new S0(1UL, -75, 0, 127, 4013885407338313411L, 131, 0L, 18446744073709551614UL, 5714692146127199536L)}}}, new I0[][][]{new I0[][]{new I0[]{new S0(1UL, -39, 97, -14, -9084784931338605022L, 10, 9223372036854775806L, 532023960374266861UL, 9223372036854775806L)}, new I0[]{new S0(1024124113847797186UL, -54, 1, 1, 9223372036854775807L, 200, 5578178581384420593L, 2UL, 9223372036854775806L), new S0(1UL, 126, 107, -128, -9223372036854775807L, 217, -190995284314802034L, 52188731754576621UL, 6037312487876307296L)}}}}, {new I0[][][]{new I0[][]{new I0[]{new S0(9149065515387525935UL, 109, 1, 2, 1910705973915198227L, 0, -2370425218087157189L, 10UL, 6210417857908907336L)}, new I0[]{new S0(13705239252181916118UL, 0, 246, 126, 6193677498005369626L, 255, -9223372036854775807L, 8795442565712511830UL, 8173175952210517774L)}}}, new I0[][][]{new I0[][]{new I0[]{new S0(11426934513600610356UL, -94, 141, -101, -5775602512597665312L, 255, -7481737102791429684L, 0UL, 9223372036854775806L)}, new I0[]{new S0(1UL, 1, 255, 0, -9223372036854775808L, 1, 0L, 18446744073709551614UL, 6116455746573204458L), new S0(15237591595163631192UL, -6, 0, -10, 1779286458532242746L, 7, -9223372036854775808L, 953147273016096476UL, 7388564129531304613L)}}}}}, new I0[, ][][][]{{new I0[][][]{new I0[][]{new I0[]{new S0(10396635878791592123UL, 0, 0, -90, -2204758253891263516L, 1, 0L, 1UL, 9223372036854775807L), new S0(3336051933598771806UL, -10, 91, -97, 0L, 255, 0L, 17499453876440756018UL, -2L)}, new I0[]{new S0(1UL, -127, 10, -17, -4805982551533355549L, 205, 0L, 18446744073709551614UL, 8955743873496189705L)}}}, new I0[][][]{new I0[][]{new I0[]{new S0(14972035419719779132UL, -102, 1, 126, -7080812129690537458L, 166, -9223372036854775808L, 2UL, 5164354343659966427L), new S0(8142325195580832666UL, 9, 83, -46, 9223372036854775806L, 255, 3717340596822441301L, 18446744073709551614UL, 1L)}}}}, {new I0[][][]{new I0[][]{new I0[]{new S0(4741330427103627514UL, 47, 0, 59, -1253436975741349055L, 0, 680630984202675768L, 1UL, 1L)}, new I0[]{new S0(10867681123537229877UL, -105, 119, 127, -1L, 241, 1449908760567229013L, 7020801002709963878UL, -10L)}}}, new I0[][][]{new I0[][]{new I0[]{new S0(1UL, -77, 194, 127, -132446783840743329L, 0, 0L, 0UL, 1512774638517336234L), new S0(1UL, -128, 149, 80, 9223372036854775807L, 1, 0L, 1UL, 0L)}}}}, {new I0[][][]{new I0[][]{new I0[]{new S0(18446744073709551615UL, 1, 123, 17, 9223372036854775806L, 73, 740308078491100726L, 0UL, -9223372036854775807L)}, new I0[]{new S0(2UL, 126, 0, 126, -1994661006940969321L, 102, 9223372036854775807L, 2336784679886170044UL, -10L), new S0(18446744073709551615UL, 126, 60, 124, 1L, 119, 1L, 18446744073709551614UL, 2325412948294062496L)}}}, new I0[][][]{new I0[][]{new I0[]{new S0(11003456940999664596UL, 2, 0, -102, -2L, 28, -7576276638962315264L, 1UL, -10L), new S0(4513729849303535633UL, 1, 242, 1, -3044379527689040596L, 96, 3577672730458641224L, 5587447253822184813UL, 8414519363983093227L)}, new I0[]{new S0(1UL, 0, 230, 76, 2967384419777515448L, 2, -9223372036854775807L, 1UL, 0L)}}}}, {new I0[][][]{new I0[][]{new I0[]{new S0(18446744073709551615UL, 126, 66, 102, -575403714731088209L, 152, 1L, 1UL, 2555715210134616861L), new S0(8118466077870506207UL, -34, 230, 3, -6814469283159562894L, 255, -7894814068105144263L, 0UL, -10L)}}}, new I0[][][]{new I0[][]{new I0[]{new S0(11258495893386227569UL, -95, 255, 127, 0L, 16, 0L, 0UL, 3560926527131801727L)}, new I0[]{new S0(0UL, 127, 106, -41, -1103843627632685337L, 131, 577489146725753130L, 14603608751839881149UL, 7345250413658354269L), new S0(1UL, -2, 252, -9, -2848210555400481384L, 1, -763956555321262092L, 6085620463843982194UL, -9223372036854775807L)}}}}}, new I0[, ][][][]{{new I0[][][]{new I0[][]{new I0[]{new S0(6276392225103992775UL, -19, 1, -2, 10L, 79, 1704223425629177148L, 0UL, 1368343462148588835L), new S0(18446744073709551615UL, 69, 85, 1, -5116358970144620899L, 0, 1L, 1UL, 9223372036854775806L)}, new I0[]{new S0(3222994344887466787UL, -81, 47, 1, -9223372036854775808L, 155, 1L, 1UL, -625077397203701111L), new S0(18446744073709551615UL, -82, 148, -82, -1571062012606289132L, 63, 1L, 666709058620434463UL, 8972472156920431971L)}}}, new I0[][][]{new I0[][]{new I0[]{new S0(1423805764248347595UL, 115, 1, 6, 1L, 92, -3932246676958493205L, 9107720615747463941UL, 9223372036854775807L), new S0(12227316915075837420UL, 126, 128, -64, 2408192006015209760L, 1, 9223372036854775806L, 11385973567135848658UL, 3205100426206055472L)}}}}, {new I0[][][]{new I0[][]{new I0[]{new S0(1297396211068380634UL, 34, 1, -27, 9223372036854775807L, 1, 6435671370271893427L, 1374476102389108710UL, 1L), new S0(5366098389218704098UL, -124, 62, 0, 9223372036854775806L, 1, 0L, 18446744073709551615UL, 7974021220611377141L)}}}, new I0[][][]{new I0[][]{new I0[]{new S0(12778657667013633373UL, -39, 1, 51, 2825325091060309280L, 1, 1L, 18446744073709551614UL, 1739692349606783629L), new S0(0UL, 36, 1, -14, -9223372036854775807L, 130, 9223372036854775806L, 1UL, 6487027542159431841L)}}}}}};
+                    var5 = new I0[][, ][][][]{new I0[, ][][][]{{new I0[][][]{new I0[][]{new I0[]{new S0(1UL, -75, 0, 127, 4013885407338313411L, 131, 0L, 18446744073709551614UL, 5714692146127199536L)}}}, new I0[][][]{new I0[][]{new I0[]{new S0(1UL, -39, 97, -14, -9084784931338605022L, 10, 9223372036854775806L, 532023960374266861UL, 9223372036854775806L)}, new I0[]{new S0(1024124113847797186UL, -54, 1, 1, 9223372036854775807L, 200, 5578178581384420593L, 2UL, 9223372036854775806L), new S0(1UL, 126, 107, -128, -9223372036854775807L, 217, -190995284314802034L, 52188731754576621UL, 6037312487876307296L)}}}}, {new I0[][][]{new I0[][]{new I0[]{new S0(9149065515387525935UL, 109, 1, 2, 1910705973915198227L, 0, -2370425218087157189L, 10UL, 6210417857908907336L)}, new I0[]{new S0(13705239252181916118UL, 0, 246, 126, 6193677498005369626L, 255, -9223372036854775807L, 8795442565712511830UL, 8173175952210517774L)}}}, new I0[][][]{new I0[][]{new I0[]{new S0(11426934513600610356UL, -94, 141, -101, -5775602512597665312L, 255, -7481737102791429684L, 0UL, 9223372036854775806L)}, new I0[]{new S0(1UL, 1, 255, 0, -9223372036854775808L, 1, 0L, 18446744073709551614UL, 6116455746573204458L), new S0(15237591595163631192UL, -6, 0, -10, 1779286458532242746L, 7, -9223372036854775808L, 953147273016096476UL, 7388564129531304613L)}}}}}, new I0[, ][][][]{{new I0[][][]{new I0[][]{new I0[]{new S0(10396635878791592123UL, 0, 0, -90, -2204758253891263516L, 1, 0L, 1UL, 9223372036854775807L), new S0(3336051933598771806UL, -10, 91, -97, 0L, 255, 0L, 17499453876440756018UL, -2L)}, new I0[]{new S0(1UL, -127, 10, -17, -4805982551533355549L, 205, 0L, 18446744073709551614UL, 8955743873496189705L)}}}, new I0[][][]{new I0[][]{new I0[]{new S0(14972035419719779132UL, -102, 1, 126, -7080812129690537458L, 166, -9223372036854775808L, 2UL, 5164354343659966427L), new S0(8142325195580832666UL, 9, 83, -46, 9223372036854775806L, 255, 3717340596822441301L, 18446744073709551614UL, 1L)}}}}, {new I0[][][]{new I0[][]{new I0[]{new S0(4741330427103627514UL, 47, 0, 59, -1253436975741349055L, 0, 680630984202675768L, 1UL, 1L)}, new I0[]{new S0(10867681123537229877UL, -105, 119, 127, -1L, 241, 1449908760567229013L, 7020801002709963878UL, -10L)}}}, new I0[][][]{new I0[][]{new I0[]{new S0(1UL, -77, 194, 127, -132446783840743329L, 0, 0L, 0UL, 1512774638517336234L), new S0(1UL, -128, 149, 80, 9223372036854775807L, 1, 0L, 1UL, 0L)}}}}, {new I0[][][]{new I0[][]{new I0[]{new S0(18446744073709551615UL, 1, 123, 17, 9223372036854775806L, 73, 740308078491100726L, 0UL, -9223372036854775807L)}, new I0[]{new S0(2UL, 126, 0, 126, -1994661006940969321L, 102, 9223372036854775807L, 2336784679886170044UL, -10L), new S0(18446744073709551615UL, 126, 60, 124, 1L, 119, 1L, 18446744073709551614UL, 2325412948294062496L)}}}, new I0[][][]{new I0[][]{new I0[]{new S0(11003456940999664596UL, 2, 0, -102, -2L, 28, -7576276638962315264L, 1UL, -10L), new S0(4513729849303535633UL, 1, 242, 1, -3044379527689040596L, 96, 3577672730458641224L, 5587447253822184813UL, 8414519363983093227L)}, new I0[]{new S0(1UL, 0, 230, 76, 2967384419777515448L, 2, -9223372036854775807L, 1UL, 0L)}}}}, {new I0[][][]{new I0[][]{new I0[]{new S0(18446744073709551615UL, 126, 66, 102, -575403714731088209L, 152, 1L, 1UL, 2555715210134616861L), new S0(8118466077870506207UL, -34, 230, 3, -6814469283159562894L, 255, -7894814068105144263L, 0UL, -10L)}}}, new I0[][][]{new I0[][]{new I0[]{new S0(11258495893386227569UL, -95, 255, 127, 0L, 16, 0L, 0UL, 3560926527131801727L)}, new I0[]{new S0(0UL, 127, 106, -41, -1103843627632685337L, 131, 577489146725753130L, 14603608751839881149UL, 7345250413658354269L), new S0(1UL, -2, 252, -9, -2848210555400481384L, 1, -763956555321262092L, 6085620463843982194UL, -9223372036854775807L)}}}}}, new I0[, ][][][]{{new I0[][][]{new I0[][]{new I0[]{new S0(6276392225103992775UL, -19, 1, -2, 10L, 79, 1704223425629177148L, 0UL, 1368343462148588835L), new S0(18446744073709551615UL, 69, 85, 1, -5116358970144620899L, 0, 1L, 1UL, 9223372036854775806L)}, new I0[]{new S0(3222994344887466787UL, -81, 47, 1, -9223372036854775808L, 155, 1L, 1UL, -625077397203701111L), new S0(18446744073709551615UL, -82, 148, -82, -1571062012606289132L, 63, 1L, 666709058620434463UL, 8972472156920431971L)}}}, new I0[][][]{new I0[][]{new I0[]{new S0(1423805764248347595UL, 115, 1, 6, 1L, 92, -3932246676958493205L, 9107720615747463941UL, 9223372036854775807L), new S0(12227316915075837420UL, 126, 128, -64, 2408192006015209760L, 1, 9223372036854775806L, 11385973567135848658UL, 3205100426206055472L)}}}}, {new I0[][][]{new I0[][]{new I0[]{new S0(1297396211068380634UL, 34, 1, -27, 9223372036854775807L, 1, 6435671370271893427L, 1374476102389108710UL, 1L), new S0(5366098389218704098UL, -124, 62, 0, 9223372036854775806L, 1, 0L, 18446744073709551615UL, 7974021220611377141L)}}}, new I0[][][]{new I0[][]{new I0[]{new S0(12778657667013633373UL, -39, 1, 51, 2825325091060309280L, 1, 1L, 18446744073709551614UL, 1739692349606783629L), new S0(0UL, 36, 1, -14, -9223372036854775807L, 130, 9223372036854775806L, 1UL, 6487027542159431841L)}}}}}};
                     arg0 = arg0;
                     for (int var6 = 0; var6 < 2; var6++)
                     {
@@ -334,7 +372,7 @@ public class C0
                             var7 = Program.s_67;
                             Program.s_69 = this.F1;
                             new S0(9895143918263329694UL, -2, 116, 1, -6445601143633921812L, 0, 3944843929548194849L, 4504971034811495988UL, 9223372036854775806L).M78();
-                            S1 var8 = new S1(5839, 0L, -13612);
+                            var8 = new S1(5839, 0L, -13612);
                             Program.s_31 = new C0(this.F0, (byte)Program.M77(ref this.F0, ref Program.s_17, new S1(-2282, 7420404443281719293L, 1175), (ulong)new S0(5533663596529980119UL, -27, 223, 3, -9223372036854775808L, 254, 10L, 18446744073709551614UL, 3616943016124173143L).M78(), ref Program.s_45), Program.s_31.F2);
                             var8.F0 = -17350;
                         }
@@ -361,7 +399,7 @@ public class C0
                     this.F0 = (sbyte)(~this.F0--);
                 }
 
-                C0 var9 = this;
+                var9 = this;
                 Program.s_71 = var9.F1++;
             }
 
@@ -369,7 +407,7 @@ public class C0
             {
                 Program.s_43 = -6743361697606696688L;
                 Program.s_69 = 0;
-                S1 var10 = new S1(-13144, -2L, -32767);
+                var10 = new S1(-13144, -2L, -32767);
             }
         }
 
@@ -378,15 +416,18 @@ public class C0
 
     public int M88()
     {
+        long[] var0 = default(long[]);
+        int var1 = default(int);
+        int var2 = default(int);
         this.F2 = this.F2;
         this.F2 = true;
         this.F0 &= Program.s_16.F0--;
         Program.s_88 = new C1[]{new C1(2, 0, 1), new C1(1, 1, 41647), new C1(1, 13247, 1), new C1(1, 0, 0), new C1(-23722, 1, 65534), new C1(-2, 65534, 1), new C1(0, 7266, 1), new C1(9785, 0, 30696)};
         Program.s_64 = this.F1;
         --Program.s_28.F1;
-        long[] var0 = new long[]{4290971908168571097L, 7018756022454146881L, 9223372036854775807L, 9223372036854775806L, 9223372036854775806L, 1466459919429337633L};
+        var0 = new long[]{4290971908168571097L, 7018756022454146881L, 9223372036854775807L, 9223372036854775806L, 9223372036854775806L, 1466459919429337633L};
         this.F2 = true;
-        int var1 = Program.s_38;
+        var1 = Program.s_38;
         if (!this.F2)
         {
             Program.s_42[0].F0 = 15924240858610018368UL;
@@ -394,7 +435,7 @@ public class C0
 
         var0[0] -= -1L;
         {
-            int var2 = Program.s_6.F5 >> Program.s_50.F0++;
+            var2 = Program.s_6.F5 >> Program.s_50.F0++;
         }
 
         if (this.F2)
@@ -414,16 +455,34 @@ public class C0
 
     public I0 M94()
     {
+        S0 var1 = default(S0);
+        S1 var2 = default(S1);
+        short var4 = default(short);
+        S1[] var5 = default(S1[]);
+        uint var6 = default(uint);
+        short var7 = default(short);
+        long var8 = default(long);
+        S1 var9 = default(S1);
+        uint var10 = default(uint);
+        S0 var11 = default(S0);
+        uint var12 = default(uint);
+        int var13 = default(int);
+        S0 var14 = default(S0);
+        short var15 = default(short);
+        S0 var16 = default(S0);
+        C0[] var17 = default(C0[]);
+        C1 var18 = default(C1);
+        long var19 = default(long);
         for (int var0 = 0; var0 < 2; var0++)
         {
-            S0 var1 = new S0(~Program.s_6.F0--, this.F0, Program.s_42[0].F5, 0, Program.s_18.F1 * Program.s_17.F1++, 0, Program.s_37, 11245307702682533370UL, Program.s_36.F6);
+            var1 = new S0(~Program.s_6.F0--, this.F0, Program.s_42[0].F5, 0, Program.s_18.F1 * Program.s_17.F1++, 0, Program.s_37, 11245307702682533370UL, Program.s_36.F6);
             var1.F4++;
         }
 
         if (this.F2)
         {
             this.F2 = false;
-            S1 var2 = new S1(0, -9223372036854775807L, 5927);
+            var2 = new S1(0, -9223372036854775807L, 5927);
             var2.F2 = 27532;
             this.F0 = Program.s_36.F1;
             {
@@ -441,13 +500,13 @@ public class C0
                 Program.s_6.F2 = this.F1;
                 Program.s_5[0][0, 0, 0].F2 = 65534;
                 Program.s_31.F2 = Program.s_86.F2;
-                short var4 = var2.F2;
+                var4 = var2.F2;
                 var2.F1 = var2.F1;
                 Program.M95(this.F1, new int[]{-1747702821, 0, 0, 1723374459, 0, 1094713524, -2147483647});
                 this.F0 = 2;
-                S1[] var5 = new S1[]{new S1(-20167, 1L, 32766), new S1(-31878, 8915688073404036408L, -320), new S1(10, 0L, 2), new S1(-8627, 1L, 12097), new S1(1, -9223372036854775807L, 2), new S1(-1, 1L, -1)};
-                uint var6 = (uint)(var4 % (uint)((uint)(-363440131 ^ Program.s_19++) | 1));
-                short var7 = var2.F0;
+                var5 = new S1[]{new S1(-20167, 1L, 32766), new S1(-31878, 8915688073404036408L, -320), new S1(10, 0L, 2), new S1(-8627, 1L, 12097), new S1(1, -9223372036854775807L, 2), new S1(-1, 1L, -1)};
+                var6 = (uint)(var4 % (uint)((uint)(-363440131 ^ Program.s_19++) | 1));
+                var7 = var2.F0;
                 Program.s_53 = Program.s_46[0];
                 Program.M95(76, new int[]{1932698825, -2147483648, 542659323, 926840848});
                 {
@@ -455,20 +514,20 @@ public class C0
                 }
 
                 this.F2 = true;
-                long var8 = -9223372036854775808L;
+                var8 = -9223372036854775808L;
             }
             else
             {
-                S1 var9 = var2;
+                var9 = var2;
             }
 
             var2.F1 = var2.F1;
-            uint var10 = Program.s_12++;
+            var10 = Program.s_12++;
         }
 
         {
             this.F2 = this.F2;
-            S0 var11 = new S0(~Program.s_36.F0++, this.F0, this.F1, this.F0, Program.s_15--, Program.s_42[0].F5, -5358516069585616327L, (ulong)(Program.s_42[0].F2-- ^ this.F1), ~~(-Program.s_79.F1));
+            var11 = new S0(~Program.s_36.F0++, this.F0, this.F1, this.F0, Program.s_15--, Program.s_42[0].F5, -5358516069585616327L, (ulong)(Program.s_42[0].F2-- ^ this.F1), ~~(-Program.s_79.F1));
             var11 = var11;
             Program.M95(var11.F5, new int[]{2002214020, 1, 1929646914, 369259015, 1});
             --var11.F7;
@@ -478,16 +537,16 @@ public class C0
                 }
 
                 Program.M95(var11.F2, new int[]{0});
-                uint var12 = 2931798315U;
+                var12 = 2931798315U;
                 var11.F7 = var11.F7++;
-                int var13 = Program.s_74;
-                S0 var14 = var11;
+                var13 = Program.s_74;
+                var14 = var11;
                 var11 = var11;
-                short var15 = Program.s_28.F2;
+                var15 = Program.s_28.F2;
             }
 
             var11.F2 = this.F1--;
-            S0 var16 = new S0(1UL, 0, 60, 126, 1L, 0, -9131202047196326218L, 13247408021469394903UL, 8399496038741764334L);
+            var16 = new S0(1UL, 0, 60, 126, 1L, 0, -9131202047196326218L, 13247408021469394903UL, 8399496038741764334L);
             this.F1 = 0;
         }
 
@@ -496,7 +555,7 @@ public class C0
         {
             this.F2 = this.F2;
             {
-                C0[] var17 = new C0[]{new C0(76, 1, false), new C0(-127, 255, true), new C0(1, 10, false), new C0(126, 0, true), new C0(-41, 0, false), new C0(-113, 174, false), new C0(-1, 253, false), new C0(0, 251, false)};
+                var17 = new C0[]{new C0(76, 1, false), new C0(-127, 255, true), new C0(1, 10, false), new C0(126, 0, true), new C0(-41, 0, false), new C0(-113, 174, false), new C0(-1, 253, false), new C0(0, 251, false)};
                 var17[0].F1 = var17[0].F1;
                 this.F0 = (sbyte)(+var17[0].F0);
             }
@@ -509,11 +568,11 @@ public class C0
 
         {
             this.F2 = Program.s_22;
-            C1 var18 = new C1(32766, 64789, 2595);
+            var18 = new C1(32766, 64789, 2595);
         }
 
         this.F0 += (sbyte)(0 << this.F1);
-        long var19 = Program.s_42[0].F6;
+        var19 = Program.s_42[0].F6;
         Program.M95(214, new int[]{-10, -1, -1826808928, -2147483648});
         return new S0(0UL, 2, 71, -128, 4974571126677706220L, 1, -6209408481681856751L, 17658249315494137245UL, 7177583483929786331L);
     }
@@ -534,6 +593,13 @@ public class C0
 
     public S0 M108(uint arg0, uint arg1)
     {
+        bool var0 = default(bool);
+        C1 var3 = default(C1);
+        byte var5 = default(byte);
+        sbyte var6 = default(sbyte);
+        long var7 = default(long);
+        C1[] var8 = default(C1[]);
+        int var9 = default(int);
         Program.M109(ref Program.s_74, ref Program.s_67);
         if (this.F2)
         {
@@ -543,7 +609,7 @@ public class C0
                 Program.M109(ref Program.s_38, ref Program.s_67);
             }
 
-            bool var0 = this.F2;
+            var0 = this.F2;
             if (var0)
             {
                 Program.M109(ref Program.s_74, ref Program.s_67);
@@ -570,7 +636,7 @@ public class C0
                     arg0 = arg1;
                     if (Program.s_2[0])
                     {
-                        C1 var3 = Program.s_88[0];
+                        var3 = Program.s_88[0];
                         var3 = var3;
                         Program.M109(ref Program.s_58, ref Program.s_67);
                         var3.F2 = 48696;
@@ -586,22 +652,22 @@ public class C0
                 }
                 finally
                 {
-                    byte var5 = this.F1;
+                    var5 = this.F1;
                     if (Program.M110(ref arg1))
                     {
                         var5 = this.F1;
-                        sbyte var6 = this.F0;
+                        var6 = this.F0;
                         arg1 >>= (short)(-31724 & this.F1) % (int)(-2147483648 | 1);
                         arg0 = 1006115833U;
                         var6 = Program.s_6.F1;
-                        long var7 = 9223372036854775806L;
+                        var7 = 9223372036854775806L;
                         if (this.F2)
                         {
                             arg1 = arg1;
                         }
 
-                        C1[] var8 = new C1[]{new C1(32767, 17655, 21116), new C1(0, 62676, 58404), new C1(27685, 65534, 65534), new C1(1, 1, 65534), new C1(6215, 0, 57395), new C1(26392, 45102, 52786)};
-                        int var9 = (int)(11457289863137353600UL >> (short)(~var8[0].F0));
+                        var8 = new C1[]{new C1(32767, 17655, 21116), new C1(0, 62676, 58404), new C1(27685, 65534, 65534), new C1(1, 1, 65534), new C1(6215, 0, 57395), new C1(26392, 45102, 52786)};
+                        var9 = (int)(11457289863137353600UL >> (short)(~var8[0].F0));
                         var8[0].F2 = var8[0].F2;
                     }
                 }
@@ -613,26 +679,30 @@ public class C0
 
     public S1[] M112(ref ushort[][] arg0, bool arg1, ref S0[, ] arg2)
     {
+        C0 var0 = default(C0);
+        I0[] var1 = default(I0[]);
+        ushort var2 = default(ushort);
+        int var3 = default(int);
         this.F1 = this.F1;
         if (!(Program.s_28.F2 == Program.s_75[0, 0, 0]))
         {
             if (arg1)
             {
                 {
-                    C0 var0 = this;
-                    I0[] var1 = Program.s_67;
+                    var0 = this;
+                    var1 = Program.s_67;
                 }
 
                 Program.s_84.F0 = Program.s_73.F3;
                 arg2[0, 0].F4 = arg2[0, 0].F4--;
-                ushort var2 = Program.s_46[0].F1;
+                var2 = Program.s_46[0].F1;
             }
 
             arg2[0, 0].F0 = 17781142413093092259UL;
         }
 
         {
-            int var3 = 982552562;
+            var3 = 982552562;
             {
                 Program.M113(ref arg0[0][0], this);
                 {
@@ -676,10 +746,32 @@ public struct S0 : I0
 
     public long M7(S1 arg0)
     {
+        short var0 = default(short);
+        S1[] var1 = default(S1[]);
+        long var2 = default(long);
+        sbyte var3 = default(sbyte);
+        ulong var4 = default(ulong);
+        bool var6 = default(bool);
+        uint var8 = default(uint);
+        C1 var9 = default(C1);
+        bool var10 = default(bool);
+        ulong var11 = default(ulong);
+        I0 var12 = default(I0);
+        ushort var14 = default(ushort);
+        S1 var15 = default(S1);
+        S0 var16 = default(S0);
+        C1 var17 = default(C1);
+        long var18 = default(long);
+        int var19 = default(int);
+        ulong var21 = default(ulong);
+        I0[] var22 = default(I0[]);
+        S1 var23 = default(S1);
+        sbyte var24 = default(sbyte);
+        byte[] var25 = default(byte[]);
         if (1 >= this.F1)
         {
             this.F6 = 1L;
-            short var0 = arg0.F2;
+            var0 = arg0.F2;
             {
                 this = new S0(6958822246757824639UL, 18, 206, 113, 2129128209267665531L, 142, 0L, 7662348287031312101UL, -9223372036854775808L);
                 if (!(false && !!!(this.F7 == 459540054U)))
@@ -695,7 +787,7 @@ public struct S0 : I0
 
                     this.F2 = 245;
                     Program.s_50.M34() = Program.s_17;
-                    S1[] var1 = Program.s_1;
+                    var1 = Program.s_1;
                     new C0(97, 0, false).M76(ref Program.s_5[0][0, 0, 0].F1).M78();
                     Program.M67(var1[0], Program.s_53.F1, new C0[][]{new C0[]{new C0(127, 1, false), new C0(50, 1, true)}, new C0[]{new C0(-34, 10, false), new C0(-1, 94, false)}, new C0[]{new C0(38, 213, false), new C0(70, 1, true), new C0(-128, 254, false)}, new C0[]{new C0(127, 33, true), new C0(1, 0, false), new C0(-92, 126, true), new C0(-1, 50, true)}, new C0[]{new C0(-3, 1, true), new C0(0, 197, true), new C0(-114, 1, true), new C0(0, 1, false)}}).M34() = var1[0].M51(new C0(53, 254, false)).M61(ref this.F8, new I0[, ]{{new S0(0UL, 65, 241, 0, -9223372036854775807L, 0, -5107136125894565824L, 12096699249211096632UL, 10L), new S0(10UL, 58, 0, 0, 2089880954153844067L, 1, -5509165148176093574L, 13438863014482787469UL, 6182960162497678546L), new S0(18446744073709551615UL, 127, 1, 0, -2920118037865427277L, 110, 545811809940776269L, 1UL, 9223372036854775806L), new S0(10UL, 120, 254, -127, 1L, 97, 151691997698832626L, 16825751580117930593UL, 1L)}, {new S0(1UL, -61, 132, -128, 1L, 161, -7831163096010553206L, 14326685231996886767UL, -2399116317740685294L), new S0(0UL, 0, 1, -2, 2L, 40, 0L, 11376973361521400766UL, -9223372036854775808L), new S0(0UL, 1, 0, -127, -8489991492186945657L, 222, 1L, 1881341955035824543UL, -5348891440146841633L), new S0(0UL, 1, 90, 10, 2L, 254, 2505316620686835598L, 7052173506529250854UL, 9223372036854775806L)}});
                     this = this;
@@ -715,16 +807,16 @@ public struct S0 : I0
             if (Program.s_40)
             {
                 arg0.M51(Program.M75()).M43(Program.M80(ref arg0.F2, Program.s_2, this));
-                long var2 = (long)Program.M77(ref this.F1, ref arg0, new S1(20068, -2994526865889053415L, 0), (ulong)((sbyte)(~Program.s_36.F1) / (ushort)((ushort)(~Program.s_49) | 1)), ref Program.s_45);
+                var2 = (long)Program.M77(ref this.F1, ref arg0, new S1(20068, -2994526865889053415L, 0), (ulong)((sbyte)(~Program.s_36.F1) / (ushort)((ushort)(~Program.s_49) | 1)), ref Program.s_45);
                 this.F8 = 9223372036854775807L;
-                sbyte var3 = 127;
+                var3 = 127;
                 Program.M35(ref Program.s_36.F2);
-                ulong var4 = 13476366709084921353UL;
+                var4 = 13476366709084921353UL;
             }
             else
             {
                 ref S1 var5 = ref arg0;
-                bool var6 = new S1(32766, Program.s_42[0].F8, arg0.F2).M81();
+                var6 = new S1(32766, Program.s_42[0].F8, arg0.F2).M81();
                 try
                 {
                     Program.s_24.F3 = this.F3--;
@@ -741,7 +833,7 @@ public struct S0 : I0
 
                 ref sbyte var7 = ref this.F3;
                 arg0.F0 = Program.s_17.F0;
-                uint var8 = 0U;
+                var8 = 0U;
                 this.F8 = this.F8;
             }
 
@@ -749,7 +841,7 @@ public struct S0 : I0
             {
                 if (this.M82(-1544918688, new sbyte[]{23, 0, -128, -116, 14, -128, 127, 47, 1, 50}, ref Program.s_30))
                 {
-                    C1 var9 = new C1(-13862, 37969, 0);
+                    var9 = new C1(-13862, 37969, 0);
                     try
                     {
                         Program.M59() = var9.F1;
@@ -769,22 +861,22 @@ public struct S0 : I0
                     if (Program.M86() <= 1990740577)
                     {
                         {
-                            bool var10 = true;
-                            ulong var11 = this.F7;
+                            var10 = true;
+                            var11 = this.F7;
                             this.F2 = 1;
                             arg0.F2 = 0;
                         }
 
                         this.M38(new ulong[]{8375235056941037176UL}, 1501);
-                        I0 var12 = new S0(this.F0, this.F3, this.F2, this.F3, 1L, 81, Program.s_52, 14320225159144852082UL, arg0.F1);
+                        var12 = new S0(this.F0, this.F3, this.F2, this.F3, 1L, 81, Program.s_52, 14320225159144852082UL, arg0.F1);
                     }
 
                     for (int var13 = 0; var13 < 2; var13++)
                     {
                         this.F8 = Program.s_18.F1;
                         this.F4 = -arg0.F1--;
-                        ushort var14 = Program.s_88[0].F1++;
-                        S1 var15 = arg0;
+                        var14 = Program.s_88[0].F1++;
+                        var15 = arg0;
                         new C1(-26161, 2, 65534).M99(0U);
                     }
 
@@ -792,7 +884,7 @@ public struct S0 : I0
                     if (Program.M24())
                     {
                         Program.s_24.M53();
-                        S0 var16 = new S0(5467085551640817703UL, 116, 1, 127, -2L, 241, 0L, 9072175737907298867UL, -4090337468235937551L);
+                        var16 = new S0(5467085551640817703UL, 116, 1, 127, -2L, 241, 0L, 9072175737907298867UL, -4090337468235937551L);
                         new C1(1, 14835, 65535).M66(Program.s_26, 23815, new C1(-25050, 16023, 4464)) *= 0;
                         Program.s_89.F4 = Program.s_80;
                         Program.s_117 = new C0(-127, 1, false);
@@ -804,7 +896,7 @@ public struct S0 : I0
                     }
                     else
                     {
-                        C1 var17 = Program.s_53;
+                        var17 = Program.s_53;
                         Program.s_118 = new S1(-32767, -1690412286424430420L, 32766);
                     }
 
@@ -813,7 +905,7 @@ public struct S0 : I0
                     {
                         {
                             this = this;
-                            long var18 = this.F6;
+                            var18 = this.F6;
                             this.F1 = Program.s_89.F3;
                             this.F2 = (byte)(416442100U << (byte)Program.M80(ref arg0.F0, new bool[]{true, true, true, false, false, true, false, true}, this));
                             arg0 = Program.s_18;
@@ -831,7 +923,7 @@ public struct S0 : I0
                 }
 
                 this.M44(ref Program.M20(this.M85(new C1(-32767, 64916, 40610), this.F0)).M99(1U));
-                int var19 = 1539499557;
+                var19 = 1539499557;
                 ref bool[] var20 = ref Program.s_2;
             }
             else
@@ -839,7 +931,7 @@ public struct S0 : I0
                 arg0.F1 = arg0.F1--;
                 Program.s_119 = new S1(-30665, 3801175786246974873L, -15766).M103();
                 arg0 = new S1(3090, 0L, -32767);
-                ulong var21 = this.F7;
+                var21 = this.F7;
             }
 
             {
@@ -850,7 +942,7 @@ public struct S0 : I0
                     }
                     else
                     {
-                        I0[] var22 = Program.M115(1U);
+                        var22 = Program.M115(1U);
                         Program.M32();
                         Program.M33();
                         new S1(1, -1L, -32768).M98(new S1(5636, 1L, -9762), arg0.F0, new uint[, ]{{1U, 2291503482U, 4294967294U, 2327877500U}, {0U, 686523047U, 2861173068U, 2787749936U}, {1U, 0U, 1U, 3438984304U}, {455348231U, 2140341813U, 1U, 1U}, {0U, 2182861939U, 4294967295U, 1U}, {4294967294U, 0U, 3197143514U, 2U}, {2563707326U, 3370571431U, 0U, 1U}, {1981678329U, 1U, 765666063U, 1361602196U}}, Program.s_90, Program.s_38) = (int)Program.M95(this.F2, new C1(1, 2074, 53180).M69()).M49((byte)(this.F3 >> ~Program.s_76));
@@ -867,14 +959,14 @@ public struct S0 : I0
                 }
                 else
                 {
-                    S1 var23 = arg0;
+                    var23 = arg0;
                 }
 
                 Program.M115(Program.s_12--);
                 if (Program.s_40)
                 {
-                    sbyte var24 = this.F3;
-                    byte[] var25 = Program.s_45;
+                    var24 = this.F3;
+                    var25 = Program.s_45;
                     this.F5 = var25[0];
                 }
 
@@ -893,9 +985,24 @@ public struct S0 : I0
 
     public long[] M27(ushort arg0, bool arg1, S1 arg2, C1[] arg3, uint arg4, ref long[] arg5, byte arg6)
     {
+        S1 var1 = default(S1);
+        sbyte var2 = default(sbyte);
+        byte[] var3 = default(byte[]);
+        bool var4 = default(bool);
+        C1 var5 = default(C1);
+        ushort var7 = default(ushort);
+        C1 var8 = default(C1);
+        S1 var9 = default(S1);
+        bool[] var10 = default(bool[]);
+        ushort var11 = default(ushort);
+        C0 var12 = default(C0);
+        int var13 = default(int);
+        I0 var14 = default(I0);
+        S0 var15 = default(S0);
+        C0 var16 = default(C0);
         for (int var0 = 0; var0 < 2; var0++)
         {
-            S1 var1 = arg2;
+            var1 = arg2;
             {
                 try
                 {
@@ -905,14 +1012,14 @@ public struct S0 : I0
                 {
                     if (!arg1)
                     {
-                        sbyte var2 = this.F3;
+                        var2 = this.F3;
                         arg2.F1 = arg5[0];
-                        byte[] var3 = new byte[]{0, 1, 132, 31, 2, 0, 0};
+                        var3 = new byte[]{0, 1, 132, 31, 2, 0, 0};
                     }
                     else
                     {
                         this.F3 = (sbyte)(~this.F1);
-                        bool var4 = arg1;
+                        var4 = arg1;
                         Program.s_19 = arg3[0].F1++;
                         arg2 = arg2;
                         Program.s_1[0] = Program.s_18;
@@ -922,7 +1029,7 @@ public struct S0 : I0
                         {
                             new C0(-128, 0, false).M34() = new S1(0, -7896020701766610495L, -2);
                             arg0 = arg3[0].F1;
-                            C1 var5 = arg3[0];
+                            var5 = arg3[0];
                         }
 
                         try
@@ -930,25 +1037,25 @@ public struct S0 : I0
                             this.F5 = (byte)Program.M35(ref this.F2);
                             new C0(-2, 172, false).M34() = Program.s_28;
                             ref byte var6 = ref this.F2;
-                            ushort var7 = arg3[0].F2;
+                            var7 = arg3[0].F2;
                             Program.M40(Program.s_32[0].F0);
                         }
                         finally
                         {
-                            C1 var8 = arg3[0];
-                            S1 var9 = var1;
+                            var8 = arg3[0];
+                            var9 = var1;
                         }
 
                         Program.s_21[0][0, 0].F0 += this.F3;
                         Program.s_27[0].F2 = arg1;
                     }
 
-                    bool[] var10 = new bool[]{true, false, false, true, false, false, true, true, true, false};
-                    ushort var11 = arg0;
+                    var10 = new bool[]{true, false, false, true, false, false, true, true, true, false};
+                    var11 = arg0;
                     var11 = Program.s_19;
                 }
 
-                C0 var12 = Program.s_27[0];
+                var12 = Program.s_27[0];
             }
         }
 
@@ -961,13 +1068,13 @@ public struct S0 : I0
                 Program.s_27[0].F0 = this.F1++;
             }
 
-            int var13 = 514644322;
+            var13 = 514644322;
             if (arg1)
             {
                 Program.M33();
                 Program.s_4 = Program.s_36.F0;
-                I0 var14 = this;
-                S0 var15 = this;
+                var14 = this;
+                var15 = this;
                 new S1(0, 0L, 22889).M37(ref arg3[0], Program.s_36.F4);
             }
 
@@ -976,7 +1083,7 @@ public struct S0 : I0
 
         arg2.M37(ref arg3[0], this.F4);
         Program.s_23 = new C0(1, 10, true);
-        C0 var16 = Program.s_16.M43(0);
+        var16 = Program.s_16.M43(0);
         new C0(1, 114, false).M34() = new S1(10, 0L, 0);
         return new long[]{1L, -1706405095976566969L, 0L, -2165899968144586854L, 1L, 1L};
     }
@@ -990,6 +1097,7 @@ public struct S0 : I0
 
     public ushort M38(ulong[] arg0, ushort arg1)
     {
+        uint[] var3 = default(uint[]);
         try
         {
             ref long var0 = ref this.F8;
@@ -1023,7 +1131,7 @@ public struct S0 : I0
                     this.F4 = Program.s_6.F6++;
                     try
                     {
-                        uint[] var3 = new uint[]{1U, 449983641U, 1609267378U, 0U, 1686721275U, 990726639U, 4018483876U, 0U, 4294967295U};
+                        var3 = new uint[]{1U, 449983641U, 1609267378U, 0U, 1686721275U, 990726639U, 4018483876U, 0U, 4294967295U};
                     }
                     finally
                     {
@@ -1060,8 +1168,11 @@ public struct S0 : I0
 
     public short M53()
     {
+        ushort[] var0 = default(ushort[]);
+        sbyte var2 = default(sbyte);
+        C1 var3 = default(C1);
         {
-            ushort[] var0 = new ushort[]{1, 0, 34207, 30317, 53115, 1, 1};
+            var0 = new ushort[]{1, 0, 34207, 30317, 53115, 1, 1};
             this.F4 = ~this.F6;
             Program.M54(ref this.F2, Program.s_18, Program.s_46[0].F2, ref this);
             {
@@ -1082,8 +1193,8 @@ public struct S0 : I0
 
         {
             this.F8 = -7042109289306699078L;
-            sbyte var2 = (sbyte)Program.M59();
-            C1 var3 = Program.s_5[0][0, 0, 0];
+            var2 = (sbyte)Program.M59();
+            var3 = Program.s_5[0][0, 0, 0];
         }
 
         this.F8 >>= -1;
@@ -1092,15 +1203,17 @@ public struct S0 : I0
 
     public S1 M55()
     {
+        S0[, ] var0 = default(S0[, ]);
         Program.M56();
-        S0[, ] var0 = new S0[, ]{{new S0(893060457768719818UL, -21, 110, -5, 9223372036854775806L, 1, -3045740391901813445L, 0UL, 1L), new S0(9591503660606568125UL, 75, 5, 1, -6783040196720167019L, 29, -9223372036854775807L, 9040364023587819021UL, -2L), new S0(1UL, -2, 255, 26, -9223372036854775807L, 49, -9223372036854775807L, 18446744073709551614UL, 2633997794563652835L), new S0(18446744073709551615UL, 1, 0, -128, -3750683363512243095L, 134, -4177486285698028211L, 2665652529389053269UL, 9223372036854775806L), new S0(1UL, 127, 35, -38, -4133489671242008947L, 0, 5458402020457096765L, 10556320955215533170UL, -9223372036854775807L), new S0(18446744073709551615UL, 0, 207, 0, 0L, 25, 0L, 12384656560951833903UL, 10L), new S0(2490658750298516995UL, -87, 94, 127, -1L, 255, -4092262429349582600L, 14484754788787678314UL, -6979206794368623232L), new S0(18446744073709551614UL, 97, 166, -67, 1L, 1, -9223372036854775807L, 14581269033440123784UL, 9223372036854775806L)}, {new S0(1478736953534625980UL, 2, 192, 2, -1944360884191409898L, 153, 1702768067129980412L, 2UL, 5797052773193763911L), new S0(17454536429092134289UL, 0, 254, 126, 4331086384726504189L, 2, -8543903572162182197L, 18446744073709551614UL, -2L), new S0(17413091680920937785UL, 0, 1, 0, -7128346711723922835L, 124, 8058621471405667747L, 2948503682458514509UL, -539513981908134127L), new S0(2929865643238673655UL, 1, 239, 13, 1472841173550754645L, 254, -9223372036854775807L, 7691910424721771026UL, -6978068083447630009L), new S0(18446744073709551614UL, 127, 90, 10, -5354340313852806505L, 1, 7262474566222478112L, 18446744073709551614UL, 1714098873338501254L), new S0(7441012686120742650UL, 0, 173, -79, -7755179537850421579L, 16, 1363610667743942272L, 0UL, 5253575842432072299L), new S0(1963453754246820007UL, 1, 0, 64, 5362876743687973684L, 83, 4396010720767412790L, 2910553388619411528UL, 10L), new S0(4966566786030137427UL, 69, 0, -2, -7220444204768312382L, 254, 0L, 4781278411072187575UL, 1903581745599070104L)}};
+        var0 = new S0[, ]{{new S0(893060457768719818UL, -21, 110, -5, 9223372036854775806L, 1, -3045740391901813445L, 0UL, 1L), new S0(9591503660606568125UL, 75, 5, 1, -6783040196720167019L, 29, -9223372036854775807L, 9040364023587819021UL, -2L), new S0(1UL, -2, 255, 26, -9223372036854775807L, 49, -9223372036854775807L, 18446744073709551614UL, 2633997794563652835L), new S0(18446744073709551615UL, 1, 0, -128, -3750683363512243095L, 134, -4177486285698028211L, 2665652529389053269UL, 9223372036854775806L), new S0(1UL, 127, 35, -38, -4133489671242008947L, 0, 5458402020457096765L, 10556320955215533170UL, -9223372036854775807L), new S0(18446744073709551615UL, 0, 207, 0, 0L, 25, 0L, 12384656560951833903UL, 10L), new S0(2490658750298516995UL, -87, 94, 127, -1L, 255, -4092262429349582600L, 14484754788787678314UL, -6979206794368623232L), new S0(18446744073709551614UL, 97, 166, -67, 1L, 1, -9223372036854775807L, 14581269033440123784UL, 9223372036854775806L)}, {new S0(1478736953534625980UL, 2, 192, 2, -1944360884191409898L, 153, 1702768067129980412L, 2UL, 5797052773193763911L), new S0(17454536429092134289UL, 0, 254, 126, 4331086384726504189L, 2, -8543903572162182197L, 18446744073709551614UL, -2L), new S0(17413091680920937785UL, 0, 1, 0, -7128346711723922835L, 124, 8058621471405667747L, 2948503682458514509UL, -539513981908134127L), new S0(2929865643238673655UL, 1, 239, 13, 1472841173550754645L, 254, -9223372036854775807L, 7691910424721771026UL, -6978068083447630009L), new S0(18446744073709551614UL, 127, 90, 10, -5354340313852806505L, 1, 7262474566222478112L, 18446744073709551614UL, 1714098873338501254L), new S0(7441012686120742650UL, 0, 173, -79, -7755179537850421579L, 16, 1363610667743942272L, 0UL, 5253575842432072299L), new S0(1963453754246820007UL, 1, 0, 64, 5362876743687973684L, 83, 4396010720767412790L, 2910553388619411528UL, 10L), new S0(4966566786030137427UL, 69, 0, -2, -7220444204768312382L, 254, 0L, 4781278411072187575UL, 1903581745599070104L)}};
         Program.M56();
         return new S1(23648, 2L, -8752);
     }
 
     public short M74(ref C0[] arg0, long arg1)
     {
-        long var0 = -10L;
+        long var0 = default(long);
+        var0 = -10L;
         Program.s_18 = new S1(1, 908405631824207838L, -4941);
         {
             arg0[0].F1 = arg0[0].F1;
@@ -1119,11 +1232,13 @@ public struct S0 : I0
 
     public ref bool M82(int arg0, sbyte[] arg1, ref uint arg2)
     {
+        sbyte[] var0 = default(sbyte[]);
+        I0[][] var1 = default(I0[][]);
         this.F1 = -1;
         if (Program.s_50.F2)
         {
             Program.s_85 = 34474;
-            sbyte[] var0 = arg1;
+            var0 = arg1;
             Program.s_73.M83();
             arg2 = ref arg2;
             Program.s_73.F2 = this.F2++;
@@ -1131,7 +1246,7 @@ public struct S0 : I0
         }
 
         this.F2 = (byte)Program.M84(Program.s_16.F1, 10U, this, false);
-        I0[][] var1 = new I0[][]{new I0[]{new S0(16399679222752372939UL, 0, 254, 52, 3219253711066202685L, 192, -9223372036854775808L, 11658253975487453805UL, -8137898604637192578L), new S0(4895100497557508298UL, -1, 1, 1, 5339190293527103090L, 73, 2466608783413854563L, 11486970734854884610UL, -5493663918717578163L), new S0(0UL, -1, 0, -84, -9223372036854775808L, 1, -8232093872461246504L, 12716805820705795752UL, -5115191854349325108L), new S0(2345579907323305181UL, 1, 254, 0, 4481066018196572343L, 0, -9223372036854775808L, 2UL, 2L), new S0(0UL, -127, 1, -127, 4932240077074042840L, 101, 4670315774072011247L, 2918293865772524263UL, -6804559768302264771L), new S0(2UL, 0, 0, 0, 0L, 82, -641181692565866514L, 1UL, -7790262806160355232L), new S0(12238034761060741746UL, 0, 26, 127, -3437149578134485089L, 0, 0L, 12949614268504585716UL, 4777454893489002109L), new S0(16984805668821236120UL, 0, 229, 36, -2860395520650136506L, 223, 1L, 0UL, -6482282023677004336L)}, new I0[]{new S0(0UL, -12, 188, 0, -5999292317902502508L, 0, 0L, 7812708031795715635UL, -1066022635902553084L), new S0(5858507988332731655UL, 1, 2, 0, -1789061455693185623L, 216, -9223372036854775807L, 1UL, 0L), new S0(0UL, -127, 157, -125, -9223372036854775808L, 254, -2L, 10155738902636432584UL, -8072497908144607807L), new S0(16771914433944968546UL, 21, 0, -1, -10L, 2, 5780943914033857118L, 0UL, 4657917177528692136L), new S0(1UL, 95, 163, 41, -8309807219821721235L, 42, 8594669552296924750L, 2113379642110405704UL, -2L), new S0(1UL, 126, 123, -2, 9223372036854775806L, 128, 4711858332254783L, 18446744073709551615UL, -10L), new S0(1UL, 1, 1, 127, 9223372036854775806L, 255, -2L, 1UL, -8879869641980210192L), new S0(0UL, -127, 21, -128, 1397260213406403982L, 251, -8557077027074635216L, 1221046710394364043UL, -3480355274030187934L), new S0(13246363301404486854UL, 88, 1, -14, 0L, 205, -4496405785996180133L, 14147120731708961928UL, -2115602255655688026L), new S0(0UL, -1, 84, 95, 0L, 1, -2L, 0UL, 262737829956226058L)}, new I0[]{new S0(0UL, -1, 0, 36, 10L, 1, 9223372036854775807L, 311914113880886113UL, 5469866945715280121L), new S0(8715939970649692811UL, -51, 141, 1, -7912575890779612193L, 112, -6321678356419074909L, 0UL, -2L), new S0(0UL, -96, 203, 107, 1720289280353031254L, 0, -9223372036854775808L, 18446744073709551614UL, 7942336232847815957L), new S0(1UL, 0, 1, -10, -853871639447426691L, 113, 4127021939594624278L, 2178685056824659383UL, 2L), new S0(0UL, -96, 254, 1, -9223372036854775807L, 229, 0L, 18446744073709551615UL, -7893288025180635603L)}, new I0[]{new S0(1UL, 39, 255, 127, -8256655923982884431L, 0, 1L, 0UL, 9223372036854775807L), new S0(16251205818676303756UL, 1, 0, 126, -6599667822527118253L, 13, -710938562065021614L, 6251196057445503356UL, 1L), new S0(18446744073709551615UL, 74, 254, 2, 9223372036854775806L, 10, -9223372036854775808L, 11848068236564649654UL, 1L), new S0(1UL, 10, 121, -104, -9223372036854775808L, 1, 8159590600306783300L, 7491696523364798228UL, 0L), new S0(17237523210807524493UL, -42, 254, 74, -10L, 193, -5064729848753387924L, 6426845538430391996UL, 0L), new S0(17088897612967998872UL, 42, 220, -128, 23986776135178225L, 110, 10L, 15278301437214837806UL, 8702290717030005483L)}, new I0[]{new S0(9214514548331398506UL, 10, 180, 1, 3355737930103161487L, 35, -5899266603448880069L, 18446744073709551614UL, 7363254145561245045L), new S0(1UL, 1, 181, -68, -303219147600419033L, 255, 0L, 10167097614342004947UL, -4606660868820134243L), new S0(16505254637700636471UL, 115, 227, 78, -9223372036854775807L, 1, 9223372036854775806L, 18446744073709551615UL, 5301087028210372714L), new S0(1UL, 29, 200, 99, -5727182998704383352L, 55, -9223372036854775808L, 0UL, 2173142006200247481L), new S0(1UL, 126, 0, 0, 9223372036854775807L, 255, 6684316721347747931L, 0UL, -413365816447717342L), new S0(15671385020025175946UL, 62, 1, 126, 6113312675321747633L, 164, 1L, 0UL, 1L), new S0(13080757390047992185UL, -125, 129, 0, 1L, 0, 7937487329118988768L, 16950090942961934038UL, -2997281357008889733L), new S0(0UL, 10, 224, 1, -8541848472118188520L, 183, 7760541443889255080L, 1UL, -9223372036854775807L), new S0(3381631319409863774UL, 24, 92, 126, 1L, 1, 9223372036854775807L, 18281483694135003510UL, -9223372036854775807L), new S0(18446744073709551614UL, -47, 184, -36, -1L, 176, -2121737022738620384L, 1799077516497208514UL, 7730688186697268717L)}};
+        var1 = new I0[][]{new I0[]{new S0(16399679222752372939UL, 0, 254, 52, 3219253711066202685L, 192, -9223372036854775808L, 11658253975487453805UL, -8137898604637192578L), new S0(4895100497557508298UL, -1, 1, 1, 5339190293527103090L, 73, 2466608783413854563L, 11486970734854884610UL, -5493663918717578163L), new S0(0UL, -1, 0, -84, -9223372036854775808L, 1, -8232093872461246504L, 12716805820705795752UL, -5115191854349325108L), new S0(2345579907323305181UL, 1, 254, 0, 4481066018196572343L, 0, -9223372036854775808L, 2UL, 2L), new S0(0UL, -127, 1, -127, 4932240077074042840L, 101, 4670315774072011247L, 2918293865772524263UL, -6804559768302264771L), new S0(2UL, 0, 0, 0, 0L, 82, -641181692565866514L, 1UL, -7790262806160355232L), new S0(12238034761060741746UL, 0, 26, 127, -3437149578134485089L, 0, 0L, 12949614268504585716UL, 4777454893489002109L), new S0(16984805668821236120UL, 0, 229, 36, -2860395520650136506L, 223, 1L, 0UL, -6482282023677004336L)}, new I0[]{new S0(0UL, -12, 188, 0, -5999292317902502508L, 0, 0L, 7812708031795715635UL, -1066022635902553084L), new S0(5858507988332731655UL, 1, 2, 0, -1789061455693185623L, 216, -9223372036854775807L, 1UL, 0L), new S0(0UL, -127, 157, -125, -9223372036854775808L, 254, -2L, 10155738902636432584UL, -8072497908144607807L), new S0(16771914433944968546UL, 21, 0, -1, -10L, 2, 5780943914033857118L, 0UL, 4657917177528692136L), new S0(1UL, 95, 163, 41, -8309807219821721235L, 42, 8594669552296924750L, 2113379642110405704UL, -2L), new S0(1UL, 126, 123, -2, 9223372036854775806L, 128, 4711858332254783L, 18446744073709551615UL, -10L), new S0(1UL, 1, 1, 127, 9223372036854775806L, 255, -2L, 1UL, -8879869641980210192L), new S0(0UL, -127, 21, -128, 1397260213406403982L, 251, -8557077027074635216L, 1221046710394364043UL, -3480355274030187934L), new S0(13246363301404486854UL, 88, 1, -14, 0L, 205, -4496405785996180133L, 14147120731708961928UL, -2115602255655688026L), new S0(0UL, -1, 84, 95, 0L, 1, -2L, 0UL, 262737829956226058L)}, new I0[]{new S0(0UL, -1, 0, 36, 10L, 1, 9223372036854775807L, 311914113880886113UL, 5469866945715280121L), new S0(8715939970649692811UL, -51, 141, 1, -7912575890779612193L, 112, -6321678356419074909L, 0UL, -2L), new S0(0UL, -96, 203, 107, 1720289280353031254L, 0, -9223372036854775808L, 18446744073709551614UL, 7942336232847815957L), new S0(1UL, 0, 1, -10, -853871639447426691L, 113, 4127021939594624278L, 2178685056824659383UL, 2L), new S0(0UL, -96, 254, 1, -9223372036854775807L, 229, 0L, 18446744073709551615UL, -7893288025180635603L)}, new I0[]{new S0(1UL, 39, 255, 127, -8256655923982884431L, 0, 1L, 0UL, 9223372036854775807L), new S0(16251205818676303756UL, 1, 0, 126, -6599667822527118253L, 13, -710938562065021614L, 6251196057445503356UL, 1L), new S0(18446744073709551615UL, 74, 254, 2, 9223372036854775806L, 10, -9223372036854775808L, 11848068236564649654UL, 1L), new S0(1UL, 10, 121, -104, -9223372036854775808L, 1, 8159590600306783300L, 7491696523364798228UL, 0L), new S0(17237523210807524493UL, -42, 254, 74, -10L, 193, -5064729848753387924L, 6426845538430391996UL, 0L), new S0(17088897612967998872UL, 42, 220, -128, 23986776135178225L, 110, 10L, 15278301437214837806UL, 8702290717030005483L)}, new I0[]{new S0(9214514548331398506UL, 10, 180, 1, 3355737930103161487L, 35, -5899266603448880069L, 18446744073709551614UL, 7363254145561245045L), new S0(1UL, 1, 181, -68, -303219147600419033L, 255, 0L, 10167097614342004947UL, -4606660868820134243L), new S0(16505254637700636471UL, 115, 227, 78, -9223372036854775807L, 1, 9223372036854775806L, 18446744073709551615UL, 5301087028210372714L), new S0(1UL, 29, 200, 99, -5727182998704383352L, 55, -9223372036854775808L, 0UL, 2173142006200247481L), new S0(1UL, 126, 0, 0, 9223372036854775807L, 255, 6684316721347747931L, 0UL, -413365816447717342L), new S0(15671385020025175946UL, 62, 1, 126, 6113312675321747633L, 164, 1L, 0UL, 1L), new S0(13080757390047992185UL, -125, 129, 0, 1L, 0, 7937487329118988768L, 16950090942961934038UL, -2997281357008889733L), new S0(0UL, 10, 224, 1, -8541848472118188520L, 183, 7760541443889255080L, 1UL, -9223372036854775807L), new S0(3381631319409863774UL, 24, 92, 126, 1L, 1, 9223372036854775807L, 18281483694135003510UL, -9223372036854775807L), new S0(18446744073709551614UL, -47, 184, -36, -1L, 176, -2121737022738620384L, 1799077516497208514UL, 7730688186697268717L)}};
         new S0(10449758106327126597UL, 52, 29, 10, 0L, 0, -3244462891172676558L, 2355815829842508219UL, 3903993940628895517L).M85(new C1(26038, 1, 0), this.F0);
         arg1[0] = -113;
         return ref Program.s_44;
@@ -1139,15 +1254,18 @@ public struct S0 : I0
 
     public short[] M83()
     {
-        short var0 = Program.M84(Program.s_27[0].F1, Program.s_30++, this, !!Program.s_31.F2);
+        short var0 = default(short);
+        I0 var1 = default(I0);
+        bool[] var2 = default(bool[]);
+        var0 = Program.M84(Program.s_27[0].F1, Program.s_30++, this, !!Program.s_31.F2);
         this.M85(new C1(-32768, 0, 0), this.F7);
-        I0 var1 = this;
+        var1 = this;
         this.F7--;
         Program.M84(this.F2, 0U, new S0(18446744073709551614UL, 38, 20, 1, -7557520967113927321L, 0, -1697857809321343787L, 18446744073709551614UL, 1400785712320450098L), true);
         {
             var1 = new S0(this.F0, this.F1, this.F2, this.F3, -1407435257052361536L, 0, (long)Program.M84(1, 0U, var1, false), (ulong)Program.M84((byte)(~this.F5), Program.s_30, var1, Program.s_23.F2), Program.s_75[0, 0, 0] / (long)(this.F6 | 1));
             Program.s_69 = this.F5;
-            bool[] var2 = new bool[]{true, true, true, false, true, false, true};
+            var2 = new bool[]{true, true, true, false, true, false, true};
         }
 
         return new short[]{-31229};
@@ -1155,9 +1273,10 @@ public struct S0 : I0
 
     public C1 M85(C1 arg0, ulong arg1)
     {
+        C1 var1 = default(C1);
         for (int var0 = 0; var0 < 2; var0++)
         {
-            C1 var1 = arg0;
+            var1 = arg0;
             Program.s_84 = new C0(108, 1, false);
         }
 
@@ -1166,6 +1285,17 @@ public struct S0 : I0
 
     public sbyte M91(int arg0)
     {
+        C1 var0 = default(C1);
+        ushort var1 = default(ushort);
+        S0 var2 = default(S0);
+        long var3 = default(long);
+        sbyte var4 = default(sbyte);
+        sbyte var5 = default(sbyte);
+        I0 var6 = default(I0);
+        S1 var7 = default(S1);
+        sbyte[] var8 = default(sbyte[]);
+        C1 var10 = default(C1);
+        S1 var11 = default(S1);
         Program.s_31 = Program.s_21[0][0, 0];
         {
             if (Program.s_50.F2)
@@ -1173,41 +1303,41 @@ public struct S0 : I0
                 this = new S0(18446744073709551615UL, -10, 23, 41, 2654334464883265452L, 2, 9223372036854775807L, 18446744073709551615UL, 4470573569987931585L);
                 if (Program.s_31.F2)
                 {
-                    C1 var0 = new C1(-30212, 1, 20364);
+                    var0 = new C1(-30212, 1, 20364);
                     Program.s_20 = var0.F1;
                     arg0 = -464384686;
                     --this.F8;
                 }
                 else
                 {
-                    ushort var1 = 28677;
+                    var1 = 28677;
                     this.F5 = this.F5;
                     this.F4 = 445414684 / (long)(this.F8 | 1);
                 }
             }
 
-            S0 var2 = this;
+            var2 = this;
             if (1UL >= this.F2)
             {
-                long var3 = var2.F6;
-                sbyte var4 = -10;
-                sbyte var5 = var2.F1;
+                var3 = var2.F6;
+                var4 = -10;
+                var5 = var2.F1;
             }
             else
             {
                 Program.s_19 = 0;
-                I0 var6 = this;
+                var6 = this;
                 {
                     {
                         this.F4 = this.F4;
                         this.F4 = this.F6++;
-                        S1 var7 = new S1(19242, 9088881520221136215L, 32766);
+                        var7 = new S1(19242, 9088881520221136215L, 32766);
                     }
 
-                    sbyte[] var8 = new sbyte[]{-100, -128, 126, 0, 1, 70, 109, -1, -2, -10};
+                    var8 = new sbyte[]{-100, -128, 126, 0, 1, 70, 109, -1, -2, -10};
                     ref I0 var9 = ref var6;
-                    C1 var10 = Program.s_53;
-                    S1 var11 = new S1(-31048, -2L, 15514);
+                    var10 = Program.s_53;
+                    var11 = new S1(-31048, -2L, 15514);
                     var9 = ref Program.s_63;
                     Program.s_88 = new C1[]{new C1(-1, 6249, 7691), new C1(-10, 59315, 48689), new C1(-10, 10688, 1), new C1(32767, 6357, 25246), new C1(-2430, 1, 21855), new C1(32766, 65534, 61107), new C1(-18859, 1, 25846), new C1(13215, 0, 1), new C1(-11493, 23395, 14399), new C1(0, 65534, 0)};
                     Program.M92();
@@ -1229,7 +1359,19 @@ public struct S0 : I0
 
     public int M97(S1 arg0)
     {
-        int var0 = Program.s_58--;
+        int var0 = default(int);
+        ulong var1 = default(ulong);
+        S0 var2 = default(S0);
+        long var3 = default(long);
+        S0 var4 = default(S0);
+        C0 var5 = default(C0);
+        int var6 = default(int);
+        bool var7 = default(bool);
+        S0 var8 = default(S0);
+        long[] var9 = default(long[]);
+        long var10 = default(long);
+        ulong var11 = default(ulong);
+        var0 = Program.s_58--;
         if (arg0.F0 > 10)
         {
             this.F1 = this.F3;
@@ -1237,9 +1379,9 @@ public struct S0 : I0
             {
                 arg0.M98(new S1(-17602, 997095437453008718L, -27450), 0, new uint[, ]{{3382542077U, 1U, 1148339725U, 1U, 1U, 4294967295U}, {2107568547U, 2U, 0U, 1335912391U, 829521602U, 1U}, {2218528233U, 2049060810U, 399588880U, 0U, 1U, 3428584356U}, {1U, 1839868600U, 1U, 3795480119U, 1712887351U, 0U}, {1U, 1552887893U, 1U, 4144842931U, 1U, 4294967294U}, {0U, 4211229906U, 0U, 1U, 4256049825U, 3840464300U}, {4294967294U, 0U, 1U, 0U, 4131158444U, 4250755882U}, {0U, 1U, 3375619244U, 0U, 3169212744U, 3395665067U}, {2040549927U, 0U, 75194629U, 1044903703U, 3730563098U, 0U}, {4294967295U, 782937648U, 3820629420U, 0U, 2502268349U, 4294967295U}}, Program.s_36.F0++, Program.s_58);
                 Program.M101();
-                ulong var1 = this.F0;
+                var1 = this.F0;
                 arg0.F1 = Program.M101();
-                S0 var2 = this;
+                var2 = this;
                 {
                     Program.s_24.F8 = this.F8;
                     arg0.M102();
@@ -1249,31 +1391,31 @@ public struct S0 : I0
             {
                 if (!!!Program.s_27[0].F2)
                 {
-                    long var3 = 7322993961193597806L;
+                    var3 = 7322993961193597806L;
                     {
                         {
                             Program.M100(Program.s_79.F0);
                             Program.s_96 = this.F5;
                         }
 
-                        S0 var4 = new S0(this.F7, 11, 0, this.F3, this.F6, Program.s_73.F5, (long)Program.M100(Program.s_47), this.F7, this.F8);
+                        var4 = new S0(this.F7, 11, 0, this.F3, this.F6, Program.s_73.F5, (long)Program.M100(Program.s_47), this.F7, this.F8);
                         var4 = new S0(18217939362389108931UL, 32, 0, 1, 8279630364542332847L, 135, -2716715750669677523L, 1163590324102799857UL, 1L);
-                        C0 var5 = new C0(-116, 46, false);
+                        var5 = new C0(-116, 46, false);
                         if (Program.s_40)
                         {
-                            int var6 = var0;
-                            bool var7 = !var5.F2;
+                            var6 = var0;
+                            var7 = !var5.F2;
                         }
                         else
                         {
                             Program.s_63 = new C1(0, 65006, 47425).M106();
                             new S1(-12916, -6218585568946180549L, 10).M103();
-                            S0 var8 = arg0.M103();
+                            var8 = arg0.M103();
                             Program.M104().M99(Program.s_54[0]++);
                             Program.M101();
                             arg0.M102();
                             new C1(-32767, 8497, 8929).M106();
-                            long[] var9 = new long[]{-2L, -437237828667368144L, 0L, -9204383557279379057L, -8829531192468763200L, 8463198317038735754L, 1L};
+                            var9 = new long[]{-2L, -437237828667368144L, 0L, -9204383557279379057L, -8829531192468763200L, 8463198317038735754L, 1L};
                         }
 
                         Program.s_97 &= arg0.M102();
@@ -1290,7 +1432,7 @@ public struct S0 : I0
                     arg0.M98(arg0, (short)Program.M100((short)Program.M100(-17826)), new uint[, ]{{983167356U}, {0U}, {2397635437U}, {2154895027U}, {433325993U}, {4086589508U}, {1U}}, this.F7, var0);
                     var0++;
                     this.F2 = Program.s_36.F5;
-                    long var10 = arg0.F1;
+                    var10 = arg0.F1;
                     Program.s_84.F0 = new C0(2, 204, false).M105(this.F1, Program.s_1, this.F5);
                     new C1(32766, 0, 1).M106();
                     {
@@ -1302,7 +1444,7 @@ public struct S0 : I0
             this.F4 = (long)(1 | this.F1);
         }
 
-        ulong var11 = this.F7;
+        var11 = this.F7;
         return -2056583308;
     }
 }
@@ -1321,18 +1463,21 @@ public struct S1
 
     public C0 M5()
     {
+        C1[] var0 = default(C1[]);
+        C0 var1 = default(C0);
+        uint[] var2 = default(uint[]);
         if (!!!!(true || !(false && (this.F2 != 0))))
         {
             if (!!!!(127 < (byte)(~(byte)(-(byte)(~(byte)(0 - (byte)(-(byte)(0 - (byte)(~(byte)(~(byte)(~(byte)(0 << (ushort)(~Program.s_23.M6(new S0(16710841568026751707UL, 127, 1, -2, 1L, 253, -9223372036854775808L, 13492877270247485878UL, -10L)))))))))))))))
             {
                 {
-                    C1[] var0 = Program.s_88;
+                    var0 = Program.s_88;
                     var0[0].F2 = var0[0].F2;
                 }
 
                 this.F2 %= (short)(this.F2 | 1);
                 Program.M73();
-                C0 var1 = this.M45();
+                var1 = this.M45();
             }
             else
             {
@@ -1340,7 +1485,7 @@ public struct S1
             }
 
             Program.s_50 = new C0(-66, 99, false);
-            uint[] var2 = Program.s_54;
+            var2 = Program.s_54;
             return new C0(-115, 87, false);
         }
 
@@ -1349,11 +1494,13 @@ public struct S1
 
     public C1 M9()
     {
+        C1 var0 = default(C1);
+        ulong[][] var1 = default(ulong[][]);
         this.F0 = this.F0;
-        C1 var0 = new C1(-18988, 1, 65534);
+        var0 = new C1(-18988, 1, 65534);
         var0.F1 = (ushort)(new C1(140, 49740, 11437).M10() % (int)(-525216884 | 1));
         Program.s_1[0].F1 = Program.s_1[0].F1;
-        ulong[][] var1 = new ulong[][]{new ulong[]{1UL, 0UL, 1UL}, new ulong[]{0UL, 1UL, 14652115768533088549UL}, new ulong[]{1UL, 18117528223174721510UL, 8821313281349164304UL, 0UL}, new ulong[]{2UL, 7431421266471640506UL}, new ulong[]{13694848625026531811UL, 17570003313047749228UL}, new ulong[]{10781057612978004685UL, 7301878137508480664UL, 537092836704193368UL, 1846645740525240753UL}, new ulong[]{15870488931721676779UL}, new ulong[]{0UL}};
+        var1 = new ulong[][]{new ulong[]{1UL, 0UL, 1UL}, new ulong[]{0UL, 1UL, 14652115768533088549UL}, new ulong[]{1UL, 18117528223174721510UL, 8821313281349164304UL, 0UL}, new ulong[]{2UL, 7431421266471640506UL}, new ulong[]{13694848625026531811UL, 17570003313047749228UL}, new ulong[]{10781057612978004685UL, 7301878137508480664UL, 537092836704193368UL, 1846645740525240753UL}, new ulong[]{15870488931721676779UL}, new ulong[]{0UL}};
         this.F2 = var0.F0;
         var0.F1 = 9774;
         if (!!(127 < (byte)(Program.M11(true, new bool[][]{new bool[]{true}, new bool[]{false, true, false}, new bool[]{true, false, true}}, new ushort[]{0, 33872, 6074, 41615, 21477, 1}, 2810356540U) << var0.F0)))
@@ -1379,6 +1526,8 @@ public struct S1
 
     public short[] M13(int arg0)
     {
+        C1 var2 = default(C1);
+        C0 var3 = default(C0);
         try
         {
             if (!new C1(-12690, 20772, 1).M14())
@@ -1403,10 +1552,10 @@ public struct S1
             }
             finally
             {
-                C1 var2 = new C1(-26393, 45865, 1);
+                var2 = new C1(-26393, 45865, 1);
             }
 
-            C0 var3 = new C0(-128, 22, false);
+            var3 = new C0(-128, 22, false);
         }
 
         this.F1 = this.F1++;
@@ -1416,7 +1565,16 @@ public struct S1
 
     public sbyte M29(short arg0, sbyte arg1)
     {
-        I0[] var0 = new I0[]{new S0(10249801429547837246UL, 1, 186, -1, 10L, 39, 4264577709967679468L, 10079732339138617045UL, -6940026603005948664L), new S0(18446744073709551614UL, 77, 35, -38, -7897399965464538945L, 102, -7948293414096869270L, 8894650006357750762UL, 1L), new S0(18446744073709551615UL, -18, 254, 1, 1L, 0, 2580149646442064687L, 9126922827172089155UL, -2716772829353800960L), new S0(7733814673856131139UL, 115, 181, -107, -7545377382910079355L, 0, -9223372036854775807L, 1UL, -10L), new S0(13295170105362897675UL, 1, 1, -10, 4719164125102220799L, 0, -579029892130997086L, 11479341921244842981UL, -9223372036854775807L)};
+        I0[] var0 = default(I0[]);
+        long var1 = default(long);
+        sbyte[][] var2 = default(sbyte[][]);
+        C1 var3 = default(C1);
+        long[, ] var4 = default(long[, ]);
+        sbyte[] var5 = default(sbyte[]);
+        C0 var6 = default(C0);
+        uint var7 = default(uint);
+        S1[][] var8 = default(S1[][]);
+        var0 = new I0[]{new S0(10249801429547837246UL, 1, 186, -1, 10L, 39, 4264577709967679468L, 10079732339138617045UL, -6940026603005948664L), new S0(18446744073709551614UL, 77, 35, -38, -7897399965464538945L, 102, -7948293414096869270L, 8894650006357750762UL, 1L), new S0(18446744073709551615UL, -18, 254, 1, 1L, 0, 2580149646442064687L, 9126922827172089155UL, -2716772829353800960L), new S0(7733814673856131139UL, 115, 181, -107, -7545377382910079355L, 0, -9223372036854775807L, 1UL, -10L), new S0(13295170105362897675UL, 1, 1, -10, 4719164125102220799L, 0, -579029892130997086L, 11479341921244842981UL, -9223372036854775807L)};
         if (Program.s_9)
         {
             this = new S1(-26840, 9223372036854775806L, -32768);
@@ -1431,11 +1589,11 @@ public struct S1
         {
             if (!(Program.s_6.F7 >= ~~Program.s_4))
             {
-                long var1 = this.F1;
+                var1 = this.F1;
                 arg0 = this.F0;
-                sbyte[][] var2 = new sbyte[][]{new sbyte[]{-128, 127, -2, 126, -83}, new sbyte[]{1, 1, 109}};
+                var2 = new sbyte[][]{new sbyte[]{-128, 127, -2, 126, -83}, new sbyte[]{1, 1, 109}};
                 {
-                    C1 var3 = new C1(19779, 65535, 65535);
+                    var3 = new C1(19779, 65535, 65535);
                     Program.s_18.F0 = Program.s_17.F0;
                     this = this;
                     this.F1 = this.F1--;
@@ -1446,7 +1604,7 @@ public struct S1
                 {
                     Program.s_8[0] += this.F2;
                     Program.M30(ref Program.s_21);
-                    long[, ] var4 = new C1(5455, 10, 2).M31();
+                    var4 = new C1(5455, 10, 2).M31();
                 }
                 finally
                 {
@@ -1459,16 +1617,16 @@ public struct S1
         }
 
         this.F2 = arg0;
-        sbyte[] var5 = new sbyte[]{84};
-        C0 var6 = new C0(-107, 2, false);
+        var5 = new sbyte[]{84};
+        var6 = new C0(-107, 2, false);
         try
         {
             if ((short)(~Program.s_5[0][0, 0, 0].F0) < Program.s_12++)
             {
                 Program.M40(Program.s_28.F2++);
-                uint var7 = 2339806790U;
+                var7 = 2339806790U;
                 {
-                    S1[][] var8 = new S1[][]{new S1[]{new S1(-7083, 7576353665406321383L, -26624), new S1(24009, -1362643951325635218L, 13356), new S1(32766, 1L, -32767), new S1(-1513, 7189296239957118165L, 32766), new S1(0, -4468743017903574687L, -23786), new S1(-1, -9223372036854775808L, 32766)}, new S1[]{new S1(-23209, 9223372036854775807L, -32768), new S1(28016, 1L, 32766), new S1(-14586, -7638021398374953043L, -32768), new S1(-10, -1L, 0), new S1(-13825, -5802477224292081769L, 10), new S1(9220, 0L, 0), new S1(-5745, -8292495823121969046L, -32768)}, new S1[]{new S1(-2428, 9223372036854775807L, 0), new S1(-4222, 7425541059761000151L, 32767), new S1(-32768, -3253114052457701847L, 14395), new S1(-24619, -2L, 21649), new S1(7269, 0L, -13889), new S1(3810, 9223372036854775806L, -16470)}, new S1[]{new S1(22967, 1951187904909792259L, 15573), new S1(-32768, 9223372036854775807L, 32767), new S1(-23572, 4105319648547959402L, 0), new S1(28333, 6668860840771454564L, 31435), new S1(15841, 0L, -21815), new S1(-5050, 3325517071698968151L, -25819)}, new S1[]{new S1(22685, 9223372036854775807L, 8055), new S1(23366, 1L, 10), new S1(30290, -7516183723194192378L, 27282)}, new S1[]{new S1(28653, -6871934155433955140L, -32767), new S1(18324, 1L, 2729)}, new S1[]{new S1(-15413, -9223372036854775807L, 1), new S1(0, 2764630018813138011L, 32766), new S1(-32767, -6400558209746298281L, 1302), new S1(-32768, 2L, -9749), new S1(-3613, 3298608315891441061L, 1), new S1(0, 4912161057783214355L, -10)}, new S1[]{new S1(-32768, -6371017528726454237L, 1701), new S1(-29537, 6038857155157123240L, -32767)}, new S1[]{new S1(-22757, 0L, 15210), new S1(0, -6429456310180615177L, -8189)}, new S1[]{new S1(-4363, 4661077615520082987L, 0), new S1(-32768, 1L, 8464), new S1(2, 5649625707750233710L, -22002), new S1(12573, -9223372036854775807L, -17834), new S1(25899, 239547626926221427L, 32726)}};
+                    var8 = new S1[][]{new S1[]{new S1(-7083, 7576353665406321383L, -26624), new S1(24009, -1362643951325635218L, 13356), new S1(32766, 1L, -32767), new S1(-1513, 7189296239957118165L, 32766), new S1(0, -4468743017903574687L, -23786), new S1(-1, -9223372036854775808L, 32766)}, new S1[]{new S1(-23209, 9223372036854775807L, -32768), new S1(28016, 1L, 32766), new S1(-14586, -7638021398374953043L, -32768), new S1(-10, -1L, 0), new S1(-13825, -5802477224292081769L, 10), new S1(9220, 0L, 0), new S1(-5745, -8292495823121969046L, -32768)}, new S1[]{new S1(-2428, 9223372036854775807L, 0), new S1(-4222, 7425541059761000151L, 32767), new S1(-32768, -3253114052457701847L, 14395), new S1(-24619, -2L, 21649), new S1(7269, 0L, -13889), new S1(3810, 9223372036854775806L, -16470)}, new S1[]{new S1(22967, 1951187904909792259L, 15573), new S1(-32768, 9223372036854775807L, 32767), new S1(-23572, 4105319648547959402L, 0), new S1(28333, 6668860840771454564L, 31435), new S1(15841, 0L, -21815), new S1(-5050, 3325517071698968151L, -25819)}, new S1[]{new S1(22685, 9223372036854775807L, 8055), new S1(23366, 1L, 10), new S1(30290, -7516183723194192378L, 27282)}, new S1[]{new S1(28653, -6871934155433955140L, -32767), new S1(18324, 1L, 2729)}, new S1[]{new S1(-15413, -9223372036854775807L, 1), new S1(0, 2764630018813138011L, 32766), new S1(-32767, -6400558209746298281L, 1302), new S1(-32768, 2L, -9749), new S1(-3613, 3298608315891441061L, 1), new S1(0, 4912161057783214355L, -10)}, new S1[]{new S1(-32768, -6371017528726454237L, 1701), new S1(-29537, 6038857155157123240L, -32767)}, new S1[]{new S1(-22757, 0L, 15210), new S1(0, -6429456310180615177L, -8189)}, new S1[]{new S1(-4363, 4661077615520082987L, 0), new S1(-32768, 1L, 8464), new S1(2, 5649625707750233710L, -22002), new S1(12573, -9223372036854775807L, -17834), new S1(25899, 239547626926221427L, 32726)}};
                     var6.M34() = this;
                 }
             }
@@ -1487,13 +1645,19 @@ public struct S1
 
     public byte M37(ref C1 arg0, long arg1)
     {
+        uint var0 = default(uint);
+        ulong var1 = default(ulong);
+        I0 var3 = default(I0);
+        ushort var4 = default(ushort);
+        C1[] var5 = default(C1[]);
+        sbyte[] var6 = default(sbyte[]);
         if (!Program.s_9)
         {
             Program.s_1[0].F1 = arg1;
             {
                 arg1 = arg1;
-                uint var0 = Program.s_12;
-                ulong var1 = 14546322000298747641UL;
+                var0 = Program.s_12;
+                var1 = 14546322000298747641UL;
             }
         }
         else
@@ -1511,12 +1675,12 @@ public struct S1
                         }
                     }
 
-                    I0 var3 = new S0(7979408252113698718UL, 3, 1, -53, 9223372036854775807L, 1, 0L, 1UL, 7489709748087903123L);
-                    ushort var4 = 0;
+                    var3 = new S0(7979408252113698718UL, 3, 1, -53, 9223372036854775807L, 1, 0L, 1UL, 7489709748087903123L);
+                    var4 = 0;
                     var2 = var2;
                     var3 = var3;
                     Program.s_24 = Program.s_24;
-                    C1[] var5 = new C1[]{new C1(5869, 0, 2), new C1(2260, 65535, 65535), new C1(21766, 18614, 31340), new C1(-31623, 1, 63730), new C1(32766, 65535, 56213), new C1(-2, 0, 31932), new C1(1, 0, 0), new C1(27882, 28005, 0)};
+                    var5 = new C1[]{new C1(5869, 0, 2), new C1(2260, 65535, 65535), new C1(21766, 18614, 31340), new C1(-31623, 1, 63730), new C1(32766, 65535, 56213), new C1(-2, 0, 31932), new C1(1, 0, 0), new C1(27882, 28005, 0)};
                 }
             }
 
@@ -1527,7 +1691,7 @@ public struct S1
         {
             {
                 Program.M39();
-                sbyte[] var6 = new sbyte[]{1, 25, 0, -128, 127, 10};
+                var6 = new sbyte[]{1, 25, 0, -128, 127, 10};
                 return Program.s_16.F1;
             }
         }
@@ -1564,6 +1728,16 @@ public struct S1
 
     public bool M50(C1 arg0, uint arg1)
     {
+        short[] var2 = default(short[]);
+        I0[] var3 = default(I0[]);
+        ulong[] var4 = default(ulong[]);
+        int var5 = default(int);
+        I0 var6 = default(I0);
+        C1 var7 = default(C1);
+        uint var8 = default(uint);
+        C1 var9 = default(C1);
+        ushort var10 = default(ushort);
+        C1 var11 = default(C1);
         this = this;
         arg0.F1 = arg0.F1++;
         try
@@ -1579,7 +1753,7 @@ public struct S1
                     ref uint var1 = ref arg1;
                     Program.s_43 = Program.s_36.F6--;
                     var0 = new S0(1UL, -66, 18, 0, 2L, 98, 0L, 8326237490336487502UL, 10L);
-                    short[] var2 = new short[]{-10, 22798, 20466, 4502};
+                    var2 = new short[]{-10, 22798, 20466, 4502};
                     this.F0 = -12270;
                 }
                 else
@@ -1589,9 +1763,9 @@ public struct S1
 
                 if (0 > Program.s_38++)
                 {
-                    I0[] var3 = new I0[]{new S0(1UL, 123, 255, -128, 0L, 0, 9121987498225977858L, 8566478382448059735UL, 0L)};
-                    ulong[] var4 = new ulong[]{4632368654920900154UL, 1UL, 13390470130418275900UL, 4444153676881789985UL, 0UL, 18446744073709551614UL, 1930854622604462050UL, 1UL, 1UL};
-                    int var5 = 378210891;
+                    var3 = new I0[]{new S0(1UL, 123, 255, -128, 0L, 0, 9121987498225977858L, 8566478382448059735UL, 0L)};
+                    var4 = new ulong[]{4632368654920900154UL, 1UL, 13390470130418275900UL, 4444153676881789985UL, 0UL, 18446744073709551614UL, 1930854622604462050UL, 1UL, 1UL};
+                    var5 = 378210891;
                     Program.s_36.F0 = var4[0];
                 }
 
@@ -1599,7 +1773,7 @@ public struct S1
             }
 
             Program.s_32[0].F1 = arg0.F2;
-            I0 var6 = new S0(1UL, 34, 175, 10, 9223372036854775807L, 255, 10L, 1UL, 5236037305576206100L);
+            var6 = new S0(1UL, 34, 175, 10, 9223372036854775807L, 255, 10L, 1UL, 5236037305576206100L);
             this.F1 = Program.s_6.F4;
             Program.s_17.F2 = 0;
             try
@@ -1611,12 +1785,12 @@ public struct S1
                 this.M51(new C0(127, 0, true));
             }
 
-            C1 var7 = new C1(2, 4142, 8757);
+            var7 = new C1(2, 4142, 8757);
         }
         finally
         {
-            uint var8 = 1U;
-            C1 var9 = new C1(-4914, 1, 1);
+            var8 = 1U;
+            var9 = new C1(-4914, 1, 1);
             if (Program.s_23.F2)
             {
                 this = this;
@@ -1624,7 +1798,7 @@ public struct S1
                 {
                     try
                     {
-                        ushort var10 = var9.F2;
+                        var10 = var9.F2;
                     }
                     finally
                     {
@@ -1638,7 +1812,7 @@ public struct S1
                     var9 = Program.s_5[0][0, 0, 0];
                 }
 
-                C1 var11 = Program.s_32[0];
+                var11 = Program.s_32[0];
             }
         }
 
@@ -1647,7 +1821,8 @@ public struct S1
 
     public C0 M51(C0 arg0)
     {
-        ulong var0 = Program.s_24.F0--;
+        ulong var0 = default(ulong);
+        var0 = Program.s_24.F0--;
         this.F2 = Program.s_28.F2--;
         this = this;
         return new C0(30, 127, true);
@@ -1655,22 +1830,29 @@ public struct S1
 
     public ulong[] M63(byte arg0, sbyte arg1, C0 arg2)
     {
-        ushort var0 = 27618;
+        ushort var0 = default(ushort);
+        var0 = 27618;
         return new ulong[]{0UL};
     }
 
     public bool M81()
     {
+        short var0 = default(short);
+        long var1 = default(long);
+        short var3 = default(short);
+        long[] var4 = default(long[]);
+        byte var5 = default(byte);
+        S0 var6 = default(S0);
         this.F2 = Program.s_5[0][0, 0, 0].F0++;
         if (Program.s_70)
         {
-            short var0 = this.F2++;
-            long var1 = this.F1;
+            var0 = this.F2++;
+            var1 = this.F1;
         }
 
         for (int var2 = 0; var2 < 2; var2++)
         {
-            short var3 = (short)(~(short)(-Program.s_79.F0++));
+            var3 = (short)(~(short)(-Program.s_79.F0++));
         }
 
         this = this;
@@ -1678,7 +1860,7 @@ public struct S1
         this = this;
         {
             this.F2 = this.F0;
-            long[] var4 = new long[]{4213667947905514265L, 1L, 1L, 1L, 5039513101181534091L, 1L, -7670280859064141677L, 652613047218037460L};
+            var4 = new long[]{4213667947905514265L, 1L, 1L, 1L, 5039513101181534091L, 1L, -7670280859064141677L, 652613047218037460L};
             {
                 new S0(0UL, -69, 0, -127, 2637663292773152396L, 254, -623482689134514590L, 7399509591241038032UL, -9223372036854775807L).M82(Program.s_76, new sbyte[]{126, 103, 1, -128, -59, 1, 41, 10, -98, -62}, ref Program.s_83[0]);
                 Program.s_68[0] = -3419545018266510512L;
@@ -1688,12 +1870,12 @@ public struct S1
             }
 
             var4[0] = var4[0];
-            byte var5 = (byte)(-2L - this.F2);
+            var5 = (byte)(-2L - this.F2);
         }
 
         {
             Program.s_70 |= false;
-            S0 var6 = new S0(11352905392693089600UL, -127, 49, -96, -10L, 0, 806355153002011669L, 7571860003821174952UL, 9223372036854775807L);
+            var6 = new S0(11352905392693089600UL, -127, 49, -96, -10L, 0, 806355153002011669L, 7571860003821174952UL, 9223372036854775807L);
             var6.F2 = var6.F5;
         }
 
@@ -1702,11 +1884,13 @@ public struct S1
 
     public ref C0 M87(ref byte arg0)
     {
+        bool var0 = default(bool);
+        bool var1 = default(bool);
         this.F0 = this.F2;
-        bool var0 = true;
+        var0 = true;
         if (var0)
         {
-            bool var1 = var0;
+            var1 = var0;
             new C0(95, 210, false).M88();
             if (var1)
             {
@@ -1719,13 +1903,24 @@ public struct S1
 
     public ref int M98(S1 arg0, short arg1, uint[, ] arg2, ulong arg3, int arg4)
     {
+        long var1 = default(long);
+        S1 var2 = default(S1);
+        ulong var3 = default(ulong);
+        byte[, ] var4 = default(byte[, ]);
+        long var5 = default(long);
+        S0[] var6 = default(S0[]);
+        byte var7 = default(byte);
+        int var11 = default(int);
+        sbyte[] var13 = default(sbyte[]);
+        S0 var14 = default(S0);
+        ulong var15 = default(ulong);
         Program.s_79.F0 = arg1;
         {
             arg2[0, 0] <<= -2;
             for (int var0 = 0; var0 < 2; var0++)
             {
                 Program.s_42[0] = new S0(arg3, Program.s_7, Program.s_73.F2, 93, arg0.F1, Program.s_16.F1, arg0.F1, Program.s_89.F0++, (long)(1 & arg0.F0));
-                long var1 = 1L;
+                var1 = 1L;
             }
 
             new C1(32766, 31730, 0).M99(arg2[0, 0]);
@@ -1737,7 +1932,7 @@ public struct S1
         if (!(Program.s_22 == false))
         {
             new C1(32767, 65534, 0).M99(arg2[0, 0]) = this.F0;
-            S1 var2 = arg0;
+            var2 = arg0;
             {
                 Program.s_6.F1 = (sbyte)new C1(-20666, 65534, 0).M99(arg2[0, 0]++);
                 arg0.F0 = arg0.F2++;
@@ -1754,25 +1949,25 @@ public struct S1
             Program.M100(this.F0);
             this.F0 = (short)(arg4 * Program.s_41[0][0][0, 0, 0]);
             arg2[0, 0] = arg2[0, 0]--;
-            ulong var3 = arg3;
+            var3 = arg3;
             {
                 arg0.F0 = arg1;
             }
 
             Program.M101();
-            byte[, ] var4 = new byte[, ]{{255, 238, 1}, {42, 1, 98}};
+            var4 = new byte[, ]{{255, 238, 1}, {42, 1, 98}};
             Program.M100(arg0.F0--);
         }
 
-        long var5 = arg0.F1;
+        var5 = arg0.F1;
         arg0.F0 = arg0.F0;
         if (true ^ (true && !!Program.s_2[0]))
         {
-            S0[] var6 = new S0[]{new S0(11721930959394737312UL, -127, 6, -1, -7641783092364358479L, 63, 4339265677968796994L, 9787587819027060644UL, 5934382266654762846L), new S0(1UL, 126, 0, 14, -2L, 255, 9223372036854775806L, 14878207381548608186UL, 8029718170752975014L), new S0(15107560355217450793UL, 122, 254, 126, 8475338613106286088L, 137, 0L, 14111782823218563815UL, -9223372036854775807L)};
+            var6 = new S0[]{new S0(11721930959394737312UL, -127, 6, -1, -7641783092364358479L, 63, 4339265677968796994L, 9787587819027060644UL, 5934382266654762846L), new S0(1UL, 126, 0, 14, -2L, 255, 9223372036854775806L, 14878207381548608186UL, 8029718170752975014L), new S0(15107560355217450793UL, 122, 254, 126, 8475338613106286088L, 137, 0L, 14111782823218563815UL, -9223372036854775807L)};
             Program.M101() = arg0.F1;
         }
 
-        byte var7 = (byte)new S1(-32767, 1L, -29511).M102();
+        var7 = (byte)new S1(-32767, 1L, -29511).M102();
         var7 = (byte)(arg1 | 0);
         for (int var8 = 0; var8 < 2; var8++)
         {
@@ -1787,7 +1982,7 @@ public struct S1
             {
                 for (int var10 = 0; var10 < 2; var10++)
                 {
-                    int var11 = var8;
+                    var11 = var8;
                     new S1(-13638, 7702779751537659556L, 0).M102();
                 }
             }
@@ -1795,7 +1990,7 @@ public struct S1
             if (var9)
             {
                 ref short var12 = ref this.F0;
-                sbyte[] var13 = new sbyte[]{126, -93, -63, 0};
+                var13 = new sbyte[]{126, -93, -63, 0};
                 new C1(0, 54209, 22151).M99((uint)Program.M101()) = Program.s_8[0];
                 var12 = ref this.F2;
                 if (var9)
@@ -1808,12 +2003,12 @@ public struct S1
 
             if (Program.s_16.F2)
             {
-                S0 var14 = this.M103();
+                var14 = this.M103();
                 Program.M104();
                 Program.M101() -= 3229888190497037277L;
             }
 
-            ulong var15 = (ulong)((-arg0.F1) * -2147483648);
+            var15 = (ulong)((-arg0.F1) * -2147483648);
         }
 
         {
@@ -1839,6 +2034,14 @@ public struct S1
 
     public S0 M103()
     {
+        C1 var0 = default(C1);
+        S1[, ] var1 = default(S1[, ]);
+        C0 var2 = default(C0);
+        ulong var3 = default(ulong);
+        byte var4 = default(byte);
+        ushort var5 = default(ushort);
+        sbyte var6 = default(sbyte);
+        C1 var7 = default(C1);
         if (Program.s_78)
         {
             if (!!Program.s_21[0][0, 0].F2)
@@ -1850,19 +2053,19 @@ public struct S1
             }
             else
             {
-                C1 var0 = new C1(-32767, 14324, 65535);
-                S1[, ] var1 = new S1[, ]{{new S1(-2, 620668996864331344L, 17455), new S1(-32767, 236166370098635020L, -22363), new S1(-32718, -2400461043932963313L, 14316), new S1(0, 9223372036854775806L, 23527), new S1(0, -9223372036854775808L, -1), new S1(17267, 0L, 21970), new S1(1, -78863163761057869L, 528)}, {new S1(-32768, -2553928534510275514L, -32768), new S1(29459, -139074571344295296L, -32768), new S1(-4925, -7984289218329921322L, 0), new S1(32767, -1083016555570488345L, -13095), new S1(32767, 0L, 32767), new S1(-28740, 868510562583452361L, 7776), new S1(-6564, 0L, -32768)}, {new S1(0, 9223372036854775806L, 31990), new S1(31981, 9223372036854775807L, -14678), new S1(22473, 9223372036854775806L, 21410), new S1(2, -9223372036854775808L, 18355), new S1(-32767, -2L, 10), new S1(-16231, 1656308890274709279L, 32767), new S1(0, 8523028441707843760L, 32766)}, {new S1(1, 2685147337901643510L, -10), new S1(-32767, -9223372036854775807L, -25979), new S1(23449, -573656446006285720L, 0), new S1(-2, -3347154536416315328L, -20753), new S1(7347, -8551264804007395959L, 32767), new S1(1, 1L, 9516), new S1(32767, 6572174518997365708L, -5300)}, {new S1(-32767, 8888827375721398137L, 0), new S1(-26468, 0L, 7783), new S1(-18869, -9223372036854775808L, 2), new S1(-6140, 7679531858846819400L, 0), new S1(-12970, -9223372036854775808L, 2), new S1(-2, 9223372036854775806L, 32767), new S1(-32767, -6544161907669167708L, 32767)}, {new S1(-2827, -9223372036854775807L, 32766), new S1(-23034, 3305937993241139954L, 3006), new S1(-32768, 0L, -28207), new S1(-18043, 2106309629559151514L, 6521), new S1(2038, -1L, 32767), new S1(-10, 8329035404805585003L, 26479), new S1(-1837, 0L, 12403)}};
+                var0 = new C1(-32767, 14324, 65535);
+                var1 = new S1[, ]{{new S1(-2, 620668996864331344L, 17455), new S1(-32767, 236166370098635020L, -22363), new S1(-32718, -2400461043932963313L, 14316), new S1(0, 9223372036854775806L, 23527), new S1(0, -9223372036854775808L, -1), new S1(17267, 0L, 21970), new S1(1, -78863163761057869L, 528)}, {new S1(-32768, -2553928534510275514L, -32768), new S1(29459, -139074571344295296L, -32768), new S1(-4925, -7984289218329921322L, 0), new S1(32767, -1083016555570488345L, -13095), new S1(32767, 0L, 32767), new S1(-28740, 868510562583452361L, 7776), new S1(-6564, 0L, -32768)}, {new S1(0, 9223372036854775806L, 31990), new S1(31981, 9223372036854775807L, -14678), new S1(22473, 9223372036854775806L, 21410), new S1(2, -9223372036854775808L, 18355), new S1(-32767, -2L, 10), new S1(-16231, 1656308890274709279L, 32767), new S1(0, 8523028441707843760L, 32766)}, {new S1(1, 2685147337901643510L, -10), new S1(-32767, -9223372036854775807L, -25979), new S1(23449, -573656446006285720L, 0), new S1(-2, -3347154536416315328L, -20753), new S1(7347, -8551264804007395959L, 32767), new S1(1, 1L, 9516), new S1(32767, 6572174518997365708L, -5300)}, {new S1(-32767, 8888827375721398137L, 0), new S1(-26468, 0L, 7783), new S1(-18869, -9223372036854775808L, 2), new S1(-6140, 7679531858846819400L, 0), new S1(-12970, -9223372036854775808L, 2), new S1(-2, 9223372036854775806L, 32767), new S1(-32767, -6544161907669167708L, 32767)}, {new S1(-2827, -9223372036854775807L, 32766), new S1(-23034, 3305937993241139954L, 3006), new S1(-32768, 0L, -28207), new S1(-18043, 2106309629559151514L, 6521), new S1(2038, -1L, 32767), new S1(-10, 8329035404805585003L, 26479), new S1(-1837, 0L, 12403)}};
                 var1[0, 0] = this;
                 this = new S1(-2, 8950084339559017630L, -2);
                 {
-                    C0 var2 = new C0(40, 0, true);
+                    var2 = new C0(40, 0, true);
                     var2.F1 = var2.F1;
-                    ulong var3 = 18446744073709551614UL;
+                    var3 = 18446744073709551614UL;
                     Program.s_33 = 0;
-                    byte var4 = Program.s_84.F1;
+                    var4 = Program.s_84.F1;
                     if (var2.F2)
                     {
-                        ushort var5 = 16645;
+                        var5 = 16645;
                         var1[0, 0].F2 = (short)(~var0.F0);
                         Program.M104();
                         Program.s_29[0, 0, 0] = false;
@@ -1875,12 +2078,12 @@ public struct S1
                     }
 
                     var1 = new S1[, ]{{new S1(-11957, 1L, -1), new S1(9780, 0L, 1), new S1(23570, 9223372036854775806L, 30113), new S1(-3286, -1871833838123028144L, 0), new S1(-32767, 10L, 27207), new S1(9483, 8635935110712162436L, 32767), new S1(-32768, -1L, -32767), new S1(-16846, 0L, -1), new S1(1, -6597536866632457942L, -1)}};
-                    sbyte var6 = var2.M105(var2.F0, new S1[]{new S1(2, 0L, 16081), new S1(13834, -10L, 0), new S1(32766, 9223372036854775806L, 1), new S1(-24075, 9223372036854775807L, 1), new S1(-30364, 9028081096971934866L, -4720), new S1(0, 9124246290891687738L, 29590), new S1(-19047, 1L, 32767), new S1(10, 1L, -10)}, (byte)(-var2.F1));
+                    var6 = var2.M105(var2.F0, new S1[]{new S1(2, 0L, 16081), new S1(13834, -10L, 0), new S1(32766, 9223372036854775806L, 1), new S1(-24075, 9223372036854775807L, 1), new S1(-30364, 9028081096971934866L, -4720), new S1(0, 9124246290891687738L, 29590), new S1(-19047, 1L, 32767), new S1(10, 1L, -10)}, (byte)(-var2.F1));
                 }
             }
 
             {
-                C1 var7 = Program.M104();
+                var7 = Program.M104();
                 new C0(-92, 95, false).M105((sbyte)(-(sbyte)(-(sbyte)(~(sbyte)(-Program.s_27[0].F0--)))), Program.s_1, Program.s_24.F2++);
                 {
                     Program.M104();
@@ -1912,7 +2115,23 @@ public struct S1
 
     public uint[, ] M116(short arg0, short arg1, ref sbyte arg2)
     {
-        short var0 = Program.s_28.F0++;
+        short var0 = default(short);
+        bool var3 = default(bool);
+        C0[] var4 = default(C0[]);
+        bool var5 = default(bool);
+        I0 var8 = default(I0);
+        C0 var9 = default(C0);
+        S0[] var10 = default(S0[]);
+        int var11 = default(int);
+        C1 var13 = default(C1);
+        sbyte var14 = default(sbyte);
+        byte var15 = default(byte);
+        sbyte var16 = default(sbyte);
+        ulong[] var17 = default(ulong[]);
+        ulong var18 = default(ulong);
+        S0 var20 = default(S0);
+        short[] var21 = default(short[]);
+        var0 = Program.s_28.F0++;
         for (int var1 = 0; var1 < 2; var1++)
         {
             Program.s_111[0, 0, 0] = 0UL;
@@ -1930,7 +2149,7 @@ public struct S1
             }
             else
             {
-                bool var3 = Program.s_27[0].F2;
+                var3 = Program.s_27[0].F2;
             }
         }
 
@@ -1942,7 +2161,7 @@ public struct S1
         else
         {
             {
-                C0[] var4 = new C0[]{new C0(-21, 133, true), new C0(-96, 0, false), new C0(118, 254, false), new C0(0, 0, true), new C0(-68, 0, false), new C0(28, 61, true), new C0(65, 50, true)};
+                var4 = new C0[]{new C0(-21, 133, true), new C0(-96, 0, false), new C0(118, 254, false), new C0(0, 0, true), new C0(-68, 0, false), new C0(28, 61, true), new C0(65, 50, true)};
                 try
                 {
                     Program.M117();
@@ -1951,7 +2170,7 @@ public struct S1
                         Program.s_120 = this.F1;
                         if (var4[0].F2)
                         {
-                            bool var5 = true;
+                            var5 = true;
                             this.F0 = var0;
                             Program.s_79.F2 = arg0;
                             ref I0 var6 = ref Program.s_65;
@@ -1969,7 +2188,7 @@ public struct S1
                         this.F0 = Program.s_1[0].F0;
                         if (var4[0].F2)
                         {
-                            I0 var8 = new S0(18446744073709551615UL, 1, 254, -128, 9223372036854775806L, 228, 0L, 15626091476295345309UL, 1060420494734336976L);
+                            var8 = new S0(18446744073709551615UL, 1, 254, -128, 9223372036854775806L, 228, 0L, 15626091476295345309UL, 1060420494734336976L);
                             Program.s_27[0].F0 = (sbyte)Program.M118();
                         }
                         else
@@ -1977,7 +2196,7 @@ public struct S1
                             Program.M118();
                             {
                                 Program.M118();
-                                C0 var9 = var4[0];
+                                var9 = var4[0];
                             }
 
                             this = new S1((short)((ulong)Program.M117() + (ushort)Program.M117()), Program.s_89.F6, 5547);
@@ -1985,17 +2204,17 @@ public struct S1
 
                         this.F1 = Program.s_93;
                         arg1 = Program.M118();
-                        S0[] var10 = new S0[]{new S0(1UL, 0, 136, 23, 3834588276943341512L, 1, 2237659315060842883L, 5795572844038439985UL, 9223372036854775807L), new S0(514356676180920008UL, 0, 0, 97, 0L, 2, -607964823576556806L, 7711696580610450893UL, 9223372036854775807L)};
-                        int var11 = 2125448558;
+                        var10 = new S0[]{new S0(1UL, 0, 136, 23, 3834588276943341512L, 1, 2237659315060842883L, 5795572844038439985UL, 9223372036854775807L), new S0(514356676180920008UL, 0, 0, 97, 0L, 2, -607964823576556806L, 7711696580610450893UL, 9223372036854775807L)};
+                        var11 = 2125448558;
                     }
 
                     if (var4[0].F2)
                     {
                         ref ushort[][][][] var12 = ref Program.s_126;
                         Program.s_122[0] = 5173;
-                        C1 var13 = new C1(-7048, 1, 39489);
+                        var13 = new C1(-7048, 1, 39489);
                         Program.M117() = this.F1;
-                        sbyte var14 = (sbyte)Program.M117();
+                        var14 = (sbyte)Program.M117();
                         this.F2 = var0;
                         {
                             var13 = new C1(32766, 1, 26001);
@@ -2006,7 +2225,7 @@ public struct S1
                     {
                         if (var4[0].F2)
                         {
-                            byte var15 = 1;
+                            var15 = 1;
                             var4[0].F0 = (sbyte)((ulong)Program.M117() << 1);
                         }
                         else
@@ -2014,8 +2233,8 @@ public struct S1
                             return new uint[, ]{{1U, 3183469578U, 0U, 2353011971U, 3733792722U, 0U, 4294967294U}, {4294967295U, 0U, 683894987U, 2U, 0U, 4294967294U, 2350123462U}, {0U, 1U, 3531645896U, 0U, 4294967294U, 3968585260U, 1340604102U}, {44039453U, 1U, 4294967295U, 24608143U, 1U, 1214814345U, 4294967295U}, {1529511147U, 4294967295U, 3579583266U, 10U, 1U, 0U, 1732735036U}, {171469086U, 0U, 1692037959U, 4294967295U, 3362559208U, 4294967295U, 334966431U}, {4294967294U, 0U, 4238485480U, 4202107236U, 2U, 2386997852U, 153214621U}};
                         }
 
-                        sbyte var16 = var4[0].F0;
-                        ulong[] var17 = new ulong[]{1UL, 1UL, 18446744073709551615UL, 18446744073709551614UL, 7902240688355416811UL, 2996544906511168813UL, 2UL, 1UL, 3033523139968646611UL, 2UL};
+                        var16 = var4[0].F0;
+                        var17 = new ulong[]{1UL, 1UL, 18446744073709551615UL, 18446744073709551614UL, 7902240688355416811UL, 2996544906511168813UL, 2UL, 1UL, 3033523139968646611UL, 2UL};
                         this.F0 = var0;
                     }
 
@@ -2024,7 +2243,7 @@ public struct S1
                         var4[0].F1 %= (byte)(var4[0].F1-- | 1);
                         if ((int)Program.M118() == (ushort)(-2 % (uint)(Program.s_83[0] | 1)))
                         {
-                            ulong var18 = (ulong)Program.M118();
+                            var18 = (ulong)Program.M118();
                         }
                         else
                         {
@@ -2055,11 +2274,11 @@ public struct S1
                     }
                 }
 
-                S0 var20 = new S0(Program.s_73.F0, var4[0].F0, 93, (sbyte)(-6607724177997791084L ^ Program.s_74++), this.F1, (byte)Program.M118(), Program.M117(), Program.s_108--, this.F1);
+                var20 = new S0(Program.s_73.F0, var4[0].F0, 93, (sbyte)(-6607724177997791084L ^ Program.s_74++), this.F1, (byte)Program.M118(), Program.M117(), Program.s_108--, this.F1);
             }
         }
 
-        short[] var21 = new short[]{29786, 30565, 0, 32767, -31763};
+        var21 = new short[]{29786, 30565, 0, 32767, -31763};
         this.F1 = ~Program.s_120;
         Program.s_102 = true;
         return new uint[, ]{{39185342U, 1U, 1U, 1063078024U, 3071207198U}, {1U, 4065150879U, 1U, 1U, 10U}, {1581336161U, 4294967295U, 4294967294U, 3148112632U, 2087701737U}, {1277927047U, 4294967295U, 1U, 0U, 0U}, {820599229U, 1U, 0U, 119367041U, 0U}, {262796136U, 1U, 552739018U, 0U, 2395007252U}, {1804298537U, 3211741544U, 3305981713U, 3309372884U, 1U}};
@@ -2080,10 +2299,12 @@ public class C1
 
     public bool M1(sbyte arg0, short arg1, C1 arg2)
     {
-        C1[] var0 = new C1[]{new C1(-1348, 18390, 57856), new C1(32766, 58567, 55571), new C1(32767, 1, 53506), new C1(-32767, 1, 63126), new C1(9717, 52966, 1), new C1(-29053, 6061, 1)};
+        C1[] var0 = default(C1[]);
+        C1 var1 = default(C1);
+        var0 = new C1[]{new C1(-1348, 18390, 57856), new C1(32766, 58567, 55571), new C1(32767, 1, 53506), new C1(-32767, 1, 63126), new C1(9717, 52966, 1), new C1(-29053, 6061, 1)};
         Program.M2(!Program.M23(ref Program.s_1), var0, ref Program.M101());
         arg2.F0 = 1;
-        C1 var1 = this;
+        var1 = this;
         return true;
     }
 
@@ -2109,11 +2330,25 @@ public class C1
 
     public bool M18(bool[] arg0, byte arg1)
     {
+        sbyte[] var1 = default(sbyte[]);
+        ushort var4 = default(ushort);
+        I0 var5 = default(I0);
+        byte[] var6 = default(byte[]);
+        I0 var7 = default(I0);
+        I0[][] var8 = default(I0[][]);
+        I0 var10 = default(I0);
+        ushort[] var11 = default(ushort[]);
+        C0 var13 = default(C0);
+        short var14 = default(short);
+        long var15 = default(long);
+        C1 var16 = default(C1);
+        ulong var17 = default(ulong);
+        ulong var18 = default(ulong);
         ref ulong var0 = ref Program.s_4;
         new C1(1, 65534, 16480).M19(ref arg1);
         this.F0 = Program.s_1[0].F0--;
         {
-            sbyte[] var1 = new sbyte[]{-88, -99, 0, 10, 0};
+            var1 = new sbyte[]{-88, -99, 0, 10, 0};
         }
 
         {
@@ -2128,13 +2363,13 @@ public class C1
         {
             for (int var3 = 0; var3 < 2; var3++)
             {
-                ushort var4 = this.F1--;
-                I0 var5 = new S0(14145186858169989417UL, 106, 1, -84, 0L, 236, 1L, 13719864646719044076UL, 0L);
+                var4 = this.F1--;
+                var5 = new S0(14145186858169989417UL, 106, 1, -84, 0L, 236, 1L, 13719864646719044076UL, 0L);
                 if (arg0[0])
                 {
-                    byte[] var6 = new byte[]{1, 171, 120, 254, 171, 0};
-                    I0 var7 = new S0(1UL, -127, 2, -14, -5101946212687122094L, 0, 4432226346964502482L, 18446744073709551614UL, -5435922817011451554L);
-                    I0[][] var8 = new I0[][]{new I0[]{new S0(0UL, 127, 8, 0, -9223372036854775808L, 0, 18293082112798262L, 11811689507705283298UL, 3191290949400978338L)}, new I0[]{new S0(1UL, -1, 76, -34, -7186736149684068110L, 1, 10L, 4494344447637304857UL, 0L)}, new I0[]{new S0(1UL, -71, 252, 108, -9223372036854775808L, 1, 0L, 14415099332524029712UL, 1L)}, new I0[]{new S0(5982482803754561157UL, 1, 0, 61, -7364356716270050732L, 1, 0L, 18446744073709551615UL, 0L)}, new I0[]{new S0(7376020508879269146UL, 49, 10, 72, 2612322011789756626L, 0, 0L, 3245010229162161361UL, 5580018281323137991L)}, new I0[]{new S0(18446744073709551615UL, 0, 2, -53, 1021415570186758598L, 1, -9223372036854775807L, 1UL, 8546295581475136329L)}, new I0[]{new S0(2UL, -25, 0, 89, 0L, 254, 1L, 0UL, 3925587693209067531L)}, new I0[]{new S0(3555607508479897894UL, -83, 0, 0, -5429443920035897676L, 0, 5214662540395652978L, 6649259015637893225UL, -4880009559210418608L)}, new I0[]{new S0(0UL, 76, 46, -128, 3311908435451453062L, 186, -4834578574758748532L, 982170501500988316UL, 10L)}};
+                    var6 = new byte[]{1, 171, 120, 254, 171, 0};
+                    var7 = new S0(1UL, -127, 2, -14, -5101946212687122094L, 0, 4432226346964502482L, 18446744073709551614UL, -5435922817011451554L);
+                    var8 = new I0[][]{new I0[]{new S0(0UL, 127, 8, 0, -9223372036854775808L, 0, 18293082112798262L, 11811689507705283298UL, 3191290949400978338L)}, new I0[]{new S0(1UL, -1, 76, -34, -7186736149684068110L, 1, 10L, 4494344447637304857UL, 0L)}, new I0[]{new S0(1UL, -71, 252, 108, -9223372036854775808L, 1, 0L, 14415099332524029712UL, 1L)}, new I0[]{new S0(5982482803754561157UL, 1, 0, 61, -7364356716270050732L, 1, 0L, 18446744073709551615UL, 0L)}, new I0[]{new S0(7376020508879269146UL, 49, 10, 72, 2612322011789756626L, 0, 0L, 3245010229162161361UL, 5580018281323137991L)}, new I0[]{new S0(18446744073709551615UL, 0, 2, -53, 1021415570186758598L, 1, -9223372036854775807L, 1UL, 8546295581475136329L)}, new I0[]{new S0(2UL, -25, 0, 89, 0L, 254, 1L, 0UL, 3925587693209067531L)}, new I0[]{new S0(3555607508479897894UL, -83, 0, 0, -5429443920035897676L, 0, 5214662540395652978L, 6649259015637893225UL, -4880009559210418608L)}, new I0[]{new S0(0UL, 76, 46, -128, 3311908435451453062L, 186, -4834578574758748532L, 982170501500988316UL, 10L)}};
                 }
 
                 Program.s_1[0] = new S1(32767, -10L, -28301);
@@ -2156,8 +2391,8 @@ public class C1
                     {
                         if (arg0[0])
                         {
-                            I0 var10 = new S0(1UL, 29, 0, 127, -2358561713880873977L, 116, 1L, 0UL, 9223372036854775806L);
-                            ushort[] var11 = new ushort[]{29187, 17419, 65535, 18531, 25616, 0, 0, 1, 1};
+                            var10 = new S0(1UL, 29, 0, 127, -2358561713880873977L, 116, 1L, 0UL, 9223372036854775806L);
+                            var11 = new ushort[]{29187, 17419, 65535, 18531, 25616, 0, 0, 1, 1};
                             this.F2 = this.F2++;
                         }
 
@@ -2177,9 +2412,9 @@ public class C1
                 }
             }
 
-            C0 var13 = new C0(5, 254, false);
+            var13 = new C0(5, 254, false);
             Program.M20(this).M19(ref Program.s_6.F2).M19(ref Program.s_6.F5) = Program.s_5[0][0, 0, 0];
-            short var14 = this.F0;
+            var14 = this.F0;
             this.F0 = Program.s_1[0].F2;
             Program.M20(this);
             var13.F1 = 133;
@@ -2190,22 +2425,22 @@ public class C1
             finally
             {
                 new C1(var14, this.F1, 38124).M19(ref var13.F1) = this;
-                long var15 = 2L;
+                var15 = 2L;
                 this.M19(ref var13.F1);
                 arg1 = 0;
                 {
                     {
                         Program.M20(new C1(32767, 31206, 10556));
-                        C1 var16 = new C1(0, 65535, 34354);
+                        var16 = new C1(0, 65535, 34354);
                     }
 
                     Program.M20(Program.s_5[0][0, 0, 0]);
-                    ulong var17 = var0;
+                    var17 = var0;
                     this.F2 = 59833;
                     var17 = var17;
                 }
 
-                ulong var18 = var0;
+                var18 = var0;
                 if (!arg0[0])
                 {
                     var13 = var13;
@@ -2223,20 +2458,23 @@ public class C1
 
     public ref C1 M19(ref byte arg0)
     {
+        uint var0 = default(uint);
+        I0[] var1 = default(I0[]);
+        short[] var2 = default(short[]);
         if (Program.s_2[0])
         {
-            uint var0 = 1U;
+            var0 = 1U;
         }
         else
         {
             if (Program.s_2[0])
             {
-                I0[] var1 = new I0[]{new S0(6134716082547842957UL, 127, 145, -102, 3782464668090688438L, 19, 3154751169797485466L, 0UL, 9223372036854775807L), new S0(18446744073709551615UL, -2, 254, 36, -9223372036854775807L, 0, -6335897990959546307L, 17469816857894812883UL, -8475453496173408334L)};
+                var1 = new I0[]{new S0(6134716082547842957UL, 127, 145, -102, 3782464668090688438L, 19, 3154751169797485466L, 0UL, 9223372036854775807L), new S0(18446744073709551615UL, -2, 254, 36, -9223372036854775807L, 0, -6335897990959546307L, 17469816857894812883UL, -8475453496173408334L)};
                 Program.M20(Program.M20(this));
             }
             else
             {
-                short[] var2 = new short[]{2, -13580, 3112, 32767, -24104, 21734};
+                var2 = new short[]{2, -13580, 3112, 32767, -24104, 21734};
                 this.F0 = var2[0];
             }
         }
@@ -2246,12 +2484,18 @@ public class C1
 
     public C0 M21()
     {
-        C0[] var0 = new C0[]{new C0(126, 142, true), new C0(0, 194, false), new C0(-74, 10, false), new C0(127, 1, true), new C0(91, 0, true), new C0(70, 1, true)};
+        C0[] var0 = default(C0[]);
+        var0 = new C0[]{new C0(126, 142, true), new C0(0, 194, false), new C0(-74, 10, false), new C0(127, 1, true), new C0(91, 0, true), new C0(70, 1, true)};
         return var0[0];
     }
 
     public bool M22(I0 arg0)
     {
+        ulong var1 = default(ulong);
+        S0 var2 = default(S0);
+        uint var3 = default(uint);
+        byte[][] var4 = default(byte[][]);
+        S0 var5 = default(S0);
         if (Program.s_2[0])
         {
             if (Program.s_9)
@@ -2268,7 +2512,7 @@ public class C1
                     arg0 = arg0;
                 }
 
-                ulong var1 = 1UL;
+                var1 = 1UL;
                 var1 = var1;
             }
 
@@ -2279,23 +2523,25 @@ public class C1
                 this.F1 = 44033;
                 this.F2 = this.F1;
                 Program.s_10 = 103;
-                S0 var2 = new S0(13331004114361410253UL, -110, 81, -3, 0L, 153, -4223282101510619290L, 10724372000476034417UL, -2L);
+                var2 = new S0(13331004114361410253UL, -110, 81, -3, 0L, 153, -4223282101510619290L, 10724372000476034417UL, -2L);
             }
         }
 
-        uint var3 = 1U;
+        var3 = 1U;
         Program.M25(var3--, (ushort)(~this.F2)) = new S1(-24645, -9223372036854775808L, -13702);
-        byte[][] var4 = new byte[][]{new byte[]{1, 114, 65}, new byte[]{12, 0, 207, 1, 190, 245, 1, 246, 249, 1}};
-        S0 var5 = new S0(18446744073709551614UL, -42, 10, 121, 9223372036854775807L, 1, 1L, 2169734914499557307UL, 2239247498138057324L);
+        var4 = new byte[][]{new byte[]{1, 114, 65}, new byte[]{12, 0, 207, 1, 190, 245, 1, 246, 249, 1}};
+        var5 = new S0(18446744073709551614UL, -42, 10, 121, 9223372036854775807L, 1, 1L, 2169734914499557307UL, 2239247498138057324L);
         return Program.M24();
     }
 
     public short M28()
     {
-        sbyte var0 = Program.s_3++;
+        sbyte var0 = default(sbyte);
+        bool var1 = default(bool);
+        var0 = Program.s_3++;
         try
         {
-            bool var1 = false;
+            var1 = false;
         }
         finally
         {
@@ -2316,6 +2562,26 @@ public class C1
 
     public long[, ] M31()
     {
+        C0 var1 = default(C0);
+        long var2 = default(long);
+        int var4 = default(int);
+        uint[] var6 = default(uint[]);
+        bool var7 = default(bool);
+        bool[] var8 = default(bool[]);
+        byte var9 = default(byte);
+        int var10 = default(int);
+        byte var12 = default(byte);
+        byte var13 = default(byte);
+        bool var14 = default(bool);
+        long[] var15 = default(long[]);
+        bool var17 = default(bool);
+        sbyte[][] var18 = default(sbyte[][]);
+        bool var19 = default(bool);
+        I0 var20 = default(I0);
+        C1[][] var22 = default(C1[][]);
+        byte var23 = default(byte);
+        C1 var24 = default(C1);
+        S1 var25 = default(S1);
         try
         {
             this.F1 = 24517;
@@ -2325,12 +2591,12 @@ public class C1
                 ref uint var0 = ref Program.s_12;
                 if (false ^ !(Program.s_6.F5 > Program.s_1[0].F2++))
                 {
-                    C0 var1 = Program.s_21[0][0, 0];
+                    var1 = Program.s_21[0][0, 0];
                     var0 = var0;
                     {
                         Program.s_22 = var1.F2;
                         {
-                            long var2 = (long)(1 >> this.F1);
+                            var2 = (long)(1 >> this.F1);
                             var2 = var2;
                             ref bool var3 = ref var1.F2;
                         }
@@ -2342,7 +2608,7 @@ public class C1
                         this.F0 = Program.s_18.F2;
                     }
 
-                    int var4 = -10;
+                    var4 = -10;
                     var1 = var1;
                     var1.F2 = false;
                 }
@@ -2364,12 +2630,12 @@ public class C1
                     this.F2 = Program.s_20;
                 }
 
-                uint[] var6 = new uint[]{4065272229U, 0U, 0U, 10U, 3377359051U, 1666834386U, 3161704701U, 0U, 803916026U, 10U};
+                var6 = new uint[]{4065272229U, 0U, 0U, 10U, 3377359051U, 1666834386U, 3161704701U, 0U, 803916026U, 10U};
             }
             else
             {
                 Program.s_18.F2 &= (short)((-(int)(0 / (long)(Program.s_24.F6 | 1))) << this.F0);
-                bool var7 = !Program.s_16.F2;
+                var7 = !Program.s_16.F2;
                 this.F2 = this.F1;
                 {
                     var7 = false;
@@ -2381,7 +2647,7 @@ public class C1
                     new S0(18446744073709551614UL, 89, 0, 127, 9223372036854775806L, 1, 1L, 14971734111227883698UL, 2887081958162872328L).M36(Program.s_28.F1++, ref Program.s_25, new S0((ulong)(1316392310 * (int)Program.M32()), -127, (byte)(26592 * (sbyte)(~Program.s_23.F0--)), 1, (long)new C0(-128, 255, true).M34().M37(ref Program.s_5[0][0, 0, 0], 5468505367102220744L), (byte)(this.F2 & 18446744073709551615UL), (long)(~(this.F2 - -4) - (byte)Program.M41()), 3746924121898707286UL, (long)new S0(16091177525235994156UL, -10, 122, 0, 3611282183152019222L, 0, 10L, 1UL, 7410832395800910001L).M38(new ulong[]{14466330841693274689UL, 0UL, 1UL}, Program.s_5[0][0, 0, 0].F1)));
                 }
 
-                bool[] var8 = new bool[]{false, true, true};
+                var8 = new bool[]{false, true, true};
                 this.F2 = this.F2;
             }
         }
@@ -2391,15 +2657,15 @@ public class C1
             {
                 Program.s_23 = Program.s_21[0][0, 0];
                 {
-                    byte var9 = 7;
-                    int var10 = (int)Program.s_18.M37(ref Program.s_5[0][0, 0, 0], Program.s_1[0].F1);
+                    var9 = 7;
+                    var10 = (int)Program.s_18.M37(ref Program.s_5[0][0, 0, 0], Program.s_1[0].F1);
                     if (Program.s_27[0].F2)
                     {
                         Program.M35(ref Program.s_16.F1);
                         ref C1[] var11 = ref Program.s_32;
                         if (!Program.s_16.F2)
                         {
-                            byte var12 = Program.M40(this.F0);
+                            var12 = Program.M40(this.F0);
                             Program.s_18 = new C0(127, 129, false).M34();
                         }
                         else
@@ -2407,13 +2673,13 @@ public class C1
                             this.F0 = 29496;
                         }
 
-                        byte var13 = 10;
+                        var13 = 10;
                     }
                     else
                     {
                         var10 = var10;
                         Program.s_33 = (ushort)Program.M35(ref Program.s_24.F2);
-                        bool var14 = Program.s_23.F2;
+                        var14 = Program.s_23.F2;
                         this.F1 = (ushort)new S1(8794, 6227307333332751568L, 0).M37(ref Program.s_32[0], 1L);
                     }
 
@@ -2422,7 +2688,7 @@ public class C1
                 }
 
                 this.F2 = this.F2;
-                long[] var15 = Program.s_14;
+                var15 = Program.s_14;
                 for (int var16 = 0; var16 < 2; var16++)
                 {
                     this.F2 = (ushort)(~this.F1);
@@ -2432,15 +2698,15 @@ public class C1
                     this.F1 = this.F2;
                     new S0(1UL, 10, 76, -82, 2297558597821830394L, 1, 1711706292385251253L, 0UL, 0L).M38(new ulong[]{14372104478261996367UL, 2UL, 10UL, 11757023767304980274UL, 1UL, 18446744073709551614UL, 18446744073709551615UL, 12740617352359938028UL, 4060282094175059322UL}, 24212);
                     new C0(-104, 203, true).M34() = new S1(-27138, 3516129359058057350L, -32767);
-                    bool var17 = false;
-                    sbyte[][] var18 = new sbyte[][]{new sbyte[]{83, 0, -1, -8, -73, 126, 32, 0, 127}, new sbyte[]{127}};
+                    var17 = false;
+                    var18 = new sbyte[][]{new sbyte[]{83, 0, -1, -8, -73, 126, 32, 0, 127}, new sbyte[]{127}};
                 }
 
                 var15[0] = 7712479604802441438L;
-                bool var19 = !(!Program.s_31.F2 && false);
+                var19 = !(!Program.s_31.F2 && false);
                 {
                     this.F1 = this.F2;
-                    I0 var20 = new S0(1UL, -99, 10, -4, 3033104973650290037L, 1, -2114383460168732555L, 0UL, 4512729201093742613L);
+                    var20 = new S0(1UL, -99, 10, -4, 3033104973650290037L, 1, -2114383460168732555L, 0UL, 4512729201093742613L);
                 }
 
                 {
@@ -2451,19 +2717,19 @@ public class C1
                     Program.s_7 = (sbyte)Program.s_1[0].M37(ref Program.s_5[0][0, 0, 0], var15[0]);
                     for (int var21 = 0; var21 < 2; var21++)
                     {
-                        C1[][] var22 = new C1[][]{new C1[]{new C1(920, 17854, 46646), new C1(-28615, 60924, 65534), new C1(-2, 1, 65534), new C1(32767, 29204, 65535)}, new C1[]{new C1(2, 22461, 1), new C1(-32067, 2, 0), new C1(20757, 35088, 48052), new C1(-29048, 51316, 0), new C1(11976, 43306, 36068)}, new C1[]{new C1(8053, 22965, 1), new C1(-24254, 0, 45280), new C1(1, 1, 23951), new C1(1, 62332, 29739)}, new C1[]{new C1(0, 1, 1)}, new C1[]{new C1(0, 40889, 0), new C1(32766, 51773, 51236), new C1(0, 65534, 65535), new C1(0, 25801, 65534), new C1(-18687, 65534, 0)}};
+                        var22 = new C1[][]{new C1[]{new C1(920, 17854, 46646), new C1(-28615, 60924, 65534), new C1(-2, 1, 65534), new C1(32767, 29204, 65535)}, new C1[]{new C1(2, 22461, 1), new C1(-32067, 2, 0), new C1(20757, 35088, 48052), new C1(-29048, 51316, 0), new C1(11976, 43306, 36068)}, new C1[]{new C1(8053, 22965, 1), new C1(-24254, 0, 45280), new C1(1, 1, 23951), new C1(1, 62332, 29739)}, new C1[]{new C1(0, 1, 1)}, new C1[]{new C1(0, 40889, 0), new C1(32766, 51773, 51236), new C1(0, 65534, 65535), new C1(0, 25801, 65534), new C1(-18687, 65534, 0)}};
                         Program.s_34 = Program.s_24;
                         Program.M42();
                         this.F1 = var22[0][0].F2;
                     }
 
-                    byte var23 = Program.s_23.F1++;
+                    var23 = Program.s_23.F1++;
                     this.F1 = this.F2;
                 }
 
-                C1 var24 = new C1(18124, 65534, 37064);
+                var24 = new C1(18124, 65534, 37064);
                 var15[0] = Program.s_14[0]--;
-                S1 var25 = Program.s_18;
+                var25 = Program.s_18;
             }
 
             Program.s_35 = new short[]{-32767, 0, 32627, 24056, 0, 11458};
@@ -2474,6 +2740,13 @@ public class C1
 
     public ulong M49(byte arg0)
     {
+        I0 var2 = default(I0);
+        short var5 = default(short);
+        long var6 = default(long);
+        int var7 = default(int);
+        S0 var8 = default(S0);
+        uint var9 = default(uint);
+        ushort var10 = default(ushort);
         if (!(126 != arg0))
         {
             this.F2 = this.F1;
@@ -2489,7 +2762,7 @@ public class C1
             }
 
             arg0 = arg0;
-            I0 var2 = new S0(1UL, 0, 0, -127, 9223372036854775806L, 71, 132362847533229468L, 14929464542958667361UL, 1L);
+            var2 = new S0(1UL, 0, 0, -127, 9223372036854775806L, 71, 132362847533229468L, 14929464542958667361UL, 1L);
             ref byte var3 = ref Program.s_36.F2;
         }
 
@@ -2508,9 +2781,9 @@ public class C1
             {
                 if (2147483647 != Program.s_1[0].F1--)
                 {
-                    short var5 = -1;
-                    long var6 = Program.s_24.F4++;
-                    int var7 = var4[0][0][0, 0, 0]-- & var4[0][0][0, 0, 0];
+                    var5 = -1;
+                    var6 = Program.s_24.F4++;
+                    var7 = var4[0][0][0, 0, 0]-- & var4[0][0][0, 0, 0];
                     {
                         this.F2 = 48104;
                         var4[0][0][0, 0, 0] = (sbyte)(Program.s_24.F0++ >> var7);
@@ -2519,7 +2792,7 @@ public class C1
                 }
                 else
                 {
-                    S0 var8 = new S0((ulong)new S0(1UL, 0, 1, 69, 0L, 1, 2L, 3918519111791051460UL, 1419313067300050495L).M53(), var4[0][0][0, 0, 0]++, arg0, -127, Program.s_15, arg0, 9223372036854775807L, Program.s_24.F0--, -9223372036854775807L);
+                    var8 = new S0((ulong)new S0(1UL, 0, 1, 69, 0L, 1, 2L, 3918519111791051460UL, 1419313067300050495L).M53(), var4[0][0][0, 0, 0]++, arg0, -127, Program.s_15, arg0, 9223372036854775807L, Program.s_24.F0--, -9223372036854775807L);
                     Program.M54(ref Program.s_42[0].F2, Program.s_6.M55(), Program.s_5[0][0, 0, 0].F2, ref Program.s_42[0]).M50(this, Program.s_30--);
                 }
 
@@ -2539,12 +2812,12 @@ public class C1
             }
         }
 
-        uint var9 = 1U;
+        var9 = 1U;
         if (new S0(2UL, 120, 255, -37, -5355706597276744720L, 208, 0L, 3929619187731743067UL, 9223372036854775807L).M55().M50(Program.s_46[0], Program.s_25[0][0]))
         {
             if (Program.M54(ref Program.s_42[0].F5, new S1(1, -473604748152838234L, 6698), 56763, ref Program.s_24).M50(new C1(-32768, 0, 65535), (uint)Program.M56()))
             {
-                ushort var10 = this.F1;
+                var10 = this.F1;
             }
         }
 
@@ -2559,6 +2832,19 @@ public class C1
 
     public sbyte M64()
     {
+        C1 var1 = default(C1);
+        S0 var2 = default(S0);
+        C0 var3 = default(C0);
+        uint var4 = default(uint);
+        S1 var5 = default(S1);
+        ulong var6 = default(ulong);
+        C0 var10 = default(C0);
+        sbyte var11 = default(sbyte);
+        C0 var12 = default(C0);
+        bool var13 = default(bool);
+        sbyte var14 = default(sbyte);
+        S1 var15 = default(S1);
+        C0 var16 = default(C0);
         this.F0 = 0;
         for (int var0 = 0; var0 < 2; var0++)
         {
@@ -2569,22 +2855,22 @@ public class C1
                 this.F2 = Program.s_13;
                 if (!(Program.s_9 == Program.M68((ushort)Program.M73())))
                 {
-                    C1 var1 = new C1(8963, 65535, 38961);
+                    var1 = new C1(8963, 65535, 38961);
                 }
                 else
                 {
                     this.F0 = this.F0;
                     try
                     {
-                        S0 var2 = new S0(15985889999625713005UL, 1, 59, 116, 6831034857566931808L, 0, -9223372036854775807L, 10213321759039712730UL, -9223372036854775808L);
+                        var2 = new S0(15985889999625713005UL, 1, 59, 116, 6831034857566931808L, 0, -9223372036854775807L, 10213321759039712730UL, -9223372036854775808L);
                     }
                     finally
                     {
                         this.F1 = 65535;
                         Program.M79(Program.s_19--);
-                        C0 var3 = new C0(-128, Program.s_23.F1++, false);
-                        uint var4 = Program.s_12++;
-                        S1 var5 = new S1(-10, 7422601417416798974L, -11151);
+                        var3 = new C0(-128, Program.s_23.F1++, false);
+                        var4 = Program.s_12++;
+                        var5 = new S1(-10, 7422601417416798974L, -11151);
                         Program.s_79 = var5;
                     }
 
@@ -2600,7 +2886,7 @@ public class C1
                 }
                 finally
                 {
-                    ulong var6 = Program.s_4;
+                    var6 = Program.s_4;
                 }
 
                 ref byte var7 = ref Program.s_24.F2;
@@ -2618,21 +2904,21 @@ public class C1
                     {
                         for (int var9 = 0; var9 < 2; var9++)
                         {
-                            C0 var10 = new C0(93, 1, true);
+                            var10 = new C0(93, 1, true);
                         }
                     }
                     finally
                     {
-                        sbyte var11 = (sbyte)new S0(15872640296263956862UL, -75, 2, 100, -1433017000082396127L, 0, 9223372036854775806L, 1064946878228659844UL, 9223372036854775806L).M78();
+                        var11 = (sbyte)new S0(15872640296263956862UL, -75, 2, 100, -1433017000082396127L, 0, 9223372036854775806L, 1064946878228659844UL, 9223372036854775806L).M78();
                     }
 
-                    C0 var12 = Program.M75();
+                    var12 = Program.M75();
                     if (Program.s_22)
                     {
                         var12 = new C0(-34, 141, true);
-                        bool var13 = Program.M68(this.F2);
+                        var13 = Program.M68(this.F2);
                         Program.M67(Program.M79(this.F1), (ushort)(~this.F2), new C0[][]{new C0[]{new C0(-30, 68, true), new C0(1, 36, false), new C0(0, 128, true), new C0(62, 0, true), new C0(1, 255, true), new C0(-127, 1, false), new C0(-97, 77, true), new C0(-87, 1, true)}, new C0[]{new C0(-56, 87, true), new C0(1, 49, false), new C0(0, 24, true), new C0(43, 1, false), new C0(74, 0, false), new C0(-10, 199, true), new C0(-76, 254, false)}, new C0[]{new C0(127, 1, false)}, new C0[]{new C0(-74, 49, true), new C0(-16, 0, false), new C0(-29, 0, true), new C0(-128, 254, true), new C0(126, 254, true), new C0(-109, 0, false)}}).M76(ref this.F1);
-                        sbyte var14 = var12.F0--;
+                        var14 = var12.F0--;
                         Program.s_6.F6 = (long)(this.F1 << (ushort)Program.s_5[0][0, 0, 0].M66(Program.s_57, var8.F0, new C1(0, 105, 17878)));
                     }
 
@@ -2645,8 +2931,8 @@ public class C1
                     Program.s_71 = var12.F1--;
                 }
 
-                S1 var15 = var8;
-                C0 var16 = Program.M67(var15, this.F1, new C0[][]{new C0[]{new C0(-54, 27, false), new C0(127, 254, false), new C0(112, 215, false), new C0(0, 0, false), new C0(106, 0, true)}, new C0[]{new C0(-115, 217, false), new C0(69, 1, false), new C0(0, 39, true), new C0(-93, 254, false), new C0(-1, 248, true), new C0(1, 0, false), new C0(-1, 255, false)}, new C0[]{new C0(89, 98, true), new C0(-128, 1, true), new C0(69, 1, false), new C0(1, 1, true), new C0(1, 142, false)}, new C0[]{new C0(1, 0, false), new C0(-8, 204, true)}, new C0[]{new C0(105, 0, false)}, new C0[]{new C0(-110, 0, true), new C0(23, 1, false), new C0(-109, 39, true), new C0(-38, 0, false)}});
+                var15 = var8;
+                var16 = Program.M67(var15, this.F1, new C0[][]{new C0[]{new C0(-54, 27, false), new C0(127, 254, false), new C0(112, 215, false), new C0(0, 0, false), new C0(106, 0, true)}, new C0[]{new C0(-115, 217, false), new C0(69, 1, false), new C0(0, 39, true), new C0(-93, 254, false), new C0(-1, 248, true), new C0(1, 0, false), new C0(-1, 255, false)}, new C0[]{new C0(89, 98, true), new C0(-128, 1, true), new C0(69, 1, false), new C0(1, 1, true), new C0(1, 142, false)}, new C0[]{new C0(1, 0, false), new C0(-8, 204, true)}, new C0[]{new C0(105, 0, false)}, new C0[]{new C0(-110, 0, true), new C0(23, 1, false), new C0(-109, 39, true), new C0(-38, 0, false)}});
                 var15 = var8;
                 try
                 {
@@ -2668,7 +2954,8 @@ public class C1
 
     public ushort M65()
     {
-        uint var0 = (uint)(-Program.s_30--);
+        uint var0 = default(uint);
+        var0 = (uint)(-Program.s_30--);
         var0 = Program.s_12--;
         Program.M71(Program.s_42[0], 3566411060U, new C1(0, 65534, 1), (sbyte)Program.M70(this.F0), new long[][]{new long[]{-6418261715812037661L}, new long[]{-9223372036854775807L}, new long[]{0L, 5970627056432606438L, 9223372036854775807L, 0L}, new long[]{-6772126501113167211L, -2L, 9223372036854775806L, -656376225051150099L}, new long[]{-10L, -9223372036854775808L, -2L, 9223372036854775807L}}, var0, ref Program.s_75).M66(new ushort[]{65535, 29878, 52088, 40762, 0, 21126}, this.F0, this);
         return (ushort)(22 * Program.s_74--);
@@ -2676,10 +2963,16 @@ public class C1
 
     public ref sbyte M66(ushort[] arg0, short arg1, C1 arg2)
     {
+        short var0 = default(short);
+        sbyte var1 = default(sbyte);
+        S1[] var2 = default(S1[]);
+        S1 var3 = default(S1);
+        I0 var4 = default(I0);
+        I0 var5 = default(I0);
         try
         {
-            short var0 = 32766;
-            sbyte var1 = 1;
+            var0 = 32766;
+            var1 = 1;
         }
         finally
         {
@@ -2690,8 +2983,8 @@ public class C1
             }
             else
             {
-                S1[] var2 = new S1[]{new S1(12900, -1234938095328549785L, -1), new S1(-31087, -9127186660482885222L, -13033), new S1(32766, 8755249871489906977L, -14485)};
-                S1 var3 = var2[0];
+                var2 = new S1[]{new S1(12900, -1234938095328549785L, -1), new S1(-31087, -9127186660482885222L, -13033), new S1(32766, 8755249871489906977L, -14485)};
+                var3 = var2[0];
                 Program.s_78 = Program.M68((ushort)(409393658 ^ var2[0].F0));
                 var3 = Program.s_17;
             }
@@ -2700,8 +2993,8 @@ public class C1
             {
                 Program.s_18.F1 -= 2943733625132261607L;
                 arg0[0] = Program.s_33;
-                I0 var4 = new S0(3037876970559400094UL, -33, 111, 0, 2569226957575102089L, 5, 581182869339204749L, 1UL, 0L);
-                I0 var5 = var4;
+                var4 = new S0(3037876970559400094UL, -33, 111, 0, 2569226957575102089L, 5, 581182869339204749L, 1UL, 0L);
+                var5 = var4;
             }
             else
             {
@@ -2714,10 +3007,11 @@ public class C1
 
     public int[] M69()
     {
+        ushort[] var0 = default(ushort[]);
         this.F0 = -14436;
         {
             this.F1 >>= Program.s_45[0]++ - Program.s_58++;
-            ushort[] var0 = Program.s_57;
+            var0 = Program.s_57;
             this.F1 = 21046;
         }
 
@@ -2729,21 +3023,23 @@ public class C1
 
     public ref short M99(uint arg0)
     {
+        short var0 = default(short);
         Program.s_24.F5 = (byte)((ushort)(~this.F2) >> Program.s_6.F1);
         {
             this.F1 = this.F2;
         }
 
-        short var0 = this.F0;
+        var0 = this.F0;
         Program.s_42[0].F3 = 1;
         return ref this.F0;
     }
 
     public I0 M106()
     {
+        C1[] var0 = default(C1[]);
         this.F2 = this.F2;
         this.F1 = 1;
-        C1[] var0 = new C1[]{new C1(-32007, 2, 42169), new C1(8733, 1, 37943), new C1(32766, 8819, 23811), new C1(-21252, 1, 0), new C1(1, 2635, 20497), new C1(-26197, 10, 18602), new C1(1, 10, 1), new C1(6769, 39166, 0), new C1(-10815, 53913, 33647)};
+        var0 = new C1[]{new C1(-32007, 2, 42169), new C1(8733, 1, 37943), new C1(32766, 8819, 23811), new C1(-21252, 1, 0), new C1(1, 2635, 20497), new C1(-26197, 10, 18602), new C1(1, 10, 1), new C1(6769, 39166, 0), new C1(-10815, 53913, 33647)};
         Program.s_11[0, 0] = 2;
         Program.s_19 = var0[0].F1;
         return Program.s_89;
@@ -2890,16 +3186,23 @@ public class Program
 
     public static void M0()
     {
+        bool var0 = default(bool);
+        I0 var2 = default(I0);
+        ushort[] var3 = default(ushort[]);
+        C0[][] var4 = default(C0[][]);
+        C1 var5 = default(C1);
+        uint var6 = default(uint);
+        sbyte var7 = default(sbyte);
         try
         {
-            bool var0 = true;
+            var0 = true;
         }
         finally
         {
             ref S1[] var1 = ref s_1;
-            I0 var2 = new S0(8353541502057597656UL, -38, 50, 2, -8499796689128248698L, 254, 2168384111350283544L, 7238080254982688564UL, 4086484119483454818L);
+            var2 = new S0(8353541502057597656UL, -38, 50, 2, -8499796689128248698L, 254, 2168384111350283544L, 7238080254982688564UL, 4086484119483454818L);
             var1 = var1;
-            ushort[] var3 = new ushort[]{29746, 0, 5458, 1, 4595, 61082, 18146, 0};
+            var3 = new ushort[]{29746, 0, 5458, 1, 4595, 61082, 18146, 0};
             s_1[0] = var1[0];
         }
 
@@ -2920,7 +3223,7 @@ public class Program
                 }
                 finally
                 {
-                    C0[][] var4 = new C0[][]{new C0[]{new C0(-26, 1, true), new C0(-127, 1, false), new C0(90, 2, true), new C0(-124, 0, true)}, new C0[]{new C0(127, 133, false), new C0(1, 153, true), new C0(1, 0, false), new C0(0, 181, true)}, new C0[]{new C0(126, 41, false), new C0(1, 0, false), new C0(-127, 0, false), new C0(127, 1, true)}, new C0[]{new C0(-127, 82, false), new C0(-116, 22, false), new C0(-127, 188, false), new C0(-4, 48, false)}, new C0[]{new C0(126, 38, false), new C0(99, 2, false), new C0(-127, 0, false), new C0(-128, 1, true)}, new C0[]{new C0(0, 1, false)}, new C0[]{new C0(0, 152, false), new C0(99, 1, true), new C0(85, 1, false), new C0(-116, 192, true)}, new C0[]{new C0(-43, 180, true), new C0(-2, 43, false), new C0(1, 255, true)}, new C0[]{new C0(127, 1, false), new C0(8, 209, false)}, new C0[]{new C0(-88, 127, true)}};
+                    var4 = new C0[][]{new C0[]{new C0(-26, 1, true), new C0(-127, 1, false), new C0(90, 2, true), new C0(-124, 0, true)}, new C0[]{new C0(127, 133, false), new C0(1, 153, true), new C0(1, 0, false), new C0(0, 181, true)}, new C0[]{new C0(126, 41, false), new C0(1, 0, false), new C0(-127, 0, false), new C0(127, 1, true)}, new C0[]{new C0(-127, 82, false), new C0(-116, 22, false), new C0(-127, 188, false), new C0(-4, 48, false)}, new C0[]{new C0(126, 38, false), new C0(99, 2, false), new C0(-127, 0, false), new C0(-128, 1, true)}, new C0[]{new C0(0, 1, false)}, new C0[]{new C0(0, 152, false), new C0(99, 1, true), new C0(85, 1, false), new C0(-116, 192, true)}, new C0[]{new C0(-43, 180, true), new C0(-2, 43, false), new C0(1, 255, true)}, new C0[]{new C0(127, 1, false), new C0(8, 209, false)}, new C0[]{new C0(-88, 127, true)}};
                 }
             }
 
@@ -2942,19 +3245,21 @@ public class Program
 
         try
         {
-            C1 var5 = M71(new S0(1UL, 31, 254, 58, 0L, 255, 0L, 13996881193968207921UL, 9223372036854775806L), 4294967295U, s_32[0], s_101[0, 0].F1++, new long[][]{new long[]{-6162544056850646410L, -1L, -9223372036854775808L}, new long[]{3549701850515880707L, -3406372172434254904L, -4448738766718995716L}, new long[]{-9223372036854775807L, 2L}, new long[]{-9223372036854775808L, 1L}}, s_30, ref s_75);
+            var5 = M71(new S0(1UL, 31, 254, 58, 0L, 255, 0L, 13996881193968207921UL, 9223372036854775806L), 4294967295U, s_32[0], s_101[0, 0].F1++, new long[][]{new long[]{-6162544056850646410L, -1L, -9223372036854775808L}, new long[]{3549701850515880707L, -3406372172434254904L, -4448738766718995716L}, new long[]{-9223372036854775807L, 2L}, new long[]{-9223372036854775808L, 1L}}, s_30, ref s_75);
         }
         finally
         {
-            uint var6 = s_53.F2++ & s_25[0][0]++;
+            var6 = s_53.F2++ & s_25[0][0]++;
         }
 
-        sbyte var7 = s_84.F0--;
+        var7 = s_84.F0--;
         s_31.M94();
     }
 
     public static int M2(bool arg0, C1[] arg1, ref long arg2)
     {
+        S0 var1 = default(S0);
+        S1 var2 = default(S1);
         try
         {
             for (int var0 = 0; var0 < 2; var0++)
@@ -2962,7 +3267,7 @@ public class Program
                 s_1[0].F0 = -2;
                 new C0(-4, 92, false).M3(-var0, new C0(-36, 163, false));
                 new C0(-65, 1, true).M3(var0, new C0(-128, 171, true));
-                S0 var1 = M4(new S0(8755168123403557558UL, (sbyte)((sbyte)(-new C0(1, 85, false).M3(569481964, new C0(-17, 233, false))) ^ -69), 246, new C0(1, 1, false).M3(var0, new C0(-128, 1, false)), arg2, (byte)(~(byte)new C0(-96, 1, false).M3(var0, new C0(-12, 3, false))), 0L, 1UL, arg2));
+                var1 = M4(new S0(8755168123403557558UL, (sbyte)((sbyte)(-new C0(1, 85, false).M3(569481964, new C0(-17, 233, false))) ^ -69), 246, new C0(1, 1, false).M3(var0, new C0(-128, 1, false)), arg2, (byte)(~(byte)new C0(-96, 1, false).M3(var0, new C0(-12, 3, false))), 0L, 1UL, arg2));
                 s_1[0].F2 = arg1[0].F0;
                 var1.F7 = var1.F0;
                 new C0(36, 2, true).M3(var0, new C0(126, 1, false));
@@ -2990,7 +3295,7 @@ public class Program
         arg1[0].F2 = arg1[0].F1;
         if (arg0)
         {
-            S1 var2 = M54(ref s_23.F1, new S1(4049, -1373936966631774281L, 10), 65535, ref s_73);
+            var2 = M54(ref s_23.F1, new S1(4049, -1373936966631774281L, 10), 65535, ref s_73);
             s_130 = arg1[0].F0;
             if (s_21[0][0, 0].F2)
             {
@@ -3020,6 +3325,39 @@ public class Program
 
     public static long M8(byte arg0, S1[] arg1, ulong[] arg2)
     {
+        S1[] var0 = default(S1[]);
+        byte var1 = default(byte);
+        S1[][] var2 = default(S1[][]);
+        S0[] var4 = default(S0[]);
+        ulong var6 = default(ulong);
+        ulong var7 = default(ulong);
+        ulong var9 = default(ulong);
+        C0 var11 = default(C0);
+        byte var13 = default(byte);
+        short var14 = default(short);
+        I0 var16 = default(I0);
+        bool[] var17 = default(bool[]);
+        C0 var18 = default(C0);
+        int[][][] var19 = default(int[][][]);
+        byte var20 = default(byte);
+        short var21 = default(short);
+        ushort var22 = default(ushort);
+        long var23 = default(long);
+        ushort var24 = default(ushort);
+        C1 var25 = default(C1);
+        ulong var27 = default(ulong);
+        C1[] var28 = default(C1[]);
+        S1 var29 = default(S1);
+        bool var31 = default(bool);
+        C0 var32 = default(C0);
+        long var33 = default(long);
+        bool var34 = default(bool);
+        I0 var35 = default(I0);
+        short[] var37 = default(short[]);
+        uint var39 = default(uint);
+        ushort var40 = default(ushort);
+        long var41 = default(long);
+        uint var42 = default(uint);
         arg1[0].M9();
         if (s_2[0])
         {
@@ -3029,25 +3367,25 @@ public class Program
             {
                 {
                     s_2[0] = !s_2[0];
-                    S1[] var0 = arg1;
-                    byte var1 = (byte)new C1(-1860, 1, 65535).M10();
+                    var0 = arg1;
+                    var1 = (byte)new C1(-1860, 1, 65535).M10();
                     s_2 = new bool[]{true, true, true, false, false, true};
-                    S1[][] var2 = new S1[][]{new S1[]{new S1(10, -8486100340903208757L, 32766), new S1(32767, 0L, 0), new S1(-9435, -2940787461989001617L, 0), new S1(-22089, 5548539383907634221L, 10), new S1(4430, 0L, 32767), new S1(-21496, -481100630300911070L, 0), new S1(0, 2772489289034375073L, -32767), new S1(-10, -3166504478664914805L, 2)}, new S1[]{new S1(32767, -2786340440483854383L, -10), new S1(0, -2575019360089487996L, -32767), new S1(24229, 4685476692677221467L, -32768), new S1(10, 1L, 2170), new S1(-17767, -8738260181945498180L, 2609), new S1(0, 3209491670094553154L, -13653), new S1(0, 0L, -32767)}, new S1[]{new S1(2, 9223372036854775806L, -30296), new S1(32767, 1L, 0), new S1(-2, 1L, 32533), new S1(-2, 0L, 1), new S1(-4982, 1543266182817331340L, -32767), new S1(-24571, 5805227324170437840L, 27967), new S1(-21752, 9223372036854775806L, 11751), new S1(32766, 7931678681355645003L, 17733), new S1(7765, -7533076303263108755L, 5258), new S1(5564, -5612890421884310415L, -231)}, new S1[]{new S1(-1436, 0L, 10), new S1(32766, -1471500293707695721L, -32768)}};
+                    var2 = new S1[][]{new S1[]{new S1(10, -8486100340903208757L, 32766), new S1(32767, 0L, 0), new S1(-9435, -2940787461989001617L, 0), new S1(-22089, 5548539383907634221L, 10), new S1(4430, 0L, 32767), new S1(-21496, -481100630300911070L, 0), new S1(0, 2772489289034375073L, -32767), new S1(-10, -3166504478664914805L, 2)}, new S1[]{new S1(32767, -2786340440483854383L, -10), new S1(0, -2575019360089487996L, -32767), new S1(24229, 4685476692677221467L, -32768), new S1(10, 1L, 2170), new S1(-17767, -8738260181945498180L, 2609), new S1(0, 3209491670094553154L, -13653), new S1(0, 0L, -32767)}, new S1[]{new S1(2, 9223372036854775806L, -30296), new S1(32767, 1L, 0), new S1(-2, 1L, 32533), new S1(-2, 0L, 1), new S1(-4982, 1543266182817331340L, -32767), new S1(-24571, 5805227324170437840L, 27967), new S1(-21752, 9223372036854775806L, 11751), new S1(32766, 7931678681355645003L, 17733), new S1(7765, -7533076303263108755L, 5258), new S1(5564, -5612890421884310415L, -231)}, new S1[]{new S1(-1436, 0L, 10), new S1(32766, -1471500293707695721L, -32768)}};
                 }
 
                 for (int var3 = 0; var3 < 2; var3++)
                 {
                     arg0 ^= arg0;
-                    S0[] var4 = new S0[]{new S0(18446744073709551615UL, 54, 1, -128, 9223372036854775806L, 0, 1372567469984799937L, 13880061475160096930UL, 9223372036854775806L), new S0(3760383032340384954UL, 10, 33, -10, 6344034717981209826L, 10, -102532756572029467L, 0UL, -7756034441027621172L), new S0(9478106620110939038UL, 96, 0, 1, 10L, 0, 8023440054153404176L, 17252768794295737655UL, 2649862567546595650L), new S0(0UL, -17, 252, -33, -3836582775123792670L, 44, 4505379727823831108L, 12641638981604952536UL, -1220558263729321425L), new S0(1UL, 1, 1, 43, -1877607134108895940L, 43, -5927951537204038412L, 10745167006270109083UL, -5022691360021682666L), new S0(18154780577095242429UL, 0, 254, 126, -3083417764483787485L, 64, -7188045850213577654L, 2046495534839192633UL, -7904362923876912986L), new S0(11322895110394791617UL, 1, 171, 0, -7569432030034772877L, 25, 5444843341331563867L, 0UL, 6175924262502653303L), new S0(1928802721780960589UL, 29, 1, 0, 1969808791996842487L, 52, -1L, 0UL, 0L), new S0(1836516172186233618UL, 84, 1, 0, 1L, 0, -7450005818359769561L, 4399747435951565130UL, -1L)};
+                    var4 = new S0[]{new S0(18446744073709551615UL, 54, 1, -128, 9223372036854775806L, 0, 1372567469984799937L, 13880061475160096930UL, 9223372036854775806L), new S0(3760383032340384954UL, 10, 33, -10, 6344034717981209826L, 10, -102532756572029467L, 0UL, -7756034441027621172L), new S0(9478106620110939038UL, 96, 0, 1, 10L, 0, 8023440054153404176L, 17252768794295737655UL, 2649862567546595650L), new S0(0UL, -17, 252, -33, -3836582775123792670L, 44, 4505379727823831108L, 12641638981604952536UL, -1220558263729321425L), new S0(1UL, 1, 1, 43, -1877607134108895940L, 43, -5927951537204038412L, 10745167006270109083UL, -5022691360021682666L), new S0(18154780577095242429UL, 0, 254, 126, -3083417764483787485L, 64, -7188045850213577654L, 2046495534839192633UL, -7904362923876912986L), new S0(11322895110394791617UL, 1, 171, 0, -7569432030034772877L, 25, 5444843341331563867L, 0UL, 6175924262502653303L), new S0(1928802721780960589UL, 29, 1, 0, 1969808791996842487L, 52, -1L, 0UL, 0L), new S0(1836516172186233618UL, 84, 1, 0, 1L, 0, -7450005818359769561L, 4399747435951565130UL, -1L)};
                     for (int var5 = 0; var5 < 2; var5++)
                     {
-                        ulong var6 = (ulong)M11(!(var4[0].F5 >= 0), new bool[][]{new bool[]{false}, new bool[]{true}, new bool[]{true}, new bool[]{false, false}, new bool[]{false, true, true, false}, new bool[]{true, true, false, true}, new bool[]{true}, new bool[]{false, true, true}}, new ushort[]{36248, 48524, 0, 0, 28329}, (uint)M11(true, new bool[][]{new bool[]{true}, new bool[]{false}}, new ushort[]{35711, 0, 50555}, 0U));
+                        var6 = (ulong)M11(!(var4[0].F5 >= 0), new bool[][]{new bool[]{false}, new bool[]{true}, new bool[]{true}, new bool[]{false, false}, new bool[]{false, true, true, false}, new bool[]{true, true, false, true}, new bool[]{true}, new bool[]{false, true, true}}, new ushort[]{36248, 48524, 0, 0, 28329}, (uint)M11(true, new bool[][]{new bool[]{true}, new bool[]{false}}, new ushort[]{35711, 0, 50555}, 0U));
                         var4[0].F8 = 0L;
-                        ulong var7 = var4[0].F0++;
+                        var7 = var4[0].F0++;
                         ref sbyte var8 = ref s_3;
                     }
 
-                    ulong var9 = 15428423322269988186UL;
+                    var9 = 15428423322269988186UL;
                 }
             }
             else
@@ -3065,28 +3403,28 @@ public class Program
             {
                 {
                     M11(new C1(18191, 1, 31123).M14(), new bool[][]{new bool[]{true, true}, new bool[]{false, false, true}, new bool[]{true, false, true, true}}, new ushort[]{31922, 6804, 61622, 0, 0, 25659, 63521, 51734, 49347, 42735}, ~(uint)((sbyte)(13344711639378300650UL % (uint)(new S1(1, -10L, 32766).M12() | 1)) - 1580));
-                    C0 var11 = new C0(-62, 255, true);
+                    var11 = new C0(-62, 255, true);
                     ref long var12 = ref arg1[0].F1;
                     arg1[0] = arg1[0];
                     {
-                        byte var13 = var11.F1++;
+                        var13 = var11.F1++;
                     }
 
                     var11.F1 = 133;
-                    short var14 = -1;
+                    var14 = -1;
                     ref C0 var15 = ref var11;
-                    I0 var16 = new S0((ulong)s_1[0].M12(), var11.F0++, (byte)((int)arg1[0].M12() - s_5[0][0, 0, 0].F1), 0, s_1[0].F1, var15.F1, var12++, (ulong)arg1[0].M9().M10(), arg1[0].F1);
+                    var16 = new S0((ulong)s_1[0].M12(), var11.F0++, (byte)((int)arg1[0].M12() - s_5[0][0, 0, 0].F1), 0, s_1[0].F1, var15.F1, var12++, (ulong)arg1[0].M9().M10(), arg1[0].F1);
                     var11.F0 = -32;
                     new C1(-181, 34082, 0).M10();
                     {
-                        bool[] var17 = new bool[]{true, false, false, false, false, false, true};
+                        var17 = new bool[]{true, false, false, false, false, false, true};
                         arg1[0] = new S1(-11683, 1L, 3580);
                         M11(false, var11.M15(), new ushort[]{0, 65534, 51173, 51653, 34998, 1}, 4294967295U);
                         s_5[0] = new C1[,, ]{{{new C1(-32768, 1, 30608), new C1(-30092, 65534, 32801), new C1(30369, 10529, 57652), new C1(0, 1, 65535), new C1(0, 0, 0), new C1(-1, 65535, 12712), new C1(7117, 53193, 24421)}, {new C1(-25745, 65534, 0), new C1(-29394, 0, 0), new C1(-1, 48781, 65535), new C1(-32767, 35520, 1), new C1(-2, 60905, 0), new C1(-2329, 0, 12708), new C1(1, 0, 9549)}, {new C1(-7196, 65535, 1), new C1(-32768, 1, 26212), new C1(32766, 1, 30838), new C1(25869, 1845, 57447), new C1(-16715, 5550, 22013), new C1(18336, 65534, 0), new C1(-32767, 1602, 15652)}, {new C1(32767, 1, 58988), new C1(-32767, 1, 0), new C1(32766, 1, 38640), new C1(30792, 2, 1), new C1(-32768, 0, 1), new C1(-23013, 0, 7576), new C1(10346, 9368, 0)}, {new C1(9377, 22310, 54236), new C1(-19483, 4821, 44486), new C1(-32768, 35205, 63745), new C1(1, 0, 31710), new C1(-4187, 0, 65535), new C1(32767, 10, 36421), new C1(565, 8542, 0)}, {new C1(-10, 1, 12151), new C1(32767, 1, 65535), new C1(4848, 30915, 1), new C1(-32332, 63874, 45938), new C1(-1, 4394, 8358), new C1(1, 65535, 36106), new C1(0, 1, 47696)}, {new C1(0, 880, 0), new C1(-8731, 51122, 29083), new C1(32766, 1, 15416), new C1(-23049, 10425, 1), new C1(12753, 16792, 8242), new C1(1, 1, 55891), new C1(0, 1, 0)}}};
                     }
                 }
 
-                C0 var18 = new C0(0, 58, true);
+                var18 = new C0(0, 58, true);
                 new C0(-2, 0, true).M15();
                 M11(var18.F2, var18.M16(11989, arg1[0].F1).M15(), M17(), (uint)(-new S1(-12404, 8531419286597283681L, 0).M12()));
                 {
@@ -3116,14 +3454,14 @@ public class Program
         {
             arg2[0] = ~s_6.F0;
             s_10 = arg0;
-            int[][][] var19 = new int[][][]{new int[][]{new int[]{214602862}, new int[]{-927179811, 2147483647, 2147483647, 0, -1290276035}, new int[]{235305232, -1, -10, 1475042, 10, 218105757, 1}, new int[]{-52517021, 2147483647, -718334015, 386162227}, new int[]{-1, -299629991, -1116472711, 10, -2}, new int[]{1, 0, 1046568430, 1}, new int[]{2147483646, -968341515, -1132697289, 2147483646, -621379099, -106699994, 0, 2147483646}}, new int[][]{new int[]{1188138584, 1058923050, 1912674977, -1480930271, 1385665173}}};
+            var19 = new int[][][]{new int[][]{new int[]{214602862}, new int[]{-927179811, 2147483647, 2147483647, 0, -1290276035}, new int[]{235305232, -1, -10, 1475042, 10, 218105757, 1}, new int[]{-52517021, 2147483647, -718334015, 386162227}, new int[]{-1, -299629991, -1116472711, 10, -2}, new int[]{1, 0, 1046568430, 1}, new int[]{2147483646, -968341515, -1132697289, 2147483646, -621379099, -106699994, 0, 2147483646}}, new int[][]{new int[]{1188138584, 1058923050, 1912674977, -1480930271, 1385665173}}};
             new C0((sbyte)M20(s_5[0][0, 0, 0]).M10(), arg0, false).M16(s_1[0].F0, s_6.F6++).M16((short)M11(s_2[0], new C0((sbyte)s_5[0][0, 0, 0].M10(), arg0, new C1(8451, 1, 0).M18(new bool[]{true, false, false, false, true, false, false}, arg0)).M15(), new ushort[]{24844, 0, 1, 64200, 0, 65534, 0}, 1U), s_6.F8);
             var19[0] = new int[][]{new int[]{375342126}};
             if (new C1(-9676, 39229, 1).M22(new S0(0UL, 65, 1, 74, 1766853701178920710L, 1, -2174314084343247171L, 4739338794433684380UL, -7587941578835308517L)))
             {
                 try
                 {
-                    byte var20 = arg0;
+                    var20 = arg0;
                 }
                 finally
                 {
@@ -3133,39 +3471,39 @@ public class Program
                 }
 
                 arg1[0].F2 = s_5[0][0, 0, 0].F0;
-                short var21 = arg1[0].F0;
+                var21 = arg1[0].F0;
             }
 
-            ushort var22 = (ushort)arg1[0].M29(arg1[0].F0, (sbyte)(-s_7++));
+            var22 = (ushort)arg1[0].M29(arg1[0].F0, (sbyte)(-s_7++));
             s_25[0] = s_54;
         }
         else
         {
             {
                 M24();
-                long var23 = arg1[0].F1;
+                var23 = arg1[0].F1;
                 {
                     arg1 = arg1;
                     M23(ref arg1);
-                    ushort var24 = (ushort)((arg1[0].F0 | 255) % (uint)(s_25[0][0]-- | 1));
+                    var24 = (ushort)((arg1[0].F0 | 255) % (uint)(s_25[0][0]-- | 1));
                     arg1[0].M13(s_38--);
                 }
 
                 {
-                    C1 var25 = M26(s_6).M9();
+                    var25 = M26(s_6).M9();
                     var23 = M48(ref s_21[0][0, 0], new S1(4656, 5648428065219748068L, -1316), new int[]{1427176256, 2147483646, 0, -2147483647, 2147483647, 94652428, -2147483648, -786447579}, ref s_55);
                     for (int var26 = 0; var26 < 2; var26++)
                     {
                         if (s_36.F3-- == arg0--)
                         {
-                            ulong var27 = arg2[0];
+                            var27 = arg2[0];
                             new C1(2261, 1, 23330).M14();
                             arg2[0] = var27;
                             var27 = 7696540747113021476UL;
                             M25((uint)new S0(8219014259009367864UL, -29, 54, -128, 1L, 1, -5439224862259987502L, 1UL, -5455439071666189449L).M36(arg1[0].F1, ref s_25, new S0(0UL, 10, 1, -2, -10L, 1, 1L, 13838197091114187560UL, 507094828207954827L).M44(ref arg1[0].F0)), (ushort)new S0(0UL, -127, 216, -62, 6971167600870416819L, 1, -1460147506605259698L, 8667497889078588898UL, 8936288022946827191L).M55().M29(-10, (sbyte)(-1445030991 % (int)(var26 | 1)))) = arg1[0];
                         }
 
-                        C1[] var28 = new C1[]{new C1(32767, 40877, 54977), new C1(-13615, 7280, 0), new C1(-32768, 15110, 0), new C1(0, 0, 49978), new C1(3063, 36726, 1), new C1(13030, 1, 40962), new C1(23332, 65534, 1), new C1(0, 15930, 1), new C1(18797, 65193, 1)};
+                        var28 = new C1[]{new C1(32767, 40877, 54977), new C1(-13615, 7280, 0), new C1(-32768, 15110, 0), new C1(0, 0, 49978), new C1(3063, 36726, 1), new C1(13030, 1, 40962), new C1(23332, 65534, 1), new C1(0, 15930, 1), new C1(18797, 65193, 1)};
                     }
                 }
 
@@ -3174,22 +3512,22 @@ public class Program
                 {
                     new S1(arg1[0].F0, arg1[0].F1, (short)arg1[0].M37(ref s_46[0], arg1[0].F1--)).M63(arg0, 1, s_31.M16((short)(s_30 ^ (ulong)(var23 >> -859900673)), -1642077427093945683L));
                     M62(0U, s_39, new C1(-14721, 7371, 0).M64(), ref s_76, new S0(1UL, 40, 2, 91, -1327775087421668378L, 0, -9223372036854775807L, 8724735243934779676UL, 9076023867559986832L), s_67);
-                    S1 var29 = new S1(-32767, 5608008485726265875L, 21090);
+                    var29 = new S1(-32767, 5608008485726265875L, 21090);
                     for (int var30 = 0; var30 < 2; var30++)
                     {
-                        bool var31 = 1 == arg1[0].F1;
+                        var31 = 1 == arg1[0].F1;
                         arg2 = new S1(-29940, 9223372036854775806L, 32767).M63(arg0, 10, arg1[0].M45());
                         var29.M13(s_58++);
                     }
 
-                    C0 var32 = new C0((sbyte)M77(ref s_6.F1, ref arg1[0], var29, 5613312049269629279UL, ref s_45), 1, true);
+                    var32 = new C0((sbyte)M77(ref s_6.F1, ref arg1[0], var29, 5613312049269629279UL, ref s_45), 1, true);
                     if (var29.F2 != (-(long)M42()))
                     {
                         arg1 = arg1;
                     }
                     else
                     {
-                        long var33 = (long)M70(var29.F2);
+                        var33 = (long)M70(var29.F2);
                         M58(new C0(-1, 0, true).M76(ref s_32[0].F2));
                         new C1(0, 65535, 1).M66(s_26, s_18.F2, new C1(1, 64579, 41597)) = var32.F0;
                     }
@@ -3197,8 +3535,8 @@ public class Program
                     if (var32.F2)
                     {
                         var29.F0 = arg1[0].F2;
-                        bool var34 = var32.F2;
-                        I0 var35 = new S0(0UL, 127, 0, 26, 8779395387710937632L, 0, 9223372036854775807L, 7168524142829369080UL, -2L);
+                        var34 = var32.F2;
+                        var35 = new S0(0UL, 127, 0, 26, 8779395387710937632L, 0, 9223372036854775807L, 7168524142829369080UL, -2L);
                         arg1[0].F1 = (long)M73();
                     }
                     else
@@ -3227,7 +3565,7 @@ public class Program
                     arg1[0].M63((byte)M41(), s_6.F1, new C0(-128, 241, false));
                     if (!(!(0L != s_21[0][0, 0].F0--) || (s_9 && M23(ref arg1))))
                     {
-                        short[] var37 = s_8;
+                        var37 = s_8;
                         arg1[0] = arg1[0];
                         ref uint var38 = ref s_54[0];
                         {
@@ -3236,20 +3574,20 @@ public class Program
 
                         arg2 = arg2;
                         arg0 = arg0;
-                        uint var39 = var38;
+                        var39 = var38;
                         var39 >>= s_76;
                     }
                     else
                     {
                         arg1[0].M9();
-                        ushort var40 = (ushort)(-(ushort)M73());
+                        var40 = (ushort)(-(ushort)M73());
                         M11(false, new bool[][]{new bool[]{false, false, true, true}, new bool[]{true, true, false}, new bool[]{false}, new bool[]{false, true, true}, new bool[]{false, true, true, false, true}, new bool[]{true, false, true, true}, new bool[]{false}}, new ushort[]{65534}, s_30--);
                         s_5 = new C1[][,, ]{new C1[,, ]{{{new C1(-14469, 45860, 13839), new C1(-32767, 10, 65534)}}}};
                     }
 
                     arg2[0] = s_6.F7;
-                    long var41 = (long)M73();
-                    uint var42 = s_25[0][0];
+                    var41 = (long)M73();
+                    var42 = s_25[0][0];
                 }
 
                 {
@@ -3269,7 +3607,8 @@ public class Program
 
     public static ushort[] M17()
     {
-        int var0 = -1972432450;
+        int var0 = default(int);
+        var0 = -1972432450;
         return new ushort[]{0, 52480, 0, 1, 65534, 56415, 0, 0};
     }
 
@@ -3282,10 +3621,20 @@ public class Program
 
     public static bool M23(ref S1[] arg0)
     {
+        bool var0 = default(bool);
+        I0 var1 = default(I0);
+        C0 var4 = default(C0);
+        int var5 = default(int);
+        I0 var6 = default(I0);
+        sbyte var7 = default(sbyte);
+        I0 var9 = default(I0);
+        uint var10 = default(uint);
+        int var11 = default(int);
+        short var13 = default(short);
         if (s_2[0])
         {
-            bool var0 = M24();
-            I0 var1 = new S0(12145417684074123276UL, -109, 1, -2, 8192309019186042111L, 254, 1744007893337148879L, 2575027296466386469UL, 1L);
+            var0 = M24();
+            var1 = new S0(12145417684074123276UL, -109, 1, -2, 8192309019186042111L, 254, 1744007893337148879L, 2575027296466386469UL, 1L);
             arg0[0].F1 = -10L;
             ref uint var2 = ref s_12;
         }
@@ -3293,17 +3642,17 @@ public class Program
         for (int var3 = 0; var3 < 2; var3++)
         {
             arg0[0].F1 = arg0[0].F1;
-            C0 var4 = new C0(127, 0, false);
+            var4 = new C0(127, 0, false);
             var4.F0 = var4.F0;
             M25(1U, s_5[0][0, 0, 0].F2--);
-            int var5 = var3;
+            var5 = var3;
         }
 
         try
         {
             try
             {
-                I0 var6 = new S0(8638057808099396616UL, 1, 2, 10, -4129497616393413449L, 1, -6459570573739477023L, 12103924788043960768UL, -7459234515689450024L);
+                var6 = new S0(8638057808099396616UL, 1, 2, 10, -4129497616393413449L, 1, -6459570573739477023L, 12103924788043960768UL, -7459234515689450024L);
                 arg0 = arg0;
             }
             finally
@@ -3311,7 +3660,7 @@ public class Program
                 M25(0U, (ushort)(-s_5[0][0, 0, 0].F1--)) = arg0[0];
             }
 
-            sbyte var7 = 126;
+            var7 = 126;
             s_13 = 64559;
             arg0[0] = s_1[0];
             arg0[0].F0 = arg0[0].F0++;
@@ -3323,8 +3672,8 @@ public class Program
 
             if (M24())
             {
-                I0 var9 = new S0(1738563909135422896UL, 126, 35, -8, 9223372036854775807L, 66, 10L, 18446744073709551614UL, 2252627191508390182L);
-                uint var10 = 4294967294U;
+                var9 = new S0(1738563909135422896UL, 126, 35, -8, 9223372036854775807L, 66, 10L, 18446744073709551614UL, 2252627191508390182L);
+                var10 = 4294967294U;
             }
 
             M25(s_12--, 0) = new S1(-32767, -4335399630712782013L, 16504);
@@ -3345,7 +3694,7 @@ public class Program
         {
             {
                 {
-                    int var11 = 1;
+                    var11 = 1;
                     M24();
                     ref int var12 = ref var11;
                 }
@@ -3362,7 +3711,7 @@ public class Program
         }
         finally
         {
-            short var13 = arg0[0].F2;
+            var13 = arg0[0].F2;
         }
 
         return true;
@@ -3377,12 +3726,17 @@ public class Program
 
     public static ref S1 M25(uint arg0, ushort arg1)
     {
-        long var0 = -10L;
+        long var0 = default(long);
+        var0 = -10L;
         return ref s_1[0];
     }
 
     public static S1 M26(I0 arg0)
     {
+        ushort var2 = default(ushort);
+        S1[][][] var3 = default(S1[][][]);
+        C1 var4 = default(C1);
+        long var5 = default(long);
         {
             new S0(10UL, 126, 64, 103, -2947906584920796620L, 223, -4890512623026126682L, 1069361819799475974UL, 0L).M27(34219, false, new C0(10, 104, false).M34(), new C1[]{new C1(2, 0, 1101), new C1(-16229, 37719, 47062), new C1(-32767, 19093, 27260), new C1(16693, 4535, 1), new C1(0, 41536, 42974), new C1(0, 0, 1), new C1(1, 65534, 1), new C1(-26717, 2, 0)}, 1U, ref s_14, 0);
             for (int var0 = 0; var0 < 2; var0++)
@@ -3396,7 +3750,7 @@ public class Program
                 {
                     new C0(10, 52, true).M34() = new C0(-90, 115, false).M34();
                     s_26[0] = 65534;
-                    ushort var2 = s_5[0][0, 0, 0].F1;
+                    var2 = s_5[0][0, 0, 0].F1;
                     s_21[0] = new C0[, ]{{new C0(-6, 178, true), new C0(-1, 1, true), new C0(20, 203, false), new C0(2, 254, false), new C0(0, 255, true), new C0(-128, 162, false), new C0(-117, 107, true), new C0(127, 1, true), new C0(2, 255, false), new C0(67, 254, true)}, {new C0(-91, 0, true), new C0(1, 0, false), new C0(0, 1, false), new C0(-1, 134, false), new C0(0, 254, true), new C0(-100, 58, true), new C0(13, 0, false), new C0(-127, 0, false), new C0(0, 1, false), new C0(-128, 1, true)}, {new C0(40, 90, true), new C0(126, 0, true), new C0(-65, 254, false), new C0(0, 1, false), new C0(33, 0, true), new C0(-127, 197, true), new C0(82, 51, false), new C0(-1, 254, false), new C0(-128, 94, false), new C0(119, 0, true)}, {new C0(0, 255, true), new C0(-3, 0, true), new C0(-2, 49, false), new C0(-128, 1, true), new C0(-72, 28, true), new C0(-96, 1, true), new C0(10, 1, false), new C0(-128, 0, false), new C0(-67, 0, false), new C0(1, 1, false)}, {new C0(0, 222, true), new C0(-128, 65, true), new C0(-115, 0, true), new C0(-18, 149, true), new C0(-2, 255, false), new C0(-82, 38, true), new C0(2, 1, false), new C0(-114, 9, false), new C0(28, 255, true), new C0(105, 146, false)}, {new C0(-128, 115, false), new C0(126, 20, false), new C0(115, 114, true), new C0(-127, 254, false), new C0(-128, 178, false), new C0(1, 199, false), new C0(-127, 113, false), new C0(18, 0, true), new C0(-83, 1, false), new C0(-127, 255, true)}, {new C0(-127, 254, true), new C0(-49, 255, true), new C0(-2, 245, true), new C0(-1, 0, false), new C0(-46, 255, false), new C0(69, 162, false), new C0(-75, 108, true), new C0(-66, 90, false), new C0(-101, 1, false), new C0(1, 1, false)}};
                     if (!s_21[0][0, 0].F2)
                     {
@@ -3405,11 +3759,11 @@ public class Program
                     }
                     else
                     {
-                        S1[][][] var3 = new S1[][][]{new S1[][]{new S1[]{new S1(-32768, -1L, 1)}, new S1[]{new S1(-32767, -3286594453040990727L, -31617)}}, new S1[][]{new S1[]{new S1(-27351, 9223372036854775806L, 21329)}, new S1[]{new S1(28619, -2L, -1), new S1(-5636, 3828243850906245075L, 1)}}, new S1[][]{new S1[]{new S1(0, 9223372036854775807L, 0)}}, new S1[][]{new S1[]{new S1(9740, 7842905343487230482L, -2950), new S1(1, -3956202951725903726L, 1)}, new S1[]{new S1(-32768, 9223372036854775807L, -1), new S1(-10, 0L, -2107)}}};
-                        C1 var4 = new C1(-25564, 5248, 0);
+                        var3 = new S1[][][]{new S1[][]{new S1[]{new S1(-32768, -1L, 1)}, new S1[]{new S1(-32767, -3286594453040990727L, -31617)}}, new S1[][]{new S1[]{new S1(-27351, 9223372036854775806L, 21329)}, new S1[]{new S1(28619, -2L, -1), new S1(-5636, 3828243850906245075L, 1)}}, new S1[][]{new S1[]{new S1(0, 9223372036854775807L, 0)}}, new S1[][]{new S1[]{new S1(9740, 7842905343487230482L, -2950), new S1(1, -3956202951725903726L, 1)}, new S1[]{new S1(-32768, 9223372036854775807L, -1), new S1(-10, 0L, -2107)}}};
+                        var4 = new C1(-25564, 5248, 0);
                         var4.M28();
                         var4.F1 = 1;
-                        long var5 = 0L;
+                        var5 = 0L;
                     }
 
                     var2 = (ushort)M40(s_18.F2);
@@ -3444,9 +3798,12 @@ public class Program
 
     public static ushort M32()
     {
+        byte var0 = default(byte);
+        I0 var3 = default(I0);
+        S1[] var4 = default(S1[]);
         M33();
         M35(ref s_24.F2);
-        byte var0 = s_24.F2;
+        var0 = s_24.F2;
         var0 = var0;
         new C0(78, 6, true).M34().M37(ref s_5[0][0, 0, 0], 732267441145420425L);
         new C0(-126, 182, true).M34() = s_18;
@@ -3457,7 +3814,7 @@ public class Program
                 s_13 = (ushort)(s_18.F1-- % (byte)(28 | 1));
                 s_1 = new S1[]{new S1(-32767, -9223372036854775807L, 10), new S1(13086, -8864163039600854405L, -19269), new S1(30286, 4864758060824513794L, 0), new S1(13410, 1L, -32767), new S1(-32768, 2739474845896148492L, 32767), new S1(32766, -5942072839798632135L, 32766), new S1(-22691, 1L, 26376), new S1(1, 0L, -22837), new S1(-11978, 4879487507454618848L, -10), new S1(0, -2732282349361648870L, 17095)};
                 ref C0[] var2 = ref s_27;
-                I0 var3 = new S0(18446744073709551614UL, -120, 148, 127, -5589287835395784851L, 0, 10L, 0UL, 1L);
+                var3 = new S0(18446744073709551614UL, -120, 148, 127, -5589287835395784851L, 0, 10L, 0UL, 1L);
             }
         }
 
@@ -3465,13 +3822,14 @@ public class Program
         s_2[0] = true;
         var0 = var0;
         var0 = 0;
-        S1[] var4 = new S1[]{new S1(0, -5255093321959185427L, -32663), new S1(26961, -9223372036854775807L, -5945), new S1(-32768, 3518542210007999927L, 0), new S1(-5925, 9223372036854775806L, -17706), new S1(-32768, -3574282944044110744L, -15812), new S1(8042, -1149302472514792413L, 8061)};
+        var4 = new S1[]{new S1(0, -5255093321959185427L, -32663), new S1(26961, -9223372036854775807L, -5945), new S1(-32768, 3518542210007999927L, 0), new S1(-5925, 9223372036854775806L, -17706), new S1(-32768, -3574282944044110744L, -15812), new S1(8042, -1149302472514792413L, 8061)};
         return 37765;
     }
 
     public static long M33()
     {
-        int var0 = 0;
+        int var0 = default(int);
+        var0 = 0;
         if (!!(1319460995U > s_6.F2))
         {
             s_21[0][0, 0].M34();
@@ -3484,6 +3842,8 @@ public class Program
 
     public static ulong M35(ref byte arg0)
     {
+        S1[] var1 = default(S1[]);
+        S0 var2 = default(S0);
         for (int var0 = 0; var0 < 2; var0++)
         {
             {
@@ -3504,7 +3864,7 @@ public class Program
             {
                 try
                 {
-                    S1[] var1 = new S1[]{new S1(-32767, -9223372036854775808L, 2), new S1(-32767, 6666012725591215438L, 2), new S1(-32767, -9223372036854775808L, 25887), new S1(23749, -206801100016389516L, 0), new S1(0, -4152912925377653184L, 0), new S1(-24597, 6812517725054106664L, 32766), new S1(18718, -10L, -2822), new S1(-32767, 4497469364179915063L, -32767)};
+                    var1 = new S1[]{new S1(-32767, -9223372036854775808L, 2), new S1(-32767, 6666012725591215438L, 2), new S1(-32767, -9223372036854775808L, 25887), new S1(23749, -206801100016389516L, 0), new S1(0, -4152912925377653184L, 0), new S1(-24597, 6812517725054106664L, 32766), new S1(18718, -10L, -2822), new S1(-32767, 4497469364179915063L, -32767)};
                 }
                 finally
                 {
@@ -3515,7 +3875,7 @@ public class Program
 
             if (1971791404 <= s_12)
             {
-                S0 var2 = new S0(17143588949775007422UL, 103, 0, -128, 1948029775706732197L, 0, 8848931381525013183L, 18446744073709551615UL, 988401422716005724L);
+                var2 = new S0(17143588949775007422UL, 103, 0, -128, 1948029775706732197L, 0, 8848931381525013183L, 18446744073709551615UL, 988401422716005724L);
                 s_18.F0 = var2.M36(var2.F6, ref s_25, var2);
                 new S0(1UL, 0, 113, 4, 6224405405293983934L, 241, -2L, 1UL, 2448475874705098258L).M38(new ulong[]{1UL}, s_19);
                 s_5[0][0, 0, 0].F2 = (ushort)(~s_5[0][0, 0, 0].F1--);
@@ -3551,12 +3911,14 @@ public class Program
 
     public static byte M40(short arg0)
     {
+        I0 var0 = default(I0);
+        byte var2 = default(byte);
         arg0 = arg0++;
         if (s_9)
         {
-            I0 var0 = s_6;
+            var0 = s_6;
             ref C1 var1 = ref s_5[0][0, 0, 0];
-            byte var2 = 1;
+            var2 = 1;
         }
 
         return s_6.F5--;
@@ -3564,10 +3926,14 @@ public class Program
 
     public static uint M41()
     {
+        bool var0 = default(bool);
+        bool var2 = default(bool);
+        long var3 = default(long);
+        bool var5 = default(bool);
         {
             if (s_21[0][0, 0].F2)
             {
-                bool var0 = s_2[0];
+                var0 = s_2[0];
             }
             else
             {
@@ -3588,14 +3954,14 @@ public class Program
                 }
                 finally
                 {
-                    bool var2 = s_9;
-                    long var3 = -2L;
+                    var2 = s_9;
+                    var3 = -2L;
                 }
             }
 
             for (int var4 = 0; var4 < 2; var4++)
             {
-                bool var5 = false;
+                var5 = false;
             }
 
             s_26 = s_26;
@@ -3617,6 +3983,16 @@ public class Program
 
     public static ulong M46(S0 arg0)
     {
+        S0[] var1 = default(S0[]);
+        S0 var4 = default(S0);
+        uint var5 = default(uint);
+        byte[] var6 = default(byte[]);
+        byte var7 = default(byte);
+        byte var9 = default(byte);
+        C1 var10 = default(C1);
+        long var12 = default(long);
+        short[] var13 = default(short[]);
+        short var14 = default(short);
         if (!s_21[0][0, 0].F2)
         {
             M47((ushort)M47(s_19++, -3870), s_18.F0);
@@ -3638,7 +4014,7 @@ public class Program
             s_40 = !(false || s_2[0]);
             M47(s_5[0][0, 0, 0].F2--, s_28.F2);
             {
-                S0[] var1 = new S0[]{new S0(5798795399152476499UL, -104, 135, 1, -9223372036854775807L, 35, 0L, 1UL, 9159624378245772690L), new S0(18446744073709551614UL, -87, 0, -61, 3487177246104705687L, 25, -7428132314894148140L, 4395161004575075488UL, 0L), new S0(18446744073709551615UL, -41, 10, 1, 2299832066889115100L, 38, 10L, 2UL, 1L), new S0(6809524641288327285UL, 0, 37, 86, 1L, 226, -9223372036854775807L, 11622940590608928045UL, 1376454859778131771L), new S0(1720302689982757858UL, -2, 162, 44, -3969256221544750968L, 40, 2L, 1UL, 1458392086624266909L)};
+                var1 = new S0[]{new S0(5798795399152476499UL, -104, 135, 1, -9223372036854775807L, 35, 0L, 1UL, 9159624378245772690L), new S0(18446744073709551614UL, -87, 0, -61, 3487177246104705687L, 25, -7428132314894148140L, 4395161004575075488UL, 0L), new S0(18446744073709551615UL, -41, 10, 1, 2299832066889115100L, 38, 10L, 2UL, 1L), new S0(6809524641288327285UL, 0, 37, 86, 1L, 226, -9223372036854775807L, 11622940590608928045UL, 1376454859778131771L), new S0(1720302689982757858UL, -2, 162, 44, -3969256221544750968L, 40, 2L, 1UL, 1458392086624266909L)};
             }
 
             arg0.F7 = new C1(-2, 1, 1).M49(arg0.F2--);
@@ -3660,7 +4036,7 @@ public class Program
             arg0.F7 = arg0.F0--;
             if (new S1(-32767, -10L, -25113).M50(new C1(-14885, 65535, 10), 1U))
             {
-                S0 var4 = new S0(0UL, 1, 1, 0, 9223372036854775807L, 255, -1566363300606248235L, 1UL, -5192354647402734128L);
+                var4 = new S0(0UL, 1, 1, 0, 9223372036854775807L, 255, -1566363300606248235L, 1UL, -5192354647402734128L);
                 M47(s_20--, (short)(~s_42[0].F0 % (byte)(arg0.F2-- | 1)));
                 if (!s_1[0].M50(s_46[0], 1990146435U))
                 {
@@ -3669,11 +4045,11 @@ public class Program
                     if (s_1[0].M50(new C1(13619, 25540, 51706), 1U))
                     {
                         var4.F2 <<= (int)M48(ref s_27[0], s_17, new int[]{1236554182, -381978097}, ref s_34);
-                        uint var5 = s_25[0][0];
+                        var5 = s_25[0][0];
                     }
                     else
                     {
-                        byte[] var6 = new byte[]{13, 33, 0, 254, 229, 254};
+                        var6 = new byte[]{13, 33, 0, 254, 229, 254};
                         s_28.F2 = -2;
                         arg0.F0 = 15147144737904701757UL;
                         if (!s_32[0].M60())
@@ -3687,7 +4063,7 @@ public class Program
                             return arg0.F0--;
                         }
 
-                        byte var7 = 234;
+                        var7 = 234;
                         arg0.F6 ^= arg0.F6;
                         arg0.F3 = arg0.F3;
                         M57(new S0(18078379268018404128UL, 1, 187, -127, 9095151955674019572L, 2, 2L, 2717590183141292091UL, 2015747820808491438L), ref s_33);
@@ -3709,11 +4085,11 @@ public class Program
                 arg0.F2 = arg0.F2;
                 if (M59() >= s_42[0].F2)
                 {
-                    byte var9 = arg0.F2;
+                    var9 = arg0.F2;
                     new C1(27880, 57071, 46042).M49(61);
                     M54(ref arg0.F5, new S0(15962352318329507837UL, 1, 60, -29, 1L, 0, 4483762674329605773L, 1UL, -6073139658437952746L).M55(), s_46[0].F2--, ref arg0);
                     s_17.F2 = s_28.F2;
-                    C1 var10 = new C1(1, s_13--, (ushort)(s_20 * 0));
+                    var10 = new C1(1, s_13--, (ushort)(s_20 * 0));
                     M59() = var10.F2;
                     var10.M60();
                     arg0.F3 = arg0.F1;
@@ -3729,16 +4105,16 @@ public class Program
             }
 
             arg0.F2 = arg0.F2;
-            long var12 = s_24.F4--;
+            var12 = s_24.F4--;
             s_51 = s_18;
-            short[] var13 = new short[]{0, -10, 10};
+            var13 = new short[]{0, -10, 10};
         }
         else
         {
             M56();
         }
 
-        short var14 = -8721;
+        var14 = -8721;
         arg0.F5 = (byte)(62752 * (sbyte)new C1(32767, 22347, 48905).M49(arg0.F5--));
         arg0.F3 = (sbyte)M48(ref s_31, s_17, new int[]{1805028302, -2147483648, -652228749, 2147483646, 550860475, -472005212, 1, -436364052}, ref s_34);
         arg0.F7 = arg0.F0;
@@ -3762,27 +4138,40 @@ public class Program
 
     public static S1 M54(ref byte arg0, S1 arg1, ushort arg2, ref S0 arg3)
     {
+        C1[] var0 = default(C1[]);
+        sbyte var1 = default(sbyte);
+        byte var2 = default(byte);
+        I0 var3 = default(I0);
+        C0 var5 = default(C0);
+        byte var6 = default(byte);
+        ulong[] var7 = default(ulong[]);
+        C1 var8 = default(C1);
+        long var9 = default(long);
+        S1 var10 = default(S1);
+        long var11 = default(long);
+        int var12 = default(int);
+        S1 var13 = default(S1);
         {
             arg3.F5 = (byte)(~arg3.F5);
             arg3.M55();
             if (s_22)
             {
                 arg0 = arg0++;
-                C1[] var0 = new C1[]{new C1(-32768, 12181, 43905), new C1(6860, 10926, 1), new C1(28107, 65534, 52452), new C1(-2921, 13488, 11030), new C1(0, 15734, 1), new C1(32766, 28897, 1), new C1(-32767, 0, 34864), new C1(0, 0, 2), new C1(-31026, 0, 0), new C1(-2, 55977, 16337)};
+                var0 = new C1[]{new C1(-32768, 12181, 43905), new C1(6860, 10926, 1), new C1(28107, 65534, 52452), new C1(-2921, 13488, 11030), new C1(0, 15734, 1), new C1(32766, 28897, 1), new C1(-32767, 0, 34864), new C1(0, 0, 2), new C1(-31026, 0, 0), new C1(-2, 55977, 16337)};
                 M58(arg3);
                 s_42[0].F8 = -s_14[0];
-                sbyte var1 = arg3.F1;
+                var1 = arg3.F1;
                 M58(arg3) = M58(arg3);
-                byte var2 = (byte)M59();
+                var2 = (byte)M59();
                 s_47 = (short)M59();
-                I0 var3 = arg3;
+                var3 = arg3;
                 {
                     ref short var4 = ref arg1.F2;
                     var0[0] = new C1(32767, 1, 29907);
                     {
                         if (s_40)
                         {
-                            C0 var5 = new C0(90, 1, true);
+                            var5 = new C0(90, 1, true);
                         }
                         else
                         {
@@ -3797,22 +4186,22 @@ public class Program
 
         if (s_23.F2)
         {
-            byte var6 = (byte)(-arg3.F2);
+            var6 = (byte)(-arg3.F2);
             if (s_2[0])
             {
                 try
                 {
-                    ulong[] var7 = new ulong[]{1UL, 0UL, 13741260739871999393UL, 18446744073709551615UL, 18446744073709551614UL, 1UL, 1UL, 12057142555367401877UL};
+                    var7 = new ulong[]{1UL, 0UL, 13741260739871999393UL, 18446744073709551615UL, 18446744073709551614UL, 1UL, 1UL, 12057142555367401877UL};
                 }
                 finally
                 {
                     s_16.F1 = 155;
-                    C1 var8 = s_46[0];
-                    long var9 = arg3.F6;
+                    var8 = s_46[0];
+                    var9 = arg3.F6;
                 }
 
                 arg2 = M59();
-                S1 var10 = new S1(19366, -3796294020363060455L, 32767);
+                var10 = new S1(19366, -3796294020363060455L, 32767);
                 arg3.F0 = s_6.F0;
             }
             else
@@ -3822,13 +4211,13 @@ public class Program
 
             if (!!s_27[0].F2)
             {
-                long var11 = (long)M59();
+                var11 = (long)M59();
             }
         }
         else
         {
             {
-                int var12 = s_38++;
+                var12 = s_38++;
                 s_48 *= arg3.F2;
             }
 
@@ -3842,7 +4231,7 @@ public class Program
             }
 
             arg3.F1 = (sbyte)M59();
-            S1 var13 = arg1;
+            var13 = arg1;
         }
 
         return new S1(-1, -4328605107856437285L, 0);
@@ -3850,9 +4239,12 @@ public class Program
 
     public static int M56()
     {
+        ulong var0 = default(ulong);
+        C1[][] var1 = default(C1[][]);
+        ulong var2 = default(ulong);
         if (!(s_22 && s_9))
         {
-            ulong var0 = s_4--;
+            var0 = s_4--;
             M57(new S0(0UL, -1, 224, 0, -958368099335183209L, 0, -5481593474604925425L, 18446744073709551614UL, 1L), ref s_26[0]);
             M57(s_24, ref s_5[0][0, 0, 0].F2);
         }
@@ -3864,8 +4256,8 @@ public class Program
             }
             else
             {
-                C1[][] var1 = new C1[][]{new C1[]{new C1(955, 10, 991), new C1(32766, 2457, 1), new C1(-22823, 1, 0), new C1(1, 0, 1), new C1(0, 10, 37818), new C1(-2, 0, 1), new C1(1, 31137, 44005)}};
-                ulong var2 = s_42[0].F7;
+                var1 = new C1[][]{new C1[]{new C1(955, 10, 991), new C1(32766, 2457, 1), new C1(-22823, 1, 0), new C1(1, 0, 1), new C1(0, 10, 37818), new C1(-2, 0, 1), new C1(1, 31137, 44005)}};
+                var2 = s_42[0].F7;
                 M58(new S0(5577201034106620905UL, -128, 1, 10, 5693577582329344107L, 2, 0L, 0UL, -6758693195927299181L));
                 s_46 = M57(new S0(10501148712936644410UL, 71, 255, 1, 9223372036854775806L, 146, -1L, 1UL, 0L), ref var1[0][0].F1);
                 var1[0][0].F1 = var1[0][0].F1;
@@ -3895,6 +4287,7 @@ public class Program
 
     public static ref bool[] M58(S0 arg0)
     {
+        short var0 = default(short);
         if (s_16.F2)
         {
             M59();
@@ -3906,7 +4299,7 @@ public class Program
                     arg0.F7 = ~arg0.F0;
                     arg0.F4 = arg0.F8;
                     arg0.F8 = arg0.F6--;
-                    short var0 = s_8[0]--;
+                    var0 = s_8[0]--;
                 }
             }
 
@@ -3932,6 +4325,16 @@ public class Program
 
     public static ref C0 M67(S1 arg0, ushort arg1, C0[][] arg2)
     {
+        I0 var1 = default(I0);
+        int var2 = default(int);
+        C1 var3 = default(C1);
+        C1[][] var4 = default(C1[][]);
+        sbyte var5 = default(sbyte);
+        I0[] var6 = default(I0[]);
+        ushort var7 = default(ushort);
+        ulong[] var8 = default(ulong[]);
+        I0[] var9 = default(I0[]);
+        byte var11 = default(byte);
         {
             if (arg2[0][0].F2)
             {
@@ -3944,15 +4347,15 @@ public class Program
                 s_6.F6 = 1L;
                 for (int var0 = 0; var0 < 2; var0++)
                 {
-                    I0 var1 = s_6;
+                    var1 = s_6;
                 }
 
                 {
                     try
                     {
                         s_57 = s_26;
-                        int var2 = s_38++;
-                        C1 var3 = new C1(6151, 0, 32415);
+                        var2 = s_38++;
+                        var3 = new C1(6151, 0, 32415);
                         var3.F1 = var3.F2;
                         arg0.F2 = 32766;
                         s_58 = 0;
@@ -3961,8 +4364,8 @@ public class Program
                         arg2 = arg2;
                         arg2 = new C0[][]{new C0[]{new C0(-100, 1, true)}};
                         s_41[0][0] = new sbyte[,, ]{{{-128, 127, -28, -67, -115}, {-128, 59, -39, -60, 0}}, {{-28, 0, 2, 1, 0}, {55, 126, 1, 72, -104}}, {{-14, 0, -10, 0, 126}, {1, -127, -128, 127, -127}}, {{127, -3, 0, -51, 127}, {-81, -118, 1, -69, 25}}, {{-75, 0, 85, 0, 0}, {-15, -104, -128, -33, 1}}, {{-33, 32, 1, -116, 1}, {-112, 1, 0, -123, 126}}, {{36, 0, 66, -35, -126}, {126, -50, -42, 1, 10}}, {{126, 2, -88, 127, -128}, {127, 82, -1, -71, 1}}, {{-2, -28, -128, 127, -128}, {0, 0, 106, 2, -102}}, {{-18, 126, -128, 0, -68}, {-120, 126, 2, 52, 121}}};
-                        C1[][] var4 = new C1[][]{new C1[]{new C1(-1, 18197, 40484), new C1(-10, 1, 1), new C1(-10, 42009, 0), new C1(21026, 38186, 1), new C1(-970, 1, 57138), new C1(21273, 1, 18470), new C1(26602, 0, 25181), new C1(2, 1, 1)}};
-                        sbyte var5 = (sbyte)((ushort)(0 / (short)((short)M70(var4[0][0].F0) | 1)) % (int)(var2 | 1));
+                        var4 = new C1[][]{new C1[]{new C1(-1, 18197, 40484), new C1(-10, 1, 1), new C1(-10, 42009, 0), new C1(21026, 38186, 1), new C1(-970, 1, 57138), new C1(21273, 1, 18470), new C1(26602, 0, 25181), new C1(2, 1, 1)}};
+                        var5 = (sbyte)((ushort)(0 / (short)((short)M70(var4[0][0].F0) | 1)) % (int)(var2 | 1));
                     }
                     finally
                     {
@@ -3979,18 +4382,18 @@ public class Program
                         s_77 = (ulong)M77(ref s_6.F1, ref arg0, arg0, 1UL, ref s_45);
                         s_1[0].F0 = s_8[0];
                         arg2[0] = new C0[]{new C0(-127, 254, true), new C0(1, 1, false), new C0(1, 15, false), new C0(-128, 0, true), new C0(-127, 254, false), new C0(-10, 7, true), new C0(-127, 214, true)};
-                        I0[] var6 = new I0[]{new S0(13619301970420002829UL, -127, 14, 10, 0L, 254, 9223372036854775807L, 0UL, -10L), new S0(1UL, 47, 1, 113, 5986719531918925643L, 15, -2371848538375938351L, 0UL, -9223372036854775807L), new S0(1UL, -2, 1, -58, -6510144191132895157L, 0, 0L, 0UL, 2147843056596298031L), new S0(14986036937698632496UL, -10, 177, 127, -4885404965315727451L, 51, 1L, 15363198760619537504UL, -9162231682948341986L), new S0(984892773811678636UL, 0, 10, -21, 1L, 244, 0L, 18446744073709551615UL, -2779185431788981490L), new S0(6479768833767287127UL, 126, 112, 126, -2183050822266937617L, 99, 3678878014200601814L, 672538901520158462UL, 2774755540507675102L), new S0(6935581743951967060UL, 126, 98, 126, -6066663777789382385L, 1, -9223372036854775808L, 16582789682576234512UL, -5026102152482262781L)};
+                        var6 = new I0[]{new S0(13619301970420002829UL, -127, 14, 10, 0L, 254, 9223372036854775807L, 0UL, -10L), new S0(1UL, 47, 1, 113, 5986719531918925643L, 15, -2371848538375938351L, 0UL, -9223372036854775807L), new S0(1UL, -2, 1, -58, -6510144191132895157L, 0, 0L, 0UL, 2147843056596298031L), new S0(14986036937698632496UL, -10, 177, 127, -4885404965315727451L, 51, 1L, 15363198760619537504UL, -9162231682948341986L), new S0(984892773811678636UL, 0, 10, -21, 1L, 244, 0L, 18446744073709551615UL, -2779185431788981490L), new S0(6479768833767287127UL, 126, 112, 126, -2183050822266937617L, 99, 3678878014200601814L, 672538901520158462UL, 2774755540507675102L), new S0(6935581743951967060UL, 126, 98, 126, -6066663777789382385L, 1, -9223372036854775808L, 16582789682576234512UL, -5026102152482262781L)};
                         M68((ushort)(~arg1));
                         arg2[0][0].F2 = true;
-                        ushort var7 = arg1--;
-                        ulong[] var8 = new ulong[]{0UL, 6814347759651773616UL, 1614970715848733630UL, 15925121120226770765UL, 18446744073709551614UL, 18434079427498761880UL, 0UL, 0UL};
+                        var7 = arg1--;
+                        var8 = new ulong[]{0UL, 6814347759651773616UL, 1614970715848733630UL, 15925121120226770765UL, 18446744073709551614UL, 18434079427498761880UL, 0UL, 0UL};
                     }
 
                     M73() = 9791839180922039095UL;
                     if (s_40)
                     {
                         M71(s_42[0], s_75[0, 0, 0], new C1(3862, 0, 6909), (sbyte)(arg2[0][0].F1-- << (ushort)s_21[0][0, 0].M76(ref arg1).M78()), new long[][]{new long[]{0L}, new long[]{-9223372036854775808L, 9223372036854775807L, 4213655577013362076L}, new long[]{-5788832362077479358L, -8821826684943430714L, 0L, -9223372036854775808L, 7871552420143721650L}, new long[]{9223372036854775807L, 0L}}, 4294967295U, ref s_75);
-                        I0[] var9 = new I0[]{new S0(1528198156642186953UL, -127, 1, 1, 0L, 1, 1893224643139543461L, 1UL, -9223372036854775808L), new S0(6014014742343129252UL, 127, 255, 27, 4393197177307337298L, 1, 5965693971892762220L, 5430817963520426326UL, 0L), new S0(9021771331300394751UL, -128, 72, 127, 10L, 1, -9223372036854775807L, 1UL, -2231037077217170619L), new S0(1UL, 31, 37, 76, 3455388129185350392L, 1, -5793769537427483774L, 2980221550955028092UL, 2555019170438826819L), new S0(8688163183259951636UL, 126, 2, 0, -9223372036854775807L, 10, 3261774234682223093L, 3472069208349126572UL, -5205120679061548107L), new S0(1UL, 22, 183, 1, 0L, 0, 9223372036854775807L, 0UL, 5695171992842194692L), new S0(1UL, 46, 0, 59, -9223372036854775807L, 94, -1076363961148020965L, 18446744073709551614UL, -9223372036854775808L), new S0(9157422199432365628UL, -62, 156, -127, 8682268931122112607L, 254, -4024336548434431488L, 8206994851206603030UL, -3554097943046896450L), new S0(12438487191575626848UL, 1, 0, -10, -5336121264512843703L, 1, 4408168573394860874L, 14430410997285829576UL, -9223372036854775808L), new S0(18446744073709551615UL, 2, 0, -90, -1977459744065313555L, 54, -30549081434326300L, 3163840253199661501UL, 0L)};
+                        var9 = new I0[]{new S0(1528198156642186953UL, -127, 1, 1, 0L, 1, 1893224643139543461L, 1UL, -9223372036854775808L), new S0(6014014742343129252UL, 127, 255, 27, 4393197177307337298L, 1, 5965693971892762220L, 5430817963520426326UL, 0L), new S0(9021771331300394751UL, -128, 72, 127, 10L, 1, -9223372036854775807L, 1UL, -2231037077217170619L), new S0(1UL, 31, 37, 76, 3455388129185350392L, 1, -5793769537427483774L, 2980221550955028092UL, 2555019170438826819L), new S0(8688163183259951636UL, 126, 2, 0, -9223372036854775807L, 10, 3261774234682223093L, 3472069208349126572UL, -5205120679061548107L), new S0(1UL, 22, 183, 1, 0L, 0, 9223372036854775807L, 0UL, 5695171992842194692L), new S0(1UL, 46, 0, 59, -9223372036854775807L, 94, -1076363961148020965L, 18446744073709551614UL, -9223372036854775808L), new S0(9157422199432365628UL, -62, 156, -127, 8682268931122112607L, 254, -4024336548434431488L, 8206994851206603030UL, -3554097943046896450L), new S0(12438487191575626848UL, 1, 0, -10, -5336121264512843703L, 1, 4408168573394860874L, 14430410997285829576UL, -9223372036854775808L), new S0(18446744073709551615UL, 2, 0, -90, -1977459744065313555L, 54, -30549081434326300L, 3163840253199661501UL, 0L)};
                     }
 
                     arg2 = arg2;
@@ -4018,19 +4421,20 @@ public class Program
         }
 
         arg2[0] = new C0[]{new C0(-25, 1, true), new C0(2, 102, true), new C0(-127, 1, true), new C0(126, 255, true), new C0(-127, 0, true), new C0(0, 1, true), new C0(0, 44, true), new C0(0, 125, true), new C0(24, 140, true)};
-        byte var11 = arg2[0][0].F1--;
+        var11 = arg2[0][0].F1--;
         return ref M75();
     }
 
     public static bool M68(ushort arg0)
     {
+        byte var1 = default(byte);
         arg0 = arg0;
         s_6 = new S0(11565631435954528078UL, -41, 2, 126, 8550397067260938734L, 235, -9223372036854775807L, 7458099604766120498UL, 296899958961322694L);
         arg0 = 24082;
         for (int var0 = 0; var0 < 2; var0++)
         {
             arg0 = 1662;
-            byte var1 = (byte)(~s_23.F1++);
+            var1 = (byte)(~s_23.F1++);
             M71(new S0(1UL, 126, 1, 2, -730519734623185007L, 1, -9168846151588967433L, 9604120650059573012UL, -442509082180948840L), 1U, M71(new S0(16374986448636363354UL, 1, 174, 1, -5038700548344443233L, 232, 7018276728189688039L, 8032236896633693093UL, -4282333061117080236L), 2U, M71(s_73, 1193871611U, M71(s_6, (uint)M70(s_17.F0), new C1(-28845, 10, 20672), (sbyte)new S0(6051288814334013225UL, 0, 247, 111, 4939267720178506665L, 209, -8430702406329182669L, 0UL, 0L).M74(ref s_27, -9223372036854775808L), new long[][]{new long[]{2L, 0L, -6433308844885986339L}, new long[]{-1314811486573368909L, -2302884926039200917L}, new long[]{-9223372036854775808L, -2L}, new long[]{3504481512117643434L, -7794300818938582191L, -3951871111471368006L}, new long[]{6198453033414139766L, -4404836994244013901L}, new long[]{7134860449648463138L, 0L, 1L}, new long[]{0L, 9223372036854775806L, -2L}, new long[]{0L, 9223372036854775806L, -8973545070205351996L}}, 4294967294U, ref s_75), 127, new long[][]{new long[]{3359386926375374800L}, new long[]{-9223372036854775807L, 0L, 10L, -1492674845120002746L, 9223372036854775806L}, new long[]{7205925950845321304L, 0L, 7123605538039948767L, -5380034533283062874L, -6666857591515718196L, -1475231222771169133L, 5400040002434382135L}, new long[]{-1015695478720879078L, 7934998769076483770L, 3454894413058450423L, 8652507365996245880L}, new long[]{-888468272749788559L, -5412661081335761006L, 9223372036854775806L, 6049757820996767450L, 1L, -7112372324317666159L}, new long[]{0L, 9223372036854775806L, -3103599550071379837L, -2332742417926475990L, 1L, -9223372036854775807L, 0L}, new long[]{3894129615299641830L, 8215782122372381110L, -6435075293617196860L, 9187039527896649217L, -9223372036854775808L, -9223372036854775807L, -9223372036854775807L}, new long[]{-6543190704268498922L, -9223372036854775807L, 643255713250541409L}, new long[]{-410272336369689861L, -5062563911127543949L, 2571399204353953396L, 2808917532002289445L, 4413142478905118435L, 539401638063248527L, -491542319352227131L}}, 0U, ref s_75), -120, new long[][]{new long[]{-9223372036854775808L, 1841124467301844634L}, new long[]{0L}, new long[]{-9223372036854775807L, 7649138929636531913L}, new long[]{-4390856140302607785L}, new long[]{9223372036854775807L}, new long[]{6386895878386260908L, -4292462299989650645L}, new long[]{-1L}, new long[]{6377261383897095605L}}, 2204085076U, ref s_75), (sbyte)M73(), new long[][]{new long[]{0L, 6072234425882467936L}, new long[]{7857830283461827930L}, new long[]{0L, 9223372036854775806L, -1240494489398442314L}, new long[]{8602043874359283871L, -5199362719490281109L, -3294626852055832314L, 9223372036854775807L}}, 0U, ref s_75).M69();
         }
 
@@ -4039,20 +4443,23 @@ public class Program
 
     public static byte M70(short arg0)
     {
+        I0 var0 = default(I0);
+        int var1 = default(int);
+        short var2 = default(short);
         try
         {
-            I0 var0 = s_6;
+            var0 = s_6;
         }
         finally
         {
             if (!(!s_29[0, 0, 0] || false))
             {
-                int var1 = 2000526624;
+                var1 = 2000526624;
                 var1 = s_58;
             }
         }
 
-        short var2 = -8522;
+        var2 = -8522;
         ref short var3 = ref arg0;
         M71(new C0(s_36.F1, 0, s_21[0][0, 0].F2).M76(ref s_13), s_30++, new C1(-18039, 1, 26611), s_42[0].F1--, new long[][]{new long[]{10L, 9223372036854775807L}, new long[]{-9223372036854775808L, 10L}, new long[]{-7934833451102039622L}, new long[]{-9223372036854775808L}, new long[]{0L, -6415422178064369151L, -9223372036854775808L}, new long[]{794646265875991019L, 3541875825470365938L, -8153210331525608353L, -5706923920152193455L, -9223372036854775807L}, new long[]{-9223372036854775808L, 2111746351429276676L, -10L, -3973682575373636835L, 1L}, new long[]{10L, -9223372036854775807L}, new long[]{1L}}, s_12, ref s_75);
         var2 = (short)((byte)new S0(3448508134693652288UL, 0, 232, -98, -4072089871773441492L, 61, -1L, 16611046668562554525UL, 2L).M74(ref s_27, ~s_1[0].F1--) >> s_58--);
@@ -4062,6 +4469,26 @@ public class Program
 
     public static ref C1 M71(S0 arg0, uint arg1, C1 arg2, sbyte arg3, long[][] arg4, uint arg5, ref uint[,, ] arg6)
     {
+        C1 var1 = default(C1);
+        ushort var2 = default(ushort);
+        long var3 = default(long);
+        ulong var4 = default(ulong);
+        short[] var5 = default(short[]);
+        sbyte var6 = default(sbyte);
+        byte var8 = default(byte);
+        int var9 = default(int);
+        sbyte var10 = default(sbyte);
+        I0 var11 = default(I0);
+        ushort var12 = default(ushort);
+        byte var13 = default(byte);
+        int[, ] var14 = default(int[, ]);
+        long[][] var15 = default(long[][]);
+        ushort var16 = default(ushort);
+        bool var17 = default(bool);
+        byte var18 = default(byte);
+        ushort var19 = default(ushort);
+        short[] var21 = default(short[]);
+        S1 var22 = default(S1);
         arg0.F2 = arg0.F5;
         new C0(11, 84, true).M72(1);
         if (s_2[0])
@@ -4089,7 +4516,7 @@ public class Program
                 arg6 = arg6;
                 try
                 {
-                    C1 var1 = new C1(-32042, 0, 10480);
+                    var1 = new C1(-32042, 0, 10480);
                 }
                 finally
                 {
@@ -4099,10 +4526,10 @@ public class Program
                     }
                     finally
                     {
-                        ushort var2 = (ushort)((byte)(arg1++ << s_11[0, 0]) - -92);
+                        var2 = (ushort)((byte)(arg1++ << s_11[0, 0]) - -92);
                         arg0 = arg0;
-                        long var3 = arg0.F8;
-                        ulong var4 = arg0.F7++;
+                        var3 = arg0.F8;
+                        var4 = arg0.F7++;
                     }
 
                     s_19 = (ushort)(s_58++ % (short)((short)(-(short)(-arg2.F0)) | 1));
@@ -4156,10 +4583,10 @@ public class Program
             }
             else
             {
-                short[] var5 = new short[]{4251, 19710};
+                var5 = new short[]{4251, 19710};
                 if (!s_9)
                 {
-                    sbyte var6 = arg3;
+                    var6 = arg3;
                     arg0.F6 = (long)M73();
                     if (s_44)
                     {
@@ -4167,7 +4594,7 @@ public class Program
                     }
                     else
                     {
-                        byte var8 = arg0.F5;
+                        var8 = arg0.F5;
                         M73();
                         try
                         {
@@ -4175,10 +4602,10 @@ public class Program
                         }
                         finally
                         {
-                            int var9 = ~s_58++;
+                            var9 = ~s_58++;
                         }
 
-                        sbyte var10 = arg0.F3;
+                        var10 = arg0.F3;
                         s_48 = s_6.F2;
                         {
                             arg0.F8 = 7602206823869738273L;
@@ -4189,16 +4616,16 @@ public class Program
                     var5[0] = arg2.F0;
                     new C0(-77, 0, false).M72(arg2.F0);
                     arg0.F4 = s_36.F4;
-                    I0 var11 = arg0;
-                    ushort var12 = 0;
-                    byte var13 = 1;
+                    var11 = arg0;
+                    var12 = 0;
+                    var13 = 1;
                 }
                 else
                 {
                     arg0.F0 = M73();
                 }
 
-                int[, ] var14 = new int[, ]{{0, 2147483646, 1, 2147483646, 43230243, 1, 0, 10, 1720632100, 0}, {-2141285098, 2147483647, 2147483646, 2147483646, 10, 1, -1432609165, -2147483647, -862225759, -2147483648}, {1, 1, -1234465302, 2147483646, 538879963, -2147483647, 2147483647, 1743931798, -1952618442, -459997039}};
+                var14 = new int[, ]{{0, 2147483646, 1, 2147483646, 43230243, 1, 0, 10, 1720632100, 0}, {-2141285098, 2147483647, 2147483646, 2147483646, 10, 1, -1432609165, -2147483647, -862225759, -2147483648}, {1, 1, -1234465302, 2147483646, 538879963, -2147483647, 2147483647, 1743931798, -1952618442, -459997039}};
                 s_64 = arg0.F2;
                 M75();
             }
@@ -4208,11 +4635,11 @@ public class Program
 
         {
             s_73 = new S0(15857879388897616071UL, 40, 140, -80, 8046864036671589919L, 1, 2L, 1UL, 0L);
-            long[][] var15 = new long[][]{new long[]{-5586331165213486779L}, new long[]{9223372036854775807L, -8843424343499383107L}, new long[]{1L, -588895669611347984L}};
+            var15 = new long[][]{new long[]{-5586331165213486779L}, new long[]{9223372036854775807L, -8843424343499383107L}, new long[]{1L, -588895669611347984L}};
             s_36.F5 = 0;
             {
                 arg0.F2 = arg0.F5;
-                ushort var16 = M77(ref arg0.F3, ref s_51, new S1(32766, 0L, -32767), arg0.F7++, ref s_45);
+                var16 = M77(ref arg0.F3, ref s_51, new S1(32766, 0L, -32767), arg0.F7++, ref s_45);
                 if (s_2[0])
                 {
                     arg4 = arg4;
@@ -4220,7 +4647,7 @@ public class Program
                 }
 
                 M73();
-                bool var17 = false;
+                var17 = false;
                 arg3 = arg0.F1;
                 arg0 = new C0(-101, 2, false).M76(ref arg2.F1);
                 s_5[0] = s_5[0];
@@ -4230,8 +4657,8 @@ public class Program
 
             {
                 arg0.M74(ref s_27, -4359780359267650803L);
-                byte var18 = 80;
-                ushort var19 = arg2.F1;
+                var18 = 80;
+                var19 = arg2.F1;
                 {
                     for (int var20 = 0; var20 < 2; var20++)
                     {
@@ -4252,20 +4679,21 @@ public class Program
                     M73() = (ulong)M77(ref arg0.F3, ref s_1[0], M79(var19), arg0.F0, ref s_45);
                 }
 
-                short[] var21 = s_8;
+                var21 = s_8;
                 M79(0);
                 s_74 = 1;
             }
         }
 
-        S1 var22 = new S1(arg2.F0, (long)M73(), 7502);
+        var22 = new S1(arg2.F0, (long)M73(), 7502);
         return ref s_46[0];
     }
 
     public static ref ulong M73()
     {
+        C1 var0 = default(C1);
         s_42[0].F4 = 642919092707637929L;
-        C1 var0 = new C1(-32767, 1, 36003);
+        var0 = new C1(-32767, 1, 36003);
         return ref s_4;
     }
 
@@ -4281,6 +4709,7 @@ public class Program
 
     public static ushort M77(ref sbyte arg0, ref S1 arg1, S1 arg2, ulong arg3, ref byte[] arg4)
     {
+        sbyte var1 = default(sbyte);
         if (!(true && !(1 == arg1.F1)))
         {
             new S0(12558467987328863510UL, 1, 76, 29, -564775181908821096L, 0, 2421846723931906489L, 2497779465162649652UL, -9223372036854775807L).M78();
@@ -4291,7 +4720,7 @@ public class Program
         ref byte var0 = ref arg4[0];
         if (-115 < arg0)
         {
-            sbyte var1 = arg0;
+            var1 = arg0;
             arg2.F1 = arg2.F1;
             arg2.F0 = s_17.F0;
         }
@@ -4318,7 +4747,8 @@ public class Program
 
     public static int M80(ref short arg0, bool[] arg1, S0 arg2)
     {
-        sbyte var0 = -75;
+        sbyte var0 = default(sbyte);
+        var0 = -75;
         if (arg1[0])
         {
             s_73 = arg2;
@@ -4338,9 +4768,10 @@ public class Program
 
     public static long M86()
     {
+        S0 var0 = default(S0);
         if (s_29[0, 0, 0])
         {
-            S0 var0 = new S0(1UL, -30, 193, 2, 8166086034723274172L, 0, 8814693838607821631L, 12590091570178166939UL, 5705612624228164973L);
+            var0 = new S0(1UL, -30, 193, 2, 8166086034723274172L, 0, 8814693838607821631L, 12590091570178166939UL, 5705612624228164973L);
         }
         else
         {
@@ -4362,8 +4793,30 @@ public class Program
 
     public static bool M90()
     {
+        ushort var0 = default(ushort);
+        ushort var3 = default(ushort);
+        long var4 = default(long);
+        C0 var7 = default(C0);
+        bool var8 = default(bool);
+        I0 var9 = default(I0);
+        C1 var12 = default(C1);
+        S0 var13 = default(S0);
+        ushort var14 = default(ushort);
+        C0 var15 = default(C0);
+        S0 var16 = default(S0);
+        S1[] var18 = default(S1[]);
+        S1 var19 = default(S1);
+        C1[] var20 = default(C1[]);
+        bool var21 = default(bool);
+        int var22 = default(int);
+        bool var23 = default(bool);
+        C0 var24 = default(C0);
+        byte var25 = default(byte);
+        I0 var27 = default(I0);
+        uint var28 = default(uint);
+        ushort var30 = default(ushort);
         s_42[0].F2++;
-        ushort var0 = 2;
+        var0 = 2;
         if (!!s_70)
         {
             try
@@ -4378,11 +4831,11 @@ public class Program
             var0 = 26611;
             var0 /= (ushort)(56242 | 1);
             ref I0 var2 = ref s_34;
-            ushort var3 = (ushort)new C0(49, 118, true).M105((sbyte)M113(ref var0, new C0(0, 33, false)), new C0(-127, 0, true).M112(ref s_100, false, ref s_101), (byte)((ushort)(~s_57[0]) * var0));
+            var3 = (ushort)new C0(49, 118, true).M105((sbyte)M113(ref var0, new C0(0, 33, false)), new C0(-127, 0, true).M112(ref s_100, false, ref s_101), (byte)((ushort)(~s_57[0]) * var0));
             s_7 = 0;
             try
             {
-                long var4 = 0L;
+                var4 = 0L;
             }
             finally
             {
@@ -4399,7 +4852,7 @@ public class Program
         s_18.M102();
         if (!s_31.F2)
         {
-            C0 var7 = new C0(0, 227, false);
+            var7 = new C0(0, 227, false);
         }
         else
         {
@@ -4425,7 +4878,7 @@ public class Program
         {
             s_113 = new bool[][]{new bool[]{false}, new bool[]{false, false}, new bool[]{true}, new bool[]{false}, new bool[]{true, true}, new bool[]{false, true}, new bool[]{true}, new bool[]{true}};
             var0 = 21983;
-            bool var8 = M110(ref s_75[0, 0, 0]);
+            var8 = M110(ref s_75[0, 0, 0]);
             new C0(126, 47, true).M105(-1, new S1[]{new S1(20583, 0L, 4471), new S1(-15056, -5008065533912778337L, -1), new S1(32767, 9223372036854775806L, -32767), new S1(0, -9223372036854775808L, -28064)}, 1);
         }
 
@@ -4438,7 +4891,7 @@ public class Program
         {
             M114(ref s_94, new I0[]{new S0(16305628872541688682UL, 111, 141, 0, 9223372036854775806L, 47, 1956661165632269447L, 12965535925267877549UL, -9223372036854775807L), new S0(14775826290164149880UL, 126, 255, -43, -9223372036854775808L, 1, 4250627325485601798L, 0UL, 8652269551251782258L), new S0(2UL, 1, 1, -105, -5250585746257843264L, 1, 1L, 14742266623731893444UL, 3936176509095283033L), new S0(18446744073709551615UL, -127, 255, -128, -4497056183126309879L, 235, -9223372036854775807L, 1UL, -7139921109673195032L), new S0(5858216156064694107UL, 127, 1, 82, -2235369519353216557L, 0, 1L, 1UL, 2L), new S0(1UL, -2, 69, -67, 10L, 0, -9223372036854775808L, 18446744073709551615UL, 0L), new S0(1UL, -100, 127, 116, -6613389418943349355L, 208, 3548543600438045437L, 5923923186116455036UL, 0L), new S0(1UL, 0, 175, 2, -297217735854764434L, 10, 1L, 11928237869672217798UL, 1L), new S0(15938726002231327156UL, -55, 124, 127, -9223372036854775808L, 0, -7618315080917353095L, 2532525362573328242UL, 1L)}, 70, new uint[, ]{{3488072014U, 1U, 4118118808U, 0U, 4294967294U, 300522544U, 1U, 1U}, {1U, 1741650154U, 2392033234U, 0U, 0U, 0U, 4294967294U, 1U}, {2918685228U, 4294967294U, 2851829841U, 1U, 3934903869U, 1126827027U, 3008312690U, 0U}, {934566213U, 0U, 3787251785U, 1757349843U, 83823952U, 1U, 0U, 834925441U}, {418633399U, 1682402430U, 1U, 1U, 0U, 2097408129U, 4294967295U, 0U}, {41485552U, 4026795870U, 1U, 1U, 10U, 1U, 561345954U, 1U}, {4155217878U, 1183952328U, 2197104611U, 4294967294U, 0U, 4274013354U, 2344750587U, 4267115909U}, {17294644U, 2092050027U, 1U, 0U, 2265914624U, 396566165U, 1U, 888522544U}}, (short)(var0 - 0));
             M93(new byte[]{10, 104, 0, 0, 0, 241, 0, 194});
-            I0 var9 = s_63;
+            var9 = s_63;
             s_24.F5 = (byte)(~s_36.F2++);
             var0 = var0;
             ref S1 var10 = ref s_17;
@@ -4458,20 +4911,20 @@ public class Program
 
         var0 = var0;
         s_1[0].M102();
-        C1 var12 = new C1(-3280, 52577, 1);
+        var12 = new C1(-3280, 52577, 1);
         s_115 = new S0(9171818482155800363UL, 66, 255, 2, 8435010257118292149L, 0, 1L, 5693437656086882331UL, 9223372036854775807L);
         if (!M110(ref s_12))
         {
-            S0 var13 = M114(ref s_84.F2, M115(2975813547U), (sbyte)(4768977097731384011UL * s_75[0, 0, 0]--), new uint[, ]{{3865111021U, 4294967295U, 0U, 814775019U, 2392913590U}, {1740906058U, 2071513103U, 4294967294U, 4294967294U, 1U}, {1814728607U, 0U, 222824363U, 1U, 3197571333U}, {1658070762U, 1491028315U, 1U, 757479471U, 464069622U}, {0U, 4294967294U, 0U, 1201274860U, 0U}}, (short)s_1[0].M102());
+            var13 = M114(ref s_84.F2, M115(2975813547U), (sbyte)(4768977097731384011UL * s_75[0, 0, 0]--), new uint[, ]{{3865111021U, 4294967295U, 0U, 814775019U, 2392913590U}, {1740906058U, 2071513103U, 4294967294U, 4294967294U, 1U}, {1814728607U, 0U, 222824363U, 1U, 3197571333U}, {1658070762U, 1491028315U, 1U, 757479471U, 464069622U}, {0U, 4294967294U, 0U, 1201274860U, 0U}}, (short)s_1[0].M102());
             if (s_78)
             {
                 var13.F6 = s_42[0].F8;
                 s_36.F7 = 18446744073709551614UL;
-                ushort var14 = 2;
+                var14 = 2;
             }
             else
             {
-                C0 var15 = s_50;
+                var15 = s_50;
                 var13.F7 = var13.F0;
                 if (M113(ref var0, new C0(127, 193, true)) < 241)
                 {
@@ -4487,7 +4940,7 @@ public class Program
                     {
                         M110(ref s_107);
                         M95(var13.F5, new int[]{0, -1915284396, -2147483648, 1});
-                        S0 var16 = new S0(18446744073709551614UL, -128, 10, -98, 8365221306134107738L, 254, 1L, 16234792723680291943UL, 1L);
+                        var16 = new S0(18446744073709551614UL, -128, 10, -98, 8365221306134107738L, 254, 1L, 16234792723680291943UL, 1L);
                     }
 
                     {
@@ -4497,13 +4950,13 @@ public class Program
 
                     if (var15.F2)
                     {
-                        S1[] var18 = new S1[]{new S1(32767, 1L, -1), new S1(-14123, 9223372036854775807L, 14214), new S1(32766, -7671103526837122273L, 1)};
+                        var18 = new S1[]{new S1(32767, 1L, -1), new S1(-14123, 9223372036854775807L, 14214), new S1(32766, -7671103526837122273L, 1)};
                     }
 
                     var13.F3 = -127;
                     {
                         M96();
-                        S1 var19 = new S1(9593, 1L, -10);
+                        var19 = new S1(9593, 1L, -10);
                         s_18.F2 = s_17.F0;
                         if (var15.F2)
                         {
@@ -4515,7 +4968,7 @@ public class Program
                             var12 = var12;
                             new C0(-1, 0, false).M105(var13.F3, new S1[]{new S1(-25053, 4187121729138861140L, -6566), new S1(27915, 9223372036854775807L, 0)}, var13.F5);
                             M101() = (long)M113(ref var12.F1, new C0(-29, 1, true));
-                            C1[] var20 = s_32;
+                            var20 = s_32;
                         }
                     }
 
@@ -4528,15 +4981,15 @@ public class Program
 
         if (s_70)
         {
-            bool var21 = M110(ref s_107);
+            var21 = M110(ref s_107);
             {
                 var0 = var0;
                 s_86.M112(ref s_100, var21, ref s_101);
-                int var22 = ~(int)s_42[0].M91(1);
+                var22 = ~(int)s_42[0].M91(1);
                 new S1(32767, -2L, 27601).M107(ref s_1[0]);
                 if (s_78)
                 {
-                    bool var23 = M110(ref s_54[0]);
+                    var23 = M110(ref s_54[0]);
                     var12.F2 = var12.F2;
                     var12.F0 = var12.F0;
                 }
@@ -4546,10 +4999,10 @@ public class Program
                     var22 = var22;
                 }
 
-                C0 var24 = s_84;
+                var24 = s_84;
             }
 
-            byte var25 = 215;
+            var25 = 215;
             {
                 ref long var26 = ref s_6.F4;
                 return !s_70;
@@ -4557,10 +5010,10 @@ public class Program
         }
 
         M100(var12.F0--);
-        I0 var27 = M96();
-        uint var28 = ~s_12--;
+        var27 = M96();
+        var28 = ~s_12--;
         ref C1 var29 = ref var12;
-        ushort var30 = var29.F1;
+        var30 = var29.F1;
         if (s_86.F2)
         {
             if (M110(ref var28))
@@ -4589,24 +5042,38 @@ public class Program
 
     public static long M92()
     {
+        ushort var0 = default(ushort);
+        uint var1 = default(uint);
+        S1 var2 = default(S1);
+        S1 var3 = default(S1);
+        C1[][] var4 = default(C1[][]);
+        bool var6 = default(bool);
+        C1[] var7 = default(C1[]);
+        uint var8 = default(uint);
+        C0[] var9 = default(C0[]);
+        uint var10 = default(uint);
+        sbyte var12 = default(sbyte);
+        I0 var13 = default(I0);
+        C1[] var18 = default(C1[]);
+        ulong[] var19 = default(ulong[]);
         s_41[0] = s_41[0];
         try
         {
             s_89 = new S0(2UL, -100, 255, 0, -8938565090588793296L, 0, 9223372036854775806L, 1UL, 9223372036854775807L);
             {
-                ushort var0 = s_33;
+                var0 = s_33;
                 var0 = 5260;
                 if ((sbyte)(-(sbyte)(~s_6.F3)) >= 1U)
                 {
-                    uint var1 = s_75[0, 0, 0];
+                    var1 = s_75[0, 0, 0];
                     s_47 = s_32[0].F0++;
                     if (59130 > var0--)
                     {
-                        S1 var2 = new S1(-22400, -(-s_18.F1), 1);
+                        var2 = new S1(-22400, -(-s_18.F1), 1);
                         var0 = 23593;
                         s_36.F8 = var2.F1;
-                        S1 var3 = new S1(var2.F0--, -1811734730725210585L, (short)(-var2.F2++));
-                        C1[][] var4 = new C1[][]{new C1[]{new C1(0, 37008, 6291), new C1(2, 0, 0)}, new C1[]{new C1(-32767, 1, 20465), new C1(1, 52072, 19152), new C1(1, 27527, 20667), new C1(30669, 45201, 0)}, new C1[]{new C1(-5183, 14017, 10), new C1(-28545, 65534, 0), new C1(-28602, 1, 937)}, new C1[]{new C1(25991, 1, 41555), new C1(-10, 65535, 5274), new C1(-10646, 7755, 13918), new C1(31764, 47019, 1)}, new C1[]{new C1(10, 65534, 1)}, new C1[]{new C1(19538, 65534, 56547)}, new C1[]{new C1(-2675, 37477, 0)}, new C1[]{new C1(10, 0, 1), new C1(32766, 0, 57278)}, new C1[]{new C1(-32767, 1, 2985)}, new C1[]{new C1(1, 0, 65535), new C1(-32768, 39027, 61676)}};
+                        var3 = new S1(var2.F0--, -1811734730725210585L, (short)(-var2.F2++));
+                        var4 = new C1[][]{new C1[]{new C1(0, 37008, 6291), new C1(2, 0, 0)}, new C1[]{new C1(-32767, 1, 20465), new C1(1, 52072, 19152), new C1(1, 27527, 20667), new C1(30669, 45201, 0)}, new C1[]{new C1(-5183, 14017, 10), new C1(-28545, 65534, 0), new C1(-28602, 1, 937)}, new C1[]{new C1(25991, 1, 41555), new C1(-10, 65535, 5274), new C1(-10646, 7755, 13918), new C1(31764, 47019, 1)}, new C1[]{new C1(10, 65534, 1)}, new C1[]{new C1(19538, 65534, 56547)}, new C1[]{new C1(-2675, 37477, 0)}, new C1[]{new C1(10, 0, 1), new C1(32766, 0, 57278)}, new C1[]{new C1(-32767, 1, 2985)}, new C1[]{new C1(1, 0, 65535), new C1(-32768, 39027, 61676)}};
                     }
                     else
                     {
@@ -4623,14 +5090,14 @@ public class Program
                 }
                 else
                 {
-                    bool var6 = true;
+                    var6 = true;
                     s_31.F1 = 255;
                     M93(new byte[]{91, 254, 23, 38, 0, 87, 1, 0, 0}) = 0;
                     var0 = var0;
-                    C1[] var7 = new C1[]{new C1(-1, 55213, 1), new C1(20736, 1, 44607), new C1(-24159, 65534, 50270), new C1(-32768, 7816, 1), new C1(7811, 65534, 0), new C1(1071, 18092, 36997), new C1(0, 0, 7555)};
+                    var7 = new C1[]{new C1(-1, 55213, 1), new C1(20736, 1, 44607), new C1(-24159, 65534, 50270), new C1(-32768, 7816, 1), new C1(7811, 65534, 0), new C1(1071, 18092, 36997), new C1(0, 0, 7555)};
                 }
 
-                uint var8 = 0U;
+                var8 = 0U;
                 try
                 {
                     new C0((sbyte)(s_79.F1 << (byte)(2642314929U % (ulong)(s_24.F7 | 1))), s_42[0].F5--, true && M110(ref s_30)).M108(1230460920U, var8++).M97(new S1(0, 897775867473957658L, -19402));
@@ -4648,7 +5115,7 @@ public class Program
                     else
                     {
                         var8 = 3492496030U;
-                        C0[] var9 = new C0[]{new C0(2, 59, false), new C0(-34, 0, false), new C0(1, 0, false), new C0(-54, 10, true), new C0(1, 11, false), new C0(65, 255, false), new C0(30, 120, true)};
+                        var9 = new C0[]{new C0(2, 59, false), new C0(-34, 0, false), new C0(1, 0, false), new C0(-54, 10, true), new C0(1, 11, false), new C0(65, 255, false), new C0(30, 120, true)};
                         s_1 = new C0(69, 35, false).M112(ref s_100, var9[0].F2, ref s_101);
                     }
                 }
@@ -4660,7 +5127,7 @@ public class Program
         {
             try
             {
-                uint var10 = 2116400785U;
+                var10 = 2116400785U;
             }
             finally
             {
@@ -4680,8 +5147,8 @@ public class Program
                         if (s_22)
                         {
                             var11.F0 = s_1[0].F0;
-                            sbyte var12 = s_21[0][0, 0].F0--;
-                            I0 var13 = s_55;
+                            var12 = s_21[0][0, 0].F0--;
+                            var13 = s_55;
                             s_89.F5 = 173;
                         }
                         else
@@ -4708,7 +5175,7 @@ public class Program
                         {
                             var11 = M95((byte)(~s_36.F2--), new int[]{-1613546912, 2147483647, 2147483646, -2});
                             ref int var17 = ref s_92;
-                            C1[] var18 = s_32;
+                            var18 = s_32;
                         }
 
                         s_105 = var11.F1--;
@@ -4732,7 +5199,7 @@ public class Program
                 s_84.M105(s_6.F1, new C0(0, 22, true).M112(ref s_100, M110(ref s_30), ref s_101), s_36.F2++);
             }
 
-            ulong[] var19 = new ulong[]{9129732006125120610UL, 18446744073709551615UL, 18446744073709551614UL, 15081016466152404021UL, 6391324974982477891UL};
+            var19 = new ulong[]{9129732006125120610UL, 18446744073709551615UL, 18446744073709551614UL, 15081016466152404021UL, 6391324974982477891UL};
         }
 
         for (int var20 = 0; var20 < 2; var20++)
@@ -4750,15 +5217,29 @@ public class Program
 
     public static ref short M93(byte[] arg0)
     {
+        long var0 = default(long);
+        short var1 = default(short);
+        uint var5 = default(uint);
+        ulong var6 = default(ulong);
+        short var8 = default(short);
+        S0 var9 = default(S0);
+        long[] var10 = default(long[]);
+        short var11 = default(short);
+        S1 var13 = default(S1);
+        ulong var14 = default(ulong);
+        uint var15 = default(uint);
+        uint var16 = default(uint);
+        byte var18 = default(byte);
+        C1 var20 = default(C1);
         arg0[0] = arg0[0];
         if (!s_78)
         {
             arg0[0] = arg0[0];
             new C0(-16, 0, true).M94();
-            long var0 = s_73.F6++;
+            var0 = s_73.F6++;
         }
 
-        short var1 = s_88[0].F0--;
+        var1 = s_88[0].F0--;
         {
             arg0 = s_45;
             for (int var2 = 0; var2 < 2; var2++)
@@ -4784,12 +5265,12 @@ public class Program
                     arg0 = arg0;
                     for (int var4 = 0; var4 < 2; var4++)
                     {
-                        uint var5 = (uint)(-s_81++);
+                        var5 = (uint)(-s_81++);
                         arg0 = arg0;
                         var1 = var1++;
                     }
 
-                    ulong var6 = 14650447909255504265UL;
+                    var6 = 14650447909255504265UL;
                     try
                     {
                         M96();
@@ -4808,7 +5289,7 @@ public class Program
                     else
                     {
                         var6 = 0UL;
-                        short var8 = var1;
+                        var8 = var1;
                     }
 
                     {
@@ -4817,7 +5298,7 @@ public class Program
 
                     var1 = 32767;
                     M95(arg0[0], new int[]{-572326180, 1, 2147483647, 10, 1487549085, -1612655603, -2147483648});
-                    S0 var9 = s_73;
+                    var9 = s_73;
                     var9.F2 = arg0[0];
                     var9.F6 = var9.F4;
                 }
@@ -4836,25 +5317,25 @@ public class Program
                 {
                     arg0 = arg0;
                     s_92 = -1117478653;
-                    long[] var10 = new long[]{-57851897163110035L, -9223372036854775808L, -3315409728358538894L, 0L, 0L, 0L, 0L};
+                    var10 = new long[]{-57851897163110035L, -9223372036854775808L, -3315409728358538894L, 0L, 0L, 0L, 0L};
                     return ref s_32[0].F0;
                 }
             }
             else
             {
-                short var11 = var1--;
+                var11 = var1--;
                 for (int var12 = 0; var12 < 2; var12++)
                 {
-                    S1 var13 = new S1(25875, 3942964689799706479L, -10);
-                    ulong var14 = 1UL;
+                    var13 = new S1(25875, 3942964689799706479L, -10);
+                    var14 = 1UL;
                     if (s_2[0])
                     {
-                        uint var15 = ~(uint)(38 % (int)(var12 | 1));
+                        var15 = ~(uint)(38 % (int)(var12 | 1));
                         var1 = var11;
                     }
                 }
 
-                uint var16 = ~(uint)(-9223372036854775808L | (short)(~var11));
+                var16 = ~(uint)(-9223372036854775808L | (short)(~var11));
                 if (67 <= new S1(-9619, 1L, -2).M103().M97(new S1(-32768, 7770680337893836946L, 0)))
                 {
                     arg0 = arg0;
@@ -4867,7 +5348,7 @@ public class Program
                     new S1((short)(-s_47++), (long)(1 >> arg0[0]), 7879).M103();
                 }
 
-                byte var18 = s_69;
+                var18 = s_69;
             }
 
             {
@@ -4888,7 +5369,7 @@ public class Program
             return ref s_8[0];
         }
 
-        C1 var20 = new C1(-278, 7460, 65535);
+        var20 = new C1(-278, 7460, 65535);
         s_31 = new C0(1, 0, true);
         return ref var20.F0;
     }
@@ -4913,11 +5394,13 @@ public class Program
 
     public static ref long M101()
     {
+        I0[] var0 = default(I0[]);
+        sbyte var2 = default(sbyte);
         if (false || !s_22)
         {
             try
             {
-                I0[] var0 = new I0[]{new S0(5020889333963331692UL, -127, 168, 1, 1L, 255, 1L, 0UL, 8192003529078272534L)};
+                var0 = new I0[]{new S0(5020889333963331692UL, -127, 168, 1, 1L, 255, 1L, 0UL, 8192003529078272534L)};
             }
             finally
             {
@@ -4931,13 +5414,14 @@ public class Program
 
         s_58 = ~(-s_92);
         s_73.F8 = s_6.F8--;
-        sbyte var2 = 51;
+        var2 = 51;
         return ref s_73.F6;
     }
 
     public static C1 M104()
     {
-        byte var0 = s_31.F1--;
+        byte var0 = default(byte);
+        var0 = s_31.F1--;
         var0 = s_71;
         return new C1(-2, 0, 0);
     }
@@ -4950,7 +5434,8 @@ public class Program
 
     public static bool M110(ref uint arg0)
     {
-        uint var0 = arg0;
+        uint var0 = default(uint);
+        var0 = arg0;
         return true;
     }
 
@@ -4970,29 +5455,35 @@ public class Program
 
     public static S0 M114(ref bool arg0, I0[] arg1, sbyte arg2, uint[, ] arg3, short arg4)
     {
+        C0[] var0 = default(C0[]);
+        C0 var1 = default(C0);
         arg1 = arg1;
-        C0[] var0 = new C0[]{new C0(2, 10, false), new C0(-128, 136, true), new C0(-96, 1, false), new C0(-40, 136, false), new C0(0, 254, false), new C0(0, 0, false), new C0(126, 133, true), new C0(-109, 69, false), new C0(-128, 228, true)};
-        C0 var1 = var0[0];
+        var0 = new C0[]{new C0(2, 10, false), new C0(-128, 136, true), new C0(-96, 1, false), new C0(-40, 136, false), new C0(0, 254, false), new C0(0, 0, false), new C0(126, 133, true), new C0(-109, 69, false), new C0(-128, 228, true)};
+        var1 = var0[0];
         return new S0(0UL, -115, 254, -87, -9223372036854775808L, 151, -4617124435109528494L, 8902029461306423864UL, 1976727158463114907L);
     }
 
     public static I0[] M115(uint arg0)
     {
-        sbyte[] var0 = new sbyte[]{-125, -47};
-        ushort var1 = (ushort)(~~~s_89.F0++ ^ s_73.F2);
+        sbyte[] var0 = default(sbyte[]);
+        ushort var1 = default(ushort);
+        var0 = new sbyte[]{-125, -47};
+        var1 = (ushort)(~~~s_89.F0++ ^ s_73.F2);
         return new I0[]{new S0(13711843214020487388UL, -45, 175, 127, 2749402744792698677L, 160, 4488254413509380902L, 0UL, 91806286193978197L), new S0(4168609344042423094UL, 1, 14, -67, 9223372036854775806L, 255, -2L, 1UL, 2L), new S0(1UL, -60, 10, -111, 0L, 0, 3665102667166421282L, 0UL, 9223372036854775807L), new S0(9675293147688009886UL, 58, 148, 64, 9223372036854775807L, 197, -1146168878237180741L, 14711800068685043059UL, 3246426985887566340L), new S0(8732740862997638783UL, 20, 20, -32, -10L, 213, 9223372036854775806L, 12364137203941103241UL, 8939480571023764393L)};
     }
 
     public static ref long M117()
     {
+        short var0 = default(short);
         s_36.F4 = 3229206664026210217L;
-        short var0 = M118();
+        var0 = M118();
         return ref s_68[0];
     }
 
     public static short M118()
     {
-        C1[][, ] var0 = new C1[][, ]{new C1[, ]{{new C1(-19967, 1, 0), new C1(-32767, 5282, 64786)}}, new C1[, ]{{new C1(0, 0, 0), new C1(-14389, 0, 31480)}, {new C1(-22288, 23255, 65535), new C1(-13352, 57308, 65535)}, {new C1(3245, 0, 1), new C1(-9992, 0, 18246)}, {new C1(0, 0, 29391), new C1(1, 62595, 65534)}}, new C1[, ]{{new C1(0, 65535, 65534), new C1(-8644, 65534, 30834)}, {new C1(32766, 31587, 65534), new C1(-2, 65534, 63319)}}, new C1[, ]{{new C1(-32768, 1, 65534), new C1(15841, 23771, 65534)}}};
+        C1[][, ] var0 = default(C1[][, ]);
+        var0 = new C1[][, ]{new C1[, ]{{new C1(-19967, 1, 0), new C1(-32767, 5282, 64786)}}, new C1[, ]{{new C1(0, 0, 0), new C1(-14389, 0, 31480)}, {new C1(-22288, 23255, 65535), new C1(-13352, 57308, 65535)}, {new C1(3245, 0, 1), new C1(-9992, 0, 18246)}, {new C1(0, 0, 29391), new C1(1, 62595, 65534)}}, new C1[, ]{{new C1(0, 65535, 65534), new C1(-8644, 65534, 30834)}, {new C1(32766, 31587, 65534), new C1(-2, 65534, 63319)}}, new C1[, ]{{new C1(-32768, 1, 65534), new C1(15841, 23771, 65534)}}};
         if (s_23.F2)
         {
             var0[0][0, 0] = new C1(-32767, 40551, 61494);
