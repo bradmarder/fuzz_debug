@@ -690,7 +690,6 @@ public class Program
     {
         ushort var2 = default(ushort);
         long var3 = default(long);
-        short[] var21 = default(short[]);
         return ref s_46[0];
     }
 
