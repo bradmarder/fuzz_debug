@@ -258,11 +258,6 @@ public struct S1
     {
         return default(int);
     }
-
-    public uint[, ] M116(short arg0, short arg1, ref sbyte arg2)
-    {
-        return default(uint[, ]);
-    }
 }
 
 public class C1
