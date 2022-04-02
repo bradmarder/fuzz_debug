@@ -457,13 +457,6 @@ public class C1
     public ref short M99(uint arg0)
     {
         short var0 = default(short);
-        Program.s_24.F5 = (byte)((ushort)(~this.F2) >> Program.s_6.F1);
-        {
-            this.F1 = this.F2;
-        }
-
-        var0 = this.F0;
-        Program.s_42[0].F3 = 1;
         return ref this.F0;
     }
 
