@@ -173,11 +173,6 @@ public struct S1
         return default(short[]);
     }
 
-    public byte M37(ref C1 arg0, long arg1)
-    {
-        return default(byte);
-    }
-
     public C0 M45()
     {
         return default(C0);
