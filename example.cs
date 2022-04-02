@@ -48,10 +48,7 @@ public class C0
 
     public C0 M43(int arg0)
     {
-        uint var0 = default(uint);
-        new S0(0UL, 1, 39, -107, 3342914360151086373L, 112, -9223372036854775808L, 2577107182113856273UL, 1L).M44(ref Program.s_35[0]);
-        var0 = Program.s_12;
-        return new C0(-15, 218, true);
+        return default(C0);
     }
 
     public int M52(sbyte arg0, uint arg1, sbyte[] arg2, ref uint arg3, ref C1[] arg4)
