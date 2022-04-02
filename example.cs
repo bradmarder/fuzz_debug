@@ -1531,59 +1531,7 @@ public class Program
 
     public static int M2(bool arg0, C1[] arg1, ref long arg2)
     {
-        S0 var1 = default(S0);
-        S1 var2 = default(S1);
-        try
-        {
-            for (int var0 = 0; var0 < 2; var0++)
-            {
-                s_1[0].F0 = -2;
-                new C0(-4, 92, false).M3(-var0, new C0(-36, 163, false));
-                new C0(-65, 1, true).M3(var0, new C0(-128, 171, true));
-                var1 = M4(new S0(8755168123403557558UL, (sbyte)((sbyte)(-new C0(1, 85, false).M3(569481964, new C0(-17, 233, false))) ^ -69), 246, new C0(1, 1, false).M3(var0, new C0(-128, 1, false)), arg2, (byte)(~(byte)new C0(-96, 1, false).M3(var0, new C0(-12, 3, false))), 0L, 1UL, arg2));
-                s_1[0].F2 = arg1[0].F0;
-                var1.F7 = var1.F0;
-                new C0(36, 2, true).M3(var0, new C0(126, 1, false));
-            }
-        }
-        finally
-        {
-            arg1 = arg1;
-            {
-                arg1[0].F2 = 1;
-                M4(M4(new S0(10UL, -91, 1, 97, -4333731606633849886L, 254, 9223372036854775806L, 0UL, -9223372036854775807L)));
-                {
-                    arg1[0].F2 = arg1[0].F1;
-                    arg1[0].F1 = arg1[0].F2;
-                    arg1[0].F2 *= (ushort)new C0(-128, 51, false).M3((int)((uint)new C0(0, 38, false).M3(1289803628, new C0(-127, 236, false)) - (uint)new C0(-37, 0, true).M3(2147483646, s_18.M5())), s_16);
-                    s_129 = s_67;
-                    M113(ref arg1[0].F2, M75());
-                    arg0 = arg0;
-                }
-            }
-
-            s_89 = new S0(1UL, -57, 147, -2, -6227756998539066434L, 0, -8155196844903433033L, 5725894510795825557UL, -1303521155981145183L);
-        }
-
-        arg1[0].F2 = arg1[0].F1;
-        if (arg0)
-        {
-            var2 = M54(ref s_23.F1, new S1(4049, -1373936966631774281L, 10), 65535, ref s_73);
-            s_130 = arg1[0].F0;
-            if (s_21[0][0, 0].F2)
-            {
-                {
-                    arg1 = M57(s_34, ref s_124);
-                }
-            }
-        }
-        else
-        {
-            arg2 = arg2;
-            arg1[0].F0 = M62(55147978U, s_73, 10, ref M47(arg1[0].F2, arg1[0].F0++), s_89, s_129);
-        }
-
-        return M47(arg1[0].F2, arg1[0].F0++)++;
+        return default(int);
     }
 
     public static S0 M4(S0 arg0)
