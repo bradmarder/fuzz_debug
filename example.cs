@@ -269,7 +269,6 @@ public struct S1
         byte var7 = default(byte);
         sbyte[] var13 = default(sbyte[]);
         S0 var14 = default(S0);
-        ulong var15 = default(ulong);
         return ref Program.s_74;
     }
 
