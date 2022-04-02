@@ -600,7 +600,6 @@ public class Program
     public static ref S1 M25(uint arg0, ushort arg1)
     {
         long var0 = default(long);
-        var0 = -10L;
         return ref s_1[0];
     }
 
