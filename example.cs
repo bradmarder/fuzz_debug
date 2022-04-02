@@ -99,7 +99,6 @@ public class Program
     public static byte s_96 = 0;
     public static sbyte s_104 = 119;
     public static uint s_107 = 10U;
-    public static int s_112 = 10;
     public static C1 s_121 = new C1(32766, 1, 0);
     public static void Main()
     {
