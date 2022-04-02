@@ -73,11 +73,6 @@ public class Program
     {
     }
 
-    public static S0 M4(S0 arg0)
-    {
-        return default(S0);
-    }
-
     public static long M92()
     {
         return default(long);
