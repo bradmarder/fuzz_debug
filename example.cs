@@ -90,11 +90,6 @@ public struct S0 : I0
         return default(I0);
     }
 
-    public short M53()
-    {
-        return default(short);
-    }
-
     public S1 M55()
     {
         return default(S1);
