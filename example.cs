@@ -299,7 +299,6 @@ public class Program
     public static byte s_10 = 169;
     public static sbyte[, ] s_11 = new sbyte[, ]{{1}};
     public static uint s_12 = 10U;
-    public static long[] s_14 = new long[]{-3235889898169334130L};
     public static long s_15 = 1L;
     public static C0 s_16 = new C0(1, 0, false);
     public static S1 s_18 = new S1(32767, -9223372036854775808L, -2655);
