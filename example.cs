@@ -807,7 +807,6 @@ public class Program
         S1 var13 = default(S1);
         ulong var14 = default(ulong);
         uint var15 = default(uint);
-        uint var16 = default(uint);
         byte var18 = default(byte);
         C1 var20 = default(C1);
         return ref var20.F0;
