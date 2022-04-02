@@ -763,7 +763,6 @@ public class Program
         long var0 = default(long);
         short var1 = default(short);
         uint var5 = default(uint);
-        ulong var6 = default(ulong);
         long[] var10 = default(long[]);
         ulong var14 = default(ulong);
         uint var15 = default(uint);
