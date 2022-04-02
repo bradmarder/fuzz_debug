@@ -741,7 +741,6 @@ public class Program
     public static ref short M93(byte[] arg0)
     {
         long var0 = default(long);
-        short var1 = default(short);
         uint var15 = default(uint);
         byte var18 = default(byte);
         C1 var20 = default(C1);
