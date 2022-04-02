@@ -52,11 +52,6 @@ public struct S0 : I0
     {
         return default(short);
     }
-
-    public int M78()
-    {
-        return default(int);
-    }
 }
 
 public struct S1
