@@ -33,9 +33,7 @@ public class C0
 
     public C0 M16(short arg0, long arg1)
     {
-        S1[] var0 = default(S1[]);
-        var0 = new S1[]{new S1(-14561, 5889688523210053171L, -3072), new S1(-9783, -4899826503515042342L, 0), new S1(-32768, -3324412429448948601L, -32767)};
-        return this;
+        return default(C0);
     }
 
     public ref S1 M34()
