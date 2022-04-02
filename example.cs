@@ -104,11 +104,6 @@ public struct S0 : I0
         return default(int);
     }
 
-    public ref bool M82(int arg0, sbyte[] arg1, ref uint arg2)
-    {
-        return ref Program.s_44;
-    }
-
     public C1 M85(C1 arg0, ulong arg1)
     {
         return default(C1);
