@@ -25,11 +25,6 @@ public class C0
         return default(S1);
     }
 
-    public S0 M76(ref ushort arg0)
-    {
-        return default(S0);
-    }
-
     public int M88()
     {
         return default(int);
