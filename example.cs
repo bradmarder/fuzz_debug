@@ -831,20 +831,7 @@ public class Program
 
     public static C1[] M57(I0 arg0, ref ushort arg1)
     {
-        s_25[0][0] = s_12;
-        try
-        {
-            arg1 = 61723;
-        }
-        finally
-        {
-            for (int var0 = 0; var0 < 2; var0++)
-            {
-                arg0 = new S0(0UL, -43, 211, -81, 5562343609743880441L, 1, 9223372036854775806L, 1UL, 0L);
-            }
-        }
-
-        return new C1[]{new C1(8379, 1, 8746), new C1(2, 1165, 0), new C1(1, 55295, 39814), new C1(-6045, 0, 0), new C1(26417, 0, 7233), new C1(-24656, 16276, 21074)};
+        return default(C1[]);
     }
 
     public static ref bool[] M58(S0 arg0)
