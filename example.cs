@@ -178,11 +178,6 @@ public class Program
         return default(C1);
     }
 
-    public static bool M24()
-    {
-        return default(bool);
-    }
-
     public static long M33()
     {
         return default(long);
