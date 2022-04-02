@@ -66,11 +66,6 @@ public struct S1
         F2 = f2;
     }
 
-    public uint M12()
-    {
-        return default(uint);
-    }
-
     public short[] M13(int arg0)
     {
         return default(short[]);
