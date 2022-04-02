@@ -379,7 +379,6 @@ public class C1
     {
         short var0 = default(short);
         sbyte var1 = default(sbyte);
-        S1[] var2 = default(S1[]);
         S1 var3 = default(S1);
         return ref Program.s_73.F3;
     }
