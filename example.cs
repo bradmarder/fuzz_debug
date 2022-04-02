@@ -161,9 +161,7 @@ public struct S0 : I0
 
     public int M78()
     {
-        Program.M79(Program.s_32[0].F2--);
-        Program.s_20 = Program.s_26[0]++;
-        return ~Program.s_58;
+        return default(int);
     }
 
     public ref bool M82(int arg0, sbyte[] arg1, ref uint arg2)
