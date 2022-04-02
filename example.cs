@@ -679,7 +679,6 @@ public class Program
 
     public static ref bool[] M58(S0 arg0)
     {
-        short var0 = default(short);
         return ref s_2;
     }
 
