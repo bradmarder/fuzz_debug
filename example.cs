@@ -124,11 +124,6 @@ public class Program
         return default(long);
     }
 
-    public static bool M110(ref uint arg0)
-    {
-        return default(bool);
-    }
-
     public static S0 M111(sbyte arg0, ulong[] arg1, bool arg2, C1 arg3, ref byte[] arg4, bool[] arg5, S1 arg6)
     {
         return default(S0);
