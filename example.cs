@@ -584,9 +584,7 @@ public class Program
 
     public static ushort[] M17()
     {
-        int var0 = default(int);
-        var0 = -1972432450;
-        return new ushort[]{0, 52480, 0, 1, 65534, 56415, 0, 0};
+        return default(ushort[]);
     }
 
     public static C1 M20(C1 arg0)
