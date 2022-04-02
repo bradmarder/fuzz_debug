@@ -186,14 +186,7 @@ public struct S0 : I0
 
     public C1 M85(C1 arg0, ulong arg1)
     {
-        C1 var1 = default(C1);
-        for (int var0 = 0; var0 < 2; var0++)
-        {
-            var1 = arg0;
-            Program.s_84 = new C0(108, 1, false);
-        }
-
-        return arg0;
+        return default(C1);
     }
 
     public sbyte M91(int arg0)
