@@ -265,7 +265,6 @@ public struct S1
 
     public ref C0 M87(ref byte arg0)
     {
-        bool var0 = default(bool);
         bool var1 = default(bool);
         return ref Program.s_84;
     }
