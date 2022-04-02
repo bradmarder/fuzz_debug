@@ -470,7 +470,7 @@ public class Program
     public static ushort s_85 = 32017;
     public static C0 s_86 = new C0(-10, 0, false);
     public static long s_87 = 9112962096752835741L;
-    public static C1[] s_88 = new C1[]{new C1(-32767, 0, 12688), new C1(-8784, 38163, 28219), new C1(32767, 65534, 48114), new C1(1, 5316, 31671), new C1(18852, 1, 0), new C1(25661, 10990, 1), new C1(-32768, 29724, 1362), new C1(32766, 21558, 1)};
+    public static C1[] s_88 = new C1[]{new C1(-32767, 0, 12688)};
     public static S0 s_89 = new S0(18040337835588713289UL, -127, 254, -127, 2L, 97, -9223372036854775808L, 5885023230872522507UL, -9223372036854775808L);
     public static ulong s_90 = 11451526383626783489UL;
     public static long s_91 = -9223372036854775808L;
