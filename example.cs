@@ -230,7 +230,6 @@ public class Program
     public static byte[] s_95 = new byte[]{0};
     public static byte s_96 = 0;
     public static uint s_97 = 1637596950U;
-    public static S0[, ] s_101 = new S0[, ]{{new S0(10UL, -106, 1, 127, 1L, 10, 0L, 15357392491071761068UL, -9223372036854775807L)}};
     public static sbyte s_104 = 119;
     public static ushort s_105 = 0;
     public static uint s_107 = 10U;
