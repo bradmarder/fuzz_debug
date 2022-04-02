@@ -443,7 +443,6 @@ public class Program
     public static ulong s_103 = 15780061626666752982UL;
     public static sbyte s_104 = 119;
     public static ushort s_105 = 0;
-    public static C1 s_106 = new C1(-3859, 49232, 30311);
     public static uint s_107 = 10U;
     public static ulong s_108 = 9429829039228540382UL;
     public static long[] s_109 = new long[]{-1315386625713342941L};
