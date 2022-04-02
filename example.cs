@@ -393,7 +393,7 @@ public class Program
     public static short[] s_8 = new short[]{27419};
     public static bool s_9 = true;
     public static byte s_10 = 169;
-    public static sbyte[, ] s_11 = new sbyte[, ]{{1, 42, 115, -128}};
+    public static sbyte[, ] s_11 = new sbyte[, ]{{1}};
     public static uint s_12 = 10U;
     public static ushort s_13 = 65535;
     public static long[] s_14 = new long[]{-3235889898169334130L};
