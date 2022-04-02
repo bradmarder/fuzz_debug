@@ -256,11 +256,7 @@ public struct S1
 
     public C0 M51(C0 arg0)
     {
-        ulong var0 = default(ulong);
-        var0 = Program.s_24.F0--;
-        this.F2 = Program.s_28.F2--;
-        this = this;
-        return new C0(30, 127, true);
+        return default(C0);
     }
 
     public ulong[] M63(byte arg0, sbyte arg1, C0 arg2)
