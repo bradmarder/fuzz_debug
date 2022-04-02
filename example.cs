@@ -152,7 +152,6 @@ public class C1
 
 public class Program
 {
-    public static S1[] s_1 = new S1[]{new S1(-32767, 6991602872010577642L, 1)};
     public static bool[] s_2 = new bool[]{false};
     public static short[] s_8 = new short[]{27419};
     public static byte s_10 = 169;
