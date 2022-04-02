@@ -1053,27 +1053,7 @@ public class Program
 
     public static ushort M77(ref sbyte arg0, ref S1 arg1, S1 arg2, ulong arg3, ref byte[] arg4)
     {
-        sbyte var1 = default(sbyte);
-        if (!(true && !(1 == arg1.F1)))
-        {
-            new S0(12558467987328863510UL, 1, 76, 29, -564775181908821096L, 0, 2421846723931906489L, 2497779465162649652UL, -9223372036854775807L).M78();
-            s_68 = new long[]{1L, 1L, 4927749492631743555L, 0L, -94726540926614901L};
-            arg0 = ref s_31.F0;
-        }
-
-        ref byte var0 = ref arg4[0];
-        if (-115 < arg0)
-        {
-            var1 = arg0;
-            arg2.F1 = arg2.F1;
-            arg2.F0 = s_17.F0;
-        }
-        else
-        {
-            new S0(9263139407297508576UL, 126, 142, -99, -9223372036854775808L, 0, 9223372036854775806L, 7572936615843479271UL, 8974376558292352572L).M78();
-        }
-
-        return (ushort)new S0(17685611945483975479UL, 59, 1, -1, -2866168766837499328L, 235, 7203366480007451860L, 10UL, 5889666345585643749L).M78();
+        return default(ushort);
     }
 
     public static S1 M79(ushort arg0)
