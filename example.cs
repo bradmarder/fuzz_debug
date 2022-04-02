@@ -296,7 +296,6 @@ public class Program
     public static int s_112 = 10;
     public static I0 s_115 = new S0(1UL, -128, 0, 126, -9223372036854775807L, 76, -1L, 1UL, 8978782410355997383L);
     public static long s_116 = 0L;
-    public static C0 s_117 = new C0(0, 250, false);
     public static S1 s_118 = new S1(19672, 2652223722121338040L, 22295);
     public static C1 s_121 = new C1(32766, 1, 0);
     public static short s_123 = 32266;
