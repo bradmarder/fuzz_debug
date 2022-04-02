@@ -327,9 +327,7 @@ public class C1
 
     public bool M14()
     {
-        this.F2 = this.F1;
-        ref bool var0 = ref Program.s_2[0];
-        return var0;
+        return default(bool);
     }
 
     public bool M18(bool[] arg0, byte arg1)
