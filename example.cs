@@ -123,11 +123,6 @@ public class C1
         return default(short);
     }
 
-    public ushort M65()
-    {
-        return default(ushort);
-    }
-
     public ref sbyte M66(ushort[] arg0, short arg1, C1 arg2)
     {
         return ref Program.s_73.F3;
