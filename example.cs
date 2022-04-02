@@ -680,47 +680,7 @@ public class C1
 
     public bool M22(I0 arg0)
     {
-        ulong var1 = default(ulong);
-        S0 var2 = default(S0);
-        uint var3 = default(uint);
-        byte[][] var4 = default(byte[][]);
-        S0 var5 = default(S0);
-        if (Program.s_2[0])
-        {
-            if (Program.s_9)
-            {
-                Program.s_11 = Program.s_11;
-                try
-                {
-                    Program.M23(ref Program.s_1);
-                    Program.M25(Program.s_12, this.F1);
-                }
-                finally
-                {
-                    ref C0 var0 = ref Program.s_16;
-                    arg0 = arg0;
-                }
-
-                var1 = 1UL;
-                var1 = var1;
-            }
-
-            if (Program.s_6.F3 != ~Program.s_12++)
-            {
-                Program.s_17 = Program.s_1[0];
-                Program.M25(0U, 54290);
-                this.F1 = 44033;
-                this.F2 = this.F1;
-                Program.s_10 = 103;
-                var2 = new S0(13331004114361410253UL, -110, 81, -3, 0L, 153, -4223282101510619290L, 10724372000476034417UL, -2L);
-            }
-        }
-
-        var3 = 1U;
-        Program.M25(var3--, (ushort)(~this.F2)) = new S1(-24645, -9223372036854775808L, -13702);
-        var4 = new byte[][]{new byte[]{1, 114, 65}, new byte[]{12, 0, 207, 1, 190, 245, 1, 246, 249, 1}};
-        var5 = new S0(18446744073709551614UL, -42, 10, 121, 9223372036854775807L, 1, 1L, 2169734914499557307UL, 2239247498138057324L);
-        return Program.M24();
+        return default(bool);
     }
 
     public short M28()
