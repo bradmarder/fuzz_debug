@@ -816,8 +816,7 @@ public class Program
 
     public static I0 M96()
     {
-        s_86.F0 = s_3;
-        return s_65;
+        return default(I0);
     }
 
     public static sbyte M100(short arg0)
