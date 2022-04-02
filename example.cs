@@ -69,51 +69,7 @@ public class C0
 
     public int M52(sbyte arg0, uint arg1, sbyte[] arg2, ref uint arg3, ref C1[] arg4)
     {
-        uint var0 = default(uint);
-        ulong[] var1 = default(ulong[]);
-        short var2 = default(short);
-        S1 var3 = default(S1);
-        var0 = 4294967295U;
-        var1 = new ulong[]{17576536420138109601UL, 10489629195504734386UL, 42468460218580163UL, 15100719149699457725UL, 5712504227263182199UL, 12053170746624711883UL, 0UL};
-        try
-        {
-            {
-                arg4[0].F2 = (ushort)(arg4[0].F2 | arg4[0].F0);
-            }
-        }
-        finally
-        {
-            this.F1 = this.F1;
-            arg4[0].F2 = arg4[0].F2++;
-            try
-            {
-                Program.s_44 = this.F2;
-            }
-            finally
-            {
-                arg4[0].F0 = arg4[0].F0;
-            }
-
-            arg2[0] = Program.s_6.F1;
-            arg4 = arg4;
-            {
-                this.F2 = this.F2;
-                var2 = arg4[0].F0;
-                {
-                    new S0(18446744073709551614UL, 1, 14, 2, -1L, 222, -5452536353291259235L, 14593216024145337575UL, 1L).M53();
-                    Program.M56();
-                    this.F1 = Program.s_16.F1;
-                    arg0 = arg0;
-                    arg4[0].F2 = Program.s_13;
-                    Program.M58(Program.s_36);
-                }
-            }
-        }
-
-        Program.s_42 = new S0[]{new S0(15214185446548972204UL, -128, 10, -127, 3857390832174469580L, 254, -1689464654467055939L, 12715605715772476981UL, 1015623120700034704L), new S0(18446744073709551614UL, -103, 255, -59, -9223372036854775807L, 222, 1L, 0UL, -3584790969427555714L), new S0(12720867903401252430UL, 4, 132, 126, -9223372036854775808L, 83, -9223372036854775807L, 4455441907066615957UL, 1L), new S0(0UL, -102, 240, -98, 7408707486941982339L, 131, 1L, 1UL, 5837436750117524471L), new S0(721510468648073903UL, 126, 214, -92, 0L, 1, -1L, 7591767173606511551UL, 6791907607492481495L), new S0(18446744073709551615UL, -127, 9, 0, 0L, 106, 0L, 8766858427287236774UL, 4114606343792172623L)};
-        Program.M56();
-        var3 = Program.s_42[0].M55();
-        return -1984154809;
+        return default(int);
     }
 
     public S1 M61(ref long arg0, I0[, ] arg1)
