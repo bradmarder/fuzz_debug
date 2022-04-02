@@ -135,11 +135,6 @@ public struct S1
     {
         return ref Program.s_74;
     }
-
-    public int M107(ref S1 arg0)
-    {
-        return default(int);
-    }
 }
 
 public class C1
