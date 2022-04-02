@@ -173,15 +173,7 @@ public struct S0 : I0
 
     public short M74(ref C0[] arg0, long arg1)
     {
-        long var0 = default(long);
-        var0 = -10L;
-        Program.s_18 = new S1(1, 908405631824207838L, -4941);
-        {
-            arg0[0].F1 = arg0[0].F1;
-            arg1 = -1198725193290149068L;
-        }
-
-        return Program.s_17.F0;
+        return default(short);
     }
 
     public int M78()
