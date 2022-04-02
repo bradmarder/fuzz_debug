@@ -9,7 +9,7 @@ public class C0
     }
 }
 
-public struct S0 : I0
+public struct S0
 {
     public ulong F0;
     public sbyte F1;
