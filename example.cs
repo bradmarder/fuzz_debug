@@ -8,11 +8,6 @@ public class C0
     {
     }
 
-    public sbyte M3(int arg0, C0 arg1)
-    {
-        return default(sbyte);
-    }
-
     public S1 M61(ref long arg0, I0[, ] arg1)
     {
         return default(S1);
