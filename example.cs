@@ -640,12 +640,7 @@ public class Program
 
     public static short M42()
     {
-        if (!s_23.F2)
-        {
-            s_24.F0 = ~s_6.F0;
-        }
-
-        return 29073;
+        return default(short);
     }
 
     public static ulong M46(S0 arg0)
