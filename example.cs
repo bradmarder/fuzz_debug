@@ -13,11 +13,6 @@ public class C0
         return default(S1);
     }
 
-    public int M88()
-    {
-        return default(int);
-    }
-
     public I0 M94()
     {
         return default(I0);
