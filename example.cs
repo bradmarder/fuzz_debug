@@ -481,7 +481,7 @@ public class Program
     public static byte s_96 = 0;
     public static uint s_97 = 1637596950U;
     public static ulong s_98 = 0UL;
-    public static short[] s_99 = new short[]{1, 0, 1};
+    public static short[] s_99 = new short[]{1};
     public static ushort[][] s_100 = new ushort[][]{new ushort[]{65534}};
     public static S0[, ] s_101 = new S0[, ]{{new S0(10UL, -106, 1, 127, 1L, 10, 0L, 15357392491071761068UL, -9223372036854775807L)}};
     public static bool s_102 = true;
