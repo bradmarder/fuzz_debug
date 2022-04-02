@@ -89,41 +89,7 @@ public class C0
 
     public int M88()
     {
-        long[] var0 = default(long[]);
-        int var1 = default(int);
-        int var2 = default(int);
-        this.F2 = this.F2;
-        this.F2 = true;
-        this.F0 &= Program.s_16.F0--;
-        Program.s_88 = new C1[]{new C1(2, 0, 1), new C1(1, 1, 41647), new C1(1, 13247, 1), new C1(1, 0, 0), new C1(-23722, 1, 65534), new C1(-2, 65534, 1), new C1(0, 7266, 1), new C1(9785, 0, 30696)};
-        Program.s_64 = this.F1;
-        --Program.s_28.F1;
-        var0 = new long[]{4290971908168571097L, 7018756022454146881L, 9223372036854775807L, 9223372036854775806L, 9223372036854775806L, 1466459919429337633L};
-        this.F2 = true;
-        var1 = Program.s_38;
-        if (!this.F2)
-        {
-            Program.s_42[0].F0 = 15924240858610018368UL;
-        }
-
-        var0[0] -= -1L;
-        {
-            var2 = Program.s_6.F5 >> Program.s_50.F0++;
-        }
-
-        if (this.F2)
-        {
-            var0 = new long[]{1L, -4000862842014554451L, 1L, 1L};
-        }
-        else
-        {
-            Program.M89(0L, Program.s_83);
-            {
-                Program.s_21[0][0, 0].F2 |= true;
-            }
-        }
-
-        return var1;
+        return default(int);
     }
 
     public I0 M94()
