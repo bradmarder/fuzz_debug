@@ -207,11 +207,6 @@ public class C1
         return default(bool);
     }
 
-    public C0 M21()
-    {
-        return default(C0);
-    }
-
     public short M28()
     {
         return default(short);
