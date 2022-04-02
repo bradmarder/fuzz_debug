@@ -675,9 +675,7 @@ public class Program
 
     public static long M48(ref C0 arg0, S1 arg1, int[] arg2, ref I0 arg3)
     {
-        s_28.F1 = arg1.F1;
-        s_12 = 10U;
-        return arg1.F1;
+        return default(long);
     }
 
     public static S1 M54(ref byte arg0, S1 arg1, ushort arg2, ref S0 arg3)
