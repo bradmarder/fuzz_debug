@@ -200,11 +200,6 @@ public class Program
         return default(long);
     }
 
-    public static short M42()
-    {
-        return default(short);
-    }
-
     public static int M56()
     {
         return default(int);
