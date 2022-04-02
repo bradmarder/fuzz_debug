@@ -612,11 +612,6 @@ public class Program
         return default(int);
     }
 
-    public static C1[] M57(I0 arg0, ref ushort arg1)
-    {
-        return default(C1[]);
-    }
-
     public static ref bool[] M58(S0 arg0)
     {
         return ref s_2;
