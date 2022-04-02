@@ -141,13 +141,7 @@ public struct S0 : I0
 
     public I0 M44(ref short arg0)
     {
-        new S1(-20181, 4945753991742763672L, 16441).M45();
-        this.F5 = 0;
-        {
-            this.F6 = (long)(184 + arg0--);
-        }
-
-        return this;
+        return default(I0);
     }
 
     public short M53()
