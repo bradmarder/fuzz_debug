@@ -200,7 +200,6 @@ public class Program
     public static I0 s_56 = new S0(18446744073709551614UL, 1, 132, 33, -10L, 245, -10L, 1UL, -9223372036854775807L);
     public static ushort[] s_57 = new ushort[]{0};
     public static int s_58 = 0;
-    public static short s_60 = 32767;
     public static byte s_61 = 213;
     public static long s_62 = 3450109003570809601L;
     public static I0 s_63 = new S0(12741365010049380137UL, 126, 6, -26, -9223372036854775808L, 255, -9223372036854775808L, 2UL, 0L);
