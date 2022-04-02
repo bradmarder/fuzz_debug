@@ -83,11 +83,6 @@ public class C1
         return default(ushort);
     }
 
-    public bool M18(bool[] arg0, byte arg1)
-    {
-        return default(bool);
-    }
-
     public short M28()
     {
         return default(short);
