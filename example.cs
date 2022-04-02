@@ -460,28 +460,7 @@ public class C1
 
     public short M28()
     {
-        sbyte var0 = default(sbyte);
-        bool var1 = default(bool);
-        var0 = Program.s_3++;
-        try
-        {
-            var1 = false;
-        }
-        finally
-        {
-            Program.s_7 = var0;
-            Program.s_5[0][0, 0, 0].F2 = this.F2;
-        }
-
-        var0 = 1;
-        if (!!!Program.s_2[0])
-        {
-            var0 += new S1(32363, 0L, 22880).M29(-28250, (sbyte)Program.M33());
-        }
-
-        this.F2--;
-        this.F1 = (ushort)((ushort)(~Program.s_13) | (byte)(-(byte)(-Program.s_27[0].F1)));
-        return this.F0;
+        return default(short);
     }
 
     public long[, ] M31()
