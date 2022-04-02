@@ -248,21 +248,7 @@ public struct S0 : I0
 
     public short[] M83()
     {
-        short var0 = default(short);
-        I0 var1 = default(I0);
-        bool[] var2 = default(bool[]);
-        var0 = Program.M84(Program.s_27[0].F1, Program.s_30++, this, !!Program.s_31.F2);
-        this.M85(new C1(-32768, 0, 0), this.F7);
-        var1 = this;
-        this.F7--;
-        Program.M84(this.F2, 0U, new S0(18446744073709551614UL, 38, 20, 1, -7557520967113927321L, 0, -1697857809321343787L, 18446744073709551614UL, 1400785712320450098L), true);
-        {
-            var1 = new S0(this.F0, this.F1, this.F2, this.F3, -1407435257052361536L, 0, (long)Program.M84(1, 0U, var1, false), (ulong)Program.M84((byte)(~this.F5), Program.s_30, var1, Program.s_23.F2), Program.s_75[0, 0, 0] / (long)(this.F6 | 1));
-            Program.s_69 = this.F5;
-            var2 = new bool[]{true, true, true, false, true, false, true};
-        }
-
-        return new short[]{-31229};
+        return default(short[]);
     }
 
     public C1 M85(C1 arg0, ulong arg1)
