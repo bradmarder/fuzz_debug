@@ -478,11 +478,6 @@ public class Program
         return ref s_1[0];
     }
 
-    public static ushort M30(ref C0[][, ] arg0)
-    {
-        return default(ushort);
-    }
-
     public static ushort M32()
     {
         return default(ushort);
