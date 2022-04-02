@@ -318,11 +318,6 @@ public class Program
         return default(short);
     }
 
-    public static ref C0 M67(S1 arg0, ushort arg1, C0[][] arg2)
-    {
-        return ref M75();
-    }
-
     public static bool M68(ushort arg0)
     {
         return default(bool);
