@@ -625,11 +625,6 @@ public class Program
         return ref s_42[0].F0;
     }
 
-    public static S0 M114(ref bool arg0, I0[] arg1, sbyte arg2, uint[, ] arg3, short arg4)
-    {
-        return default(S0);
-    }
-
     public static I0[] M115(uint arg0)
     {
         return default(I0[]);
