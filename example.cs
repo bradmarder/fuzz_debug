@@ -61,7 +61,6 @@ public class C1
 
 public class Program
 {
-    public static short[] s_8 = new short[]{27419};
     public static C1 s_121 = new C1(32766, 1, 0);
     public static void Main()
     {
