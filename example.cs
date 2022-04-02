@@ -166,7 +166,6 @@ public struct S0 : I0
     public ref bool M82(int arg0, sbyte[] arg1, ref uint arg2)
     {
         sbyte[] var0 = default(sbyte[]);
-        I0[][] var1 = default(I0[][]);
         return ref Program.s_44;
     }
 
