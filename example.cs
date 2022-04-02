@@ -90,11 +90,6 @@ public class Program
         return default(int);
     }
 
-    public static S1 M79(ushort arg0)
-    {
-        return default(S1);
-    }
-
     public static long M92()
     {
         return default(long);
