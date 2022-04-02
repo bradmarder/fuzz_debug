@@ -58,11 +58,6 @@ public class C1
     {
     }
 
-    public ushort M10()
-    {
-        return default(ushort);
-    }
-
     public short M28()
     {
         return default(short);
