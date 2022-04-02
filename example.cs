@@ -407,11 +407,6 @@ public class Program
         return default(byte);
     }
 
-    public static uint M41()
-    {
-        return default(uint);
-    }
-
     public static short M42()
     {
         return default(short);
