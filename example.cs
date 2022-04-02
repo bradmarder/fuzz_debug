@@ -368,7 +368,6 @@ public class C1
     public ref sbyte M66(ushort[] arg0, short arg1, C1 arg2)
     {
         short var0 = default(short);
-        S1 var3 = default(S1);
         return ref Program.s_73.F3;
     }
 
