@@ -404,13 +404,7 @@ public class C1
 
     public bool M1(sbyte arg0, short arg1, C1 arg2)
     {
-        C1[] var0 = default(C1[]);
-        C1 var1 = default(C1);
-        var0 = new C1[]{new C1(-1348, 18390, 57856), new C1(32766, 58567, 55571), new C1(32767, 1, 53506), new C1(-32767, 1, 63126), new C1(9717, 52966, 1), new C1(-29053, 6061, 1)};
-        Program.M2(!Program.M23(ref Program.s_1), var0, ref Program.M101());
-        arg2.F0 = 1;
-        var1 = this;
-        return true;
+        return default(bool);
     }
 
     public ushort M10()
