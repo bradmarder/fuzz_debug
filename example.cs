@@ -698,7 +698,6 @@ public class Program
 
     public static ref C1 M71(S0 arg0, uint arg1, C1 arg2, sbyte arg3, long[][] arg4, uint arg5, ref uint[,, ] arg6)
     {
-        C1 var1 = default(C1);
         ushort var2 = default(ushort);
         long var3 = default(long);
         ulong var4 = default(ulong);
