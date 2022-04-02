@@ -300,11 +300,6 @@ public class Program
         return default(S0);
     }
 
-    public static ushort M11(bool arg0, bool[][] arg1, ushort[] arg2, uint arg3)
-    {
-        return default(ushort);
-    }
-
     public static ushort[] M17()
     {
         return default(ushort[]);
