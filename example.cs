@@ -666,11 +666,6 @@ public class Program
         return default(sbyte);
     }
 
-    public static ref long M101()
-    {
-        return ref s_73.F6;
-    }
-
     public static C1 M104()
     {
         return default(C1);
