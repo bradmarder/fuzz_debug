@@ -1,6 +1,6 @@
 public class C0
 {
-    public C0(byte f1, bool f2)
+    public C0(bool f2)
     {
     }
 }
