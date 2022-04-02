@@ -452,11 +452,6 @@ public class Program
         return default(long);
     }
 
-    public static S1 M54(ref byte arg0, S1 arg1, ushort arg2, ref S0 arg3)
-    {
-        return default(S1);
-    }
-
     public static int M56()
     {
         return default(int);
