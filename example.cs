@@ -427,7 +427,7 @@ public class Program
     public static S0[] s_42 = new S0[]{new S0(1297223133967724776UL, 1, 133, 28, 2L, 244, 3411396978420026657L, 1UL, 3632752365305052619L)};
     public static long s_43 = 0L;
     public static bool s_44 = true;
-    public static byte[] s_45 = new byte[]{0, 0, 134, 0};
+    public static byte[] s_45 = new byte[]{0};
     public static C1[] s_46 = new C1[]{new C1(2, 299, 26803), new C1(19385, 65534, 21391), new C1(-4801, 0, 26339), new C1(-24272, 0, 0), new C1(-10937, 1, 1), new C1(2, 23907, 10), new C1(24570, 1, 1), new C1(7661, 65535, 35093), new C1(-1, 36494, 65535)};
     public static short s_47 = -30911;
     public static byte s_48 = 15;
