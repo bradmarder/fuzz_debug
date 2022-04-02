@@ -698,12 +698,6 @@ public class Program
         return default(long);
     }
 
-    public static ref short M93(byte[] arg0)
-    {
-        C1 var20 = default(C1);
-        return ref var20.F0;
-    }
-
     public static C1 M95(byte arg0, int[] arg1)
     {
         return default(C1);
