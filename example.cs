@@ -106,11 +106,6 @@ public struct S1
         F2 = f2;
     }
 
-    public C1 M9()
-    {
-        return default(C1);
-    }
-
     public uint M12()
     {
         return default(uint);
