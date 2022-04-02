@@ -238,9 +238,7 @@ public struct S1
 
     public C0 M45()
     {
-        this.F1 <<= -(-~(int)(-2850237518354844144L & Program.s_3));
-        this.F1 += ~this.F1;
-        return new C0(21, 152, true);
+        return default(C0);
     }
 
     public bool M50(C1 arg0, uint arg1)
