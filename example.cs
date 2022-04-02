@@ -313,11 +313,6 @@ public class Program
         return default(short);
     }
 
-    public static bool M68(ushort arg0)
-    {
-        return default(bool);
-    }
-
     public static byte M70(short arg0)
     {
         return default(byte);
