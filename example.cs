@@ -116,11 +116,6 @@ public struct S1
         return default(bool);
     }
 
-    public ref C0 M87(ref byte arg0)
-    {
-        return ref Program.s_84;
-    }
-
     public ref int M98(S1 arg0, short arg1, uint[, ] arg2, ulong arg3, int arg4)
     {
         return ref Program.s_74;
