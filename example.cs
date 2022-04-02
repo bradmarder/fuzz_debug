@@ -163,11 +163,6 @@ public struct S1
         F2 = f2;
     }
 
-    public C0 M5()
-    {
-        return default(C0);
-    }
-
     public C1 M9()
     {
         return default(C1);
