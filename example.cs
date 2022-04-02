@@ -22,11 +22,6 @@ public class C0
         return default(sbyte);
     }
 
-    public ushort M6(I0 arg0)
-    {
-        return default(ushort);
-    }
-
     public bool[][] M15()
     {
         return default(bool[][]);
