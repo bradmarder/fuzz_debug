@@ -216,11 +216,6 @@ public class Program
         return default(S0);
     }
 
-    public static ushort[] M17()
-    {
-        return default(ushort[]);
-    }
-
     public static C1 M20(C1 arg0)
     {
         return default(C1);
