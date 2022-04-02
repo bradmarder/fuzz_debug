@@ -605,11 +605,6 @@ public class Program
         return default(sbyte);
     }
 
-    public static C1 M104()
-    {
-        return default(C1);
-    }
-
     public static ushort[] M109(ref int arg0, ref I0[] arg1)
     {
         return default(ushort[]);
