@@ -8,11 +8,6 @@ public class C0
     {
     }
 
-    public I0 M94()
-    {
-        return default(I0);
-    }
-
     public S0 M108(uint arg0, uint arg1)
     {
         return default(S0);
@@ -185,5 +180,10 @@ public class Program
     public static S1 M61(C0 argThis, ref long arg0, I0[, ] arg1)
     {
         return default(S1);
+    }
+
+    public static I0 M94(C0 argThis)
+    {
+        return default(I0);
     }
 }
