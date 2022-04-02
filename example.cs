@@ -403,11 +403,4 @@ public class Program
     {
         return default(short);
     }
-
-    static I0 M44(I0 argThis, ref short arg0)
-    {
-        return default(I0);
-    }
-
-    ;
 }
