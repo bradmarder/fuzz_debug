@@ -726,7 +726,6 @@ public class Program
         long[][] var15 = default(long[][]);
         ushort var16 = default(ushort);
         bool var17 = default(bool);
-        ushort var19 = default(ushort);
         short[] var21 = default(short[]);
         S1 var22 = default(S1);
         return ref s_46[0];
