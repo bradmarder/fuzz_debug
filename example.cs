@@ -218,7 +218,6 @@ public class Program
     public static sbyte s_104 = 119;
     public static ushort s_105 = 0;
     public static uint s_107 = 10U;
-    public static sbyte s_110 = 10;
     public static ulong[,, ] s_111 = new ulong[,, ]{{{1UL}}};
     public static int s_112 = 10;
     public static I0 s_115 = new S0(1UL, -128, 0, 126, -9223372036854775807L, 76, -1L, 1UL, 8978782410355997383L);
