@@ -822,8 +822,7 @@ public class Program
 
     public static byte[][][] M39()
     {
-        s_6.F0 = s_6.F0;
-        return new byte[][][]{new byte[][]{new byte[]{218, 0, 231, 159, 1, 10, 69}}, new byte[][]{new byte[]{65, 0, 104, 0, 0, 0}}, new byte[][]{new byte[]{0, 206, 1, 1}, new byte[]{255, 0, 30, 255}}, new byte[][]{new byte[]{255, 28, 9, 190, 64, 104}}, new byte[][]{new byte[]{16, 102, 174, 152, 144, 10}, new byte[]{254, 142, 1, 1, 255, 250, 2, 187}}, new byte[][]{new byte[]{230, 47, 140, 10, 1, 255, 1, 1, 79}}};
+        return default(byte[][][]);
     }
 
     public static byte M40(short arg0)
