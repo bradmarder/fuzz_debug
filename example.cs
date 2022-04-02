@@ -771,8 +771,6 @@ public class Program
     public static ref ulong M73()
     {
         C1 var0 = default(C1);
-        s_42[0].F4 = 642919092707637929L;
-        var0 = new C1(-32767, 1, 36003);
         return ref s_4;
     }
 
