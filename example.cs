@@ -855,8 +855,7 @@ public class Program
 
     public static ushort[] M109(ref int arg0, ref I0[] arg1)
     {
-        arg1[0] = arg1[0];
-        return s_26;
+        return default(ushort[]);
     }
 
     public static bool M110(ref uint arg0)
