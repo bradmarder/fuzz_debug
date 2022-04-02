@@ -94,7 +94,6 @@ public class Program
     public static S0[] s_42 = new S0[]{new S0(1297223133967724776UL, 1, 133, 28, 2L, 244, 3411396978420026657L, 1UL, 3632752365305052619L)};
     public static I0 s_65 = new S0(0UL, 105, 45, 0, -334850926330292064L, 1, -10L, 1UL, -9223372036854775807L);
     public static int s_74 = 0;
-    public static byte s_96 = 0;
     public static sbyte s_104 = 119;
     public static uint s_107 = 10U;
     public static C1 s_121 = new C1(32766, 1, 0);
