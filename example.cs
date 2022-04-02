@@ -441,7 +441,6 @@ public class Program
     public static bool s_78 = true;
     public static S1 s_79 = new S1(-9228, 0L, 173);
     public static long s_80 = -2L;
-    public static uint s_81 = 734942400U;
     public static byte s_82 = 48;
     public static uint[] s_83 = new uint[]{1U};
     public static C0 s_84 = new C0(0, 0, false);
