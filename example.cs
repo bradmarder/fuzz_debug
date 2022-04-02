@@ -81,16 +81,7 @@ public class C0
 
     public sbyte M105(sbyte arg0, S1[] arg1, byte arg2)
     {
-        for (int var0 = 0; var0 < 2; var0++)
-        {
-            if (this.F2)
-            {
-                Program.s_94 = Program.s_84.F2;
-                Program.s_57[0] = 0;
-            }
-        }
-
-        return arg0;
+        return default(sbyte);
     }
 
     public S0 M108(uint arg0, uint arg1)
