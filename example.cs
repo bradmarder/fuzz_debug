@@ -383,7 +383,7 @@ public class C1
 
 public class Program
 {
-    public static S1[] s_1 = new S1[]{new S1(-32767, 6991602872010577642L, 1), new S1(1, 0L, 0), new S1(32767, 0L, -1)};
+    public static S1[] s_1 = new S1[]{new S1(-32767, 6991602872010577642L, 1)};
     public static bool[] s_2 = new bool[]{false, false};
     public static sbyte s_3 = 0;
     public static ulong s_4 = 18446744073709551615UL;
