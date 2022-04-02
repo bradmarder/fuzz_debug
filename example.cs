@@ -381,7 +381,6 @@ public class Program
     public static S1 s_17 = new S1(-10, -3594555077427817712L, -32768);
     public static S1 s_18 = new S1(32767, -9223372036854775808L, -2655);
     public static ushort s_19 = 34174;
-    public static ushort s_20 = 0;
     public static C0[][, ] s_21 = new C0[][, ]{new C0[, ]{{new C0(-127, 2, false)}}};
     public static bool s_22 = true;
     public static C0 s_23 = new C0(126, 1, true);
