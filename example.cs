@@ -716,11 +716,6 @@ public class Program
         return default(ulong);
     }
 
-    public static bool M90()
-    {
-        return default(bool);
-    }
-
     public static long M92()
     {
         return default(long);
