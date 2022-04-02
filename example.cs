@@ -162,11 +162,6 @@ public class Program
         return default(S0);
     }
 
-    public static C1 M20(C1 arg0)
-    {
-        return default(C1);
-    }
-
     public static long M33()
     {
         return default(long);
