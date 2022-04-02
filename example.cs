@@ -951,11 +951,6 @@ public class Program
 
     public static ref C0 M75()
     {
-        s_24.F4 = 4383494367824225385L;
-        s_30 = 1U;
-        s_42 = s_42;
-        s_50.M76(ref s_20);
-        M77(ref s_16.F0, ref s_17, new S1(0, -975944482475475853L, -11670), (ulong)M77(ref s_11[0, 0], ref s_18, new S1(12279, 9223372036854775806L, 1), (ulong)M77(ref s_27[0].F0, ref s_1[0], s_51, (ulong)((uint)(s_23.F0 << -25511) & (short)(7552624700960793271UL / (byte)(s_69 | 1))), ref s_45), ref s_45), ref s_45);
         return ref s_21[0][0, 0];
     }
 
