@@ -196,44 +196,7 @@ public class C0
 
     public S1[] M112(ref ushort[][] arg0, bool arg1, ref S0[, ] arg2)
     {
-        C0 var0 = default(C0);
-        I0[] var1 = default(I0[]);
-        ushort var2 = default(ushort);
-        int var3 = default(int);
-        this.F1 = this.F1;
-        if (!(Program.s_28.F2 == Program.s_75[0, 0, 0]))
-        {
-            if (arg1)
-            {
-                {
-                    var0 = this;
-                    var1 = Program.s_67;
-                }
-
-                Program.s_84.F0 = Program.s_73.F3;
-                arg2[0, 0].F4 = arg2[0, 0].F4--;
-                var2 = Program.s_46[0].F1;
-            }
-
-            arg2[0, 0].F0 = 17781142413093092259UL;
-        }
-
-        {
-            var3 = 982552562;
-            {
-                Program.M113(ref arg0[0][0], this);
-                {
-                    arg2 = ref arg2;
-                }
-
-                arg0[0][0] = (ushort)Program.M113(ref arg0[0][0], this);
-                arg2[0, 0].F4 = (long)Program.M113(ref arg0[0][0], this);
-            }
-
-            Program.M114(ref this.F2, new I0[]{new S0(0UL, 42, 50, 127, -3368125158820498508L, 21, 0L, 3024438599921333134UL, -4286163123182844648L), new S0(0UL, 1, 0, -34, 6361197265841675876L, 168, 0L, 0UL, 2L), new S0(0UL, 1, 64, 0, 0L, 216, -6511898739851598422L, 0UL, -1L)}, (sbyte)(~Program.s_7), new uint[, ]{{3693531144U, 1U, 0U, 4294967295U, 0U, 0U}, {0U, 3046126297U, 1U, 4294967294U, 1U, 1513993098U}, {2598399107U, 1U, 4294967295U, 1U, 3398935191U, 4294967295U}, {1487567240U, 1U, 1858636727U, 2044166757U, 0U, 3340657644U}}, 0);
-        }
-
-        return new S1[]{new S1(28738, 3950710755092725258L, 30942), new S1(-29664, 1L, -16705), new S1(-27411, 7662316038023772099L, 2330), new S1(1, 192879573362824474L, -10), new S1(-9964, 1L, -12337), new S1(0, 4492542763766687391L, -27395), new S1(16392, -5218358533292656038L, 13702), new S1(15878, 4315202414250973302L, -10793), new S1(-32250, -2248014800265210239L, 0), new S1(-25649, 896145200216775710L, 0)};
+        return default(S1[]);
     }
 }
 
