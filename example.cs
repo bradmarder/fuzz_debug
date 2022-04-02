@@ -937,19 +937,7 @@ public class Program
 
     public static long M86()
     {
-        S0 var0 = default(S0);
-        if (s_29[0, 0, 0])
-        {
-            var0 = new S0(1UL, -30, 193, 2, 8166086034723274172L, 0, 8814693838607821631L, 12590091570178166939UL, 5705612624228164973L);
-        }
-        else
-        {
-            s_32[0].F2 = 33857;
-            s_36.F6 = 7672701535041005452L;
-            new S1(8206, 3807452904248185220L, -11994).M87(ref s_73.F2);
-        }
-
-        return s_73.F4;
+        return default(long);
     }
 
     public static ulong M89(long arg0, uint[] arg1)
