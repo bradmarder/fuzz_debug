@@ -707,9 +707,7 @@ public class Program
 
     public static short M62(uint arg0, I0 arg1, sbyte arg2, ref int arg3, I0 arg4, I0[] arg5)
     {
-        arg3 = s_38;
-        arg3 = ref arg3;
-        return 13001;
+        return default(short);
     }
 
     public static ref C0 M67(S1 arg0, ushort arg1, C0[][] arg2)
