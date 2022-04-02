@@ -191,7 +191,6 @@ public class Program
     public static I0 s_34 = new S0(1UL, 0, 255, -10, -8692512112910169047L, 10, 0L, 1UL, 9223372036854775806L);
     public static short[] s_35 = new short[]{1};
     public static S0 s_36 = new S0(2293070236441507447UL, -57, 71, -128, -4193091118156916983L, 254, 7529471248942075496L, 0UL, 1L);
-    public static bool s_40 = true;
     public static S0[] s_42 = new S0[]{new S0(1297223133967724776UL, 1, 133, 28, 2L, 244, 3411396978420026657L, 1UL, 3632752365305052619L)};
     public static long s_43 = 0L;
     public static bool s_44;
