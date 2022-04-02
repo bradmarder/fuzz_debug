@@ -534,76 +534,7 @@ public struct S0 : I0
 
     public sbyte M91(int arg0)
     {
-        C1 var0 = default(C1);
-        ushort var1 = default(ushort);
-        S0 var2 = default(S0);
-        long var3 = default(long);
-        sbyte var4 = default(sbyte);
-        sbyte var5 = default(sbyte);
-        I0 var6 = default(I0);
-        S1 var7 = default(S1);
-        sbyte[] var8 = default(sbyte[]);
-        C1 var10 = default(C1);
-        S1 var11 = default(S1);
-        Program.s_31 = Program.s_21[0][0, 0];
-        {
-            if (Program.s_50.F2)
-            {
-                this = new S0(18446744073709551615UL, -10, 23, 41, 2654334464883265452L, 2, 9223372036854775807L, 18446744073709551615UL, 4470573569987931585L);
-                if (Program.s_31.F2)
-                {
-                    var0 = new C1(-30212, 1, 20364);
-                    Program.s_20 = var0.F1;
-                    arg0 = -464384686;
-                    --this.F8;
-                }
-                else
-                {
-                    var1 = 28677;
-                    this.F5 = this.F5;
-                    this.F4 = 445414684 / (long)(this.F8 | 1);
-                }
-            }
-
-            var2 = this;
-            if (1UL >= this.F2)
-            {
-                var3 = var2.F6;
-                var4 = -10;
-                var5 = var2.F1;
-            }
-            else
-            {
-                Program.s_19 = 0;
-                var6 = this;
-                {
-                    {
-                        this.F4 = this.F4;
-                        this.F4 = this.F6++;
-                        var7 = new S1(19242, 9088881520221136215L, 32766);
-                    }
-
-                    var8 = new sbyte[]{-100, -128, 126, 0, 1, 70, 109, -1, -2, -10};
-                    ref I0 var9 = ref var6;
-                    var10 = Program.s_53;
-                    var11 = new S1(-31048, -2L, 15514);
-                    var9 = ref Program.s_63;
-                    Program.s_88 = new C1[]{new C1(-1, 6249, 7691), new C1(-10, 59315, 48689), new C1(-10, 10688, 1), new C1(32767, 6357, 25246), new C1(-2430, 1, 21855), new C1(32766, 65534, 61107), new C1(-18859, 1, 25846), new C1(13215, 0, 1), new C1(-11493, 23395, 14399), new C1(0, 65534, 0)};
-                    Program.M92();
-                    var6 = var6;
-                }
-
-                var2 = var2;
-                new C1(25451, 64169, 0).M99((uint)new S1(18513, 0L, 5185).M107(ref Program.s_51)) = (short)new S0(15524266224145203985UL, -10, 1, 127, -10L, 255, 1L, 1UL, -2121012124853068298L).M97(new S1(1, -6118471144167618534L, -32768));
-                Program.s_109 = new long[]{1L, 153315057660803245L, 1L, -3681935996591755788L, 0L, 9223372036854775806L, 3033514851760944311L, 2823912693774738768L};
-                --var2.F5;
-                Program.s_110 = var2.F3;
-                Program.s_86.F1 = (byte)(-var2.F2);
-            }
-        }
-
-        this.F5 = Program.s_64--;
-        return this.F3;
+        return default(sbyte);
     }
 
     public int M97(S1 arg0)
