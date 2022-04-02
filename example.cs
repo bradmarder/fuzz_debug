@@ -552,13 +552,7 @@ public class C1
 
     public I0 M106()
     {
-        C1[] var0 = default(C1[]);
-        this.F2 = this.F2;
-        this.F1 = 1;
-        var0 = new C1[]{new C1(-32007, 2, 42169), new C1(8733, 1, 37943), new C1(32766, 8819, 23811), new C1(-21252, 1, 0), new C1(1, 2635, 20497), new C1(-26197, 10, 18602), new C1(1, 10, 1), new C1(6769, 39166, 0), new C1(-10815, 53913, 33647)};
-        Program.s_11[0, 0] = 2;
-        Program.s_19 = var0[0].F1;
-        return Program.s_89;
+        return default(I0);
     }
 }
 
