@@ -413,11 +413,6 @@ public class Program
         return default(byte);
     }
 
-    public static ref ulong M73()
-    {
-        return ref s_4;
-    }
-
     public static ref C0 M75()
     {
         return ref s_21[0][0, 0];
