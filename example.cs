@@ -123,11 +123,6 @@ public class C1
         return default(short);
     }
 
-    public sbyte M64()
-    {
-        return default(sbyte);
-    }
-
     public ushort M65()
     {
         return default(ushort);
