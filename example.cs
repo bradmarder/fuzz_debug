@@ -350,11 +350,6 @@ public class Program
         return ref s_42[0].F0;
     }
 
-    public static I0[] M115(uint arg0)
-    {
-        return default(I0[]);
-    }
-
     public static short M118()
     {
         return default(short);
