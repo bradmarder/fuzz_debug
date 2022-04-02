@@ -507,7 +507,7 @@ public class Program
     public static ushort[] s_122 = new ushort[]{1, 1, 1, 47209, 36767, 1};
     public static short s_123 = 32266;
     public static ushort s_124 = 10547;
-    public static short[] s_125 = new short[]{19447, 10499, -19068, 0, -29388, 2};
+    public static short[] s_125 = new short[]{19447};
     public static ushort[][][][] s_126 = new ushort[][][][]{new ushort[][][]{new ushort[][]{new ushort[]{0}}}, new ushort[][][]{new ushort[][]{new ushort[]{10425}}}};
     public static S0 s_127 = new S0(9289586087489662991UL, -128, 1, 23, 1435995287825718515L, 10, -9223372036854775807L, 1478027990473450840UL, 2608813403934341423L);
     public static C0 s_128 = new C0(0, 0, true);
