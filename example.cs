@@ -48,11 +48,6 @@ public class C1
     public C1(short f0, ushort f1, ushort f2)
     {
     }
-
-    public short M28()
-    {
-        return default(short);
-    }
 }
 
 public class Program
@@ -70,5 +65,10 @@ public class Program
     public static S1 M55(S0 argThis)
     {
         return default(S1);
+    }
+
+    public static short M28(C1 argThis)
+    {
+        return default(short);
     }
 }
