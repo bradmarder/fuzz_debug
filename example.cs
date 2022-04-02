@@ -898,8 +898,6 @@ public class Program
     public static ref long M117()
     {
         short var0 = default(short);
-        s_36.F4 = 3229206664026210217L;
-        var0 = M118();
         return ref s_68[0];
     }
 
