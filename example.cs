@@ -343,7 +343,6 @@ public class Program
     public static C1[][,, ] s_5 = new C1[][,, ]{new C1[,, ]{{{new C1(-32768, 50821, 1)}}}};
     public static sbyte s_7 = 21;
     public static short[] s_8 = new short[]{27419};
-    public static bool s_9 = true;
     public static byte s_10 = 169;
     public static sbyte[, ] s_11 = new sbyte[, ]{{1}};
     public static uint s_12 = 10U;
