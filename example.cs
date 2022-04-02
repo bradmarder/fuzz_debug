@@ -416,11 +416,6 @@ public class Program
         return default(int);
     }
 
-    public static ref ushort M59()
-    {
-        return ref s_32[0].F2;
-    }
-
     public static short M62(uint arg0, I0 arg1, sbyte arg2, ref int arg3, I0 arg4, I0[] arg5)
     {
         return default(short);
