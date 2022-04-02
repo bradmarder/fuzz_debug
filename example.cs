@@ -33,11 +33,6 @@ public struct S0 : I0
         F8 = f8;
     }
 
-    public S1 M55()
-    {
-        return default(S1);
-    }
-
     public short M74(ref C0[] arg0, long arg1)
     {
         return default(short);
@@ -126,5 +121,10 @@ public class Program
     public static S0 M108(C0 argThis, uint arg0, uint arg1)
     {
         return default(S0);
+    }
+
+    public static S1 M55(S0 argThis)
+    {
+        return default(S1);
     }
 }
