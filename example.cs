@@ -102,11 +102,6 @@ public class Program
         return default(long);
     }
 
-    public static S1 M61(C0 argThis, ref long arg0, I0[, ] arg1)
-    {
-        return default(S1);
-    }
-
     public static S0 M108(C0 argThis, uint arg0, uint arg1)
     {
         return default(S0);
