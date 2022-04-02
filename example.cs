@@ -309,7 +309,6 @@ public class C1
     public ushort F2;
     public C1(short f0, ushort f1, ushort f2)
     {
-        F2 = f2;
     }
 
     public bool M1(sbyte arg0, short arg1, C1 arg2)
