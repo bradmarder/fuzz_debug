@@ -682,7 +682,6 @@ public class Program
 
     public static ref C0 M67(S1 arg0, ushort arg1, C0[][] arg2)
     {
-        int var2 = default(int);
         C1 var3 = default(C1);
         I0[] var6 = default(I0[]);
         ushort var7 = default(ushort);
