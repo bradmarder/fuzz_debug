@@ -17,8 +17,7 @@ public class C0
 
     public sbyte M3(int arg0, C0 arg1)
     {
-        arg1.F0 = (sbyte)(~this.F0);
-        return 74;
+        return default(sbyte);
     }
 
     public ushort M6(I0 arg0)
