@@ -16,7 +16,6 @@ public class C0
     public C0(sbyte f0, byte f1, bool f2)
     {
         F0 = f0;
-        F1 = f1;
         F2 = f2;
     }
 
