@@ -203,7 +203,6 @@ public class Program
     public static byte s_71 = 255;
     public static S0 s_73;
     public static int s_74 = 0;
-    public static uint[,, ] s_75 = new uint[,, ]{{{2799543763U}}};
     public static ulong s_77 = 1UL;
     public static byte s_82 = 48;
     public static C0 s_84 = new C0(0, 0, false);
