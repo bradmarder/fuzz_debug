@@ -173,11 +173,6 @@ public struct S1
         return default(bool);
     }
 
-    public ulong[] M63(byte arg0, sbyte arg1, C0 arg2)
-    {
-        return default(ulong[]);
-    }
-
     public bool M81()
     {
         return default(bool);
