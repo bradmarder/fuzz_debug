@@ -846,9 +846,7 @@ public class Program
 
     public static bool M110(ref uint arg0)
     {
-        uint var0 = default(uint);
-        var0 = arg0;
-        return true;
+        return default(bool);
     }
 
     public static S0 M111(sbyte arg0, ulong[] arg1, bool arg2, C1 arg3, ref byte[] arg4, bool[] arg5, S1 arg6)
