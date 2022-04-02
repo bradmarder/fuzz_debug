@@ -513,11 +513,6 @@ public class Program
         return default(C1);
     }
 
-    public static I0 M96()
-    {
-        return default(I0);
-    }
-
     public static sbyte M100(short arg0)
     {
         return default(sbyte);
