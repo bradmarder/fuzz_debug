@@ -693,7 +693,6 @@ public class Program
 
     public static ref ushort M59()
     {
-        s_17 = new S1(2, -9223372036854775807L, -2);
         return ref s_32[0].F2;
     }
 
