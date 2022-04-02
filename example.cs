@@ -178,7 +178,6 @@ public class Program
     public static bool s_70 = true;
     public static S0 s_73;
     public static int s_74 = 0;
-    public static ulong s_77 = 1UL;
     public static byte s_82 = 48;
     public static C0 s_84 = new C0(0, 0, false);
     public static ulong s_90 = 11451526383626783489UL;
