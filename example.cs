@@ -409,15 +409,7 @@ public class C1
 
     public ushort M10()
     {
-        if (2U > (ulong)((ushort)(1 / (uint)((uint)((byte)(~(byte)(9223372036854775807L + (byte)(this.F1 / (short)(Program.s_1[0].F0 | 1)))) / (sbyte)(-128 | 1)) | 1)) + (sbyte)(~(sbyte)(~(sbyte)(~(sbyte)(958230132 + (byte)(1 | (sbyte)(0 | Program.s_1[0].F1))))))))
-        {
-            {
-                this.F0 = (short)(175 << this.F1);
-            }
-        }
-
-        this.F2 = 64458;
-        return 65535;
+        return default(ushort);
     }
 
     public bool M14()
