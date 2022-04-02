@@ -122,11 +122,6 @@ public class Program
         return default(long);
     }
 
-    public static S0 M111(sbyte arg0, ulong[] arg1, bool arg2, C1 arg3, ref byte[] arg4, bool[] arg5, S1 arg6)
-    {
-        return default(S0);
-    }
-
     public static ref ulong M113(ref ushort arg0, C0 arg1)
     {
         return ref s_42[0].F0;
