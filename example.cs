@@ -552,11 +552,6 @@ public class Program
         return default(ulong);
     }
 
-    public static byte[][][] M39()
-    {
-        return default(byte[][][]);
-    }
-
     public static byte M40(short arg0)
     {
         return default(byte);
