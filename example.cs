@@ -840,8 +840,7 @@ public class Program
 
     public static short M84(byte arg0, uint arg1, I0 arg2, bool arg3)
     {
-        new S0(3617237372005645969UL, -127, 147, 10, 9223372036854775807L, 1, 1L, 3701406145374787119UL, -2L).M85(new C1(0, 61068, 0), s_42[0].F7);
-        return s_18.F0--;
+        return default(short);
     }
 
     public static long M86()
