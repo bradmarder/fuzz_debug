@@ -15,7 +15,6 @@ public class C0
     public bool F2;
     public C0(sbyte f0, byte f1, bool f2)
     {
-        F2 = f2;
     }
 
     public sbyte M3(int arg0, C0 arg1)
