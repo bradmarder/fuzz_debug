@@ -537,11 +537,6 @@ public class Program
         return default(int);
     }
 
-    public static short M84(byte arg0, uint arg1, I0 arg2, bool arg3)
-    {
-        return default(short);
-    }
-
     public static long M86()
     {
         return default(long);
