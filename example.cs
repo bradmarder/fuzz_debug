@@ -353,7 +353,6 @@ public class Program
     public static ushort s_49 = 65535;
     public static C0 s_50 = new C0(-127, 223, false);
     public static S1 s_51 = new S1(32702, 8524093905351601002L, 22163);
-    public static long s_52 = -9223372036854775808L;
     public static C1 s_53 = new C1(32767, 1, 32338);
     public static uint[] s_54 = new uint[]{1618314826U};
     public static I0 s_55 = new S0(4802318849691653702UL, 8, 92, -90, 0L, 0, -2022969234867157827L, 15697020553927164642UL, 6469607282464593739L);
