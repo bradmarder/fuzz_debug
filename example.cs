@@ -43,7 +43,6 @@ public class C0
     {
         ulong var1 = default(ulong);
         uint var2 = default(uint);
-        ushort var3 = default(ushort);
         return ref Program.s_18;
     }
 
