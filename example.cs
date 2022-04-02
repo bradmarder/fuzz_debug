@@ -804,10 +804,7 @@ public class Program
 
     public static ulong M89(long arg0, uint[] arg1)
     {
-        arg1[0] = 4294967295U;
-        s_36.F1 = 25;
-        M90();
-        return s_6.F7;
+        return default(ulong);
     }
 
     public static bool M90()
