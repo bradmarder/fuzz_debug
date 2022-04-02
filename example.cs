@@ -28,25 +28,7 @@ public class C0
 
     public bool[][] M15()
     {
-        uint var0 = default(uint);
-        uint[][][][] var1 = default(uint[][][][]);
-        ushort var2 = default(ushort);
-        bool var3 = default(bool);
-        var0 = 10U;
-        var1 = new uint[][][][]{new uint[][][]{new uint[][]{new uint[]{2U}, new uint[]{2386412049U}, new uint[]{2834626716U}, new uint[]{3446882066U}}, new uint[][]{new uint[]{0U}, new uint[]{10U}, new uint[]{1219824273U}, new uint[]{1U}}, new uint[][]{new uint[]{2777703589U}, new uint[]{1278534571U}, new uint[]{1U}}, new uint[][]{new uint[]{364968233U}, new uint[]{58354704U}}, new uint[][]{new uint[]{1U}, new uint[]{0U}, new uint[]{0U}}}, new uint[][][]{new uint[][]{new uint[]{0U}}, new uint[][]{new uint[]{1334764361U}, new uint[]{147581349U}, new uint[]{1309832873U}, new uint[]{1U}, new uint[]{0U}, new uint[]{3810004571U}}, new uint[][]{new uint[]{2749373250U}, new uint[]{3001786620U}, new uint[]{961873753U}, new uint[]{2U}}, new uint[][]{new uint[]{1U}, new uint[]{459572296U}, new uint[]{2867926185U}, new uint[]{2449188802U}}}, new uint[][][]{new uint[][]{new uint[]{1U}, new uint[]{1U}, new uint[]{1771120624U}, new uint[]{0U}}, new uint[][]{new uint[]{3916585185U}, new uint[]{10U}, new uint[]{519298241U}, new uint[]{1829674828U}, new uint[]{1U}}, new uint[][]{new uint[]{3646577990U}, new uint[]{779453584U}, new uint[]{2U}, new uint[]{3573787341U}}}, new uint[][][]{new uint[][]{new uint[]{1076718222U}, new uint[]{3064506424U}, new uint[]{2U}, new uint[]{0U}, new uint[]{0U}, new uint[]{3772846711U}, new uint[]{0U}}, new uint[][]{new uint[]{4294967294U}, new uint[]{3155306331U}, new uint[]{2269769028U}, new uint[]{10U}}, new uint[][]{new uint[]{1718837456U}}, new uint[][]{new uint[]{10987590U}, new uint[]{4233197909U}, new uint[]{2286766719U}, new uint[]{4294967294U}, new uint[]{2219324063U}, new uint[]{1U}, new uint[]{3234766425U}}, new uint[][]{new uint[]{2200863409U}, new uint[]{1509748194U}, new uint[]{2U}}, new uint[][]{new uint[]{4294967295U}, new uint[]{3629287711U}}}};
-        var2 = 65535;
-        var3 = Program.s_2[0];
-        if (var3)
-        {
-            this.F2 = this.F2;
-        }
-        else
-        {
-            ref short var4 = ref Program.s_1[0].F2;
-            var0 = var1[0][0][0][0];
-        }
-
-        return new bool[][]{new bool[]{false, false}, new bool[]{false, false}, new bool[]{false, true, false}, new bool[]{false, false, false, false}};
+        return default(bool[][]);
     }
 
     public C0 M16(short arg0, long arg1)
