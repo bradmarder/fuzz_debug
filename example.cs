@@ -1131,32 +1131,7 @@ public class Program
 
     public static int M56()
     {
-        ulong var0 = default(ulong);
-        C1[][] var1 = default(C1[][]);
-        ulong var2 = default(ulong);
-        if (!(s_22 && s_9))
-        {
-            var0 = s_4--;
-            M57(new S0(0UL, -1, 224, 0, -958368099335183209L, 0, -5481593474604925425L, 18446744073709551614UL, 1L), ref s_26[0]);
-            M57(s_24, ref s_5[0][0, 0, 0].F2);
-        }
-        else
-        {
-            if (s_9)
-            {
-                M57(s_6, ref s_19);
-            }
-            else
-            {
-                var1 = new C1[][]{new C1[]{new C1(955, 10, 991), new C1(32766, 2457, 1), new C1(-22823, 1, 0), new C1(1, 0, 1), new C1(0, 10, 37818), new C1(-2, 0, 1), new C1(1, 31137, 44005)}};
-                var2 = s_42[0].F7;
-                M58(new S0(5577201034106620905UL, -128, 1, 10, 5693577582329344107L, 2, 0L, 0UL, -6758693195927299181L));
-                s_46 = M57(new S0(10501148712936644410UL, 71, 255, 1, 9223372036854775806L, 146, -1L, 1UL, 0L), ref var1[0][0].F1);
-                var1[0][0].F1 = var1[0][0].F1;
-            }
-        }
-
-        return s_38++;
+        return default(int);
     }
 
     public static C1[] M57(I0 arg0, ref ushort arg1)
