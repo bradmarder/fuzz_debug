@@ -153,10 +153,6 @@ public class Program
     {
     }
 
-    public static void M0()
-    {
-    }
-
     public static int M2(bool arg0, C1[] arg1, ref long arg2)
     {
         return default(int);
