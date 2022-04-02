@@ -403,7 +403,7 @@ public class Program
     public static S1 s_18 = new S1(32767, -9223372036854775808L, -2655);
     public static ushort s_19 = 34174;
     public static ushort s_20 = 0;
-    public static C0[][, ] s_21 = new C0[][, ]{new C0[, ]{{new C0(-127, 2, false), new C0(-2, 0, false), new C0(0, 188, true), new C0(-54, 134, true), new C0(126, 104, true), new C0(1, 110, false), new C0(-105, 254, false)}}, new C0[, ]{{new C0(1, 0, false)}}};
+    public static C0[][, ] s_21 = new C0[][, ]{new C0[, ]{{new C0(-127, 2, false), new C0(-2, 0, false), new C0(0, 188, true), new C0(-54, 134, true), new C0(126, 104, true), new C0(1, 110, false), new C0(-105, 254, false)}}};
     public static bool s_22 = true;
     public static C0 s_23 = new C0(126, 1, true);
     public static S0 s_24 = new S0(17022445003158247856UL, -118, 168, -23, 0L, 92, -919301281209292180L, 10UL, 8899625699192458175L);
