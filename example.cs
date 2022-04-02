@@ -822,8 +822,7 @@ public class Program
 
     public static sbyte M100(short arg0)
     {
-        M101();
-        return s_86.F0--;
+        return default(sbyte);
     }
 
     public static ref long M101()
