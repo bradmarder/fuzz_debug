@@ -308,18 +308,6 @@ public struct S1
     {
         bool var0 = default(bool);
         bool var1 = default(bool);
-        this.F0 = this.F2;
-        var0 = true;
-        if (var0)
-        {
-            var1 = var0;
-            new C0(95, 210, false).M88();
-            if (var1)
-            {
-                this.F1 = this.F1;
-            }
-        }
-
         return ref Program.s_84;
     }
 
