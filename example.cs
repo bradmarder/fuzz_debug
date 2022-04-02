@@ -154,11 +154,6 @@ public class Program
         return default(S1);
     }
 
-    public static I0 M94(C0 argThis)
-    {
-        return default(I0);
-    }
-
     public static S0 M108(C0 argThis, uint arg0, uint arg1)
     {
         return default(S0);
