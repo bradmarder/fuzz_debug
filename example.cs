@@ -507,11 +507,7 @@ public class C1
 
     public ushort M65()
     {
-        uint var0 = default(uint);
-        var0 = (uint)(-Program.s_30--);
-        var0 = Program.s_12--;
-        Program.M71(Program.s_42[0], 3566411060U, new C1(0, 65534, 1), (sbyte)Program.M70(this.F0), new long[][]{new long[]{-6418261715812037661L}, new long[]{-9223372036854775807L}, new long[]{0L, 5970627056432606438L, 9223372036854775807L, 0L}, new long[]{-6772126501113167211L, -2L, 9223372036854775806L, -656376225051150099L}, new long[]{-10L, -9223372036854775808L, -2L, 9223372036854775807L}}, var0, ref Program.s_75).M66(new ushort[]{65535, 29878, 52088, 40762, 0, 21126}, this.F0, this);
-        return (ushort)(22 * Program.s_74--);
+        return default(ushort);
     }
 
     public ref sbyte M66(ushort[] arg0, short arg1, C1 arg2)
