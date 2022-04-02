@@ -414,7 +414,7 @@ public class Program
     public static bool[,, ] s_29 = new bool[,, ]{{{true, false}}, {{true, true}}, {{false, true}}, {{true, false}}};
     public static uint s_30 = 570715902U;
     public static C0 s_31 = new C0(-55, 1, false);
-    public static C1[] s_32 = new C1[]{new C1(2, 0, 1), new C1(32767, 65534, 1), new C1(2, 59744, 30685), new C1(-14267, 22857, 36246), new C1(-32767, 0, 1)};
+    public static C1[] s_32 = new C1[]{new C1(2, 0, 1)};
     public static ushort s_33 = 1;
     public static I0 s_34 = new S0(1UL, 0, 255, -10, -8692512112910169047L, 10, 0L, 1UL, 9223372036854775806L);
     public static short[] s_35 = new short[]{1};
