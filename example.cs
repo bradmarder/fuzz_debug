@@ -5,7 +5,6 @@ public interface I0
 public class C0
 {
     public byte F1;
-    public bool F2;
     public C0(sbyte f0, byte f1, bool f2)
     {
     }
