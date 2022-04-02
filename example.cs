@@ -115,11 +115,6 @@ public class Program
         return default(int);
     }
 
-    public static ref C0 M75()
-    {
-        return ref s_21[0][0, 0];
-    }
-
     public static S1 M79(ushort arg0)
     {
         return default(S1);
