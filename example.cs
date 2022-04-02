@@ -13,11 +13,6 @@ public class C0
         return default(sbyte);
     }
 
-    public C0 M16(short arg0, long arg1)
-    {
-        return default(C0);
-    }
-
     public S1 M61(ref long arg0, I0[, ] arg1)
     {
         return default(S1);
