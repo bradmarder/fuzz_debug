@@ -689,17 +689,7 @@ public class Program
 
     public static byte M40(short arg0)
     {
-        I0 var0 = default(I0);
-        byte var2 = default(byte);
-        arg0 = arg0++;
-        if (s_9)
-        {
-            var0 = s_6;
-            ref C1 var1 = ref s_5[0][0, 0, 0];
-            var2 = 1;
-        }
-
-        return s_6.F5--;
+        return default(byte);
     }
 
     public static uint M41()
