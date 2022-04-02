@@ -491,7 +491,7 @@ public class Program
     public static C1 s_106 = new C1(-3859, 49232, 30311);
     public static uint s_107 = 10U;
     public static ulong s_108 = 9429829039228540382UL;
-    public static long[] s_109 = new long[]{-1315386625713342941L, -9223372036854775807L, 3534276412798540744L, 9223372036854775807L, 6034754700724062153L, -1428810267709976409L, 1L, 1L, -7300326768563795452L};
+    public static long[] s_109 = new long[]{-1315386625713342941L};
     public static sbyte s_110 = 10;
     public static ulong[,, ] s_111 = new ulong[,, ]{{{1UL}}};
     public static int s_112 = 10;
