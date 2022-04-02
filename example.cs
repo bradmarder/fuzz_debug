@@ -1109,28 +1109,7 @@ public class Program
 
     public static byte M70(short arg0)
     {
-        I0 var0 = default(I0);
-        int var1 = default(int);
-        short var2 = default(short);
-        try
-        {
-            var0 = s_6;
-        }
-        finally
-        {
-            if (!(!s_29[0, 0, 0] || false))
-            {
-                var1 = 2000526624;
-                var1 = s_58;
-            }
-        }
-
-        var2 = -8522;
-        ref short var3 = ref arg0;
-        M71(new C0(s_36.F1, 0, s_21[0][0, 0].F2).M76(ref s_13), s_30++, new C1(-18039, 1, 26611), s_42[0].F1--, new long[][]{new long[]{10L, 9223372036854775807L}, new long[]{-9223372036854775808L, 10L}, new long[]{-7934833451102039622L}, new long[]{-9223372036854775808L}, new long[]{0L, -6415422178064369151L, -9223372036854775808L}, new long[]{794646265875991019L, 3541875825470365938L, -8153210331525608353L, -5706923920152193455L, -9223372036854775807L}, new long[]{-9223372036854775808L, 2111746351429276676L, -10L, -3973682575373636835L, 1L}, new long[]{10L, -9223372036854775807L}, new long[]{1L}}, s_12, ref s_75);
-        var2 = (short)((byte)new S0(3448508134693652288UL, 0, 232, -98, -4072089871773441492L, 61, -1L, 16611046668562554525UL, 2L).M74(ref s_27, ~s_1[0].F1--) >> s_58--);
-        s_76 = 1539330619;
-        return s_50.F1;
+        return default(byte);
     }
 
     public static ref C1 M71(S0 arg0, uint arg1, C1 arg2, sbyte arg3, long[][] arg4, uint arg5, ref uint[,, ] arg6)
