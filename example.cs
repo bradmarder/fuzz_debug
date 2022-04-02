@@ -714,11 +714,6 @@ public class Program
         return default(I0[]);
     }
 
-    public static ref long M117()
-    {
-        return ref s_68[0];
-    }
-
     public static short M118()
     {
         return default(short);
