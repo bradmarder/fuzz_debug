@@ -251,9 +251,7 @@ public struct S1
 
     public ulong[] M63(byte arg0, sbyte arg1, C0 arg2)
     {
-        ushort var0 = default(ushort);
-        var0 = 27618;
-        return new ulong[]{0UL};
+        return default(ulong[]);
     }
 
     public bool M81()
