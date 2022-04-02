@@ -249,7 +249,6 @@ public class Program
     public static uint[,, ] s_75 = new uint[,, ]{{{2799543763U}}};
     public static ulong s_77 = 1UL;
     public static bool s_78 = true;
-    public static S1 s_79 = new S1(-9228, 0L, 173);
     public static byte s_82 = 48;
     public static C0 s_84 = new C0(0, 0, false);
     public static ushort s_85 = 32017;
