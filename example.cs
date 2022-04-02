@@ -538,11 +538,6 @@ public class Program
         return ref s_1[0];
     }
 
-    public static S1 M26(I0 arg0)
-    {
-        return default(S1);
-    }
-
     public static ushort M30(ref C0[][, ] arg0)
     {
         return default(ushort);
