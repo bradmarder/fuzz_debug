@@ -99,7 +99,6 @@ public struct S1
 
 public class C1
 {
-    public short F0;
     public C1(short f0, ushort f1, ushort f2)
     {
     }
