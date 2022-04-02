@@ -805,7 +805,6 @@ public class Program
 
     public static ref long M101()
     {
-        I0[] var0 = default(I0[]);
         return ref s_73.F6;
     }
 
