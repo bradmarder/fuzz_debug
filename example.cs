@@ -78,11 +78,6 @@ public struct S0 : I0
         return default(long[]);
     }
 
-    public I0 M44(ref short arg0)
-    {
-        return default(I0);
-    }
-
     public S1 M55()
     {
         return default(S1);
