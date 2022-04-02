@@ -159,7 +159,6 @@ public class Program
     public static C1[] s_46 = new C1[]{new C1(2, 299, 26803)};
     public static C0 s_50 = new C0(-127, 223, false);
     public static I0 s_56 = new S0(18446744073709551614UL, 1, 132, 33, -10L, 245, -10L, 1UL, -9223372036854775807L);
-    public static int s_58 = 0;
     public static byte s_61 = 213;
     public static I0 s_65 = new S0(0UL, 105, 45, 0, -334850926330292064L, 1, -10L, 1UL, -9223372036854775807L);
     public static long[] s_68 = new long[]{345238644128058833L};
