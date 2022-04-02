@@ -78,11 +78,6 @@ public struct S0 : I0
         return default(long[]);
     }
 
-    public ushort M38(ulong[] arg0, ushort arg1)
-    {
-        return default(ushort);
-    }
-
     public I0 M44(ref short arg0)
     {
         return default(I0);
