@@ -934,15 +934,7 @@ public class Program
 
     public static S1 M79(ushort arg0)
     {
-        s_22 = s_21[0][0, 0].F2;
-        arg0 -= arg0;
-        ref I0[] var0 = ref s_67;
-        var0 = var0;
-        var0 = ref var0;
-        arg0 = arg0--;
-        var0 = var0;
-        arg0 = (ushort)((uint)((long)(arg0++ + s_11[0, 0]) / (uint)(s_54[0]++ | 1)) % (short)(s_1[0].F0++ | 1));
-        return new S1(32766, -3895066369849649400L, 2);
+        return default(S1);
     }
 
     public static int M80(ref short arg0, bool[] arg1, S0 arg2)
