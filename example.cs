@@ -281,7 +281,6 @@ public class Program
     public static long[] s_68 = new long[]{345238644128058833L};
     public static bool s_70 = true;
     public static byte s_71 = 255;
-    public static byte s_72 = 193;
     public static S0 s_73 = new S0(2134764970183774349UL, 10, 1, -58, -8660834534396881441L, 32, 6189427515657808735L, 17508676445134262746UL, -3233504022532958838L);
     public static int s_74 = 0;
     public static uint[,, ] s_75 = new uint[,, ]{{{2799543763U}}};
