@@ -167,11 +167,6 @@ public struct S0 : I0
         return default(C1);
     }
 
-    public sbyte M91(int arg0)
-    {
-        return default(sbyte);
-    }
-
     public int M97(S1 arg0)
     {
         return default(int);
