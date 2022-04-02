@@ -325,11 +325,6 @@ public class Program
         return default(C1);
     }
 
-    public static bool M23(ref S1[] arg0)
-    {
-        return default(bool);
-    }
-
     public static bool M24()
     {
         return default(bool);
