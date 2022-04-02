@@ -695,7 +695,6 @@ public class Program
         I0[] var6 = default(I0[]);
         ushort var7 = default(ushort);
         ulong[] var8 = default(ulong[]);
-        I0[] var9 = default(I0[]);
         byte var11 = default(byte);
         return ref M75();
     }
