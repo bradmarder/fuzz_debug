@@ -69,7 +69,6 @@ public class Program
     public static short[] s_8 = new short[]{27419};
     public static byte s_10 = 169;
     public static uint s_12 = 10U;
-    public static I0 s_65 = new S0(0UL, 105, 45, 0, -334850926330292064L, 1, -10L, 1UL, -9223372036854775807L);
     public static C1 s_121 = new C1(32766, 1, 0);
     public static void Main()
     {
