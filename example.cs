@@ -217,11 +217,6 @@ public class C1
         return default(short);
     }
 
-    public long[, ] M31()
-    {
-        return default(long[, ]);
-    }
-
     public ulong M49(byte arg0)
     {
         return default(ulong);
