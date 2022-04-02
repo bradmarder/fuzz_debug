@@ -222,7 +222,6 @@ public class Program
     public static S1[] s_1 = new S1[]{new S1(-32767, 6991602872010577642L, 1)};
     public static bool[] s_2 = new bool[]{false};
     public static ulong s_4;
-    public static C1[][,, ] s_5 = new C1[][,, ]{new C1[,, ]{{{new C1(-32768, 50821, 1)}}}};
     public static sbyte s_7 = 21;
     public static short[] s_8 = new short[]{27419};
     public static byte s_10 = 169;
