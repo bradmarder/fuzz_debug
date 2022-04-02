@@ -417,7 +417,7 @@ public class Program
     public static C1[] s_32 = new C1[]{new C1(2, 0, 1), new C1(32767, 65534, 1), new C1(2, 59744, 30685), new C1(-14267, 22857, 36246), new C1(-32767, 0, 1)};
     public static ushort s_33 = 1;
     public static I0 s_34 = new S0(1UL, 0, 255, -10, -8692512112910169047L, 10, 0L, 1UL, 9223372036854775806L);
-    public static short[] s_35 = new short[]{1, 0};
+    public static short[] s_35 = new short[]{1};
     public static S0 s_36 = new S0(2293070236441507447UL, -57, 71, -128, -4193091118156916983L, 254, 7529471248942075496L, 0UL, 1L);
     public static long s_37 = -1L;
     public static int s_38 = 2147483647;
