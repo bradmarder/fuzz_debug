@@ -408,7 +408,7 @@ public class Program
     public static C0 s_23 = new C0(126, 1, true);
     public static S0 s_24 = new S0(17022445003158247856UL, -118, 168, -23, 0L, 92, -919301281209292180L, 10UL, 8899625699192458175L);
     public static uint[][] s_25 = new uint[][]{new uint[]{0U}};
-    public static ushort[] s_26 = new ushort[]{65535, 60337, 1, 48311, 6512};
+    public static ushort[] s_26 = new ushort[]{65535};
     public static C0[] s_27 = new C0[]{new C0(127, 0, false)};
     public static S1 s_28 = new S1(1, 9223372036854775806L, -25898);
     public static bool[,, ] s_29 = new bool[,, ]{{{true, false}}};
