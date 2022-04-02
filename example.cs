@@ -173,11 +173,6 @@ public class Program
         return default(S1);
     }
 
-    public static int M80(ref short arg0, bool[] arg1, S0 arg2)
-    {
-        return default(int);
-    }
-
     public static long M92()
     {
         return default(long);
