@@ -504,7 +504,7 @@ public class Program
     public static I0 s_119 = new S0(0UL, 0, 239, 127, 5925603666154642598L, 2, -3200466341736079978L, 18446744073709551614UL, -5561489936944913568L);
     public static long s_120 = 4759035667626076428L;
     public static C1 s_121 = new C1(32766, 1, 0);
-    public static ushort[] s_122 = new ushort[]{1, 1, 1, 47209, 36767, 1};
+    public static ushort[] s_122 = new ushort[]{1};
     public static short s_123 = 32266;
     public static ushort s_124 = 10547;
     public static short[] s_125 = new short[]{19447};
