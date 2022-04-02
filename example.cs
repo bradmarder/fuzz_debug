@@ -403,7 +403,7 @@ public class Program
     public static sbyte[][][,, ] s_41 = new sbyte[][][,, ]{new sbyte[][,, ]{new sbyte[,, ]{{{10}}}}};
     public static S0[] s_42 = new S0[]{new S0(1297223133967724776UL, 1, 133, 28, 2L, 244, 3411396978420026657L, 1UL, 3632752365305052619L)};
     public static long s_43 = 0L;
-    public static bool s_44 = true;
+    public static bool s_44;
     public static C1[] s_46 = new C1[]{new C1(2, 299, 26803)};
     public static short s_47 = -30911;
     public static byte s_48 = 15;
