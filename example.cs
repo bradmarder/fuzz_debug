@@ -39,7 +39,6 @@ public class C0
 
     public ref S1 M34()
     {
-        ulong var1 = default(ulong);
         return ref Program.s_18;
     }
 
