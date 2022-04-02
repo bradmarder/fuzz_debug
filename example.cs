@@ -227,11 +227,6 @@ public class C1
     {
     }
 
-    public bool M1(sbyte arg0, short arg1, C1 arg2)
-    {
-        return default(bool);
-    }
-
     public ushort M10()
     {
         return default(ushort);
