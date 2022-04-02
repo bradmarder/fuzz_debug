@@ -338,7 +338,6 @@ public class Program
     public static ulong s_90 = 11451526383626783489UL;
     public static long s_91 = -9223372036854775808L;
     public static int s_92 = -1256023144;
-    public static bool s_94 = true;
     public static byte[] s_95 = new byte[]{0};
     public static byte s_96 = 0;
     public static uint s_97 = 1637596950U;
