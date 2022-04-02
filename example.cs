@@ -213,7 +213,6 @@ public class Program
     public static long s_62 = 3450109003570809601L;
     public static I0 s_63 = new S0(12741365010049380137UL, 126, 6, -26, -9223372036854775808L, 255, -9223372036854775808L, 2UL, 0L);
     public static I0 s_65 = new S0(0UL, 105, 45, 0, -334850926330292064L, 1, -10L, 1UL, -9223372036854775807L);
-    public static I0 s_66 = new S0(10396391937080161607UL, -51, 0, 120, 1L, 0, -9223372036854775807L, 7157634449643856490UL, -8763045057417948900L);
     public static long[] s_68 = new long[]{345238644128058833L};
     public static bool s_70 = true;
     public static byte s_71 = 255;
