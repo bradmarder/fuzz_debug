@@ -45,11 +45,6 @@ public struct S1
         F1 = f1;
         F2 = f2;
     }
-
-    public bool M81()
-    {
-        return default(bool);
-    }
 }
 
 public class C1
@@ -86,5 +81,10 @@ public class Program
     public static S1 M55(S0 argThis)
     {
         return default(S1);
+    }
+
+    public static bool M81(S1 argThis)
+    {
+        return default(bool);
     }
 }
