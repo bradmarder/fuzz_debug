@@ -791,7 +791,6 @@ public class Program
         short var8 = default(short);
         S0 var9 = default(S0);
         long[] var10 = default(long[]);
-        S1 var13 = default(S1);
         ulong var14 = default(ulong);
         uint var15 = default(uint);
         byte var18 = default(byte);
