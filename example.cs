@@ -1050,25 +1050,6 @@ public class Program
     {
         I0[] var0 = default(I0[]);
         sbyte var2 = default(sbyte);
-        if (false || !s_22)
-        {
-            try
-            {
-                var0 = new I0[]{new S0(5020889333963331692UL, -127, 168, 1, 1L, 255, 1L, 0UL, 8192003529078272534L)};
-            }
-            finally
-            {
-                s_17.M102();
-                s_95 = new byte[]{0, 171, 244, 247, 1};
-            }
-
-            ref C1 var1 = ref s_32[0];
-            return ref s_89.F4;
-        }
-
-        s_58 = ~(-s_92);
-        s_73.F8 = s_6.F8--;
-        var2 = 51;
         return ref s_73.F6;
     }
 
