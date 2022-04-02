@@ -184,7 +184,6 @@ public class Program
     public static C1 s_121 = new C1(32766, 1, 0);
     public static short s_123 = 32266;
     public static short[] s_125 = new short[]{19447};
-    public static ushort[][][][] s_126 = new ushort[][][][]{new ushort[][][]{new ushort[][]{new ushort[]{0}}}};
     public static S0 s_127 = new S0(9289586087489662991UL, -128, 1, 23, 1435995287825718515L, 10, -9223372036854775807L, 1478027990473450840UL, 2608813403934341423L);
     public static void Main()
     {
