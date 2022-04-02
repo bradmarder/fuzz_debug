@@ -462,11 +462,6 @@ public class Program
         return default(C1);
     }
 
-    public static sbyte M100(short arg0)
-    {
-        return default(sbyte);
-    }
-
     public static ushort[] M109(ref int arg0, ref I0[] arg1)
     {
         return default(ushort[]);
