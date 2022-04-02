@@ -436,7 +436,7 @@ public class Program
     public static S1 s_51 = new S1(32702, 8524093905351601002L, 22163);
     public static long s_52 = -9223372036854775808L;
     public static C1 s_53 = new C1(32767, 1, 32338);
-    public static uint[] s_54 = new uint[]{1618314826U, 1753177408U, 745498512U, 3189153749U, 3536952636U, 10U, 4193786015U, 1651605298U};
+    public static uint[] s_54 = new uint[]{1618314826U};
     public static I0 s_55 = new S0(4802318849691653702UL, 8, 92, -90, 0L, 0, -2022969234867157827L, 15697020553927164642UL, 6469607282464593739L);
     public static I0 s_56 = new S0(18446744073709551614UL, 1, 132, 33, -10L, 245, -10L, 1UL, -9223372036854775807L);
     public static ushort[] s_57 = new ushort[]{0};
