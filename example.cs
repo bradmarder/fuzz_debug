@@ -124,11 +124,6 @@ public struct S0 : I0
     {
         return default(C1);
     }
-
-    public int M97(S1 arg0)
-    {
-        return default(int);
-    }
 }
 
 public struct S1
