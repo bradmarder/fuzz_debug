@@ -127,7 +127,6 @@ public class Program
     public static ushort[] s_26 = new ushort[]{65535};
     public static C0[] s_27 = new C0[]{new C0(127, 0, false)};
     public static S1 s_28 = new S1(1, 9223372036854775806L, -25898);
-    public static C0 s_31 = new C0(-55, 1, false);
     public static C1[] s_32;
     public static I0 s_34 = new S0(1UL, 0, 255, -10, -8692512112910169047L, 10, 0L, 1UL, 9223372036854775806L);
     public static short[] s_35 = new short[]{1};
