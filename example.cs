@@ -791,39 +791,6 @@ public class C1
         S1 var3 = default(S1);
         I0 var4 = default(I0);
         I0 var5 = default(I0);
-        try
-        {
-            var0 = 32766;
-            var1 = 1;
-        }
-        finally
-        {
-            if (Program.s_22)
-            {
-                Program.s_56 = new S0(18446744073709551614UL, 0, 52, 64, -10L, 1, -9223372036854775807L, 0UL, 1L);
-                Program.M67(Program.M79(Program.s_13--), arg2.F1, new C0[][]{new C0[]{new C0(10, 1, true)}, new C0[]{new C0(1, 1, false)}, new C0[]{new C0(2, 203, false), new C0(-121, 84, true)}, new C0[]{new C0(127, 254, true), new C0(-52, 254, true)}});
-            }
-            else
-            {
-                var2 = new S1[]{new S1(12900, -1234938095328549785L, -1), new S1(-31087, -9127186660482885222L, -13033), new S1(32766, 8755249871489906977L, -14485)};
-                var3 = var2[0];
-                Program.s_78 = Program.M68((ushort)(409393658 ^ var2[0].F0));
-                var3 = Program.s_17;
-            }
-
-            if (Program.M68(arg2.F2))
-            {
-                Program.s_18.F1 -= 2943733625132261607L;
-                arg0[0] = Program.s_33;
-                var4 = new S0(3037876970559400094UL, -33, 111, 0, 2569226957575102089L, 5, 581182869339204749L, 1UL, 0L);
-                var5 = var4;
-            }
-            else
-            {
-                this.F2 = (ushort)(~(ushort)new S0(1UL, 126, 0, 0, 1897884505177702295L, 118, 10L, 9892214294530090945UL, -7780450165846256914L).M74(ref Program.s_27, ~(9223372036854775807L << Program.s_11[0, 0]++)));
-            }
-        }
-
         return ref Program.s_73.F3;
     }
 
