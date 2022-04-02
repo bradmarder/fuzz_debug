@@ -793,25 +793,6 @@ public class Program
     public static ref bool[] M58(S0 arg0)
     {
         short var0 = default(short);
-        if (s_16.F2)
-        {
-            M59();
-        }
-        else
-        {
-            {
-                {
-                    arg0.F7 = ~arg0.F0;
-                    arg0.F4 = arg0.F8;
-                    arg0.F8 = arg0.F6--;
-                    var0 = s_8[0]--;
-                }
-            }
-
-            arg0.F6 = arg0.F6;
-        }
-
-        s_45 = s_45;
         return ref s_2;
     }
 
