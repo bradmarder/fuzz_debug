@@ -210,7 +210,6 @@ public class Program
     public static S0 s_89 = new S0(18040337835588713289UL, -127, 254, -127, 2L, 97, -9223372036854775808L, 5885023230872522507UL, -9223372036854775808L);
     public static ulong s_90 = 11451526383626783489UL;
     public static long s_91 = -9223372036854775808L;
-    public static int s_92 = -1256023144;
     public static byte[] s_95 = new byte[]{0};
     public static byte s_96 = 0;
     public static uint s_97 = 1637596950U;
