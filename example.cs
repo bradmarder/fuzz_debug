@@ -296,9 +296,7 @@ public struct S1
 
     public uint M102()
     {
-        this = this;
-        Program.s_79.M103();
-        return (uint)(1 % (sbyte)((sbyte)(1 / (sbyte)(Program.s_36.F1 | 1)) | 1));
+        return default(uint);
     }
 
     public S0 M103()
