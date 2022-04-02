@@ -203,11 +203,6 @@ public class Program
         return default(long);
     }
 
-    public static C1 M95(byte arg0, int[] arg1)
-    {
-        return default(C1);
-    }
-
     public static bool M110(ref uint arg0)
     {
         return default(bool);
