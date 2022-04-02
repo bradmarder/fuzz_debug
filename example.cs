@@ -40,11 +40,6 @@ public class C0
         return default(I0);
     }
 
-    public sbyte M105(sbyte arg0, S1[] arg1, byte arg2)
-    {
-        return default(sbyte);
-    }
-
     public S0 M108(uint arg0, uint arg1)
     {
         return default(S0);
