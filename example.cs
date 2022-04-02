@@ -315,11 +315,6 @@ public class C1
         return default(bool);
     }
 
-    public ref C1 M19(ref byte arg0)
-    {
-        return ref Program.s_5[0][0, 0, 0];
-    }
-
     public C0 M21()
     {
         return default(C0);
