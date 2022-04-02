@@ -583,78 +583,7 @@ public struct S1
 
     public byte M37(ref C1 arg0, long arg1)
     {
-        uint var0 = default(uint);
-        ulong var1 = default(ulong);
-        I0 var3 = default(I0);
-        ushort var4 = default(ushort);
-        C1[] var5 = default(C1[]);
-        sbyte[] var6 = default(sbyte[]);
-        if (!Program.s_9)
-        {
-            Program.s_1[0].F1 = arg1;
-            {
-                arg1 = arg1;
-                var0 = Program.s_12;
-                var1 = 14546322000298747641UL;
-            }
-        }
-        else
-        {
-            {
-                Program.s_8[0] = this.F0;
-                ref ulong var2 = ref Program.s_6.F0;
-                if (167 >= Program.s_6.F7)
-                {
-                    this.F1 = this.F1;
-                    Program.s_5[0][0, 0, 0].F1 = arg0.F2--;
-                    {
-                        {
-                            Program.s_6.M38(new ulong[]{10UL, 1UL, 8102319478660417502UL, 1UL, 18446744073709551615UL, 1UL, 7511185167815260917UL, 4256129219536778545UL}, arg0.F1);
-                        }
-                    }
-
-                    var3 = new S0(7979408252113698718UL, 3, 1, -53, 9223372036854775807L, 1, 0L, 1UL, 7489709748087903123L);
-                    var4 = 0;
-                    var2 = var2;
-                    var3 = var3;
-                    Program.s_24 = Program.s_24;
-                    var5 = new C1[]{new C1(5869, 0, 2), new C1(2260, 65535, 65535), new C1(21766, 18614, 31340), new C1(-31623, 1, 63730), new C1(32766, 65535, 56213), new C1(-2, 0, 31932), new C1(1, 0, 0), new C1(27882, 28005, 0)};
-                }
-            }
-
-            this = this;
-        }
-
-        try
-        {
-            {
-                Program.M39();
-                var6 = new sbyte[]{1, 25, 0, -128, 127, 10};
-                return Program.s_16.F1;
-            }
-        }
-        finally
-        {
-            this.F2 = this.F0;
-        }
-
-        {
-            this.F0 = arg0.F0;
-            Program.s_1[0] = this;
-            if (!!Program.s_16.F2)
-            {
-                arg0.F0 = (short)((ulong)Program.s_6.M38(new ulong[]{11777605647834569597UL, 1UL, 1UL, 18446744073709551614UL}, arg0.F1) ^ arg0.F2);
-                this.F1 = 0L;
-                ref C0 var7 = ref Program.s_23;
-            }
-            else
-            {
-                this.F0 = (short)new S0(17958531878922985033UL, -128, 49, 127, -5335354815140191269L, 120, -5858547034448468337L, 18446744073709551614UL, 9223372036854775807L).M38(new ulong[]{1UL, 18446744073709551615UL, 4497418640053424382UL, 2665688238221298811UL, 1UL, 0UL, 18446744073709551614UL}, new S0(404133801963698194UL, 60, 0, 52, -6371420883443764891L, 159, -105995814957166599L, 1UL, 7973328607383288104L).M38(new ulong[]{18446744073709551614UL, 1UL, 1UL}, 46076));
-            }
-        }
-
-        this.F2 = (short)(arg0.F2 + -10);
-        return 0;
+        return default(byte);
     }
 
     public C0 M45()
