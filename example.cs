@@ -99,7 +99,7 @@ public struct S0 : I0
     public long F6;
     public ulong F7;
     public long F8;
-    public S0(ulong f0, sbyte f1, byte f2, sbyte f3, long f4, byte f5, long f6, ulong f7, long f8)
+    public S0(ulong f0, sbyte f1, byte f2, sbyte f3, long f4, byte f5, long f6, ulong f7, long f8): this()
     {
         F0 = f0;
         F1 = f1;
