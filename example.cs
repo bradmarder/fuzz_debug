@@ -379,11 +379,6 @@ public class Program
         return default(S0);
     }
 
-    public static long M8(byte arg0, S1[] arg1, ulong[] arg2)
-    {
-        return default(long);
-    }
-
     public static ushort M11(bool arg0, bool[][] arg1, ushort[] arg2, uint arg3)
     {
         return default(ushort);
