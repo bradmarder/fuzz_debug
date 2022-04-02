@@ -20,11 +20,6 @@ public class C0
         return default(C0);
     }
 
-    public C0 M43(int arg0)
-    {
-        return default(C0);
-    }
-
     public S1 M61(ref long arg0, I0[, ] arg1)
     {
         return default(S1);
