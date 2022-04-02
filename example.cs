@@ -288,33 +288,7 @@ public struct S1
 
     public C0 M5()
     {
-        C1[] var0 = default(C1[]);
-        C0 var1 = default(C0);
-        uint[] var2 = default(uint[]);
-        if (!!!!(true || !(false && (this.F2 != 0))))
-        {
-            if (!!!!(127 < (byte)(~(byte)(-(byte)(~(byte)(0 - (byte)(-(byte)(0 - (byte)(~(byte)(~(byte)(~(byte)(0 << (ushort)(~Program.s_23.M6(new S0(16710841568026751707UL, 127, 1, -2, 1L, 253, -9223372036854775808L, 13492877270247485878UL, -10L)))))))))))))))
-            {
-                {
-                    var0 = Program.s_88;
-                    var0[0].F2 = var0[0].F2;
-                }
-
-                this.F2 %= (short)(this.F2 | 1);
-                Program.M73();
-                var1 = this.M45();
-            }
-            else
-            {
-                Program.s_50.F1 = (byte)new S1(14787, -9223372036854775808L, 3116).M12();
-            }
-
-            Program.s_50 = new C0(-66, 99, false);
-            var2 = Program.s_54;
-            return new C0(-115, 87, false);
-        }
-
-        return new C0(-86, 254, true);
+        return default(C0);
     }
 
     public C1 M9()
