@@ -135,11 +135,6 @@ public struct S0 : I0
         return ref Program.s_44;
     }
 
-    public short[] M83()
-    {
-        return default(short[]);
-    }
-
     public C1 M85(C1 arg0, ulong arg1)
     {
         return default(C1);
