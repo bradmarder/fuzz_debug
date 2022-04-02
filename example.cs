@@ -589,9 +589,7 @@ public class Program
 
     public static bool M24()
     {
-        s_1 = s_1;
-        M25(2U, 23991);
-        return s_4++ == 17391;
+        return default(bool);
     }
 
     public static ref S1 M25(uint arg0, ushort arg1)
