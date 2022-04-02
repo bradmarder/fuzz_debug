@@ -42,11 +42,6 @@ public class C0
         return default(C0);
     }
 
-    public int M52(sbyte arg0, uint arg1, sbyte[] arg2, ref uint arg3, ref C1[] arg4)
-    {
-        return default(int);
-    }
-
     public S1 M61(ref long arg0, I0[, ] arg1)
     {
         return default(S1);
