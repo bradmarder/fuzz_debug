@@ -1,6 +1,11 @@
 public interface I0
 {
-    I0 M44(ref short arg0);
+    I0 M44(ref short arg0)
+    {
+        return default(I0);
+    }
+
+    ;
 }
 
 public class C0
