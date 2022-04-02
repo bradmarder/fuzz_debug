@@ -188,7 +188,6 @@ public class Program
     public static short[] s_8 = new short[]{27419};
     public static byte s_10 = 169;
     public static uint s_12 = 10U;
-    public static long s_15 = 1L;
     public static C0 s_16 = new C0(1, 0, false);
     public static ushort s_19 = 34174;
     public static C0[][, ] s_21 = new C0[][, ]{new C0[, ]{{new C0(-127, 2, false)}}};
