@@ -67,11 +67,6 @@ public class Program
         return default(long);
     }
 
-    public static S0 M108(C0 argThis, uint arg0, uint arg1)
-    {
-        return default(S0);
-    }
-
     public static S1 M55(S0 argThis)
     {
         return default(S1);
