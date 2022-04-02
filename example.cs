@@ -22,11 +22,6 @@ public class C0
     {
         return default(S0);
     }
-
-    public S1[] M112(ref ushort[][] arg0, bool arg1, ref S0[, ] arg2)
-    {
-        return default(S1[]);
-    }
 }
 
 public struct S0 : I0
