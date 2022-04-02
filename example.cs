@@ -367,21 +367,7 @@ public struct S1
 
     public C1 M9()
     {
-        C1 var0 = default(C1);
-        ulong[][] var1 = default(ulong[][]);
-        this.F0 = this.F0;
-        var0 = new C1(-18988, 1, 65534);
-        var0.F1 = (ushort)(new C1(140, 49740, 11437).M10() % (int)(-525216884 | 1));
-        Program.s_1[0].F1 = Program.s_1[0].F1;
-        var1 = new ulong[][]{new ulong[]{1UL, 0UL, 1UL}, new ulong[]{0UL, 1UL, 14652115768533088549UL}, new ulong[]{1UL, 18117528223174721510UL, 8821313281349164304UL, 0UL}, new ulong[]{2UL, 7431421266471640506UL}, new ulong[]{13694848625026531811UL, 17570003313047749228UL}, new ulong[]{10781057612978004685UL, 7301878137508480664UL, 537092836704193368UL, 1846645740525240753UL}, new ulong[]{15870488931721676779UL}, new ulong[]{0UL}};
-        this.F2 = var0.F0;
-        var0.F1 = 9774;
-        if (!!(127 < (byte)(Program.M11(true, new bool[][]{new bool[]{true}, new bool[]{false, true, false}, new bool[]{true, false, true}}, new ushort[]{0, 33872, 6074, 41615, 21477, 1}, 2810356540U) << var0.F0)))
-        {
-            ref bool[] var2 = ref Program.s_2;
-        }
-
-        return new C1(-15540, 39250, 40831);
+        return default(C1);
     }
 
     public uint M12()
