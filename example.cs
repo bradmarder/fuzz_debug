@@ -1164,12 +1164,7 @@ public class Program
 
     public static S0 M114(ref bool arg0, I0[] arg1, sbyte arg2, uint[, ] arg3, short arg4)
     {
-        C0[] var0 = default(C0[]);
-        C0 var1 = default(C0);
-        arg1 = arg1;
-        var0 = new C0[]{new C0(2, 10, false), new C0(-128, 136, true), new C0(-96, 1, false), new C0(-40, 136, false), new C0(0, 254, false), new C0(0, 0, false), new C0(126, 133, true), new C0(-109, 69, false), new C0(-128, 228, true)};
-        var1 = var0[0];
-        return new S0(0UL, -115, 254, -87, -9223372036854775808L, 151, -4617124435109528494L, 8902029461306423864UL, 1976727158463114907L);
+        return default(S0);
     }
 
     public static I0[] M115(uint arg0)
