@@ -112,7 +112,6 @@ public class Program
     public static I0 s_65 = new S0(0UL, 105, 45, 0, -334850926330292064L, 1, -10L, 1UL, -9223372036854775807L);
     public static S0 s_73;
     public static int s_74 = 0;
-    public static byte s_82 = 48;
     public static C0 s_84 = new C0(0, 0, false);
     public static byte s_96 = 0;
     public static sbyte s_104 = 119;
