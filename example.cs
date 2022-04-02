@@ -265,7 +265,6 @@ public struct S1
     public ref int M98(S1 arg0, short arg1, uint[, ] arg2, ulong arg3, int arg4)
     {
         long var5 = default(long);
-        byte var7 = default(byte);
         sbyte[] var13 = default(sbyte[]);
         S0 var14 = default(S0);
         return ref Program.s_74;
