@@ -313,7 +313,6 @@ public class C1
     public C1(short f0, ushort f1, ushort f2)
     {
         F0 = f0;
-        F1 = f1;
         F2 = f2;
     }
 
