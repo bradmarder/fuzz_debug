@@ -861,10 +861,7 @@ public class Program
 
     public static C1 M104()
     {
-        byte var0 = default(byte);
-        var0 = s_31.F1--;
-        var0 = s_71;
-        return new C1(-2, 0, 0);
+        return default(C1);
     }
 
     public static ushort[] M109(ref int arg0, ref I0[] arg1)
