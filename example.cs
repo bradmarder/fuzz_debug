@@ -695,7 +695,6 @@ public class Program
     {
         ushort var2 = default(ushort);
         long var3 = default(long);
-        ulong var4 = default(ulong);
         byte var8 = default(byte);
         ushort var12 = default(ushort);
         long[][] var15 = default(long[][]);
