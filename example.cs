@@ -579,12 +579,7 @@ public class Program
 
     public static S0 M4(S0 arg0)
     {
-        arg0.F3 -= arg0.F3;
-        s_1 = s_1;
-        arg0.F7 = arg0.F7;
-        arg0.F0 = arg0.F0;
-        arg0.F7 = 6972819312118900736UL;
-        return arg0;
+        return default(S0);
     }
 
     public static long M8(byte arg0, S1[] arg1, ulong[] arg2)
