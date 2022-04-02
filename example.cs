@@ -411,8 +411,7 @@ public class C1
 
     public bool M60()
     {
-        Program.s_32 = new C1[]{new C1(18674, 64890, 43744), new C1(-25475, 29092, 26201), new C1(-11894, 0, 11020), new C1(-31901, 10470, 55681)};
-        return false;
+        return default(bool);
     }
 
     public sbyte M64()
