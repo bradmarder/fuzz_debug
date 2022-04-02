@@ -294,12 +294,7 @@ public struct S1
 
     public int M107(ref S1 arg0)
     {
-        if (Program.s_9)
-        {
-            Program.s_89.F8 = Program.s_6.F6;
-        }
-
-        return -Program.s_38;
+        return default(int);
     }
 
     public uint[, ] M116(short arg0, short arg1, ref sbyte arg2)
