@@ -581,8 +581,7 @@ public class Program
 
     public static ushort M11(bool arg0, bool[][] arg1, ushort[] arg2, uint arg3)
     {
-        ref long var0 = ref s_1[0].F1;
-        return arg2[0];
+        return default(ushort);
     }
 
     public static ushort[] M17()
