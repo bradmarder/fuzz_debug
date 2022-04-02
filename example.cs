@@ -444,11 +444,6 @@ public class Program
         return default(bool);
     }
 
-    public static ref S1 M25(uint arg0, ushort arg1)
-    {
-        return ref s_1[0];
-    }
-
     public static ushort M32()
     {
         return default(ushort);
