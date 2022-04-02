@@ -865,17 +865,7 @@ public class Program
 
     public static int M80(ref short arg0, bool[] arg1, S0 arg2)
     {
-        sbyte var0 = default(sbyte);
-        var0 = -75;
-        if (arg1[0])
-        {
-            s_73 = arg2;
-            arg2.F2 = 0;
-            s_1[0].F2 = arg0;
-        }
-
-        arg2.F6 = arg2.F8-- | var0--;
-        return s_58--;
+        return default(int);
     }
 
     public static short M84(byte arg0, uint arg1, I0 arg2, bool arg3)
