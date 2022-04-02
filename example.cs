@@ -158,9 +158,7 @@ public struct S0 : I0
 
     public short M36(long arg0, ref uint[][] arg1, I0 arg2)
     {
-        this.F5 = new S1(10, 5054604445126639016L, 0).M37(ref Program.s_5[0][0, 0, 0], this.F4);
-        new S0(5718224841816132531UL, -6, 1, -127, -6762926671395305686L, 140, 7700132951987558511L, 2669718628277691026UL, -2369349753610740008L).M38(new ulong[]{1UL, 18446744073709551615UL}, 2);
-        return Program.s_18.F2;
+        return default(short);
     }
 
     public ushort M38(ulong[] arg0, ushort arg1)
