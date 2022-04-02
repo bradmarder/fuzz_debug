@@ -465,7 +465,7 @@ public class Program
     public static long s_80 = -2L;
     public static uint s_81 = 734942400U;
     public static byte s_82 = 48;
-    public static uint[] s_83 = new uint[]{1U, 2655373533U, 835595548U, 2403703764U, 196422896U, 0U};
+    public static uint[] s_83 = new uint[]{1U};
     public static C0 s_84 = new C0(0, 0, false);
     public static ushort s_85 = 32017;
     public static C0 s_86 = new C0(-10, 0, false);
