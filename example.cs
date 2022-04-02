@@ -674,16 +674,7 @@ public class Program
 
     public static long M33()
     {
-        int var0 = default(int);
-        var0 = 0;
-        if (!!(1319460995U > s_6.F2))
-        {
-            s_21[0][0, 0].M34();
-            ref short[] var1 = ref s_8;
-            s_16.M34();
-        }
-
-        return s_6.F8++;
+        return default(long);
     }
 
     public static ulong M35(ref byte arg0)
