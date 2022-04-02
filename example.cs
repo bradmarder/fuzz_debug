@@ -121,11 +121,6 @@ public struct S1
         return default(short[]);
     }
 
-    public bool M50(C1 arg0, uint arg1)
-    {
-        return default(bool);
-    }
-
     public bool M81()
     {
         return default(bool);
