@@ -723,7 +723,6 @@ public class Program
         int var9 = default(int);
         I0 var11 = default(I0);
         ushort var12 = default(ushort);
-        byte var13 = default(byte);
         int[, ] var14 = default(int[, ]);
         long[][] var15 = default(long[][]);
         ushort var16 = default(ushort);
