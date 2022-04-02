@@ -478,18 +478,7 @@ public class C1
 
     public int[] M69()
     {
-        ushort[] var0 = default(ushort[]);
-        this.F0 = -14436;
-        {
-            this.F1 >>= Program.s_45[0]++ - Program.s_58++;
-            var0 = Program.s_57;
-            this.F1 = 21046;
-        }
-
-        this.F2 = Program.s_33;
-        Program.s_59 &= 5834743038940284895UL;
-        Program.M70(32767);
-        return new int[]{-721472967, 0, -1554646115, -624860241, 2147483647, -2147483647};
+        return default(int[]);
     }
 
     public ref short M99(uint arg0)
