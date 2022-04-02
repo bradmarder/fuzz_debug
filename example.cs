@@ -278,11 +278,6 @@ public class Program
         return default(long);
     }
 
-    public static ulong M35(ref byte arg0)
-    {
-        return default(ulong);
-    }
-
     public static short M42()
     {
         return default(short);
