@@ -673,7 +673,6 @@ public class Program
     public static ref C0 M67(S1 arg0, ushort arg1, C0[][] arg2)
     {
         C1 var3 = default(C1);
-        ulong[] var8 = default(ulong[]);
         return ref M75();
     }
 
