@@ -214,7 +214,6 @@ public class Program
     public static ushort s_19 = 34174;
     public static C0[][, ] s_21 = new C0[][, ]{new C0[, ]{{new C0(-127, 2, false)}}};
     public static bool s_22 = true;
-    public static C0 s_23 = new C0(126, 1, true);
     public static ushort[] s_26 = new ushort[]{65535};
     public static C0[] s_27 = new C0[]{new C0(127, 0, false)};
     public static S1 s_28 = new S1(1, 9223372036854775806L, -25898);
