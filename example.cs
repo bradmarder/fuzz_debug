@@ -283,11 +283,6 @@ public class C1
         return default(ulong);
     }
 
-    public bool M60()
-    {
-        return default(bool);
-    }
-
     public sbyte M64()
     {
         return default(sbyte);
