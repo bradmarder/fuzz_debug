@@ -373,11 +373,6 @@ public class Program
         return default(C1);
     }
 
-    public static ushort[] M109(ref int arg0, ref I0[] arg1)
-    {
-        return default(ushort[]);
-    }
-
     public static bool M110(ref uint arg0)
     {
         return default(bool);
