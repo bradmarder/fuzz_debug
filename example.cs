@@ -330,7 +330,6 @@ public class C1
 
     public ref C1 M19(ref byte arg0)
     {
-        uint var0 = default(uint);
         I0[] var1 = default(I0[]);
         return ref Program.s_5[0][0, 0, 0];
     }
