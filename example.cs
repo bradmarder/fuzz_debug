@@ -391,7 +391,6 @@ public class C1
         S1[] var2 = default(S1[]);
         S1 var3 = default(S1);
         I0 var4 = default(I0);
-        I0 var5 = default(I0);
         return ref Program.s_73.F3;
     }
 
