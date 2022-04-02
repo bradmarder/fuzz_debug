@@ -46,11 +46,6 @@ public struct S1
         F2 = f2;
     }
 
-    public short[] M13(int arg0)
-    {
-        return default(short[]);
-    }
-
     public bool M81()
     {
         return default(bool);
