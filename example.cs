@@ -218,11 +218,6 @@ public class Program
         return default(short);
     }
 
-    public static ulong M46(S0 arg0)
-    {
-        return default(ulong);
-    }
-
     public static int M56()
     {
         return default(int);
