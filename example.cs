@@ -335,7 +335,6 @@ public class C1
     {
         uint var0 = default(uint);
         I0[] var1 = default(I0[]);
-        short[] var2 = default(short[]);
         return ref Program.s_5[0][0, 0, 0];
     }
 
