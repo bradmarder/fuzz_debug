@@ -85,11 +85,6 @@ public class Program
         return default(S0);
     }
 
-    public static int M56()
-    {
-        return default(int);
-    }
-
     public static long M92()
     {
         return default(long);
