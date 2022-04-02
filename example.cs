@@ -842,49 +842,7 @@ public class Program
 
     public static uint M41()
     {
-        bool var0 = default(bool);
-        bool var2 = default(bool);
-        long var3 = default(long);
-        bool var5 = default(bool);
-        {
-            if (s_21[0][0, 0].F2)
-            {
-                var0 = s_2[0];
-            }
-            else
-            {
-                s_4 = s_6.F7++;
-            }
-
-            ref C1 var1 = ref s_5[0][0, 0, 0];
-            try
-            {
-                var1.F1 = var1.F2;
-            }
-            finally
-            {
-                var1.F2 = var1.F1;
-                try
-                {
-                    var1 = new C1(2410, 65535, 43040);
-                }
-                finally
-                {
-                    var2 = s_9;
-                    var3 = -2L;
-                }
-            }
-
-            for (int var4 = 0; var4 < 2; var4++)
-            {
-                var5 = false;
-            }
-
-            s_26 = s_26;
-            var1.F1 = (ushort)(3246 >> s_6.F3++);
-        }
-
-        return s_25[0][0]++;
+        return default(uint);
     }
 
     public static short M42()
