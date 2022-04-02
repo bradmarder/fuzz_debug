@@ -811,8 +811,7 @@ public class Program
 
     public static C1 M95(byte arg0, int[] arg1)
     {
-        arg0 = arg0;
-        return s_53;
+        return default(C1);
     }
 
     public static I0 M96()
