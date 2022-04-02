@@ -267,7 +267,6 @@ public struct S1
     {
         long var5 = default(long);
         byte var7 = default(byte);
-        int var11 = default(int);
         sbyte[] var13 = default(sbyte[]);
         S0 var14 = default(S0);
         ulong var15 = default(ulong);
